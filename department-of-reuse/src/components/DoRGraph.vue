@@ -1,8 +1,8 @@
 <template>
   <div class="dor-graph">
     <div class="dor-graph object-center flex justify-center">
-      <div class="bg-gray-200 border-4 h-auto w-5/6">
-        <d3-network :net-nodes="nodes" :net-links="links" :options="options" />
+      <div class="bg-gray-200 h-auto w-full">
+        <d3-network :net-nodes="nodes" :net-links="links" :options="options"  @node-click="nodeClick"/>
       </div>
     </div>
   </div>
@@ -13,9 +13,6 @@ import D3Network from 'vue-d3-network'
 
 export default {
   name: 'DoRGraph',
-  props: {
-
-  },
   components: {
     D3Network
   },
@@ -32,19 +29,27 @@ export default {
       ],
       options:
       {
-        force: 3000,
+        force: 30000,
         nodeSize: 20,
         nodeLabels: true,
         linkWidth:5
       }
     }
+  },
+  methods: {
+    nodeClick(event, node) {
+      var pos = node.name.search("DOI: ");
+      var doi = node.name.substring(pos + 4, node.name.length);
+      this.$emit('nodeClicked', doi.trim())
+    }
   }
 }
 </script>
 
+ <style src="vue-d3-network/dist/vue-d3-network.css"></style>
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style>
+  .node-label {
+  }
 </style>
-
-<style src="vue-d3-network/dist/vue-d3-network.css"></style>
