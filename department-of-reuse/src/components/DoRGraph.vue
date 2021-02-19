@@ -2,7 +2,16 @@
   <div class="dor-graph">
     <div class="dor-graph object-center flex justify-center">
       <div class="bg-gray-200 h-auto w-full">
-        <d3-network :net-nodes="nodes" :net-links="links" :options="options"  @node-click="nodeClick"/>
+        <d3-network :net-nodes="nodes" :net-links="links" :options="options"  @node-click="nodeClick" :linkCb="edgeDecorator"/>
+        <svg height="50">
+          <defs>
+            <marker id="m-end" viewBox="0 0 25 25" refX="11" refY="5"
+                markerWidth="6" markerHeight="6"
+                orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" />
+            </marker>
+          </defs>
+        </svg>
       </div>
     </div>
   </div>
@@ -36,7 +45,11 @@ export default {
           force: 1200,
           nodeSize: 10,
           nodeLabels: true,
-          linkWidth:5
+          linkWidth:5,
+          size: {
+            h: 500,
+            w: 800
+          }
         }
       }
     },
@@ -62,6 +75,10 @@ export default {
       if (!authors[0]) return "";
       if (authors.length == 1) return authors[0].family;
       return authors[0].family + " et al.";
+    },
+    edgeDecorator(edge) {
+      edge._svgAttrs = { 'marker-end': 'url(#m-end)'};
+      return edge;
     }
   }
 }
@@ -73,4 +90,8 @@ export default {
 <style>
   .node-label {
   }
+
+  #m-end path {
+    fill: rgba(18,120,98,.7);
+   }
 </style>
