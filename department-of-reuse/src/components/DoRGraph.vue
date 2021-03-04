@@ -46,10 +46,7 @@ export default {
           nodeSize: 10,
           nodeLabels: true,
           linkWidth:5,
-          size: {
-            h: 500,
-            w: 800
-          }
+          resizeListener: true
         }
       }
     },
