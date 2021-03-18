@@ -12,7 +12,10 @@ Link semantics of reuse (the edges in DOR).
 * Replication of experiments
 * Citation and reference (e.g. Student’s T-test)
 
-
+## Possible Tim Rules
+- must be an SE artifact being reused
+- no more than 10 years old
+- requires a description in the paper ("I use a t-test") vs 2 pages on Scott-Knott
 
 ## not reuse
 - drive by references
