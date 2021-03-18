@@ -6,8 +6,8 @@ No clear ontology of reuse so we define one.
 ## Reuse Taxonomy/Coding Guide v 0.1
 Link semantics of reuse (the edges in DOR). 
 * Stepping stones (comparison of SOTA) e.g. DL model precision since they are so slow.
-* Tool reuse - Sonarqube, Kla's ESD tool
-* Dataset reuse - Promise etc
+- [x] Tool reuse - Sonarqube, Kla's ESD tool
+- [x] Dataset reuse - Promise etc
 * Metric reuse - MCC, Mccabe, etc.
 * Statistical reuse - https://github.com/klainfo/ScottKnottESD 
 * Protocol reuse - SLR, Grounded Theory
@@ -25,6 +25,7 @@ Link semantics of reuse (the edges in DOR).
 - not old (but what about NASA dataset from 2002)
 - motivational references (X also did J)
 - reuse of a closed dataset
+- expensively licenced tools like Coverity, Q1, Simulink, Matlab?
 
 ## shortcuts
 - "baseline is X"
