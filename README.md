@@ -18,8 +18,14 @@ Link semantics of reuse (the edges in DOR).
 - no more than 10 years old
 - requires a description in the paper ("I use a t-test") vs 2 pages on Scott-Knott
 - Citation and reference (e.g. Student’s T-test)
+- does it take up **space** within a paper (e.g. at least 1 paragraph)
 
 ## not reuse
 - drive by references, refs "in the air"
-- not old (
+- not old (but what about NASA dataset from 2002)
 - motivational references (X also did J)
+- reuse of a closed dataset
+
+## shortcuts
+- "baseline is X"
+- ignore related work? 
