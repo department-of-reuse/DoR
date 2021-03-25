@@ -27,7 +27,8 @@ Link semantics of reuse (the edges in DOR).
 - motivational references (X also did J)
 - reuse of a closed dataset
 - expensively licenced tools like Coverity, Q1, Simulink, Matlab?
-- datasets created solely for the paper e.g. 
+- datasets created solely for the paper e.g. Microsoft search logs
+- general background on algorithms e.g. SVM 
 
 ## shortcuts
 - "baseline is X"
