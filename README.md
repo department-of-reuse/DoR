@@ -35,6 +35,7 @@ Link semantics of reuse (the edges in DOR).
 
 
 ## Grey Areas
-- justifications for why an approach is reasonable, e.g. why stop words were chosen ("all these people also did it")
+- justifications for why an approach is reasonable, e.g. why stop words were chosen ("all these people also did it"). The degree of substantiveness seems important.
+- reusing libraries (SKLearn/JMetal) vs reusing methods (SVM/NSGA2)
 
 
