@@ -12,6 +12,7 @@ Link semantics of reuse (the edges in DOR).
 * Statistical reuse - https://github.com/klainfo/ScottKnottESD 
 * Protocol reuse - SLR, Grounded Theory
 * Replication of experiments
+* Sanity Check reuse - justification for why this approach works or is reasonable (e.g. Promise and Perils paper)
 
 ## Possible Tim Rules
 - must be an SE artifact being reused
@@ -26,7 +27,14 @@ Link semantics of reuse (the edges in DOR).
 - motivational references (X also did J)
 - reuse of a closed dataset
 - expensively licenced tools like Coverity, Q1, Simulink, Matlab?
+- datasets created solely for the paper e.g. 
 
 ## shortcuts
 - "baseline is X"
 - ignore related work? 
+
+
+## Grey Areas
+- justifications for why an approach is reasonable, e.g. why stop words were chosen ("all these people also did it")
+
+
