@@ -8,7 +8,7 @@ Link semantics of reuse (the edges in DOR).
 * Stepping stones (comparison of SOTA) e.g. DL model precision since they are so slow.
 - [x] Tool reuse - Sonarqube, Kla's ESD tool
 - [x] Dataset reuse - Promise etc
-* Metric reuse - MCC, Mccabe, etc.
+* Metric reuse - MCC, McCabe, etc.
 * Statistical reuse - https://github.com/klainfo/ScottKnottESD 
 * Protocol reuse - SLR, Grounded Theory
 * Replication of experiments
@@ -34,9 +34,8 @@ Link semantics of reuse (the edges in DOR).
 - "baseline is X"
 - ignore related work? 
 
-
 ## Grey Areas
 - justifications for why an approach is reasonable, e.g. why stop words were chosen ("all these people also did it"). The degree of substantiveness seems important.
 - reusing libraries (SKLearn/JMetal) vs reusing methods (SVM/NSGA2)
-
+- filter defined later for SE vs not SE, by date
 
