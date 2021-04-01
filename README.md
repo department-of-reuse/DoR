@@ -35,7 +35,7 @@ Link semantics of reuse (the edges in DOR).
 - ignore related work? 
 - look for citations [] but not always
 - results, conclusions, threats often not very important for reuse
-- 
+- don't get too caught up in the paper itself!
 
 ## Grey Areas
 - justifications for why an approach is reasonable, e.g. why stop words were chosen ("all these people also did it"). The degree of substantiveness seems important.
