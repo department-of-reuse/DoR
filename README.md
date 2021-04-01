@@ -33,6 +33,9 @@ Link semantics of reuse (the edges in DOR).
 ## shortcuts
 - "baseline is X"
 - ignore related work? 
+- look for citations [] but not always
+- results, conclusions, threats often not very important for reuse
+- 
 
 ## Grey Areas
 - justifications for why an approach is reasonable, e.g. why stop words were chosen ("all these people also did it"). The degree of substantiveness seems important.
