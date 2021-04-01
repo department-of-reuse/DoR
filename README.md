@@ -4,8 +4,8 @@ The Department of Reuse tracks and documents reuse of artifacts in computer scie
 ## Reuse Taxonomy/Coding Guide v 0.1
 Link semantics of reuse (the edges in DOR). 
 * **Stepping stones** (comparison of SOTA) e.g. DL model precision since they are so slow.
-- **Tool** reuse - Sonarqube, Kla's ESD tool. Tools also include survey instruments (questions).
-- **Dataset** reuse - Promise etc. Dataset must be public.
+* **Tool** reuse - Sonarqube, Kla's ESD tool. Tools also include survey instruments (questions).
+* **Dataset** reuse - Promise etc. Dataset must be public.
 * **Metric** reuse - MCC, McCabe, etc.
 * **Statistical** reuse - reuse of a statistical approach, e.g. https://github.com/klainfo/ScottKnottESD . Do not include references to stats that are 'in the air' and commonly used, such as Fisher's exact test, Pearson correlation, etc. One hint this is happening is if the citation is "drive-by" instead of fully explained, or if it is quite old.
 * **Method** reuse - reuse of a specific methodological approach, such as Kitchenham's SLR, Grounded Theory (Stol and Fitzgerald).
