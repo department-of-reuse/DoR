@@ -3,16 +3,13 @@
       <transition name="fade" appear>
         <img v-if="showSplash"  alt="Department of Reuse logo" src="./assets/dor-logo.svg" class="place-self-center w-1/3 mx-auto mt-10">
         <div class="" v-else>
-          <div class="h-screen w-screen fixed bg-logo bg-no-repeat bg-center -z-10">
-            <div class="h-full w-full bg-gray-100 bg-opacity-95">
+          <div class="h-screen w-screen fixed bg-logo bg-no-repeat bg-cover bg-center -z-10">
+            <div class="h-full w-full bg-gray-50 bg-opacity-95">
               <Cytoscape :config="config" />
             </div>
           </div>
-          <header class="mb-4 pt-5">
-            <h1 class="text-4xl">Department of Reuse</h1>
-            <h2>- under development / data widely incomplete -</h2>
-          </header>
-          <div class="flex">
+
+          <div class="flex mb-4 pt-5 px-5">
             <div class="flex-none w-72">
               <h2 class="text-xl bg-opacity-80 bg-blue-200">Filter</h2>
               <label>Reuse type</label>
@@ -27,7 +24,10 @@
               </select>
             </div>
             <div class="flex-grow">
-
+              <header class="">
+                <h1 class="text-4xl">Department of Reuse</h1>
+                <h2>- under development / data widely incomplete -</h2>
+              </header>
             </div>
             <div class="flex-none w-72" >
               <div class="align-left" v-if="!isLoading">
