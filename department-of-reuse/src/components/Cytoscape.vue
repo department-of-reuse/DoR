@@ -68,7 +68,7 @@
 
         //this.instance = instance
         // resolve the promise with the object created
-        this.resolve(instance)
+        //this.resolve(instance)
 
         //if (this.props.afterCreated) this.afterCreated(instance)
 
