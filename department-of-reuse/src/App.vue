@@ -4,8 +4,8 @@
         <img v-if="showSplash"  alt="Department of Reuse logo" src="./assets/dor-logo.svg" class="place-self-center w-1/3 mx-auto mt-10">
         <div class="" v-else>
           <div class="h-screen w-screen fixed bg-logo bg-no-repeat bg-cover bg-center -z-10">
-            <div class="h-full w-full bg-gray-50 bg-opacity-95">
-              <Cytoscape :config="config" />
+            <div class="h-full w-full bg-gray-50 bg-opacity-95 none">
+              <GraphView />
             </div>
           </div>
 
@@ -24,10 +24,12 @@
               </select>
             </div>
             <div class="flex-grow">
-              <header class="">
+              <header class="bg-opacity-40 bg-gray-200">
                 <h1 class="text-4xl">Department of Reuse</h1>
                 <h2>- under development / data widely incomplete -</h2>
               </header>
+
+
             </div>
             <div class="flex-none w-72" >
               <div class="align-left" v-if="!isLoading">
@@ -88,34 +90,27 @@
 <script lang="ts">
 import { ref, onMounted, onBeforeMount } from "vue";
 
-import PeopleCache from "@/backend/people/PeopleCache";
-import Person from "@/backend/Person";
-
-import CrossrefRequester from "@/backend/papers/CrossrefRequester";
-import Paper from "@/backend/Paper"
-
-import Cytoscape from "@/components/Cytoscape.vue";
-import config from '@/example-config.ts'
+import GraphView from './components/GraphView.vue';
 
 export default {
   name: "App",
-  components: { Cytoscape },
+  components: { GraphView },
   setup() {
     let showSplash = ref(true);
     let isLoading = ref(true);
-    let person = ref({} as Person);
-    let paper = ref({} as Paper);
 
-    const orcid : String = "0000-0001-9848-2017";
-    const doi = "10.1145/3368089.3409767"
+    //const orcid : String = "0000-0001-9848-2017";
+    //const doi = "10.1145/3368089.3409767"
 
     onMounted(() => {
       setTimeout(() => {
         showSplash.value = false;
-      }, 3000)
+        isLoading.value = false;
+      }, 3000);
     });
 
     onBeforeMount(() => {
+      /*
       const personCache = new PeopleCache();
       personCache
         .getPerson(orcid)
@@ -129,9 +124,10 @@ export default {
         });
 
       isLoading.value = false;
+      */
     });
 
-    return { showSplash, isLoading, person, paper, config };
+    return { showSplash, isLoading };
   },
 };
 
