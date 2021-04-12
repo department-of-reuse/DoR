@@ -1,5 +1,5 @@
 <template>
-  <div ref="cyroot" class="h-full"></div>
+  <div ref="cyroot" class="h-5/6 w-10/12 mx-auto pt-5"></div>
 </template>
 
 <script lang="ts">
