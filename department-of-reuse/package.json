@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "@types/cytoscape": "^3.14.12",
     "autoprefixer": "^9",
     "axios": "^0.21.1",
@@ -17,7 +17,9 @@
     "cytoscape-cola": "^2.4.0",
     "cytoscape-dagre": "^2.3.2",
     "cytoscape-spread": "^3.0.0",
+    "is-svg": "^4.2.2",
     "postcss": "^7",
+    "ssri": "^8.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "vue": "^3.0.0",
     "vue-axios": "^3.2.4",
