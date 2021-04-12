@@ -16,6 +16,7 @@
     "cytoscape": "^3.18.2",
     "cytoscape-cola": "^2.4.0",
     "cytoscape-dagre": "^2.3.2",
+    "cytoscape-spread": "^3.0.0",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "vue": "^3.0.0",

@@ -3299,6 +3299,13 @@ cytoscape-dagre@^2.3.2:
   dependencies:
     dagre "^0.8.5"
 
+cytoscape-spread@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/cytoscape-spread/-/cytoscape-spread-3.0.0.tgz#9d2cf43eee9a3b92dd518a4a2db8567584a1dd2e"
+  integrity sha512-ekuo4ByFRTZ4TOJylE2bPOMcVVyi8rD+qjvEjMWS2BHcyan40pmhlA4ramz/nTxZR+EtlxEa1asnmfiN8R5HyQ==
+  dependencies:
+    weaverjs "^1.2.0"
+
 cytoscape@^3.18.2:
   version "3.18.2"
   resolved "https://registry.yarnpkg.com/cytoscape/-/cytoscape-3.18.2.tgz#e5a1b37de3b53946a6d8f8586eefa44a0978ade4"
@@ -9107,6 +9114,11 @@ wcwidth@^1.0.1:
   integrity sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
   dependencies:
     defaults "^1.0.3"
+
+weaverjs@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/weaverjs/-/weaverjs-1.2.0.tgz#654c15cc735b660a1dae4c7c263cd7c746512fa0"
+  integrity sha1-ZUwVzHNbZgodrkx8JjzXx0ZRL6A=
 
 webcola@^3.4.0:
   version "3.4.0"

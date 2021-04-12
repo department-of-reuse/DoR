@@ -8,7 +8,6 @@
               <GraphView />
             </div>
           </div>
-
           <div class="flex mb-4 pt-5 px-5">
             <div class="flex-none w-72">
               <h2 class="text-xl bg-opacity-80 bg-blue-200">Filter</h2>
@@ -28,56 +27,12 @@
                 <h1 class="text-4xl">Department of Reuse</h1>
                 <h2>- under development / data widely incomplete -</h2>
               </header>
-
-
             </div>
             <div class="flex-none w-72" >
-              <div class="align-left" v-if="!isLoading">
-                <h2 class="text-xl bg-opacity-80 bg-blue-200">Researchers</h2>
-
-                <h3 class="text-l bg-opacity-40 bg-blue-200">Most reused</h3>
-                <!--
-                <table class="m-1 table-auto text-xs w-full">
-                  <tr v-for="(r, index) in researchers.reused" :key="r.ORCID" :class="index % 2 ? 'bg-opacity-20 bg-white' : ''">
-                    <td><a :href="r.ORCID" target="_blank">{{r.given}} {{r.family}}</a></td>
-                  </tr>
-                </table>
-              -->
-
-                <h3 class="text-l bg-opacity-40 bg-blue-200">Most reusing</h3>
-                <!--
-                <table class="m-1 table-auto text-xs w-full">
-                  <tr v-for="(r, index) in researchers.reusing" :key="r.ORCID" :class="index % 2 ? 'bg-opacity-20 bg-white' : ''">
-                    <td><a :href="r.ORCID" target="_blank">{{r.given}} {{r.family}}</a></td>
-                  </tr>
-                </table>
-              -->
-
-              <h2 class="text-xl bg-opacity-80 bg-blue-200">Artifacts</h2>
-
-                <h3 class="text-l bg-opacity-40 bg-blue-200">Most reused</h3>
-                <!--
-                <table class="m-1 table-auto text-xs w-full">
-                  <tr v-for="(p, index) in publications.reused" :key="p.title" :class="index % 2 ? 'bg-opacity-20 bg-white' : ''">
-                    <td><a :href="p.url" target="_blank">{{p.title}}</a></td>
-                  </tr>
-                </table>
-              -->
-
-                <h3 class="text-l bg-opacity-40 bg-blue-200">Most reusing</h3>
-                <!--
-                <table class="m-1 table-auto text-xs w-full">
-                  <tr v-for="(p, index) in publications.reusing" :key="p.title" :class="index % 2 ? 'bg-opacity-20 bg-white' : ''">
-                    <td><a :href="p.url" target="_blank">{{p.title}}</a></td>
-                  </tr>
-                </table>
-              -->
-
-              </div>
-
+                <TopFive />
             </div>
           </div>
-          <footer class="mt-3 absolute -bottom-0 mx-auto w-full mb-3">
+          <footer class="mt-3 absolute -bottom-0 mx-auto w-full pb-3 bg-opacity-40 bg-gray-200">
             <p class="text-xs">This is a community effort started by Maria Teresa Baldassarre, Neil Ernst, Ben Hermann, and Tim Menzies.</p>
             <p class="text-xs">Please feel free to <a class="text-blue-600" href="https://github.com/bhermann/DoR">comment or contribute on GitHub</a>.</p>
           </footer>
@@ -88,46 +43,24 @@
 </template>
 
 <script lang="ts">
-import { ref, onMounted, onBeforeMount } from "vue";
+import { ref, onMounted } from "vue";
 
 import GraphView from './components/GraphView.vue';
+import TopFive from './components/TopFive.vue';
 
 export default {
   name: "App",
-  components: { GraphView },
+  components: { GraphView, TopFive },
   setup() {
     let showSplash = ref(true);
-    let isLoading = ref(true);
-
-    //const orcid : String = "0000-0001-9848-2017";
-    //const doi = "10.1145/3368089.3409767"
 
     onMounted(() => {
       setTimeout(() => {
         showSplash.value = false;
-        isLoading.value = false;
       }, 3000);
     });
 
-    onBeforeMount(() => {
-      /*
-      const personCache = new PeopleCache();
-      personCache
-        .getPerson(orcid)
-        .then(result => {person.value = result;});
-
-      const paperReq = new CrossrefRequester();
-      paperReq.getPaper(doi)
-        .then(result => {
-          let crPaper = result.returnValue.message;
-          paper.value =  { doi: crPaper.DOI, title: crPaper.title[0]} as Paper;
-        });
-
-      isLoading.value = false;
-      */
-    });
-
-    return { showSplash, isLoading };
+    return { showSplash };
   },
 };
 
