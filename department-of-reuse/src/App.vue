@@ -125,7 +125,7 @@ methods: {
 
 <style>
 #app {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Bitter', serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
