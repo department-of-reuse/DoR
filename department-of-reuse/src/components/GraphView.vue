@@ -1,19 +1,21 @@
 <template>
-  <div ref="cyroot" class="h-5/6 w-10/12 mx-auto pt-5"></div>
+  <div ref="cyroot" class="h-full w-full mx-auto pt-14 pb-10"></div>
 </template>
 
 <script lang="ts">
-  import cytoscape, {CytoscapeOptions} from 'cytoscape'
-  import spread from 'cytoscape-spread'
+  import cytoscape, {Core, CytoscapeOptions} from 'cytoscape'
+  import fcose from 'cytoscape-fcose'
 
-  import { ref, onMounted } from 'vue'
+  import { ref, onMounted, onUnmounted } from 'vue'
 
   import reuseData from '../assets/data/reuse.json';
 
   export default {
+
+
     setup() {
       const cyroot = ref(null);
-
+      const cyInstance = ref<Core | null>(null);
       /*const staticElements = {
         nodes: [ { data: { id: 'n0' }}, { data: { id: 'n1'}} ],
         edges: [ { data: { source: "n0", target: "n1" } }],
@@ -52,52 +54,90 @@
       const staticElements = transformToGraph(reuseData);
 
       onMounted(() => {
-        // the DOM element will be assigned to the ref after initial render
-        console.log(cyroot.value) // <div>This is a root element</div>
         var cytoConfig = {
           container : cyroot.value,
           elements : staticElements,
-            layout: {
-              name: 'spread'
+          layout: {
+           name: 'fcose'
+         },
+         style: [
+            {
+              selector: "node",
+              style: {
+                content: "data(name)",
+                width: 10,
+                height: 10,
+                "font-size": "8pt",
+                "text-opacity": 1,
+                "text-valign": "center",
+                "text-halign": "right",
+                "background-color": "#77aaff"
+              }
             },
-            style: [
-               {
-                 selector: "node",
-                 style: {
-                   content: "data(name)",
-                   "text-opacity": 0.5,
-                   "text-valign": "center",
-                   "text-halign": "right",
-                   "background-color": "#11479e"
-                 }
-               },
-
-               {
-                 selector: "edge",
-                 style: {
-                   "curve-style": "bezier",
-                   width: 4,
-                   "target-arrow-shape": "triangle",
-                   "line-color": "#9dbaea",
-                   "target-arrow-color": "#9dbaea"
-                 }
-               }
-             ]
-
+            {
+              selector: "edge",
+              style: {
+                "curve-style": "bezier",
+                "target-arrow-shape": "triangle",
+                "line-color": "#9dbaea",
+                "target-arrow-color": "#9dbaea"
+              }
+            }
+          ],
+          // initial viewport state:
+          zoom: 1,
+          pan: { x: 0, y: 0 },
+          // interaction options:
+          minZoom: 1e-50,
+          maxZoom: 1e50,
+          zoomingEnabled: true,
+          userZoomingEnabled: true,
+          panningEnabled: true,
+          userPanningEnabled: true,
+          boxSelectionEnabled: true,
+          selectionType: 'single',
+          touchTapThreshold: 8,
+          desktopTapThreshold: 4,
+          autolock: false,
+          autoungrabify: false,
+          autounselectify: false,
+          // rendering options:
+          headless: false,
+          styleEnabled: true,
+          hideEdgesOnViewport: false,
+          textureOnViewport: false,
+          motionBlur: false,
+          motionBlurOpacity: 0.2,
+          animate: true,
+          pixelRatio: 'auto',
          } as CytoscapeOptions;
-        cytoscape.use(spread);
+        cytoscape.use(fcose);
         var cy = cytoscape(cytoConfig);
-        cy.layout({ name: 'spread' }).run();
-        console.debug(cy);
+        console.debug("Layout");
+        cy.layout({ name: 'fcose' }).run();
+        cyInstance.value = cy;
+
+        function handleWindowResize() {
+          console.debug("Re-Layout");
+          cyInstance.value!.layout({ name: 'fcose' }).run();
+         }
+
+        window.addEventListener('resize', handleWindowResize);
+      })
+
+      onUnmounted(() => {
+        //console.debug("onUnmounted");
+        //window.removeEventListener('resize', this.methods.handleWindowResize);
       })
 
       return {
-        cyroot
+        cyroot, cyInstance
       }
 
     },
     methods: {
 
-    }
+    },
+
   }
 </script>
