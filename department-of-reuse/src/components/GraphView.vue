@@ -6,20 +6,14 @@
   import cytoscape, {Core, CytoscapeOptions} from 'cytoscape'
   import fcose from 'cytoscape-fcose'
 
-  import { ref, onMounted, onUnmounted } from 'vue'
+  import { ref, onMounted } from 'vue'
 
   import reuseData from '../assets/data/reuse.json';
 
   export default {
-
-
     setup() {
       const cyroot = ref(null);
       const cyInstance = ref<Core | null>(null);
-      /*const staticElements = {
-        nodes: [ { data: { id: 'n0' }}, { data: { id: 'n1'}} ],
-        edges: [ { data: { source: "n0", target: "n1" } }],
-      };*/
 
       function transformToGraph(data : any) {
          return {
@@ -106,38 +100,30 @@
           styleEnabled: true,
           hideEdgesOnViewport: false,
           textureOnViewport: false,
-          motionBlur: false,
-          motionBlurOpacity: 0.2,
+          motionBlur: true,
+          motionBlurOpacity: 0.1,
           animate: true,
           pixelRatio: 'auto',
          } as CytoscapeOptions;
         cytoscape.use(fcose);
         var cy = cytoscape(cytoConfig);
-        console.debug("Layout");
         cy.layout({ name: 'fcose' }).run();
         cyInstance.value = cy;
 
+        var throttle : any;
         function handleWindowResize() {
-          console.debug("Re-Layout");
-          cyInstance.value!.layout({ name: 'fcose' }).run();
+          clearTimeout(throttle);
+          throttle = setTimeout(function() {
+            cyInstance.value!.layout({ name: 'fcose' }).run();
+          }, 100);
          }
 
         window.addEventListener('resize', handleWindowResize);
       })
 
-      onUnmounted(() => {
-        //console.debug("onUnmounted");
-        //window.removeEventListener('resize', this.methods.handleWindowResize);
-      })
-
       return {
         cyroot, cyInstance
       }
-
     },
-    methods: {
-
-    },
-
   }
 </script>
