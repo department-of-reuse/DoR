@@ -10,8 +10,14 @@
             </div>
           </div>
 
-          <div class="flex mb-4 pt-5 px-5 relative ">
-            <div class="flex-none w-72">
+          <div class="lg:flex mb-4 pt-5 px-5 relative">
+            <div class="flex-grow order-2">
+              <header class="bg-opacity-40 bg-gray-200 z-10">
+                <h1 class="text-4xl">Department of Reuse</h1>
+                <h2>- under development / data widely incomplete -</h2>
+              </header>
+            </div>
+            <div class="flex-none lg:w-72 order-1 w-full">
               <h2 class="text-xl bg-opacity-80 bg-blue-200">Filter</h2>
               <label>Reuse type</label>
               <select class="" name="">
@@ -24,13 +30,7 @@
                 <option value="">Metric</option>
               </select>
             </div>
-            <div class="flex-grow">
-              <header class="bg-opacity-40 bg-gray-200 z-10">
-                <h1 class="text-4xl">Department of Reuse</h1>
-                <h2>- under development / data widely incomplete -</h2>
-              </header>
-            </div>
-            <div class="flex-none w-72" >
+            <div class="flex-none w-72 order-3 hidden lg:block" >
                 <TopFive class="z-10" />
             </div>
           </div>
