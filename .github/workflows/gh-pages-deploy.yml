@@ -17,4 +17,4 @@
           - name: Set Creds
             run: git config user.name "Ben Hermann" && git config user.email "ben.hermann@googlemail.com"
           - name: Deploy
-            run: npm run deploy
+            run: cd department-of-reuse; npm run deploy

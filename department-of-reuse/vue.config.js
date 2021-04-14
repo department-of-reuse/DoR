@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-  ? '/department-of-reuse'
+  ? '/DoR'
   : '/',
   configureWebpack: {
     devServer: {
