@@ -12,11 +12,9 @@
           - uses: actions/setup-node@v2
             with:
               node-version: '12'
-          - name: Change to application directory
-            run: cd department-of-reuse
           - name: Install packages
-            run: npm i
+            run: cd department-of-reuse; npm i
           - name: Set Creds
             run: git config user.name "Ben Hermann" && git config user.email "ben.hermann@googlemail.com"
           - name: Deploy
-            run: npm run deploy
+            run: cd department-of-reuse; npm run deploy
