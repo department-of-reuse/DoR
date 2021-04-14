@@ -36,7 +36,7 @@
          });
        }
        function getItemTitle(publication : any) {
-         return getAuthors(publication.author) // + " " + publication.doi;
+         return getAuthors(publication.author)  + "(" + new Date(publication.issued).getFullYear() + ")";
        }
        function getAuthors(authors : any) {
          if (!authors) return "";
@@ -59,12 +59,14 @@
               selector: "node",
               style: {
                 content: "data(name)",
+                "font-family": "Roboto Condensed, Helvetica, Arial, sans-serif",
                 width: 10,
                 height: 10,
                 "font-size": "8pt",
                 "text-opacity": 1,
                 "text-valign": "center",
                 "text-halign": "right",
+                color: "#2c3e50",
                 "background-color": "#77aaff"
               }
             },
