@@ -43,12 +43,12 @@
 </template>
 <script lang="ts">
 import { ref, onBeforeMount } from "vue";
+import { Configuration, PublicAPIV20Api } from '@/clients/orcid';
 //import OrcidRequester from "@/backend/people/OrcidRequester";
 //import { OrcidPerson } from "@/backend/models/OrcidResponse";
-//const orcid : string = "0000-0001-9848-2017";
+const orcid : string = "0000-0001-9848-2017";
 //const doi = "10.1145/3368089.3409767"
 
-//import { PublicAPIV20ApiFactory, Configuration } from "@/clients/orcid/index.ts";
 
 export default {
   setup() {
@@ -56,13 +56,13 @@ export default {
 
     onBeforeMount(() => {
 
-/*
-      PublicAPIV20ApiFactory(new Configuration({baseOptions : { headers: {'Accept': 'application/json'} }}))
-        .viewPerson(orcid)
-        .then(result => {
-          console.debug(result.data.name?.familyName?.value);
-        });
-*/
+      const api = new PublicAPIV20Api(new Configuration({ headers: {'Accept': 'application/json'}}));
+
+      api.viewPerson({"orcid": orcid})
+      .then(result => {
+        console.debug(result.name?.familyName);
+      });
+
 
       /*const oReq = new OrcidRequester();
       oReq
