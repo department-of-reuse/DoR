@@ -45,7 +45,7 @@
 import { ref, onBeforeMount } from "vue";
 //import OrcidRequester from "@/backend/people/OrcidRequester";
 //import { OrcidPerson } from "@/backend/models/OrcidResponse";
-const orcid : string = "0000-0001-9848-2017";
+//const orcid : string = "0000-0001-9848-2017";
 //const doi = "10.1145/3368089.3409767"
 
 //import { PublicAPIV20ApiFactory, Configuration } from "@/clients/orcid/index.ts";
