@@ -10823,7 +10823,6 @@ export interface NameV20 {
      * @type {FamilyNameV20}
      * @memberof NameV20
      */
-    @JsonProperty('family-name')
     familyName?: FamilyNameV20;
     /**
      *
