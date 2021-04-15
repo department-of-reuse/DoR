@@ -1,7 +1,7 @@
 import Common from "../Common";
 import APIResponse from "../APIResponse";
 import APIError from "../APIError";
-import { OrcidPerson } from "./OrcidResponse";
+import { OrcidPerson } from "../models/OrcidResponse";
 import axios, { AxiosError, AxiosInstance, AxiosResponse } from "axios";
 
 

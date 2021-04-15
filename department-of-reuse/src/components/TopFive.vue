@@ -42,20 +42,39 @@
   </div>
 </template>
 <script lang="ts">
-import { onBeforeMount } from "vue";
-
-//const orcid : String = "0000-0001-9848-2017";
+import { ref, onBeforeMount } from "vue";
+//import OrcidRequester from "@/backend/people/OrcidRequester";
+//import { OrcidPerson } from "@/backend/models/OrcidResponse";
+const orcid : string = "0000-0001-9848-2017";
 //const doi = "10.1145/3368089.3409767"
+
+//import { PublicAPIV20ApiFactory, Configuration } from "@/clients/orcid/index.ts";
 
 export default {
   setup() {
-    onBeforeMount(() => {
-      /*
-      const personCache = new PeopleCache();
-      personCache
-        .getPerson(orcid)
-        .then(result => {person.value = result;});
+    const person = ref(null);
 
+    onBeforeMount(() => {
+
+/*
+      PublicAPIV20ApiFactory(new Configuration({baseOptions : { headers: {'Accept': 'application/json'} }}))
+        .viewPerson(orcid)
+        .then(result => {
+          console.debug(result.data.name?.familyName?.value);
+        });
+*/
+
+      /*const oReq = new OrcidRequester();
+      oReq
+        .getPersonalDetails(orcid)
+        .then(result => {
+          person.value = result.returnValue;
+          console.debug(result.returnValue.lastModifiedDate);
+        });
+
+      */
+
+        /*
       const paperReq = new CrossrefRequester();
       paperReq.getPaper(doi)
         .then(result => {
@@ -66,6 +85,8 @@ export default {
       isLoading.value = false;
       */
     });
+
+    return { person };
   }
 }
 </script>

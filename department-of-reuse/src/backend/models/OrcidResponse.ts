@@ -609,15 +609,15 @@ declare module OrcidResponse {
     }
 
     export interface OrcidPerson {
-        last-modified-date: LastModifiedDate2;
-        name: Name;
-        other-names: OtherNames;
+        lastModifiedDate: LastModifiedDate2;
+        name: Name,
+        "other-names": OtherNames;
         biography: Biography;
-        researcher-urls: ResearcherUrls;
-        emails: Emails;
+        "researcher-urls": ResearcherUrls;
+        emails: Emails,
         addresses: Addresses;
         keywords: Keywords;
-        external-identifiers: ExternalIdentifiers;
+        "external-identifiers": ExternalIdentifiers;
         path: string;
     }
 
