@@ -23,7 +23,6 @@ export function FeedFromXmlTyped(xml: any, ignoreDiscriminator: boolean): Feed {
     if ((xml === undefined) || (xml === null)) {
         return xml;
     }
-    console.log(xml);
     return {
         link:         LinkFromXml(xml.feed.link),
         title:        TitleFromXml(xml.feed.title),

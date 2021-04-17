@@ -75,7 +75,7 @@ export default {
       const arxivApi = new QueryApi();
       arxivApi.queryById({"id" : "2103.12221"})
         .then(result => {
-          console.warn(result);
+          console.debug(result);
         });
 
       /*const oReq = new OrcidRequester();
