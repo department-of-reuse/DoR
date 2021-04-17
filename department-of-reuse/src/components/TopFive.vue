@@ -44,10 +44,12 @@
 <script lang="ts">
 import { ref, onBeforeMount } from "vue";
 import { Configuration, PublicAPIV20Api } from '@/clients/orcid';
+import { WorksApi } from '@/clients/crossref';
+import { QueryApi } from '@/clients/arxiv';
 //import OrcidRequester from "@/backend/people/OrcidRequester";
 //import { OrcidPerson } from "@/backend/models/OrcidResponse";
 const orcid : string = "0000-0001-9848-2017";
-//const doi = "10.1145/3368089.3409767"
+const doi = "10.1145/3368089.3409767"
 
 
 export default {
@@ -56,13 +58,25 @@ export default {
 
     onBeforeMount(() => {
 
-      const api = new PublicAPIV20Api(new Configuration({ headers: {'Accept': 'application/json'}}));
+      const orcidApi = new PublicAPIV20Api(new Configuration({ headers: {'Accept': 'application/json'}}));
 
-      api.viewPerson({"orcid": orcid})
+      orcidApi.viewPersonalDetails({"orcid": orcid})
       .then(result => {
-        console.debug(result.name?.familyName);
+        console.debug(result.name);
       });
 
+      const crWorksApi = new WorksApi();
+
+      crWorksApi.worksDoiGet({"doi": doi})
+        .then(result => {
+          console.debug(result);
+        });
+      
+      const arxivApi = new QueryApi();
+      arxivApi.queryById({"id" : "2103.12221"})
+        .then(result => {
+          console.warn(result);
+        });
 
       /*const oReq = new OrcidRequester();
       oReq
