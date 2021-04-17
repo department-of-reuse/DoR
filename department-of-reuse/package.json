@@ -11,6 +11,7 @@
   "dependencies": {
     "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "@types/cytoscape": "^3.14.12",
+    "@types/xml2js": "^0.4.8",
     "autoprefixer": "^9",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
@@ -19,6 +20,7 @@
     "cytoscape-dagre": "^2.3.2",
     "cytoscape-fcose": "^2.0.0",
     "cytoscape-spread": "^3.0.0",
+    "fast-xml-parser": "^3.19.0",
     "is-svg": "^4.2.2",
     "postcss": "^7",
     "ssri": "^8.0.1",
@@ -26,7 +28,8 @@
     "vue": "^3.0.0",
     "vue-axios": "^3.2.4",
     "vue-class-component": "^8.0.0-0",
-    "vuex": "4.0.0-rc.1"
+    "vuex": "4.0.0-rc.1",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
