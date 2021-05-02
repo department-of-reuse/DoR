@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "deploy": "node scripts/gh-pages-deploy.js",
+    "fill-cache": "tsc --outDir scripts/target -target es5 --resolveJsonModule --esModuleInterop scripts/prefill-cache.ts && node scripts/target/scripts/prefill-cache.js"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.0.2",
@@ -22,6 +23,7 @@
     "cytoscape-spread": "^3.0.0",
     "fast-xml-parser": "^3.19.0",
     "is-svg": "^4.2.2",
+    "node-fetch": "^2.6.1",
     "postcss": "^7",
     "ssri": "^8.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",

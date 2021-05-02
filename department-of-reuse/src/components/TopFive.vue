@@ -44,12 +44,13 @@
 <script lang="ts">
 import { ref, onBeforeMount } from "vue";
 import { Configuration, PublicAPIV20Api } from '@/clients/orcid';
-import { WorksApi } from '@/clients/crossref';
+//import { WorksApi } from '@/clients/crossref';
+import { CachedWorksApi } from '@/tools/CachedWorksApi';
 import { QueryApi } from '@/clients/arxiv';
 //import OrcidRequester from "@/backend/people/OrcidRequester";
 //import { OrcidPerson } from "@/backend/models/OrcidResponse";
 const orcid : string = "0000-0001-9848-2017";
-const doi = "10.1145/3368089.3409767"
+//const doi = "10.1145/3368089.3409767"
 
 
 export default {
@@ -65,9 +66,24 @@ export default {
         console.debug(result.name);
       });
 
-      const crWorksApi = new WorksApi();
+      const crWorksApi = new CachedWorksApi();
 
-      crWorksApi.worksDoiGet({"doi": doi})
+      crWorksApi.worksDoiGet({"doi": "10.1109/TPDS.2020.3014173"})
+        .then(result => {
+          console.debug(result);
+        });
+
+      crWorksApi.worksDoiGet({"doi": "10.1145/3243176.3243199"})
+        .then(result => {
+          console.debug(result);
+        });
+
+      crWorksApi.worksDoiGet({"doi": "10.1145/3368089.3409697"})
+        .then(result => {
+          console.debug(result);
+        });
+
+      crWorksApi.worksDoiGet({"doi": "10.1145/3394451.3397204"})
         .then(result => {
           console.debug(result);
         });

@@ -61,7 +61,6 @@ export function WorkMessageFromJSONTyped(json: any, ignoreDiscriminator: boolean
         return json;
     }
     return {
-        
         'status': json['status'],
         'messageType': json['message-type'],
         'messageVersion': json['message-version'],

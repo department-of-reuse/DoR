@@ -17,3 +17,18 @@ export enum ReuseType {
   METRIC = "Metric",
   SANITYCHECK = "Sanity check"
 }
+
+export function ReuseFromJson(json: any): Reuse {
+  if ((json === undefined) || (json === null)) {
+    return json;
+  }
+  return {
+    "sourceDOI": json['sourceDOI'],
+    "type" : json['type'],
+    "comment": json['comment'],
+    "sourceReference": json['sourceReference'],
+    "reusedDOI": json['reusedDOI'],
+    "alternativeID": json['alternativeID'],
+    "sourceReferenceDetail": json['sourceReferenceDetail']
+  };
+}
