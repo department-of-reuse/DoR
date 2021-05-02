@@ -18,20 +18,22 @@ inputData <- inputData %>%
 inputData <- inputData %>% filter(retractcheck::check_doi(reused) & retractcheck::check_doi(reusing))
 
 ## Amend data from CrossRef
-cr_data <- rcrossref::cr_works(c(inputData$reused, inputData$reusing))[["data"]]
-
-## Transform to output data
-outputData <- tibble(reused = tibble(), reusing = tibble())
-for (i in 1:nrow(inputData)) {
-  cr_reused <- cr_data %>% filter(tolower(doi) == tolower(inputData$reused[i])) %>% slice_head()
-  cr_reusing <- cr_data %>% filter(tolower(doi) == tolower(inputData$reusing[i])) %>% slice_head()
-  
-  if (nrow(cr_reused) == 1 & nrow(cr_reusing) == 1) {
-    outputData <- outputData %>% add_row(reused = cr_reused , reusing = cr_reusing)
-  }
-  logging::loginfo("Test")
-}
+# cr_data <- rcrossref::cr_works(c(inputData$reused, inputData$reusing))[["data"]]
+# 
+# ## Transform to output data
+outputData <- inputData
+#outputData <- tibble(reused = tibble(), reusing = tibble())
+# for (i in 1:nrow(inputData)) {
+#   cr_reused <- cr_data %>% filter(tolower(doi) == tolower(inputData$reused[i])) %>% slice_head()
+#   cr_reusing <- cr_data %>% filter(tolower(doi) == tolower(inputData$reusing[i])) %>% slice_head()
+#   
+#   if (nrow(cr_reused) == 1 & nrow(cr_reusing) == 1) {
+#     outputData <- outputData %>% add_row(reused = cr_reused , reusing = cr_reusing)
+#   }
+#   logging::loginfo("Test")
+# }
 ## Write 
+outputData <- outputData %>% rename(sourceDOI = reusing, reusedDOI = reused) %>% mutate(type = "Tool", comment = "", sourceReference = "", alternativeID = "", sourceReferenceDetail="")
 outputJson <- jsonlite::toJSON(outputData)
 jsonlite::minify(outputJson)
 
