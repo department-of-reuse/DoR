@@ -8,7 +8,7 @@
 
   import { ref, onMounted } from 'vue'
 
-  import reuseData from '../assets/data/reuse.json';
+  import reuseData from '../assets/data/reuse-old.json';
 
   export default {
     setup() {
