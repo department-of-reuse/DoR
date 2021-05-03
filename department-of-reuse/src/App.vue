@@ -6,7 +6,7 @@
 
           <div class="h-screen w-screen fixed bg-logo bg-no-repeat bg-cover bg-center">
             <div class="h-full w-full bg-gray-50 bg-opacity-95 ">
-               <GraphView />
+               <GraphView :reuseData="reuseData"/>
             </div>
           </div>
 
@@ -50,20 +50,25 @@ import { ref, onMounted } from "vue";
 
 import GraphView from './components/GraphView.vue';
 import TopFive from './components/TopFive.vue';
+import reuseJson from './assets/data/reuse.json';
+import { ReuseFromJson } from './backend/models/Reuse';
 
 export default {
   name: "App",
   components: { GraphView, TopFive },
   setup() {
     let showSplash = ref(true);
+    const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
 
     onMounted(() => {
       setTimeout(() => {
         showSplash.value = false;
       }, 3000);
+     
+
     });
 
-    return { showSplash };
+    return { showSplash, reuseData };
   },
 };
 
