@@ -6,7 +6,7 @@ export class CachedWorksApi extends WorksApi {
 
     async worksDoiGet(requestParameters: WorksDoiGetRequest): Promise<WorkMessage> {
         if (this.apiCache.recordExists(requestParameters.doi)) {
-            console.debug("Cache hit")
+            //console.debug("Cache hit")
             return new Promise(resolve => 
                 resolve({
                     "status" : "",
@@ -17,7 +17,7 @@ export class CachedWorksApi extends WorksApi {
                 )
             );
         }
-        console.debug("Cache miss")
+        //console.debug("Cache miss")
         const response = await super.worksDoiGet(requestParameters);
         this.apiCache.set(requestParameters.doi, response.message);
         return response;
