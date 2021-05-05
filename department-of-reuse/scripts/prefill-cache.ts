@@ -20,9 +20,9 @@ Promise.all(dois.map(currentDoi => {
     entries.forEach(entry => {
         if (entry != null) {
             const currentMessage = (entry as WorkMessage).message;
-            if (!cache.find(x => {x.doi == currentMessage.dOI}))
-                cache.push({doi: currentMessage.dOI, result: currentMessage})
-        }   
+            if (!cache.find(x => { x.doi == currentMessage.dOI }))
+                cache.push({ doi: currentMessage.dOI, result: currentMessage })
+        }
     })
 
     const outputObject = cache
