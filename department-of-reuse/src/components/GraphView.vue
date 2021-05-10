@@ -3,14 +3,14 @@
 </template>
 
 <script lang="ts">
-import cytoscape, { Core, CytoscapeOptions } from "cytoscape";
+import cytoscape, { Core, CytoscapeOptions, ElementsDefinition, NodeDefinition, EdgeDefinition } from "cytoscape";
 import fcose from "cytoscape-fcose";
 
 import { ref, onMounted, PropType } from "vue";
 
 import Reuse from "../backend/models/Reuse";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
-import { Author } from "@/clients/crossref";
+import { Author, WorkMessage } from "@/clients/crossref";
 
 export default {
   props: {
@@ -21,43 +21,69 @@ export default {
     const cyInstance = ref<Core | null>(null);
     const worksApi = new CachedWorksApi();
 
-    function transformToGraph(data: Array<Reuse>) {
+    async function transformToGraph(data: Array<Reuse>) : Promise<ElementsDefinition> {
+      const transformedNodes = await getNodes(data);
+     
       return {
-        nodes: getNodes(data),
+        nodes: transformedNodes,
         edges: getLinks(data),
       };
     }
-    function getNodes(data: Array<Reuse>) {
-      return data
-        .map((item: Reuse) => {
-          return {
-            data: { id: item.reusedDOI, name: getItemTitle(item.reusedDOI) },
-          };
-        })
-        .concat(
-          data.map((item: Reuse) => {
-            return {
-              data: { id: item.sourceDOI, name: getItemTitle(item.sourceDOI) },
-            };
-          })
+    async function getNodes(data: Array<Reuse>) : Promise<Array<NodeDefinition>> {
+      const reusedNodes = async() => {
+        return Promise.all(
+          data.map(getReusedNode)
         )
+      };
+
+      const sourceNodes = async() => {
+        return Promise.all(
+          data.map(getSourceNode)
+        )
+      };
+      
+      const result = 
+        (await reusedNodes())
+        .concat(await sourceNodes())
         .sort()
         .filter(function (item: any, pos: any, ary: any) {
-          return !pos || item.data.id != ary[pos - 1].data.id;
+           return !pos || item.data.id != ary[pos - 1].data.id;
         });
+
+      return result;
     }
-    function getLinks(data: Array<Reuse>) {
+
+    async function getReusedNode(item : Reuse) : Promise<NodeDefinition> {
+      const title = await getItemTitle(item.reusedDOI);
+      return {
+            data: { id: item.reusedDOI, name: title },
+          };
+    }
+
+    async function getSourceNode(item : Reuse) : Promise<NodeDefinition> {
+      return {
+            data: { id: item.sourceDOI, name: (await getItemTitle(item.sourceDOI)) },
+          };
+    }
+    
+    function getLinks(data: Array<Reuse>) : Array<EdgeDefinition> {
       return data.map((item: Reuse) => {
         return { data: { source: item.sourceDOI, target: item.reusedDOI } };
       });
     }
-    function getItemTitle(doi: string): string {
-      const work = worksApi.worksDoiGet({ doi: doi }).catch((err) => {
-        console.error(err);
-      });
+    async function getItemTitle(doi: string) {
+      const work = await worksApi.worksDoiGet({ doi: doi })
+        .catch((err) => {
+          console.warn(err);
+        });
 
-      console.log(work);
-      return getAuthors([]);
+      if (work as WorkMessage) {
+        const workMessage = (work as WorkMessage).message
+        return getAuthors(workMessage.author) + " (" + workMessage.issued.dateParts[0][0] + ")"; 
+      } else {
+        return doi;
+      }
+ 
     }
     function getAuthors(authors: Array<Author>): string {
       if (!authors) return "";
@@ -66,12 +92,12 @@ export default {
       return authors[0].family + " et al.";
     }
 
-    const staticElements = transformToGraph(props.reuseData);
+    const elementsPromise = transformToGraph(props.reuseData);
 
     onMounted(() => {
       var cytoConfig = {
         container: cyroot.value,
-        elements: staticElements,
+        elements: elementsPromise,
         layout: {
           name: "fcose",
         },
