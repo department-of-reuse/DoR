@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"David Gros, Hariharan Sezhiyan, Prem Devanbu, Zhou Yu","Code to Comment &quot;Translation&quot; - Data, Metrics, Baselining &amp; Evaluation.",https://doi.org/10.1145/3324884.3416546,ASE2020
+"Wuxia Jin, Yuanfang Cai, Rick Kazman, Gang Zhang, Qinghua Zheng, Ting Liu 0002",Exploring the Architectural Impact of Possible Dependencies in Python Software.,https://doi.org/10.1145/3324884.3416619,ASE2020
+"Hung Viet Pham, Shangshu Qian, Jiannan Wang, Thibaud Lutellier, Jonathan Rosenthal, Lin Tan 0001, Yaoliang Yu, Nachiappan Nagappan",Problems and Opportunities in Training Deep Learning Software Systems - An Analysis of Variance.,https://doi.org/10.1145/3324884.3416545,ASE2020
+"Junjie Chen 0003, Haoyang Ma, Lingming Zhang",Enhanced Compiler Bug Isolation via Memoized Search.,https://doi.org/10.1145/3324884.3416570,ASE2020
+"Brandon Paulsen, Jingbo Wang, Jiawei Wang, Chao Wang 0001",NEURODIFF - Scalable Differential Verification of Neural Networks using Fine-Grained Approximation.,https://doi.org/10.1145/3324884.3416560,ASE2020
+"Chris Satterfield, Thomas Fritz 0001, Gail C. Murphy",Identifying and Describing Information Seeking Tasks.,https://doi.org/10.1145/3324884.3416537,ASE2020
+"Zhiyuan Wan, Gail C. Murphy, Xin Xia 0001",Predicting Code Context Models for Software Development Tasks.,https://doi.org/10.1145/3324884.3416544,ASE2020
+"Yueming Wu, Deqing Zou, Shihan Dou, Siru Yang, Wei Yang 0013, Feng Cheng, Hong Liang, Hai Jin 0001",SCDetector - Software Functional Clone Detection Based on Semantic Tokens Analysis.,https://doi.org/10.1145/3324884.3416562,ASE2020
+"Yang Liu 0003, Mingwei Liu, Xin Peng 0001, Christoph Treude, Zhenchang Xing, Xiaoxin Zhang",Generating Concept based API Element Comparison Using a Knowledge Graph.,https://doi.org/10.1145/3324884.3416628,ASE2020
+"Yufeng Zhang 0001, Zhenbang Chen, Ziqi Shuai, Tianqi Zhang, Kenli Li 0001, Ji Wang 0001",Multiplex Symbolic Execution - Exploring Multiple Paths by Solving Once.,https://doi.org/10.1145/3324884.3416645,ASE2020

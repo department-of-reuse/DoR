@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Zhen Dong, Marcel Böhme, Lucia Cojocaru, Abhik Roychoudhury",Time-travel testing of Android apps.,https://doi.org/10.1145/3377811.3380402,ICSE2020
+"Thomas Durieux, João F. Ferreira, Rui Abreu, Pedro Cruz","Empirical review of automated analysis tools on 47, 587 Ethereum smart contracts.",https://doi.org/10.1145/3377811.3380364,ICSE2020
+"Carolyn D. Egelman, Emerson R. Murphy-Hill, Elizabeth Kammer, Margaret Morrow Hodges, Collin Green, Ciera Jaspan, James Lin",Predicting developers&apos; negative feelings about code review.,https://doi.org/10.1145/3377811.3380414,ICSE2020
+"Ana Nora Evans, Bradford Campbell, Mary Lou Soffa",Is rust used safely by software developers?,https://doi.org/10.1145/3377811.3380413,ICSE2020
+"Xiang Gao, Ripon K. Saha, Mukul R. Prasad, Abhik Roychoudhury",Fuzz testing based data augmentation to improve robustness of deep neural networks.,https://doi.org/10.1145/3377811.3380415,ICSE2020
+"Joshua Garcia, Yang Feng, Junjie Shen 0001, Sumaya Almanee, Yuan Xia, Qi Alfred Chen",A comprehensive study of autonomous vehicle bugs.,https://doi.org/10.1145/3377811.3380397,ICSE2020
+"Simos Gerasimou, Hasan Ferit Eniser, Alper Sen 0001, Alper Cakan",Importance-driven deep learning system testing.,https://doi.org/10.1145/3377811.3380391,ICSE2020
+"Daniela Girardi, Nicole Novielli, Davide Fucci, Filippo Lanubile",Recognizing developers&apos; emotions while programming.,https://doi.org/10.1145/3377811.3380374,ICSE2020
+"Shengjian Guo, Yueqi Chen, Peng Li, Yueqiang Cheng, Huibo Wang, Meng Wu, Zhiqiang Zuo 0002",SpecuSym - speculative symbolic execution for cache timing leak detection.,https://doi.org/10.1145/3377811.3380428,ICSE2020
+"Pinjia He, Clara Meister, Zhendong Su",Structure-invariant testing for machine translation.,https://doi.org/10.1145/3377811.3380339,ICSE2020

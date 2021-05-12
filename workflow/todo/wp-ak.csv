@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Rijnard van Tonder, Claire Le Goues",Tailoring programs for static analysis via program transformation.,https://doi.org/10.1145/3377811.3380343,ICSE2020
+"Huiyan Wang, Jingwei Xu 0001, Chang Xu 0001, Xiaoxing Ma, Jian Lu 0001",Dissector - input validation for deep learning applications by crossing-layer dissection.,https://doi.org/10.1145/3377811.3380379,ICSE2020
+"Jue Wang, Yanyan Jiang 0001, Chang Xu 0001, Chun Cao, Xiaoxing Ma, Jian Lu 0001",ComboDroid - generating high-quality test inputs for Android apps via use case combinations.,https://doi.org/10.1145/3377811.3380382,ICSE2020
+"Ying Wang 0038, Ming Wen 0001, Yepang Liu 0001, Yibo Wang, Zhenming Li, Chao Wang, Hai Yu, Shing-Chi Cheung, Chang Xu 0001, Zhiliang Zhu 0001",Watchman - monitoring dependency conflicts for Python library ecosystem.,https://doi.org/10.1145/3377811.3380426,ICSE2020
+"Haijun Wang, Xiaofei Xie, Yi Li, Cheng Wen, Yuekang Li, Yang Liu 0003, Shengchao Qin, Hongxu Chen, Yulei Sui",Typestate-guided fuzzer for discovering use-after-free vulnerabilities.,https://doi.org/10.1145/3377811.3380386,ICSE2020
+"Junjie Wang 0001, Ye Yang, Song Wang 0009, Yuanzhe Hu, Dandan Wang, Qing Wang 0001",Context-aware in-process crowdworker recommendation.,https://doi.org/10.1145/3377811.3380380,ICSE2020
+"Cody Watson, Michele Tufano, Kevin Moran, Gabriele Bavota, Denys Poshyvanyk",On learning meaningful assert statements for unit test cases.,https://doi.org/10.1145/3377811.3380429,ICSE2020
+"Cheng Wen, Haijun Wang, Yuekang Li, Shengchao Qin, Yang Liu 0003, Zhiwu Xu 0001, Hongxu Chen, Xiaofei Xie, Geguang Pu, Ting Liu",MemLock - memory usage guided fuzzing.,https://doi.org/10.1145/3377811.3380396,ICSE2020
+"Robert White, Jens Krinke, Raymond Tan",Establishing multilevel test-to-code traceability links.,https://doi.org/10.1145/3377811.3380921,ICSE2020
+"Mingyuan Wu, Yicheng Ouyang, Husheng Zhou, Lingming Zhang, Cong Liu 0005, Yuqun Zhang",Simulee - detecting CUDA synchronization bugs via memory-access modeling.,https://doi.org/10.1145/3377811.3380358,ICSE2020

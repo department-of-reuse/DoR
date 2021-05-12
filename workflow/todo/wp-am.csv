@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Xiyue Zhang, Xiaofei Xie, Lei Ma 0003, Xiaoning Du, Qiang Hu, Yang Liu 0003, Jianjun Zhao, Meng Sun 0002",Towards characterizing adversarial defects of deep learning software from the lens of uncertainty.,https://doi.org/10.1145/3377811.3380368,ICSE2020
+"Ru Zhang, Wencong Xiao, Hongyu Zhang 0002, Yu Liu, Haoxiang Lin, Mao Yang",An empirical study on program failures of deep learning jobs.,https://doi.org/10.1145/3377811.3380362,ICSE2020
+"Yuxia Zhang, Minghui Zhou, Klaas-Jan Stol, Jianyu Wu, Zhi Jin",How do companies collaborate in open source ecosystems? - an empirical study of OpenStack.,https://doi.org/10.1145/3377811.3380376,ICSE2020
+"Dehai Zhao, Zhenchang Xing, Chunyang Chen, Xiwei Xu, Liming Zhu, Guoqiang Li 0001, Jinshui Wang",Seenomaly - vision-based linting of GUI animation effects against design-don&apos;t guidelines.,https://doi.org/10.1145/3377811.3380411,ICSE2020
+"Hao Zhong, Na Meng, Zexuan Li, Li Jia",An empirical study on API parameter rules.,https://doi.org/10.1145/3377811.3380922,ICSE2020
+"Weijie Zhou, Yue Zhao 0011, Guoqiang Zhang, Xipeng Shen",HARP - holistic analysis for refactoring Python-based analytics programs.,https://doi.org/10.1145/3377811.3380434,ICSE2020
+"Husheng Zhou, Wei Li, Zelun Kong, Junfeng Guo, Yuqun Zhang, Bei Yu 0001, Lingming Zhang, Cong Liu 0005",DeepBillboard - systematic physical-world testing of autonomous driving systems.,https://doi.org/10.1145/3377811.3380422,ICSE2020
+"Shurui Zhou, Bogdan Vasilescu, Christian Kästner",How has forking changed in the last 20 years? - a study of hard forks on GitHub.,https://doi.org/10.1145/3377811.3380412,ICSE2020
+"Franz Zieris, Lutz Prechelt",Explaining pair programming session dynamics from knowledge gaps.,https://doi.org/10.1145/3377811.3380925,ICSE2020
+"Changwei Zou, Jingling Xue",Burn after reading - a shadow stack with microsecond-level runtime rerandomization for protecting return addresses.,https://doi.org/10.1145/3377811.3380439,ICSE2020

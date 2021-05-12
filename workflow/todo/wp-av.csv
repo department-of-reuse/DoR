@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Chijin Zhou, Mingzhe Wang, Jie Liang, Zhe Liu, Yu Jiang 0001",Zeror - Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling.,https://doi.org/10.1145/3324884.3416572,ASE2020
+"Xin Wang, Jin Liu, Li Li, Xiao Chen, Xiao Liu, Hao Wu",Detecting and Explaining Self-Admitted Technical Debts with Attention-based Neural Networks.,https://doi.org/10.1145/3324884.3416583,ASE2020
+"Qihao Zhu, Zeyu Sun, Xiran Liang, Yingfei Xiong 0001, Lu Zhang 0023",OCoR - An Overlapping-Aware Code Retriever.,https://doi.org/10.1145/3324884.3416530,ASE2020
+"Yida Tao, Jiefang Jiang, Yepang Liu 0001, Zhiwu Xu 0001, Shengchao Qin",Understanding Performance Concerns in the API Documentation of Data Science Libraries.,https://doi.org/10.1145/3324884.3416543,ASE2020
+"Bruce Collie, Philip Ginsbach, Jackson Woodruff, Ajitha Rajan, Michael F. P. O&apos;Boyle",M3 - Semantic API Migrations.,https://doi.org/10.1145/3324884.3416618,ASE2020
+"Samuel Benton, Xia Li, Yiling Lou, Lingming Zhang",On the Effectiveness of Unified Debugging - An Extensive Study on 16 Program Repair Systems.,https://doi.org/10.1145/3324884.3416566,ASE2020
+"Xian Zhan, Lingling Fan, Tianming Liu, Sen Chen, Li Li, Haoyu Wang, Yifei Xu, Xiapu Luo, Yang Liu",Automated Third-Party Library Detection for Android Applications - Are We There Yet?,https://doi.org/10.1145/3324884.3416582,ASE2020
+"Yue Zou, Bihuan Ban, Yinxing Xue, Yun Xu",CCGraph - a PDG-based code clone detector with approximate graph matching.,https://doi.org/10.1145/3324884.3416541,ASE2020
+"Haichi Wang, Zan Wang, Jun Sun 0001, Shuang Liu, Ayesha Sadiq, Yuan-Fang Li",Towards Generating Thread-Safe Classes Automatically.,https://doi.org/10.1145/3324884.3416625,ASE2020
+"Aryaz Eghbali, Michael Pradel",No Strings Attached - An Empirical Study of String-related Software Bugs.,https://doi.org/10.1145/3324884.3416576,ASE2020

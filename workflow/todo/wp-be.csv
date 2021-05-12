@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Chris Brown, Chris Parnin",Understanding the impact of GitHub suggested changes on recommendations between developers.,https://doi.org/10.1145/3368089.3409722,FSE2020
+"Kripa Shanker, Arun Joseph, Vinod Ganapathy",An evaluation of methods to port legacy code to SGX enclaves.,https://doi.org/10.1145/3368089.3409726,FSE2020
+"Salah Ghamizi, Maxime Cordy, Martin Gubri, Mike Papadakis, Andrey Boystov, Yves Le Traon, Anne Goujon",Search-based adversarial testing and improvement of constrained credit scoring systems.,https://doi.org/10.1145/3368089.3409739,FSE2020
+"Pan Bian, Bin Liang 0002, Jianjun Huang 0001, Wenchang Shi, Xidong Wang, Jian Zhang",SinkFinder - harvesting hundreds of unknown interesting function pairs with just one seed.,https://doi.org/10.1145/3368089.3409678,FSE2020
+"Rongchen Xu, Fei He 0001, Bow-Yaw Wang",Interval counterexamples for loop invariant learning.,https://doi.org/10.1145/3368089.3409752,FSE2020
+"Eduard Baranov, Axel Legay, Kuldeep S. Meel",Baital - an adaptive weighted sampling approach for improved t-wise coverage.,https://doi.org/10.1145/3368089.3409744,FSE2020
+"Giovani Guizzo, Federica Sarro, Mark Harman",Cost measures matter for mutation testing study validity.,https://doi.org/10.1145/3368089.3409742,FSE2020
+"Manuel Rigger, Zhendong Su",Detecting optimization bugs in database engines via non-optimizing reference engine construction.,https://doi.org/10.1145/3368089.3409710,FSE2020
+"M. Ammar Ben Khadra, Dominik Stoffel, Wolfgang Kunz",Efficient binary-level coverage analysis.,https://doi.org/10.1145/3368089.3409694,FSE2020
+"Chu-Pan Wong, Jens Meinicke, Leo Chen, João P. Diniz, Christian Kästner, Eduardo Figueiredo 0001",Efficiently finding higher-order mutants.,https://doi.org/10.1145/3368089.3409713,FSE2020

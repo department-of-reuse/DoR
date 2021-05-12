@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Linjie Pan 0001, Baoquan Cui, Hao Liu, Jiwei Yan, Siqi Wang, Jun Yan 0009, Jian Zhang 0001",Static asynchronous component misuse detection for Android applications.,https://doi.org/10.1145/3368089.3409699,FSE2020
+"Yutong Zhao, Lu Xiao 0001, Pouria Babvey, Lei Sun, Sunny Wong, Angel A. Martinez, Xiao Wang",Automatically identifying performance issue reports with heuristic linguistic patterns.,https://doi.org/10.1145/3368089.3409674,FSE2020
+"Timur Babakol, Anthony Canino, Khaled Mahmoud, Rachit Saxena, Yu David Liu",Calm energy accounting for multithreaded Java applications.,https://doi.org/10.1145/3368089.3409703,FSE2020
+"Christoph Laaber, Stefan Würsten, Harald C. Gall, Philipp Leitner 0001",Dynamically reconfiguring software microbenchmarks - reducing execution time without sacrificing result quality.,https://doi.org/10.1145/3368089.3409683,FSE2020
+"Shahar Maoz, Rafi Shalom",Inherent vacuity for GR(1) specifications.,https://doi.org/10.1145/3368089.3409669,FSE2020
+"Andrew J. Simmons, Scott Barnett, Jessica Rivera-Villicana, Akshat Bajaj, and Rajesh Vasa.",A large-scale comparative analysis of Coding Standard conformance in Open-Source Data Science projects,https://doi.org/10.1145/3382494.3410680,ESEM2020
+"Héctor Cadavid, Vasilios Andrikopoulos, Paris Avgeriou, and John Klein",A Survey on the Interplay between Software Engineering and Systems Engineering during SoS Architecting,https://doi.org/10.1145/3382494.3410671,ESEM2020
+"Alex Serban, Koen van der Blom, Holger Hoos, and Joost Visser",Adoption and Effects of Software Engineering Best Practices in Machine Learning,https://doi.org/10.1145/3382494.3410681,ESEM2020
+"Foyzul Hassan, Chetan Bansal, Nachiappan Nagappan, Thomas Zimmermann, and Ahmed Hassan Awadallah",An Empirical Study of Software Exceptions in the Field using Search Logs,https://doi.org/10.1145/3382494.3410692,ESEM2020
+"Marvin Muñoz Barón, Marvin Wyrich, and Stefan Wagner",An Empirical Validation of Cognitive Complexity as a Measure of Source Code Understandability,https://doi.org/10.1145/3382494.3410636,ESEM2020

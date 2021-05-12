@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Patrice Godefroid, Bo-Yuan Huang, Marina Polishchuk",Intelligent REST API data fuzzing.,https://doi.org/10.1145/3368089.3409719,FSE2020
+"Dongdong She, Rahul Krishna, Lu Yan, Suman Jana, Baishakhi Ray",MTFuzz - fuzzing with a multi-task neural network.,https://doi.org/10.1145/3368089.3409723,FSE2020
+"Zifan Nan, Hui Guan, Xipeng Shen",HISyn - human learning-inspired natural language programming.,https://doi.org/10.1145/3368089.3409673,FSE2020
+"Zhenpeng Chen, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie 0001, Xuanzhe Liu",A comprehensive study on challenges in deploying deep learning based software.,https://doi.org/10.1145/3368089.3409759,FSE2020
+"José Pablo Cambronero, Jürgen Cito, Martin C. Rinard",AMS - generating AutoML search spaces from weak specifications.,https://doi.org/10.1145/3368089.3409700,FSE2020
+"Shenao Yan, Guanhong Tao, Xuwei Liu, Juan Zhai, Shiqing Ma, Lei Xu, Xiangyu Zhang 0001",Correlations between deep neural network model coverage criteria and model quality.,https://doi.org/10.1145/3368089.3409671,FSE2020
+"Zan Wang, Ming Yan, Junjie Chen, Shuang Liu, Dongdi Zhang",Deep learning library testing via effective model generation.,https://doi.org/10.1145/3368089.3409761,FSE2020
+"Fuyuan Zhang, Sankalan Pal Chowdhury, Maria Christakis",DeepSearch - a simple and effective blackbox attack for deep neural networks.,https://doi.org/10.1145/3368089.3409750,FSE2020
+"Simin Chen, Soroush Bateni, Sampath Grandhi, Xiaodi Li, Cong Liu, Wei Yang 0013",DENAS - automated rule generation by knowledge extraction from neural networks.,https://doi.org/10.1145/3368089.3409733,FSE2020
+"Yuhao Zhang, Luyao Ren, Liqian Chen, Yingfei Xiong 0001, Shing-Chi Cheung, Tao Xie 0001",Detecting numerical bugs in neural network architectures.,https://doi.org/10.1145/3368089.3409720,FSE2020

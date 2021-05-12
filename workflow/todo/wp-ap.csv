@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Yu Huang, Benjamin Ogles, Eric Mercer",A Predictive Analysis for Detecting Deadlock in MPI Programs.,https://doi.org/10.1145/3324884.3416588,ASE2020
+"Hao Zhou, Haoyu Wang 0001, Yajin Zhou, Xiapu Luo, Yutian Tang, Lei Xue 0001, Ting Wang",Demystifying Diehard Android Apps.,https://doi.org/10.1145/3324884.3416637,ASE2020
+"Hao Zhou, Ting Chen 0002, Haoyu Wang 0001, Le Yu, Xiapu Luo, Ting Wang 0006, Wei Zhang",UI Obfuscation and Its Effects on Automated UI Analysis for Android Apps.,https://doi.org/10.1145/3324884.3416642,ASE2020
+"Pouria Derakhshanfar, Xavier Devroey, Andy Zaidman, Arie van Deursen, Annibale Panichella",Good Things Come In Threes - Improving Search-based Crash Reproduction With Helper Objectives.,https://doi.org/10.1145/3324884.3416643,ASE2020
+"Qi Xin, Myeongsoo Kim, Qirun Zhang, Alessandro Orso",Subdomain-Based Generality-Aware Debloating.,https://doi.org/10.1145/3324884.3416644,ASE2020
+"Yiqun T. Chen, Rahul Gopinath, Anita Tadakamalla, Michael D. Ernst, Reid Holmes, Gordon Fraser 0001, Paul Ammann, René Just","Revisiting the Relationship Between Fault Detection, Test Adequacy Criteria, and Test Set Size.",https://doi.org/10.1145/3324884.3416667,ASE2020
+"Andreas Katis, Grigory Fedyukovich, Jeffrey Chen, David A. Greve, Sanjai Rayadurgam, Michael W. Whalen",Synthesis of Infinite-State Systems with Random Behavior.,https://doi.org/10.1145/3324884.3416586,ASE2020
+"Benjamin Mariano, Yanju Chen, Yu Feng, Shuvendu K. Lahiri, Isil Dillig",Demystifying Loops in Smart Contracts.,https://doi.org/10.1145/3324884.3416626,ASE2020
+"Yangruibo Ding, Baishakhi Ray, Premkumar T. Devanbu, Vincent J. Hellendoorn",Patching as Translation - the Data and the Metaphor.,https://doi.org/10.1145/3324884.3416587,ASE2020
+"Devjeet Roy, Ziyi Zhang, Maggie Ma, Venera Arnaoudova, Annibale Panichella, Sebastiano Panichella, Danielle Gonzalez, Mehdi Mirakhorli",DeepTC-Enhancer - Improving the Readability of Automatically Generated Tests.,https://doi.org/10.1145/3324884.3416622,ASE2020

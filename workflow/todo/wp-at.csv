@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Shahar Maoz, Ilia Shevrin",Just-In-Time Reactive Synthesis.,https://doi.org/10.1145/3324884.3416557,ASE2020
+"Jihyeok Park, Jihee Park, Seungmin An, Sukyoung Ryu",JISET - JavaScript IR-based Semantics Extraction Toolchain.,https://doi.org/10.1145/3324884.3416632,ASE2020
+"Yeting Li, Zhiwu Xu 0001, Jialun Cao, Haiming Chen, Tingjian Ge, Shing-Chi Cheung, Haoren Zhao",FlashRegex - Deducing Anti-ReDoS Regexes from Examples.,https://doi.org/10.1145/3324884.3416556,ASE2020
+"Diego Clerissi, Giovanni Denaro, Marco Mobilio, Leonardo Mariani",Plug the Database &amp; Play With Automatic Testing - Improving System Testing by Exploiting Persistent Data.,https://doi.org/10.1145/3324884.3416561,ASE2020
+"Chengyuan Wen, Yaxuan Zhang, Xiao He, Na Meng",Inferring and Applying Def-Use Like Configuration Couplings in Deployment Descriptors.,https://doi.org/10.1145/3324884.3416577,ASE2020
+"Johannes Dorn, Sven Apel, Norbert Siegmund",Mastering Uncertainty in Performance Estimations of Configurable Software Systems.,https://doi.org/10.1145/3324884.3416620,ASE2020
+"Likang Yin, Vladimir Filkov",Team Discussions and Dynamics During DevOps Tool Adoptions in OSS Projects.,https://doi.org/10.1145/3324884.3416640,ASE2020
+"Muhammad Usman 0024, Wenxi Wang, Sarfraz Khurshid",TestMC - Testing Model Counters using Differential and Metamorphic Testing.,https://doi.org/10.1145/3324884.3416563,ASE2020
+"Qian Zhang, Jiyuan Wang, Muhammad Ali Gulzar, Rohan Padhye, Miryung Kim",BigFuzz - Efficient Fuzz Testing for Data Analytics Using Framework Abstraction.,https://doi.org/10.1145/3324884.3416641,ASE2020
+"Nick Feng, Federico Mora, Vincent Hui, Marsha Chechik",Scaling Client-Specific Equivalence Checking via Impact Boundary Search.,https://doi.org/10.1145/3324884.3416634,ASE2020

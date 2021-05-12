@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Dirk Beyer 0001, Karlheinz Friedberger",Domain-independent interprocedural program analysis using block-abstraction memoization.,https://doi.org/10.1145/3368089.3409718,FSE2020
+"Hemank Lamba, Asher Trockman, Daniel Armanios, Christian Kästner, Heather Miller, Bogdan Vasilescu",Heard it through the Gitvine - an empirical study of tool diffusion across the npm ecosystem.,https://doi.org/10.1145/3368089.3409705,FSE2020
+"Kaifeng Huang, Bihuan Chen 0001, Bowen Shi, Ying Wang, Congying Xu, Xin Peng 0001","Interactive, effort-aware library version harmonization.",https://doi.org/10.1145/3368089.3409689,FSE2020
+"Jaeseong Lee, Pengyu Nie, Junyi Jessy Li, Milos Gligoric",On the naturalness of hardware descriptions.,https://doi.org/10.1145/3368089.3409692,FSE2020
+"Umme Ayda Mannan, Iftekhar Ahmed 0001, Carlos Jensen, Anita Sarma",On the relationship between design discussions and design quality - a case study of Apache projects.,https://doi.org/10.1145/3368089.3409707,FSE2020
+"Massimiliano Di Penta, Gabriele Bavota, Fiorella Zampetti",On the relationship between refactoring actions and bugs - a differentiated replication.,https://doi.org/10.1145/3368089.3409695,FSE2020
+"Hennie Huijgens, Ayushi Rastogi, Ernst Mulders, Georgios Gousios, Arie van Deursen",Questions for data scientists in software engineering - a replication.,https://doi.org/10.1145/3368089.3409717,FSE2020
+"Yi Wang, Min Zhang",Reducing implicit gender biases in software development - does intergroup contact theory work?,https://doi.org/10.1145/3368089.3409762,FSE2020
+"Sergio García 0002, Daniel Strüber 0001, Davide Brugali, Thorsten Berger, Patrizio Pelliccione",Robotics software engineering - a perspective from the service robotics domain.,https://doi.org/10.1145/3368089.3409743,FSE2020
+"Dan Gopstein, Anne-Laure Fayard, Sven Apel, Justin Cappos",Thinking aloud about confusing code - a qualitative investigation of program comprehension and atoms of confusion.,https://doi.org/10.1145/3368089.3409714,FSE2020

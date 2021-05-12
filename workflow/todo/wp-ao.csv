@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Hoang Lam Nguyen, Nebras Nassar, Timo Kehrer, Lars Grunske",MoFuzz - A Fuzzer Suite for Testing Model-Driven Software Engineering Tools.,https://doi.org/10.1145/3324884.3416668,ASE2020
+"Hongyu Liu, Ruiqin Tian, Tongping Liu, Bin Ren",Prober - Practically Defending Overflows with Page Protection.,https://doi.org/10.1145/3324884.3416533,ASE2020
+"Alan Romano, Yunhui Zheng, Weihang Wang",MinerRay - Semantics-Aware Analysis for Ever-Evolving Cryptojacking Detection.,https://doi.org/10.1145/3324884.3416580,ASE2020
+"Yu Feng, Emina Torlak, Rastislav Bodík",Summary-Based Symbolic Evaluation for Smart Contracts.,https://doi.org/10.1145/3324884.3416646,ASE2020
+"Timotej Kapus, Frank Busse, Cristian Cadar",Pending Constraints in Symbolic Execution for Better Exploration and Seeding.,https://doi.org/10.1145/3324884.3416589,ASE2020
+"Sungho Lee, Hyogun Lee, Sukyoung Ryu",Broadening Horizons of Multilingual Static Analysis - Semantic Summary Extraction from C Code for JNI Program Analysis.,https://doi.org/10.1145/3324884.3416558,ASE2020
+"Jiawei Wang, Tzu-yang Kuo, Li Li 0029, Andreas Zeller",Assessing and Restoring Reproducibility of Jupyter Notebooks.,https://doi.org/10.1145/3324884.3416585,ASE2020
+"Andreas Stahlbauer, Christoph Frädrich, Gordon Fraser 0001",Verified from Scratch - Program Analysis for Learners&apos; Programs.,https://doi.org/10.1145/3324884.3416554,ASE2020
+"Xingyu Zhao, Radu Calinescu, Simos Gerasimou, Valentin Robu, David Flynn",Interval Change-Point Detection for Runtime Probabilistic Model Checking.,https://doi.org/10.1145/3324884.3416565,ASE2020
+"Daniel Ramos, Jorge Pereira, Inês Lynce, Vasco M. Manquinho, Ruben Martins",UNCHARTIT - An Interactive Framework for Program Recovery from Charts.,https://doi.org/10.1145/3324884.3416613,ASE2020

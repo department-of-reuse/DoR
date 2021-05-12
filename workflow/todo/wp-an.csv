@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Yueling Zhang, Geguang Pu, Jun Sun 0001",Accelerating All-SAT Computation with Short Blocking Clauses.,https://doi.org/10.1145/3324884.3416569,ASE2020
+"Chaima Boufaied, Claudio Menghi, Domenico Bianculli, Lionel C. Briand, Yago Isasi Parache",Trace-Checking Signal-based Temporal Properties - A Model-Driven Approach.,https://doi.org/10.1145/3324884.3416631,ASE2020
+"Cedric Richter, Heike Wehrheim",Attend and Represent - A Novel View on Algorithm Selection for Software Verification.,https://doi.org/10.1145/3324884.3416633,ASE2020
+"Yinxing Xue, Mingliang Ma, Yun Lin 0001, Yulei Sui, Jiaming Ye, Tianyong Peng",Cross-Contract Static Analysis for Detecting Practical Reentrancy Vulnerabilities in Smart Contracts.,https://doi.org/10.1145/3324884.3416553,ASE2020
+"Nic Volanschi, Julia Lawall",The Impact of Generic Data Structures - Decoding the Role of Lists in the Linux Kernel.,https://doi.org/10.1145/3324884.3416635,ASE2020
+"David Berend, Xiaofei Xie, Lei Ma 0003, Lingjun Zhou, Yang Liu 0003, Chi Xu, Jianjun Zhao",Cats Are Not Fish - Deep Learning Testing Calls for Out-Of-Distribution Awareness.,https://doi.org/10.1145/3324884.3416609,ASE2020
+"Shuai Wang, Zhendong Su",Metamorphic Object Insertion for Testing Object Detection Systems.,https://doi.org/10.1145/3324884.3416584,ASE2020
+"Farnaz Behrang, Alessandro Orso",Seven Reasons Why - An In-Depth Study of the Limitations of Random Test Input Generation for Android.,https://doi.org/10.1145/3324884.3416567,ASE2020
+"Jun-Wei Lin, Navid Salehnamadi, Sam Malek",Test Automation in Open-Source Android Apps - A Large-Scale Empirical Study.,https://doi.org/10.1145/3324884.3416623,ASE2020
+"Benjamin Gafford, Tobias Dürschmid, Gabriel A. Moreno, Eunsuk Kang",Synthesis-Based Resolution of Feature Interactions in Cyber-Physical Systems.,https://doi.org/10.1145/3324884.3416630,ASE2020

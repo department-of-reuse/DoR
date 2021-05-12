@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Konstantinos Barmpis, Patrick Neubauer, Jonathan Co, Dimitris S. Kolovos, Nicholas Matragkas, Richard F. Paige",Polyglot and Distributed Software Repository Mining with Crossflow.,https://doi.org/10.1145/3379597.3387481,MSR2020
+"Toni Mattis, Patrick Rein, Falco Dürsch, Robert Hirschfeld",RTPTorrent - An Open-source Dataset for Evaluating Regression Test Prioritization.,https://doi.org/10.1145/3379597.3387458,MSR2020
+"Shubhankar Suman Singh, Smruti R. Sarangi",SoftMon - A Tool to Compare Similar Open-source Software from a Performance Perspective.,https://doi.org/10.1145/3379597.3387444,MSR2020
+James Walden,The Impact of a Major Security Event on an Open Source Project - The Case of OpenSSL.,https://doi.org/10.1145/3379597.3387465,MSR2020
+"Hadhemi Jebnoun, Houssem Ben Braiek, Mohammad Masudur Rahman 0001, Foutse Khomh",The Scent of Deep Learning Code - An Empirical Study.,https://doi.org/10.1145/3379597.3387479,MSR2020
+"Irving Muller Rodrigues, Daniel Aloise, Eraldo Rezende Fernandes, Michel Dagenais",A Soft Alignment Model for Bug Deduplication.,https://doi.org/10.1145/3379597.3387470,MSR2020
+"Danielle Gonzalez, Thomas Zimmermann 0001, Nachiappan Nagappan",The State of the ML-universe - 10 Years of Artificial Intelligence &amp; Machine Learning Software Development on GitHub.,https://doi.org/10.1145/3379597.3387473,MSR2020
+"Yalin Liu, Jinfeng Lin, Jane Cleland-Huang",Traceability Support for Multi-Lingual Software Projects.,https://doi.org/10.1145/3379597.3387440,MSR2020
+"Timofey Bryksin, Victor Petukhov, Ilya Alexin, Stanislav Prikhodko, Alexey Shpilman, Vladimir Kovalenko, Nikita Povarov",Using Large-Scale Anomaly Detection on Code to Improve Kotlin Compiler.,https://doi.org/10.1145/3379597.3387447,MSR2020
+"Suhaib Mujahid, Rabe Abdalkareem, Emad Shihab, Shane McIntosh",Using Others&apos; Tests to Identify Breaking Updates.,https://doi.org/10.1145/3379597.3387476,MSR2020

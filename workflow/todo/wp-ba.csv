@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Sergey Svitkov, Timofey Bryksin",Visualization of Methods Changeability Based on VCS Data.,https://doi.org/10.1145/3379597.3387451,MSR2020
+Rolf-Helge Pfeiffer,"What constitutes Software? - An Empirical, Descriptive Study of Artifacts.",https://doi.org/10.1145/3379597.3387442,MSR2020
+"Gustavo Pinto 0001, Breno Miranda, Supun Dissanayake, Marcelo d&apos;Amorim, Christoph Treude, Antonia Bertolino",What is the Vocabulary of Flaky Tests?,https://doi.org/10.1145/3379597.3387482,MSR2020
+"Yaroslav Golubev, Maria Eliseeva, Nikita Povarov, Timofey Bryksin",A Study of Potential Code Borrowing and License Violations in Java Projects on GitHub.,https://doi.org/10.1145/3379597.3387455,MSR2020
+"Abdulkarim Khormi, Mohammad Alahmadi, Sonia Haiduc",A Study on the Accuracy of OCR Engines for Source Code Transcription from Programming Screencasts.,https://doi.org/10.1145/3379597.3387468,MSR2020
+"Yiwen Wu, Yang Zhang 0026, Tao Wang 0006, Huaimin Wang",An Empirical Study of Build Failures in the Docker Context.,https://doi.org/10.1145/3379597.3387483,MSR2020
+"Jason Tsay, Alan Braz, Martin Hirzel, Avraham Shinnar, Todd Mummert",AIMMX - Artificial Intelligence Model Metadata Extractor.,https://doi.org/10.1145/3379597.3387448,MSR2020
+"Tomoki Nakamaru, Tomomasa Matsunaga, Tetsuro Yamazaki, Soramichi Akiyama, Shigeru Chiba",An Empirical Study of Method Chaining in Java.,https://doi.org/10.1145/3379597.3387441,MSR2020
+"M. Wessel, A. Serebrenik, I. Wiese, I. Steinmacher and M. Gerosa",Effects of Adopting Code Review Bots on Pull Requests to OSS Projects,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00011,ICSME2020
+"G. Rong, Y. Xu, S. Gu, H. Zhang and D. Shao",Can You Capture Information As You Intend To? A Case Study on Logging Practice in Industry,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00012,ICSME2020

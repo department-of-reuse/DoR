@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Xianhao Jin, Francisco Servant",A cost-efficient approach to building in continuous integration.,https://doi.org/10.1145/3377811.3380437,ICSE2020
+"Brittany Johnson, Yuriy Brun, Alexandra Meliou",Causal testing - understanding defects&apos; root causes.,https://doi.org/10.1145/3377811.3380377,ICSE2020
+"Rafael-Michael Karampatsis, Hlib Babii, Romain Robbes, Charles Sutton, Andrea Janes",Big code != big vocabulary - open-vocabulary models for source code.,https://doi.org/10.1145/3377811.3380342,ICSE2020
+"Martin Kellogg, Manli Ran, Manu Sridharan, Martin Schäf, Michael D. Ernst",Verifying object construction.,https://doi.org/10.1145/3377811.3380341,ICSE2020
+"Djamel Eddine Khelladi, Benoît Combemale, Mathieu Acher, Olivier Barais, Jean-Marc Jézéquel",Co-evolving code with evolving metamodels.,https://doi.org/10.1145/3377811.3380324,ICSE2020
+"I Luk Kim, Yunhui Zheng, Hogun Park, Weihang Wang, Wei You, Yousra Aafer, Xiangyu Zhang 0001",Finding client-side business flow tampering vulnerabilities.,https://doi.org/10.1145/3377811.3380355,ICSE2020
+"Lukas Kirschner, Ezekiel O. Soremekun, Andreas Zeller",Debugging inputs.,https://doi.org/10.1145/3377811.3380329,ICSE2020
+"Ryan Krueger, Yu Huang 0015, Xinyu Liu, Tyler Santander, Westley Weimer, Kevin Leach",Neurological divide - an fMRI study of prose and code writing.,https://doi.org/10.1145/3377811.3380348,ICSE2020
+"Wing Lam, Kivanç Muslu, Hitesh Sajnani, Suresh Thummalapenta",A study on the lifecycle of flaky tests.,https://doi.org/10.1145/3377811.3381749,ICSE2020
+"Maxime Lamothe, Weiyi Shang",When APIs are intentionally bypassed - an exploratory study of API workarounds.,https://doi.org/10.1145/3377811.3380433,ICSE2020

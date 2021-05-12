@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Lili Quan, Qianyu Guo, Hongxu Chen, Xiaofei Xie, Xiaohong Li 0001, Yang Liu 0003, Jing Hu 0007",SADT - Syntax-Aware Differential Testing of Certificate Validation in SSL/TLS Implementations.,https://doi.org/10.1145/3324884.3416552,ASE2020
+"Haicheng Chen, Wensheng Dou, Dong Wang, Feng Qin",CoFI - Consistency-Guided Fault Injection for Cloud Systems.,https://doi.org/10.1145/3324884.3416548,ASE2020
+"Dongge Liu, Gidon Ernst, Toby Murray, Benjamin I. P. Rubinstein",LEGION - Best-First Concolic Testing.,https://doi.org/10.1145/3324884.3416629,ASE2020
+"Michael C. Gerten, James I. Lathrop, Myra B. Cohen, Titus H. Klinge",ChemTest - An Automated Software Testing Framework for an Emerging Paradigm.,https://doi.org/10.1145/3324884.3416638,ASE2020
+"Julian Frattini, Maximilian Junker, Michael Unterkalmsteiner, Daniel Méndez 0001",Automatic Extraction of Cause-Effect-Relations from Requirements Artifacts.,https://doi.org/10.1145/3324884.3416549,ASE2020
+"Ke Li 0001, Zilin Xiang, Tao Chen 0001, Kay Chen Tan",BiLO-CPDP - Bi-Level Programming for Automated Model Discovery in Cross-Project Defect Prediction.,https://doi.org/10.1145/3324884.3416617,ASE2020
+"Zhongxin Liu, Xin Xia 0001, Meng Yan, Shanping Li",Automating Just-In-Time Comment Updating.,https://doi.org/10.1145/3324884.3416581,ASE2020
+"Patrick Stöckle, Bernd Grobauer, Alexander Pretschner",Automated Implementation of Windows-related Security-Configuration Guides.,https://doi.org/10.1145/3324884.3416540,ASE2020
+"Stefan Mühlbauer, Sven Apel, Norbert Siegmund",Identifying Software Performance Changes Across Variants and Versions.,https://doi.org/10.1145/3324884.3416573,ASE2020
+"Haochen He, Zhouyang Jia, Shanshan Li, Erci Xu, Tingting Yu, Yue Yu, Ji Wang, Xiangke Liao",CP-Detector - Using Configuration-related Performance Properties to Expose Performance Bugs.,https://doi.org/10.1145/3324884.3416531,ASE2020

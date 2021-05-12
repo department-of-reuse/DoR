@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"W. Fenske, J. Kruger, M. Kanyshkova and S. Schulze","#ifdef Directives and Program Comprehension: The Dilemma between Correctness and Preference,",https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00033,ICSME2020
+"S. Latif, Y. Hao, H. Zhang, R. Bassily and A. Rountev",Introducing Differential Privacy Mechanisms for Mobile App Analytics of Dynamic Content,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00034,ICSME2020
+"M. Schnappinger, A. Fietzke and A. Pretschner","Defining a Software Maintainability Dataset: Collecting, Aggregating and Analysing Expert Evaluations of Software Maintainability",https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00035,ICSME2020
+"Ferenc Horvath, Arpad Beszedes, Bela Vancsics, Gergo Balogh, Laszlo Vidacs, Tibor Gyimothy",Experiments with Interactive Fault Localization Using Simulated and Real Users,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00036,ICSME2020
+"Changjian Zhang, David Garlan, Eunsuk Kang",A behavioral notion of robustness for software systems.,https://doi.org/10.1145/3368089.3409753,FSE2020
+"Claudio Mandrioli, Martina Maggio",Testing self-adaptive software with probabilistic guarantees on performance metrics.,https://doi.org/10.1145/3368089.3409685,FSE2020
+"Wenkai Xie, Xin Peng 0001, Mingwei Liu, Christoph Treude, Zhenchang Xing, Xiaoxin Zhang, Wenyun Zhao",API method recommendation via explicit matching of functionality verb phrases.,https://doi.org/10.1145/3368089.3409731,FSE2020
+"Tam Nguyen, Phong Vu, Tung Nguyen",Code recommendation for exception handling.,https://doi.org/10.1145/3368089.3409690,FSE2020
+"Arman Shahbazian, Suhrid Karthik, Yuriy Brun, Nenad Medvidovic",eQual - informing early design decisions.,https://doi.org/10.1145/3368089.3409749,FSE2020
+"Sonal Mahajan, Negarsadat Abolhassani, Mukul R. Prasad",Recommending stack overflow posts for fixing runtime exceptions using failure scenario matching.,https://doi.org/10.1145/3368089.3409764,FSE2020
