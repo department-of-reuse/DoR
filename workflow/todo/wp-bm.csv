@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Ziqi Zhang, Yuanchun Li, Yao Guo 0001, Xiangqun Chen, Yunxin Liu",Dynamic slicing for deep neural networks.,https://doi.org/10.1145/3368089.3409676,FSE2020
+"Fabrice Harel-Canada, Lingxiao Wang, Muhammad Ali Gulzar, Quanquan Gu, Miryung Kim",Is neuron coverage a meaningful measure for testing deep neural networks?,https://doi.org/10.1145/3368089.3409754,FSE2020
+"Shashij Gupta, Pinjia He, Clara Meister, Zhendong Su",Machine translation testing via pathological invariance.,https://doi.org/10.1145/3368089.3409756,FSE2020
+"Shivam Handa, Martin C. Rinard",Inductive program synthesis over noisy data.,https://doi.org/10.1145/3368089.3409732,FSE2020
+"Vincenzo Riccio, Paolo Tonella",Model-based exploration of the frontier of behaviours for deep learning system testing.,https://doi.org/10.1145/3368089.3409730,FSE2020
+"Rangeet Pan, Hridesh Rajan",On decomposing a deep neural network into modules.,https://doi.org/10.1145/3368089.3409668,FSE2020
+"Zenan Li, Xiaoxing Ma, Chang Xu 0001, Jingwei Xu 0001, Chun Cao, Jian Lu 0001",Operational calibration - debugging confidence errors for DNNs in the field.,https://doi.org/10.1145/3368089.3409696,FSE2020
+"Yutian Tang, Yulei Sui, Haoyu Wang 0001, Xiapu Luo, Hao Zhou, Zhou Xu 0003",All your app links are belong to us - understanding the threats of instant apps based attacks.,https://doi.org/10.1145/3368089.3409702,FSE2020
+"Reyhaneh Jabbarvand, Forough Mehralian, Sam Malek",Automated construction of energy test oracles for Android.,https://doi.org/10.1145/3368089.3409677,FSE2020
+"Jun Gao 0001, Li Li 0029, Pingfan Kong, Tegawendé F. Bissyandé, Jacques Klein",Borrowing your enemy&apos;s arrows - the case of code reuse in Android via direct inter-app code invocation.,https://doi.org/10.1145/3368089.3409745,FSE2020

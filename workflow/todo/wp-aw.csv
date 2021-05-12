@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Shangwen Wang, Ming Wen 0001, Bo Lin, Hongjun Wu, Yihao Qin, Deqing Zou, Xiaoguang Mao, Hai Jin 0001",Automated Patch Correctness Assessment - How Far are We?,https://doi.org/10.1145/3324884.3416590,ASE2020
+"Haoye Tian, Kui Liu 0001, Abdoul Kader Kaboré, Anil Koyuncu, Li Li 0029, Jacques Klein, Tegawendé F. Bissyandé",Evaluating Representation Learning of Code Changes for Predicting Patch Correctness in Program Repair.,https://doi.org/10.1145/3324884.3416532,ASE2020
+"Christos Tsigkanos, Nianyu Li, Zhi Jin, Zhenjiang Hu, Carlo Ghezzi",Scalable Multiple-View Analysis of Reactive Systems via Bidirectional Model Transformations.,https://doi.org/10.1145/3324884.3416579,ASE2020
+"Peipei Wang, Chris Brown, Jamie A. Jennings, Kathryn T. Stolee",An Empirical Study on Regular Expression Bugs.,https://doi.org/10.1145/3379597.3387464,MSR2020
+"Paolo Calciati, Konstantin Kuznetsov, Alessandra Gorla, Andreas Zeller",Automatically Granted Permissions in Android apps - An Empirical Study on their Prevalence and on the Potential Threats for Privacy.,https://doi.org/10.1145/3379597.3387469,MSR2020
+"Matheus Paixão, Anderson G. Uchôa, Ana Carla Bibiano, Daniel Oliveira, Alessandro Garcia 0001, Jens Krinke, Emilio Arvonio",Behind the Intents - An In-depth Empirical Study on Software Refactoring in Modern Code Review.,https://doi.org/10.1145/3379597.3387475,MSR2020
+"Laerte Xavier, Fábio F. Ferreira, Rodrigo Brito, Marco Tulio Valente",Beyond the Code - Mining Self-Admitted Technical Debt in Issue Tracker Systems.,https://doi.org/10.1145/3379597.3387459,MSR2020
+"Che Shian Hung, Robert Dyer 0001",Boa Views - Easy Modularization and Sharing of MSR Analyses.,https://doi.org/10.1145/3379597.3387480,MSR2020
+"Nicole Novielli, Fabio Calefato, Davide Dongiovanni, Daniela Girardi, Filippo Lanubile",Can We Use SE-specific Sentiment Analysis Tools in a Cross-Platform Setting?,https://doi.org/10.1145/3379597.3387446,MSR2020
+"Jens Meinicke, Juan Hoyos, Bogdan Vasilescu, Christian Kästner",Capture the Feature Flag - Detecting Feature Flags in Open-Source.,https://doi.org/10.1145/3379597.3387463,MSR2020

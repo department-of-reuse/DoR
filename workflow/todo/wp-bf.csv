@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Valerio Terragni, Gunel Jahangirova, Paolo Tonella, Mauro Pezzè",Evolutionary improvement of assertion oracles.,https://doi.org/10.1145/3368089.3409758,FSE2020
+"Yixue Zhao, Justin Chen, Adriana Sejfia, Marcelo Schmitt Laser, Jie Zhang, Federica Sarro, Mark Harman, Nenad Medvidovic",FrUITeR - a framework for evaluating UI test reuse.,https://doi.org/10.1145/3368089.3409708,FSE2020
+"Jieshan Chen, Mulong Xie, Zhenchang Xing, Chunyang Chen, Xiwei Xu, Liming Zhu, Guoqiang Li 0001",Object detection for graphical user interface - old fashioned or deep learning or a combination?,https://doi.org/10.1145/3368089.3409691,FSE2020
+"Rahmadi Trimananda, Seyed Amir Hossein Aqajari, Jason Chuang, Brian Demsky, Guoqing Harry Xu, Shan Lu 0001",Understanding and automatically detecting conflicting interactions between smart home IoT applications.,https://doi.org/10.1145/3368089.3409682,FSE2020
+"Alexander Kampmann, Nikolas Havrikov, Ezekiel O. Soremekun, Andreas Zeller",When does my program do this? learning circumstances of software behavior.,https://doi.org/10.1145/3368089.3409687,FSE2020
+"Vaibhav Sharma, Soha Hussein, Michael W. Whalen, Stephen McCamant, Willem Visser",Java Ranger - statically summarizing regions for efficient symbolic execution of Java.,https://doi.org/10.1145/3368089.3409734,FSE2020
+"Sahar Badihi, Faridah Akinotcho, Yi Li 0008, Julia Rubin",ARDiff - scaling program equivalence checking via iterative abstraction and refinement of common code.,https://doi.org/10.1145/3368089.3409757,FSE2020
+"Bobby R. Bruce, Tianyi Zhang 0001, Jaspreet Arora, Guoqing Harry Xu, Miryung Kim",JShrink - in-depth investigation into debloating modern Java applications.,https://doi.org/10.1145/3368089.3409738,FSE2020
+"Sooyoung Cha, Hakjoo Oh",Making symbolic execution promising by learning aggressive state-pruning strategy.,https://doi.org/10.1145/3368089.3409755,FSE2020
+"Khouloud Gaaloul, Claudio Menghi, Shiva Nejati, Lionel C. Briand, David Wolfe",Mining assumptions for software components using machine learning.,https://doi.org/10.1145/3368089.3409737,FSE2020

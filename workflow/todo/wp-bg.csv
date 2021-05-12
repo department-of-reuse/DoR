@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Rahul Gopinath, Björn Mathis, Andreas Zeller",Mining input grammars from dynamic control flow.,https://doi.org/10.1145/3368089.3409679,FSE2020
+"Dominik Helm, Florian Kübler, Michael Reif, Michael Eichberg, Mira Mezini",Modular collaborative program analysis in OPAL.,https://doi.org/10.1145/3368089.3409765,FSE2020
+"David Trabish, Timotej Kapus, Noam Rinetzky, Cristian Cadar",Past-sensitive pointer analysis for symbolic execution.,https://doi.org/10.1145/3368089.3409698,FSE2020
+"Michael Pradel, Georgios Gousios, Jason Liu, Satish Chandra 0001",TypeWriter - neural type prediction with search-based validation.,https://doi.org/10.1145/3368089.3409715,FSE2020
+"Yizhuo Zhai, Yu Hao, Hang Zhang, Daimeng Wang, Chengyu Song, Zhiyun Qian, Mohsen Lesani, Srikanth V. Krishnamurthy, Paul Yu",UBITect - a precise and scalable method to detect use-before-initialization bugs in Linux kernel.,https://doi.org/10.1145/3368089.3409686,FSE2020
+"Jiawei Wang, Li Li 0029, Kui Liu 0001, Haipeng Cai",Exploring how deprecated Python library APIs are (not) handled.,https://doi.org/10.1145/3368089.3409735,FSE2020
+"Enrique Larios Vargas, Maurício Finavaro Aniche, Christoph Treude, Magiel Bruntink, Georgios Gousios",Selecting third-party libraries - the practitioners&apos; perspective.,https://doi.org/10.1145/3368089.3409711,FSE2020
+"Juan Zhai, Yu Shi, Minxue Pan, Guian Zhou, Yongxiang Liu, Chunrong Fang, Shiqing Ma, Lin Tan 0001, Xiangyu Zhang 0001",C2S - translating natural language comments to formal program specifications.,https://doi.org/10.1145/3368089.3409716,FSE2020
+"Alan Cha, Erik Wittern, Guillaume Baudart, James C. Davis, Louis Mandel, Jim Alain Laredo",A principled approach to GraphQL query cost analysis.,https://doi.org/10.1145/3368089.3409670,FSE2020
+"Alex Cummaudo, Scott Barnett, Rajesh Vasa, John C. Grundy, Mohamed Abdelrazek 0001",Beware the evolving &apos;intelligent&apos; web service! an integration architecture tactic to guard AI-first components.,https://doi.org/10.1145/3368089.3409688,FSE2020

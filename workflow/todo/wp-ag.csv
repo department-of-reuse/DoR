@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Jason Lau, Aishwarya Sivaraman, Qian Zhang, Muhammad Ali Gulzar, Jason Cong, Miryung Kim",HeteroRefactor - refactoring for heterogeneous computing with FPGA.,https://doi.org/10.1145/3377811.3380340,ICSE2020
+"Yi Li, Shaohua Wang 0002, Tien N. Nguyen",DLFix - context-based code transformation learning for automated program repair.,https://doi.org/10.1145/3377811.3380345,ICSE2020
+"Ke Li 0001, Zilin Xiang, Tao Chen 0001, Shuo Wang, Kay Chen Tan",Understanding the automated parameter optimization on transfer learning for cross-project defect prediction - an empirical study.,https://doi.org/10.1145/3377811.3380360,ICSE2020
+"Michael Lienhardt, Ferruccio Damiani, Einar Broch Johnsen, Jacopo Mauro",Lazy product discovery in huge configuration spaces.,https://doi.org/10.1145/3377811.3380372,ICSE2020
+"Dirk van der Linden, Pauline Anthonysamy, Bashar Nuseibeh, Thein Than Tun, Marian Petre, Mark Levine, John N. Towse, Awais Rashid",Schrödinger&apos;s security - opening the box on app developers&apos; security rationale.,https://doi.org/10.1145/3377811.3380394,ICSE2020
+"Bingchang Liu, Guozhu Meng, Wei Zou, Qi Gong, Feng Li, Min Lin, Dandan Sun, Wei Huo, Chao Zhang 0008",A large-scale empirical study on vulnerability distribution within projects and the lessons learned.,https://doi.org/10.1145/3377811.3380923,ICSE2020
+"Peiming Liu, Gang Zhao, Jeff Huang 0001",Securing unsafe rust programs with XRust.,https://doi.org/10.1145/3377811.3380325,ICSE2020
+"Wanwangying Ma, Lin Chen, Xiangyu Zhang, Yang Feng, Zhaogui Xu, Zhifei Chen, Yuming Zhou, Baowen Xu",Impact analysis of cross-project bugs on software ecosystems.,https://doi.org/10.1145/3377811.3380442,ICSE2020
+"Valentin J. M. Manès, Soomin Kim 0002, Sang Kil Cha",Ankou - guiding grey-box fuzzing towards combinatorial difference.,https://doi.org/10.1145/3377811.3380421,ICSE2020
+"George Mathew, Chris Parnin, Kathryn T. Stolee",SLACC - simion-based language agnostic code clones.,https://doi.org/10.1145/3377811.3380407,ICSE2020

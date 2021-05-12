@@ -1,0 +1,421 @@
+AUTHORS,TITLE,DOI,Venue
+"Alessio Ferrari 0001, Franco Mazzanti, Davide Basile, Maurice H. ter Beek, Alessandro Fantechi",Comparing formal tools for system design - a judgment study.,https://doi.org/10.1145/3377811.3380373,ICSE2020
+"Yan Cai 0001, Ruijie Meng, Jens Palsberg",Low-overhead deadlock prediction.,https://doi.org/10.1145/3377811.3380367,ICSE2020
+"Andrea Stocco 0001, Michael Weiss, Marco Calzana, Paolo Tonella",Misbehaviour prediction for autonomous driving systems.,https://doi.org/10.1145/3377811.3380353,ICSE2020
+"Kui Liu 0001, Shangwen Wang, Anil Koyuncu, Kisub Kim, Tegawendé F. Bissyandé, Dongsun Kim 0001, Peng Wu, Jacques Klein, Xiaoguang Mao, Yves Le Traon",On the efficiency of test suite based program repair - A Systematic Assessment of 16 Automated Repair Systems for Java Programs.,https://doi.org/10.1145/3377811.3380338,ICSE2020
+"He Zhang 0001, Xin Zhou, Xin Huang, Huang Huang, Muhammad Ali Babar",An evidence-based inquiry into the use of grey literature in software engineering.,https://doi.org/10.1145/3377811.3380336,ICSE2020
+"Hui Guo 0002, Munindar P. Singh",Caspar - extracting and synthesizing user stories of problems from app reviews.,https://doi.org/10.1145/3377811.3380924,ICSE2020
+"Hui Guo 0007, Cindy Rubio-González",Efficient generation of error-inducing floating-point inputs via symbolic execution.,https://doi.org/10.1145/3377811.3380359,ICSE2020
+"Emad Aghajani, Csaba Nagy 0001, Mario Linares-Vásquez, Laura Moreno, Gabriele Bavota, Michele Lanza, David C. Shepherd",Software documentation - the practitioners&apos; perspective.,https://doi.org/10.1145/3377811.3380405,ICSE2020
+"Mounifah Alenazi, Nan Niu, Juha Savolainen",A novel approach to tracing safety requirements and state-based design models.,https://doi.org/10.1145/3377811.3380332,ICSE2020
+"Dalal Alrajeh, Antoine Cailliau, Axel van Lamsweerde",Adapting requirements models to varying environments.,https://doi.org/10.1145/3377811.3380927,ICSE2020
+"Abdulaziz Alshayban, Iftekhar Ahmed 0001, Sam Malek","Accessibility issues in Android apps - state of affairs, sentiments, and ways forward.",https://doi.org/10.1145/3377811.3380392,ICSE2020
+"Yude Bai, Zhenchang Xing, Xiaohong Li 0001, Zhiyong Feng 0002, Duoyuan Ma",Unsuccessful story about few shot malware family classification and siamese network to the rescue.,https://doi.org/10.1145/3377811.3380354,ICSE2020
+"Manuel Benz, Erik Krogh Kristensen, Linghui Luo, Nataniel P. Borges, Eric Bodden, Andreas Zeller",Heaps&apos;n leaks - how heap snapshots improve Android taint analysis.,https://doi.org/10.1145/3377811.3380438,ICSE2020
+"Carlos Bernal-Cárdenas, Nathan Cooper, Kevin Moran, Oscar Chaparro, Andrian Marcus, Denys Poshyvanyk",Translating video recordings of mobile app usages into replayable scenarios.,https://doi.org/10.1145/3377811.3380328,ICSE2020
+"Antonia Bertolino, Antonio Guerriero, Breno Miranda, Roberto Pietrantuono, Stefano Russo",Learning-to-rank vs ranking-to-learn - strategies for regression testing in continuous integration.,https://doi.org/10.1145/3377811.3380369,ICSE2020
+"Tegan Brennan, Seemanta Saha, Tevfik Bultan",JVM fuzzing for JIT-induced side-channel detection.,https://doi.org/10.1145/3377811.3380432,ICSE2020
+"Caius Brindescu, Iftekhar Ahmed 0001, Rafael Leano, Anita Sarma",Planning for untangling - predicting the difficulty of merge conflicts.,https://doi.org/10.1145/3377811.3380344,ICSE2020
+"Alexandra Bugariu, Peter Müller 0001",Automatically testing string solvers.,https://doi.org/10.1145/3377811.3380398,ICSE2020
+"Souti Chattopadhyay, Nicholas Nelson 0002, Audrey Au, Natalia Morales, Christopher Sanchez, Rahul Pandita, Anita Sarma",A tale from the trenches - cognitive biases and software development.,https://doi.org/10.1145/3377811.3380330,ICSE2020
+"Dongjie Chen, Yanyan Jiang 0001, Chang Xu 0001, Xiaoxing Ma, Jian Lu 0001",Testing file system implementations on layered models.,https://doi.org/10.1145/3377811.3380350,ICSE2020
+"Jieshan Chen, Chunyang Chen, Zhenchang Xing, Xiwei Xu, Liming Zhu, Guoqiang Li 0001, Jinshui Wang",Unblind your apps - predicting natural-language labels for mobile GUI components by deep learning.,https://doi.org/10.1145/3377811.3380327,ICSE2020
+"Sen Chen, Lingling Fan, Guozhu Meng, Ting Su, Minhui Xue, Yinxing Xue, Yang Liu 0003, Lihua Xu",An empirical assessment of security risks of global Android banking apps.,https://doi.org/10.1145/3377811.3380417,ICSE2020
+"Jinyin Chen, Keke Hu, Yue Yu 0001, Zhuangzhi Chen, Qi Xuan, Yi Liu 0024, Vladimir Filkov",Software visualization and deep transfer learning for effective software defect prediction.,https://doi.org/10.1145/3377811.3380389,ICSE2020
+"Lingchao Chen, Foyzul Hassan, Xiaoyin Wang, Lingming Zhang",Taming behavioral backward incompatibilities via cross-project testing and analysis.,https://doi.org/10.1145/3377811.3380436,ICSE2020
+"Boyuan Chen, Zhen Ming (Jack) Jiang",Studying the use of Java logging utilities in the wild.,https://doi.org/10.1145/3377811.3380408,ICSE2020
+"Shafiul Azam Chowdhury, Sohil Lal Shrestha, Taylor T. Johnson, Christoph Csallner",SLEMI - equivalence modulo input (EMI) based mutation of CPS models for finding compiler bugs in Simulink.,https://doi.org/10.1145/3377811.3380381,ICSE2020
+"Alex Cummaudo, Rajesh Vasa, Scott Barnett, John C. Grundy, Mohamed Abdelrazek 0001",Interpreting cloud computer vision pain-points - a mining study of stack overflow.,https://doi.org/10.1145/3377811.3380404,ICSE2020
+"Anastasia Danilova, Alena Naiakshina, Matthew Smith 0001",One size does not fit all - a grounded theory and online survey study of developer preferences for security warning types.,https://doi.org/10.1145/3377811.3380387,ICSE2020
+"Zishuo Ding, Jinfu Chen, Weiyi Shang",Towards the use of the readily available tests from the release pipeline as performance tests - are we there yet?,https://doi.org/10.1145/3377811.3380351,ICSE2020
+"Zhen Dong, Marcel Böhme, Lucia Cojocaru, Abhik Roychoudhury",Time-travel testing of Android apps.,https://doi.org/10.1145/3377811.3380402,ICSE2020
+"Thomas Durieux, João F. Ferreira, Rui Abreu, Pedro Cruz","Empirical review of automated analysis tools on 47, 587 Ethereum smart contracts.",https://doi.org/10.1145/3377811.3380364,ICSE2020
+"Carolyn D. Egelman, Emerson R. Murphy-Hill, Elizabeth Kammer, Margaret Morrow Hodges, Collin Green, Ciera Jaspan, James Lin",Predicting developers&apos; negative feelings about code review.,https://doi.org/10.1145/3377811.3380414,ICSE2020
+"Ana Nora Evans, Bradford Campbell, Mary Lou Soffa",Is rust used safely by software developers?,https://doi.org/10.1145/3377811.3380413,ICSE2020
+"Xiang Gao, Ripon K. Saha, Mukul R. Prasad, Abhik Roychoudhury",Fuzz testing based data augmentation to improve robustness of deep neural networks.,https://doi.org/10.1145/3377811.3380415,ICSE2020
+"Joshua Garcia, Yang Feng, Junjie Shen 0001, Sumaya Almanee, Yuan Xia, Qi Alfred Chen",A comprehensive study of autonomous vehicle bugs.,https://doi.org/10.1145/3377811.3380397,ICSE2020
+"Simos Gerasimou, Hasan Ferit Eniser, Alper Sen 0001, Alper Cakan",Importance-driven deep learning system testing.,https://doi.org/10.1145/3377811.3380391,ICSE2020
+"Daniela Girardi, Nicole Novielli, Davide Fucci, Filippo Lanubile",Recognizing developers&apos; emotions while programming.,https://doi.org/10.1145/3377811.3380374,ICSE2020
+"Shengjian Guo, Yueqi Chen, Peng Li, Yueqiang Cheng, Huibo Wang, Meng Wu, Zhiqiang Zuo 0002",SpecuSym - speculative symbolic execution for cache timing leak detection.,https://doi.org/10.1145/3377811.3380428,ICSE2020
+"Pinjia He, Clara Meister, Zhendong Su",Structure-invariant testing for machine translation.,https://doi.org/10.1145/3377811.3380339,ICSE2020
+"Jordan Henkel, Christian Bird, Shuvendu K. Lahiri, Thomas W. Reps","Learning from, understanding, and supporting DevOps artifacts for docker.",https://doi.org/10.1145/3377811.3380406,ICSE2020
+"Claudia Hilderbrand, Christopher Perdriau, Lara Letaw, Jillian Emard, Zoe Steine-Hanson, Margaret Burnett, Anita Sarma",Engineering gender-inclusivity into software - ten teams&apos; tales from the trenches.,https://doi.org/10.1145/3377811.3380371,ICSE2020
+"Thong Hoang, Hong Jin Kang, David Lo 0001, Julia Lawall",CC2Vec - distributed representations of code changes.,https://doi.org/10.1145/3377811.3380361,ICSE2020
+"Seongjoon Hong, Junhee Lee, Jeongsoo Lee, Hakjoo Oh","SAVER - scalable, precise, and safe memory-error repair.",https://doi.org/10.1145/3377811.3380323,ICSE2020
+"Katherine Hough, Gebrehiwet B. Welearegai, Christian Hammer 0001, Jonathan Bell 0001",Revealing injection vulnerabilities by leveraging existing tests.,https://doi.org/10.1145/3377811.3380326,ICSE2020
+"Jingmei Hu, Jiwon Joung, Maia Jacobs, Krzysztof Z. Gajos, Margo I. Seltzer",Improving data scientist efficiency with provenance.,https://doi.org/10.1145/3377811.3380366,ICSE2020
+"Nargiz Humbatova, Gunel Jahangirova, Gabriele Bavota, Vincenzo Riccio, Andrea Stocco 0001, Paolo Tonella",Taxonomy of real faults in deep learning systems.,https://doi.org/10.1145/3377811.3380395,ICSE2020
+"Sungjae Hwang, Sukyoung Ryu",Gap between theory and practice - an empirical study of security patches in solidity.,https://doi.org/10.1145/3377811.3380424,ICSE2020
+"Claire Ingram, Anders Drachen",How software practitioners use informal local meetups to share software engineering knowledge.,https://doi.org/10.1145/3377811.3380333,ICSE2020
+"Md Johirul Islam, Rangeet Pan, Giang Nguyen, Hridesh Rajan",Repairing deep neural networks - fix patterns and challenges.,https://doi.org/10.1145/3377811.3380378,ICSE2020
+"Xianhao Jin, Francisco Servant",A cost-efficient approach to building in continuous integration.,https://doi.org/10.1145/3377811.3380437,ICSE2020
+"Brittany Johnson, Yuriy Brun, Alexandra Meliou",Causal testing - understanding defects&apos; root causes.,https://doi.org/10.1145/3377811.3380377,ICSE2020
+"Rafael-Michael Karampatsis, Hlib Babii, Romain Robbes, Charles Sutton, Andrea Janes",Big code != big vocabulary - open-vocabulary models for source code.,https://doi.org/10.1145/3377811.3380342,ICSE2020
+"Martin Kellogg, Manli Ran, Manu Sridharan, Martin Schäf, Michael D. Ernst",Verifying object construction.,https://doi.org/10.1145/3377811.3380341,ICSE2020
+"Djamel Eddine Khelladi, Benoît Combemale, Mathieu Acher, Olivier Barais, Jean-Marc Jézéquel",Co-evolving code with evolving metamodels.,https://doi.org/10.1145/3377811.3380324,ICSE2020
+"I Luk Kim, Yunhui Zheng, Hogun Park, Weihang Wang, Wei You, Yousra Aafer, Xiangyu Zhang 0001",Finding client-side business flow tampering vulnerabilities.,https://doi.org/10.1145/3377811.3380355,ICSE2020
+"Lukas Kirschner, Ezekiel O. Soremekun, Andreas Zeller",Debugging inputs.,https://doi.org/10.1145/3377811.3380329,ICSE2020
+"Ryan Krueger, Yu Huang 0015, Xinyu Liu, Tyler Santander, Westley Weimer, Kevin Leach",Neurological divide - an fMRI study of prose and code writing.,https://doi.org/10.1145/3377811.3380348,ICSE2020
+"Wing Lam, Kivanç Muslu, Hitesh Sajnani, Suresh Thummalapenta",A study on the lifecycle of flaky tests.,https://doi.org/10.1145/3377811.3381749,ICSE2020
+"Maxime Lamothe, Weiyi Shang",When APIs are intentionally bypassed - an exploratory study of API workarounds.,https://doi.org/10.1145/3377811.3380433,ICSE2020
+"Jason Lau, Aishwarya Sivaraman, Qian Zhang, Muhammad Ali Gulzar, Jason Cong, Miryung Kim",HeteroRefactor - refactoring for heterogeneous computing with FPGA.,https://doi.org/10.1145/3377811.3380340,ICSE2020
+"Yi Li, Shaohua Wang 0002, Tien N. Nguyen",DLFix - context-based code transformation learning for automated program repair.,https://doi.org/10.1145/3377811.3380345,ICSE2020
+"Ke Li 0001, Zilin Xiang, Tao Chen 0001, Shuo Wang, Kay Chen Tan",Understanding the automated parameter optimization on transfer learning for cross-project defect prediction - an empirical study.,https://doi.org/10.1145/3377811.3380360,ICSE2020
+"Michael Lienhardt, Ferruccio Damiani, Einar Broch Johnsen, Jacopo Mauro",Lazy product discovery in huge configuration spaces.,https://doi.org/10.1145/3377811.3380372,ICSE2020
+"Dirk van der Linden, Pauline Anthonysamy, Bashar Nuseibeh, Thein Than Tun, Marian Petre, Mark Levine, John N. Towse, Awais Rashid",Schrödinger&apos;s security - opening the box on app developers&apos; security rationale.,https://doi.org/10.1145/3377811.3380394,ICSE2020
+"Bingchang Liu, Guozhu Meng, Wei Zou, Qi Gong, Feng Li, Min Lin, Dandan Sun, Wei Huo, Chao Zhang 0008",A large-scale empirical study on vulnerability distribution within projects and the lessons learned.,https://doi.org/10.1145/3377811.3380923,ICSE2020
+"Peiming Liu, Gang Zhao, Jeff Huang 0001",Securing unsafe rust programs with XRust.,https://doi.org/10.1145/3377811.3380325,ICSE2020
+"Wanwangying Ma, Lin Chen, Xiangyu Zhang, Yang Feng, Zhaogui Xu, Zhifei Chen, Yuming Zhou, Baowen Xu",Impact analysis of cross-project bugs on software ecosystems.,https://doi.org/10.1145/3377811.3380442,ICSE2020
+"Valentin J. M. Manès, Soomin Kim 0002, Sang Kil Cha",Ankou - guiding grey-box fuzzing towards combinatorial difference.,https://doi.org/10.1145/3377811.3380421,ICSE2020
+"George Mathew, Chris Parnin, Kathryn T. Stolee",SLACC - simion-based language agnostic code clones.,https://doi.org/10.1145/3377811.3380407,ICSE2020
+"Claudio Menghi, Shiva Nejati, Lionel C. Briand, Yago Isasi Parache",Approximation-refinement testing of compute-intensive cyber-physical models - an approach based on system identification.,https://doi.org/10.1145/3377811.3380370,ICSE2020
+"Ehsan Mirsaeedi, Peter C. Rigby","Mitigating turnover with code review recommendation - balancing expertise, workload, and knowledge distribution.",https://doi.org/10.1145/3377811.3380335,ICSE2020
+"Kevin Moran, David N. Palacio, Carlos Bernal-Cárdenas, Daniel McCrystal, Denys Poshyvanyk, Chris Shenefiel, Jeff Johnson",Improving the effectiveness of traceability link recovery using hierarchical bayesian networks.,https://doi.org/10.1145/3377811.3380418,ICSE2020
+"Tai D. Nguyen, Long H. Pham, Jun Sun 0001, Yun Lin 0001, Quang Tran Minh 0001",sFuzz - an efficient adaptive fuzzer for solidity smart contracts.,https://doi.org/10.1145/3377811.3380334,ICSE2020
+"Son Nguyen, Hung Phan, Trinh Le, Tien N. Nguyen",Suggesting natural method names to check name consistencies.,https://doi.org/10.1145/3377811.3380926,ICSE2020
+"Yannic Noller, Corina S. Pasareanu, Marcel Böhme, Youcheng Sun, Hoang Lam Nguyen, Lars Grunske",HyDiff - hybrid differential software analysis.,https://doi.org/10.1145/3377811.3380363,ICSE2020
+"Cassandra Overney, Jens Meinicke, Christian Kästner, Bogdan Vasilescu",How to not get rich - an empirical study of donations in open source.,https://doi.org/10.1145/3377811.3380410,ICSE2020
+"Profir-Petru Pârtachi, Santanu Kumar Dash, Christoph Treude, Earl T. Barr",POSIT - simultaneously tagging natural and programming languages.,https://doi.org/10.1145/3377811.3380440,ICSE2020
+"Brandon Paulsen, Jingbo Wang, Chao Wang 0001",ReluDiff - differential verification of deep neural networks.,https://doi.org/10.1145/3377811.3380337,ICSE2020
+"Harsha Perera, Waqar Hussain, Jon Whittle, Arif Nurwidyantoro, Davoud Mougouei, Rifat Ara Shams, Gillian Oliver","A study on the prevalence of human values in software engineering publications, 2015 - 2018.",https://doi.org/10.1145/3377811.3380393,ICSE2020
+"Ju Qian, Zhengyu Shang, Shuoyan Yan, Yan Wang, Lin Chen",RoScript - a visual script driven truly non-intrusive robotic testing system for touch screen applications.,https://doi.org/10.1145/3377811.3380431,ICSE2020
+"Akond Rahman, Effat Farhana, Chris Parnin, Laurie A. Williams",Gang of eight - a defect taxonomy for infrastructure as code scripts.,https://doi.org/10.1145/3377811.3380409,ICSE2020
+"Ramanathan Ramu, Ganesha B. Upadhyaya, Hoan Anh Nguyen, Hridesh Rajan",BCFA - bespoke control flow analysis for CFA at scale.,https://doi.org/10.1145/3377811.3380435,ICSE2020
+"Sameer Reddy, Caroline Lemieux, Rohan Padhye, Koushik Sen",Quickly generating diverse valid test inputs with reinforcement learning.,https://doi.org/10.1145/3377811.3380399,ICSE2020
+"Xiaoxue Ren, Jiamou Sun, Zhenchang Xing, Xin Xia 0001, Jianling Sun","Demystify official API usage directives with crowdsourced API misuse scenarios, erroneous code examples and patches.",https://doi.org/10.1145/3377811.3380430,ICSE2020
+"Qingkai Shi, Rongxin Wu, Gang Fan, Charles Zhang",Conquering the extensional scalability problem for value-flow analysis frameworks.,https://doi.org/10.1145/3377811.3380346,ICSE2020
+"Lin Shi, Mingzhe Xing, Mingyang Li, Yawen Wang, Shoubin Li, Qing Wang 0001",Detection of hidden feature requests from massive chat messages via deep siamese network.,https://doi.org/10.1145/3377811.3380356,ICSE2020
+"Qingkai Shi, Charles Zhang",Pipelining bottom-up data flow analysis.,https://doi.org/10.1145/3377811.3380425,ICSE2020
+"Nischal Shrestha, Colton Botta, Titus Barik, Chris Parnin",Here we go again - why is it difficult for developers to learn another programming language?,https://doi.org/10.1145/3377811.3380352,ICSE2020
+"Thodoris Sotiropoulos, Dimitris Mitropoulos, Diomidis Spinellis",Practical fault detection in puppet programs.,https://doi.org/10.1145/3377811.3380384,ICSE2020
+"Davide Spadini, Gül Çalikli, Alberto Bacchelli",Primers or reminders? - the effects of existing review comments on code review.,https://doi.org/10.1145/3377811.3380385,ICSE2020
+"Cristian-Alexandru Staicu, Martin Toldam Torp, Max Schäfer, Anders Møller, Michael Pradel",Extracting taint specifications for JavaScript libraries.,https://doi.org/10.1145/3377811.3380390,ICSE2020
+"Clay Stevens, Hamid Bagheri",Reducing run-time adaptation space via analysis of possible utility bounds.,https://doi.org/10.1145/3377811.3380365,ICSE2020
+"Li Sui, Jens Dietrich 0001, Amjed Tahir, George Fourtounis",On the recall of static call graph construction in practice.,https://doi.org/10.1145/3377811.3380441,ICSE2020
+"Zeyu Sun, Jie M. Zhang, Mark Harman, Mike Papadakis, Lu Zhang",Automatic testing and improvement of machine translation.,https://doi.org/10.1145/3377811.3380420,ICSE2020
+"Sadia Tabassum, Leandro L. Minku, Danyi Feng, George G. Cabral, Liyan Song",An investigation of cross-project learning in online just-in-time software defect prediction.,https://doi.org/10.1145/3377811.3380403,ICSE2020
+"Shin Hwei Tan, Ziqiang Li",Collaborative bug finding for Android apps.,https://doi.org/10.1145/3377811.3380349,ICSE2020
+"Xin Tan, Minghui Zhou, Brian Fitzgerald 0001",Scaling open source communities - an empirical study of the Linux kernel.,https://doi.org/10.1145/3377811.3380920,ICSE2020
+"Guanhong Tao, Shiqing Ma, Yingqi Liu, Qiuling Xu, Xiangyu Zhang 0001",TRADER - trace divergence analysis and embedding regulation for debugging recurrent neural networks.,https://doi.org/10.1145/3377811.3380423,ICSE2020
+"Yuchi Tian, Ziyuan Zhong, Vicente Ordonez, Gail E. Kaiser, Baishakhi Ray",Testing DNN image classifiers for confusion &amp; bias errors.,https://doi.org/10.1145/3377811.3380400,ICSE2020
+"Rijnard van Tonder, Claire Le Goues",Tailoring programs for static analysis via program transformation.,https://doi.org/10.1145/3377811.3380343,ICSE2020
+"Huiyan Wang, Jingwei Xu 0001, Chang Xu 0001, Xiaoxing Ma, Jian Lu 0001",Dissector - input validation for deep learning applications by crossing-layer dissection.,https://doi.org/10.1145/3377811.3380379,ICSE2020
+"Jue Wang, Yanyan Jiang 0001, Chang Xu 0001, Chun Cao, Xiaoxing Ma, Jian Lu 0001",ComboDroid - generating high-quality test inputs for Android apps via use case combinations.,https://doi.org/10.1145/3377811.3380382,ICSE2020
+"Ying Wang 0038, Ming Wen 0001, Yepang Liu 0001, Yibo Wang, Zhenming Li, Chao Wang, Hai Yu, Shing-Chi Cheung, Chang Xu 0001, Zhiliang Zhu 0001",Watchman - monitoring dependency conflicts for Python library ecosystem.,https://doi.org/10.1145/3377811.3380426,ICSE2020
+"Haijun Wang, Xiaofei Xie, Yi Li, Cheng Wen, Yuekang Li, Yang Liu 0003, Shengchao Qin, Hongxu Chen, Yulei Sui",Typestate-guided fuzzer for discovering use-after-free vulnerabilities.,https://doi.org/10.1145/3377811.3380386,ICSE2020
+"Junjie Wang 0001, Ye Yang, Song Wang 0009, Yuanzhe Hu, Dandan Wang, Qing Wang 0001",Context-aware in-process crowdworker recommendation.,https://doi.org/10.1145/3377811.3380380,ICSE2020
+"Cody Watson, Michele Tufano, Kevin Moran, Gabriele Bavota, Denys Poshyvanyk",On learning meaningful assert statements for unit test cases.,https://doi.org/10.1145/3377811.3380429,ICSE2020
+"Cheng Wen, Haijun Wang, Yuekang Li, Shengchao Qin, Yang Liu 0003, Zhiwu Xu 0001, Hongxu Chen, Xiaofei Xie, Geguang Pu, Ting Liu",MemLock - memory usage guided fuzzing.,https://doi.org/10.1145/3377811.3380396,ICSE2020
+"Robert White, Jens Krinke, Raymond Tan",Establishing multilevel test-to-code traceability links.,https://doi.org/10.1145/3377811.3380921,ICSE2020
+"Mingyuan Wu, Yicheng Ouyang, Husheng Zhou, Lingming Zhang, Cong Liu 0005, Yuqun Zhang",Simulee - detecting CUDA synchronization bugs via memory-access modeling.,https://doi.org/10.1145/3377811.3380358,ICSE2020
+"Valentin Wüstholz, Maria Christakis",Targeted greybox fuzzing with static lookahead analysis.,https://doi.org/10.1145/3377811.3380388,ICSE2020
+"Hao Xia, Yuan Zhang 0009, Yingtian Zhou, Xiaoting Chen, Yang Wang, Xiangyu Zhang, Shuaishuai Cui, Geng Hong, Xiaohan Zhang 0001, Min Yang 0002, Zhemin Yang",How Android developers handle evolution-induced API compatibility issues - a large-scale study.,https://doi.org/10.1145/3377811.3380357,ICSE2020
+"Jiwei Yan, Hao Liu, Linjie Pan 0001, Jun Yan 0009, Jian Zhang 0001, Bin Liang",Multiple-entry testing of Android applications by constructing activity launching contexts.,https://doi.org/10.1145/3377811.3380347,ICSE2020
+"Rahulkrishna Yandrapally, Andrea Stocco 0001, Ali Mesbah 0001",Near-duplicate detection in web app model inference.,https://doi.org/10.1145/3377811.3380416,ICSE2020
+"Junwen Yang, Utsav Sethi, Cong Yan, Alvin Cheung, Shan Lu 0001",Managing data constraints in database-backed web applications.,https://doi.org/10.1145/3377811.3380375,ICSE2020
+"Hengbiao Yu, Zhenbang Chen, Xianjin Fu, Ji Wang 0001, Zhendong Su, Jun Sun 0001, Chun Huang, Wei Dong",Symbolic verification of message passing interface programs.,https://doi.org/10.1145/3377811.3380419,ICSE2020
+"Juan Zhai, Xiangzhe Xu, Yu Shi, Guanhong Tao, Minxue Pan, Shiqing Ma, Lei Xu, Weifeng Zhang, Lin Tan 0001, Xiangyu Zhang 0001",CPC - automatically classifying and propagating natural language comments via program analysis.,https://doi.org/10.1145/3377811.3380427,ICSE2020
+"Jian Zhang, Xu Wang, Hongyu Zhang 0002, Hailong Sun 0001, Xudong Liu 0001",Retrieval-based neural source code summarization.,https://doi.org/10.1145/3377811.3380383,ICSE2020
+"Peixin Zhang, Jingyi Wang 0004, Jun Sun 0001, Guoliang Dong, Xinyu Wang 0001, Xingen Wang, Jin Song Dong, Ting Dai",White-box fairness testing through adversarial sampling.,https://doi.org/10.1145/3377811.3380331,ICSE2020
+"Xueling Zhang, Xiaoyin Wang, Rocky Slavin, Travis D. Breaux, Jianwei Niu 0001",How does misconfiguration of analytic services compromise mobile privacy?,https://doi.org/10.1145/3377811.3380401,ICSE2020
+"Xiyue Zhang, Xiaofei Xie, Lei Ma 0003, Xiaoning Du, Qiang Hu, Yang Liu 0003, Jianjun Zhao, Meng Sun 0002",Towards characterizing adversarial defects of deep learning software from the lens of uncertainty.,https://doi.org/10.1145/3377811.3380368,ICSE2020
+"Ru Zhang, Wencong Xiao, Hongyu Zhang 0002, Yu Liu, Haoxiang Lin, Mao Yang",An empirical study on program failures of deep learning jobs.,https://doi.org/10.1145/3377811.3380362,ICSE2020
+"Yuxia Zhang, Minghui Zhou, Klaas-Jan Stol, Jianyu Wu, Zhi Jin",How do companies collaborate in open source ecosystems? - an empirical study of OpenStack.,https://doi.org/10.1145/3377811.3380376,ICSE2020
+"Dehai Zhao, Zhenchang Xing, Chunyang Chen, Xiwei Xu, Liming Zhu, Guoqiang Li 0001, Jinshui Wang",Seenomaly - vision-based linting of GUI animation effects against design-don&apos;t guidelines.,https://doi.org/10.1145/3377811.3380411,ICSE2020
+"Hao Zhong, Na Meng, Zexuan Li, Li Jia",An empirical study on API parameter rules.,https://doi.org/10.1145/3377811.3380922,ICSE2020
+"Weijie Zhou, Yue Zhao 0011, Guoqiang Zhang, Xipeng Shen",HARP - holistic analysis for refactoring Python-based analytics programs.,https://doi.org/10.1145/3377811.3380434,ICSE2020
+"Husheng Zhou, Wei Li, Zelun Kong, Junfeng Guo, Yuqun Zhang, Bei Yu 0001, Lingming Zhang, Cong Liu 0005",DeepBillboard - systematic physical-world testing of autonomous driving systems.,https://doi.org/10.1145/3377811.3380422,ICSE2020
+"Shurui Zhou, Bogdan Vasilescu, Christian Kästner",How has forking changed in the last 20 years? - a study of hard forks on GitHub.,https://doi.org/10.1145/3377811.3380412,ICSE2020
+"Franz Zieris, Lutz Prechelt",Explaining pair programming session dynamics from knowledge gaps.,https://doi.org/10.1145/3377811.3380925,ICSE2020
+"Changwei Zou, Jingling Xue",Burn after reading - a shadow stack with microsecond-level runtime rerandomization for protecting return addresses.,https://doi.org/10.1145/3377811.3380439,ICSE2020
+"Yueling Zhang, Geguang Pu, Jun Sun 0001",Accelerating All-SAT Computation with Short Blocking Clauses.,https://doi.org/10.1145/3324884.3416569,ASE2020
+"Chaima Boufaied, Claudio Menghi, Domenico Bianculli, Lionel C. Briand, Yago Isasi Parache",Trace-Checking Signal-based Temporal Properties - A Model-Driven Approach.,https://doi.org/10.1145/3324884.3416631,ASE2020
+"Cedric Richter, Heike Wehrheim",Attend and Represent - A Novel View on Algorithm Selection for Software Verification.,https://doi.org/10.1145/3324884.3416633,ASE2020
+"Yinxing Xue, Mingliang Ma, Yun Lin 0001, Yulei Sui, Jiaming Ye, Tianyong Peng",Cross-Contract Static Analysis for Detecting Practical Reentrancy Vulnerabilities in Smart Contracts.,https://doi.org/10.1145/3324884.3416553,ASE2020
+"Nic Volanschi, Julia Lawall",The Impact of Generic Data Structures - Decoding the Role of Lists in the Linux Kernel.,https://doi.org/10.1145/3324884.3416635,ASE2020
+"David Berend, Xiaofei Xie, Lei Ma 0003, Lingjun Zhou, Yang Liu 0003, Chi Xu, Jianjun Zhao",Cats Are Not Fish - Deep Learning Testing Calls for Out-Of-Distribution Awareness.,https://doi.org/10.1145/3324884.3416609,ASE2020
+"Shuai Wang, Zhendong Su",Metamorphic Object Insertion for Testing Object Detection Systems.,https://doi.org/10.1145/3324884.3416584,ASE2020
+"Farnaz Behrang, Alessandro Orso",Seven Reasons Why - An In-Depth Study of the Limitations of Random Test Input Generation for Android.,https://doi.org/10.1145/3324884.3416567,ASE2020
+"Jun-Wei Lin, Navid Salehnamadi, Sam Malek",Test Automation in Open-Source Android Apps - A Large-Scale Empirical Study.,https://doi.org/10.1145/3324884.3416623,ASE2020
+"Benjamin Gafford, Tobias Dürschmid, Gabriel A. Moreno, Eunsuk Kang",Synthesis-Based Resolution of Feature Interactions in Cyber-Physical Systems.,https://doi.org/10.1145/3324884.3416630,ASE2020
+"Hoang Lam Nguyen, Nebras Nassar, Timo Kehrer, Lars Grunske",MoFuzz - A Fuzzer Suite for Testing Model-Driven Software Engineering Tools.,https://doi.org/10.1145/3324884.3416668,ASE2020
+"Hongyu Liu, Ruiqin Tian, Tongping Liu, Bin Ren",Prober - Practically Defending Overflows with Page Protection.,https://doi.org/10.1145/3324884.3416533,ASE2020
+"Alan Romano, Yunhui Zheng, Weihang Wang",MinerRay - Semantics-Aware Analysis for Ever-Evolving Cryptojacking Detection.,https://doi.org/10.1145/3324884.3416580,ASE2020
+"Yu Feng, Emina Torlak, Rastislav Bodík",Summary-Based Symbolic Evaluation for Smart Contracts.,https://doi.org/10.1145/3324884.3416646,ASE2020
+"Timotej Kapus, Frank Busse, Cristian Cadar",Pending Constraints in Symbolic Execution for Better Exploration and Seeding.,https://doi.org/10.1145/3324884.3416589,ASE2020
+"Sungho Lee, Hyogun Lee, Sukyoung Ryu",Broadening Horizons of Multilingual Static Analysis - Semantic Summary Extraction from C Code for JNI Program Analysis.,https://doi.org/10.1145/3324884.3416558,ASE2020
+"Jiawei Wang, Tzu-yang Kuo, Li Li 0029, Andreas Zeller",Assessing and Restoring Reproducibility of Jupyter Notebooks.,https://doi.org/10.1145/3324884.3416585,ASE2020
+"Andreas Stahlbauer, Christoph Frädrich, Gordon Fraser 0001",Verified from Scratch - Program Analysis for Learners&apos; Programs.,https://doi.org/10.1145/3324884.3416554,ASE2020
+"Xingyu Zhao, Radu Calinescu, Simos Gerasimou, Valentin Robu, David Flynn",Interval Change-Point Detection for Runtime Probabilistic Model Checking.,https://doi.org/10.1145/3324884.3416565,ASE2020
+"Daniel Ramos, Jorge Pereira, Inês Lynce, Vasco M. Manquinho, Ruben Martins",UNCHARTIT - An Interactive Framework for Program Recovery from Charts.,https://doi.org/10.1145/3324884.3416613,ASE2020
+"Yu Huang, Benjamin Ogles, Eric Mercer",A Predictive Analysis for Detecting Deadlock in MPI Programs.,https://doi.org/10.1145/3324884.3416588,ASE2020
+"Hao Zhou, Haoyu Wang 0001, Yajin Zhou, Xiapu Luo, Yutian Tang, Lei Xue 0001, Ting Wang",Demystifying Diehard Android Apps.,https://doi.org/10.1145/3324884.3416637,ASE2020
+"Hao Zhou, Ting Chen 0002, Haoyu Wang 0001, Le Yu, Xiapu Luo, Ting Wang 0006, Wei Zhang",UI Obfuscation and Its Effects on Automated UI Analysis for Android Apps.,https://doi.org/10.1145/3324884.3416642,ASE2020
+"Pouria Derakhshanfar, Xavier Devroey, Andy Zaidman, Arie van Deursen, Annibale Panichella",Good Things Come In Threes - Improving Search-based Crash Reproduction With Helper Objectives.,https://doi.org/10.1145/3324884.3416643,ASE2020
+"Qi Xin, Myeongsoo Kim, Qirun Zhang, Alessandro Orso",Subdomain-Based Generality-Aware Debloating.,https://doi.org/10.1145/3324884.3416644,ASE2020
+"Yiqun T. Chen, Rahul Gopinath, Anita Tadakamalla, Michael D. Ernst, Reid Holmes, Gordon Fraser 0001, Paul Ammann, René Just","Revisiting the Relationship Between Fault Detection, Test Adequacy Criteria, and Test Set Size.",https://doi.org/10.1145/3324884.3416667,ASE2020
+"Andreas Katis, Grigory Fedyukovich, Jeffrey Chen, David A. Greve, Sanjai Rayadurgam, Michael W. Whalen",Synthesis of Infinite-State Systems with Random Behavior.,https://doi.org/10.1145/3324884.3416586,ASE2020
+"Benjamin Mariano, Yanju Chen, Yu Feng, Shuvendu K. Lahiri, Isil Dillig",Demystifying Loops in Smart Contracts.,https://doi.org/10.1145/3324884.3416626,ASE2020
+"Yangruibo Ding, Baishakhi Ray, Premkumar T. Devanbu, Vincent J. Hellendoorn",Patching as Translation - the Data and the Metaphor.,https://doi.org/10.1145/3324884.3416587,ASE2020
+"Devjeet Roy, Ziyi Zhang, Maggie Ma, Venera Arnaoudova, Annibale Panichella, Sebastiano Panichella, Danielle Gonzalez, Mehdi Mirakhorli",DeepTC-Enhancer - Improving the Readability of Automatically Generated Tests.,https://doi.org/10.1145/3324884.3416622,ASE2020
+"Jian Zhang, Xu Wang, Hongyu Zhang 0002, Hailong Sun 0001, Yanjun Pu, Xudong Liu 0001",Learning to Handle Exceptions.,https://doi.org/10.1145/3324884.3416568,ASE2020
+"Mohammad Jafar Mashhadi, Hadi Hemmati",Hybrid Deep Neural Networks to Infer State Models of Black-Box Systems.,https://doi.org/10.1145/3324884.3416559,ASE2020
+"Jesse Bartels, Jon Stephens, Saumya Debray",Representing and Reasoning about Dynamic Code.,https://doi.org/10.1145/3324884.3416542,ASE2020
+"Navid Salehnamadi, Abdulaziz Alshayban, Iftekhar Ahmed 0001, Sam Malek",ER Catcher - A Static Analysis Framework for Accurate and Scalable Event-Race Detection in Android.,https://doi.org/10.1145/3324884.3416639,ASE2020
+"Mingyang Li, Lin Shi, Ye Yang, Qing Wang 0001",A Deep Multitask Learning Approach for Requirements Discovery and Annotation from Open Forum.,https://doi.org/10.1145/3324884.3416627,ASE2020
+"Bolin Wei, Yongmin Li, Ge Li 0001, Xin Xia 0001, Zhi Jin",Retrieve and Refine - Exemplar-based Neural Comment Generation.,https://doi.org/10.1145/3324884.3416578,ASE2020
+"Zhenhao Li, Tse-Hsun Chen, Weiyi Shang",Where Shall We Log? Studying and Suggesting Logging Locations in Code Blocks.,https://doi.org/10.1145/3324884.3416636,ASE2020
+"Junjie Chen 0003, Shu Zhang, Xiaoting He, Qingwei Lin, Hongyu Zhang 0002, Dan Hao, Yu Kang, Feng Gao, Zhangwei Xu, Yingnong Dang, Dongmei Zhang",How Incidental are the Incidents? Characterizing and Prioritizing Incidents for Large-Scale Online Service Systems.,https://doi.org/10.1145/3324884.3416624,ASE2020
+"Songqiang Chen, Xiaoyuan Xie, Bangguo Yin, Yuanxiang Ji, Lin Chen 0015, Baowen Xu",Stay Professional and Efficient - Automatically Generate Titles for Your Bug Reports.,https://doi.org/10.1145/3324884.3416538,ASE2020
+"Zhe Liu, Chunyang Chen, Junjie Wang 0001, Yuekai Huang, Jun Hu, Qing Wang 0001",Owl Eyes - Spotting UI Display Issues via Visual Understanding.,https://doi.org/10.1145/3324884.3416547,ASE2020
+"Weijun Shen, Yanhui Li, Lin Chen 0015, Yuanlei Han, Yuming Zhou, Baowen Xu",Multiple-Boundary Clustering and Prioritization to Promote Neural Network Retraining.,https://doi.org/10.1145/3324884.3416621,ASE2020
+"Bihuan Chen 0001, Linlin Chen, Chen Zhang, Xin Peng 0001",BUILDFAST - History-Aware Build Outcome Prediction for Fast Feedback and Reduced Cost in Continuous Integration.,https://doi.org/10.1145/3324884.3416616,ASE2020
+"Xiaoning Du, Yi Li 0008, Xiaofei Xie, Lei Ma 0003, Yang Liu 0003, Jianjun Zhao",Marble - Model-based Robustness Analysis of Stateful Deep Learning Systems.,https://doi.org/10.1145/3324884.3416564,ASE2020
+"Hengcheng Zhu, Lili Wei, Ming Wen 0001, Yepang Liu 0001, Shing-Chi Cheung, Qin Sheng, Cui Zhou",MockSniffer - Characterizing and Recommending Mocking Decisions for Unit Tests.,https://doi.org/10.1145/3324884.3416539,ASE2020
+"Anjana Perera, Aldeida Aleti, Marcel Böhme, Burak Turhan",Defect Prediction Guided Search-Based Software Testing.,https://doi.org/10.1145/3324884.3416612,ASE2020
+"Xiaoxue Ren, Xinyuan Ye, Zhenchang Xing, Xin Xia 0001, Xiwei Xu, Liming Zhu, Jianling Sun",API-Misuse Detection Driven by Fine-Grained API-Constraint Knowledge Graph.,https://doi.org/10.1145/3324884.3416551,ASE2020
+"Fang Liu, Ge Li 0001, Yunfei Zhao, Zhi Jin",Multi-task Learning based Pre-trained Language Model for Code Completion.,https://doi.org/10.1145/3324884.3416591,ASE2020
+"Qianyu Guo, Xiaofei Xie, Yi Li, Xiaoyu Zhang, Yang Liu, Xiaohong Li 0001, Chao Shen",Audee - Automated Testing for Deep Learning Frameworks.,https://doi.org/10.1145/3324884.3416571,ASE2020
+"Guoliang Dong, Jingyi Wang 0004, Jun Sun 0001, Yang Zhang, Xinyu Wang 0001, Ting Dai, Jin Song Dong, Xingen Wang",Towards Interpreting Recurrent Neural Networks through Probabilistic Abstraction.,https://doi.org/10.1145/3324884.3416592,ASE2020
+"Martin Kellogg, Martin Schäf, Serdar Tasiran, Michael D. Ernst",Continuous Compliance.,https://doi.org/10.1145/3324884.3416593,ASE2020
+"Lili Quan, Qianyu Guo, Hongxu Chen, Xiaofei Xie, Xiaohong Li 0001, Yang Liu 0003, Jing Hu 0007",SADT - Syntax-Aware Differential Testing of Certificate Validation in SSL/TLS Implementations.,https://doi.org/10.1145/3324884.3416552,ASE2020
+"Haicheng Chen, Wensheng Dou, Dong Wang, Feng Qin",CoFI - Consistency-Guided Fault Injection for Cloud Systems.,https://doi.org/10.1145/3324884.3416548,ASE2020
+"Dongge Liu, Gidon Ernst, Toby Murray, Benjamin I. P. Rubinstein",LEGION - Best-First Concolic Testing.,https://doi.org/10.1145/3324884.3416629,ASE2020
+"Michael C. Gerten, James I. Lathrop, Myra B. Cohen, Titus H. Klinge",ChemTest - An Automated Software Testing Framework for an Emerging Paradigm.,https://doi.org/10.1145/3324884.3416638,ASE2020
+"Julian Frattini, Maximilian Junker, Michael Unterkalmsteiner, Daniel Méndez 0001",Automatic Extraction of Cause-Effect-Relations from Requirements Artifacts.,https://doi.org/10.1145/3324884.3416549,ASE2020
+"Ke Li 0001, Zilin Xiang, Tao Chen 0001, Kay Chen Tan",BiLO-CPDP - Bi-Level Programming for Automated Model Discovery in Cross-Project Defect Prediction.,https://doi.org/10.1145/3324884.3416617,ASE2020
+"Zhongxin Liu, Xin Xia 0001, Meng Yan, Shanping Li",Automating Just-In-Time Comment Updating.,https://doi.org/10.1145/3324884.3416581,ASE2020
+"Patrick Stöckle, Bernd Grobauer, Alexander Pretschner",Automated Implementation of Windows-related Security-Configuration Guides.,https://doi.org/10.1145/3324884.3416540,ASE2020
+"Stefan Mühlbauer, Sven Apel, Norbert Siegmund",Identifying Software Performance Changes Across Variants and Versions.,https://doi.org/10.1145/3324884.3416573,ASE2020
+"Haochen He, Zhouyang Jia, Shanshan Li, Erci Xu, Tingting Yu, Yue Yu, Ji Wang, Xiangke Liao",CP-Detector - Using Configuration-related Performance Properties to Expose Performance Bugs.,https://doi.org/10.1145/3324884.3416531,ASE2020
+"Shahar Maoz, Ilia Shevrin",Just-In-Time Reactive Synthesis.,https://doi.org/10.1145/3324884.3416557,ASE2020
+"Jihyeok Park, Jihee Park, Seungmin An, Sukyoung Ryu",JISET - JavaScript IR-based Semantics Extraction Toolchain.,https://doi.org/10.1145/3324884.3416632,ASE2020
+"Yeting Li, Zhiwu Xu 0001, Jialun Cao, Haiming Chen, Tingjian Ge, Shing-Chi Cheung, Haoren Zhao",FlashRegex - Deducing Anti-ReDoS Regexes from Examples.,https://doi.org/10.1145/3324884.3416556,ASE2020
+"Diego Clerissi, Giovanni Denaro, Marco Mobilio, Leonardo Mariani",Plug the Database &amp; Play With Automatic Testing - Improving System Testing by Exploiting Persistent Data.,https://doi.org/10.1145/3324884.3416561,ASE2020
+"Chengyuan Wen, Yaxuan Zhang, Xiao He, Na Meng",Inferring and Applying Def-Use Like Configuration Couplings in Deployment Descriptors.,https://doi.org/10.1145/3324884.3416577,ASE2020
+"Johannes Dorn, Sven Apel, Norbert Siegmund",Mastering Uncertainty in Performance Estimations of Configurable Software Systems.,https://doi.org/10.1145/3324884.3416620,ASE2020
+"Likang Yin, Vladimir Filkov",Team Discussions and Dynamics During DevOps Tool Adoptions in OSS Projects.,https://doi.org/10.1145/3324884.3416640,ASE2020
+"Muhammad Usman 0024, Wenxi Wang, Sarfraz Khurshid",TestMC - Testing Model Counters using Differential and Metamorphic Testing.,https://doi.org/10.1145/3324884.3416563,ASE2020
+"Qian Zhang, Jiyuan Wang, Muhammad Ali Gulzar, Rohan Padhye, Miryung Kim",BigFuzz - Efficient Fuzz Testing for Data Analytics Using Framework Abstraction.,https://doi.org/10.1145/3324884.3416641,ASE2020
+"Nick Feng, Federico Mora, Vincent Hui, Marsha Chechik",Scaling Client-Specific Equivalence Checking via Impact Boundary Search.,https://doi.org/10.1145/3324884.3416634,ASE2020
+"David Gros, Hariharan Sezhiyan, Prem Devanbu, Zhou Yu","Code to Comment &quot;Translation&quot; - Data, Metrics, Baselining &amp; Evaluation.",https://doi.org/10.1145/3324884.3416546,ASE2020
+"Wuxia Jin, Yuanfang Cai, Rick Kazman, Gang Zhang, Qinghua Zheng, Ting Liu 0002",Exploring the Architectural Impact of Possible Dependencies in Python Software.,https://doi.org/10.1145/3324884.3416619,ASE2020
+"Hung Viet Pham, Shangshu Qian, Jiannan Wang, Thibaud Lutellier, Jonathan Rosenthal, Lin Tan 0001, Yaoliang Yu, Nachiappan Nagappan",Problems and Opportunities in Training Deep Learning Software Systems - An Analysis of Variance.,https://doi.org/10.1145/3324884.3416545,ASE2020
+"Junjie Chen 0003, Haoyang Ma, Lingming Zhang",Enhanced Compiler Bug Isolation via Memoized Search.,https://doi.org/10.1145/3324884.3416570,ASE2020
+"Brandon Paulsen, Jingbo Wang, Jiawei Wang, Chao Wang 0001",NEURODIFF - Scalable Differential Verification of Neural Networks using Fine-Grained Approximation.,https://doi.org/10.1145/3324884.3416560,ASE2020
+"Chris Satterfield, Thomas Fritz 0001, Gail C. Murphy",Identifying and Describing Information Seeking Tasks.,https://doi.org/10.1145/3324884.3416537,ASE2020
+"Zhiyuan Wan, Gail C. Murphy, Xin Xia 0001",Predicting Code Context Models for Software Development Tasks.,https://doi.org/10.1145/3324884.3416544,ASE2020
+"Yueming Wu, Deqing Zou, Shihan Dou, Siru Yang, Wei Yang 0013, Feng Cheng, Hong Liang, Hai Jin 0001",SCDetector - Software Functional Clone Detection Based on Semantic Tokens Analysis.,https://doi.org/10.1145/3324884.3416562,ASE2020
+"Yang Liu 0003, Mingwei Liu, Xin Peng 0001, Christoph Treude, Zhenchang Xing, Xiaoxin Zhang",Generating Concept based API Element Comparison Using a Knowledge Graph.,https://doi.org/10.1145/3324884.3416628,ASE2020
+"Yufeng Zhang 0001, Zhenbang Chen, Ziqi Shuai, Tianqi Zhang, Kenli Li 0001, Ji Wang 0001",Multiplex Symbolic Execution - Exploring Multiple Paths by Solving Once.,https://doi.org/10.1145/3324884.3416645,ASE2020
+"Chijin Zhou, Mingzhe Wang, Jie Liang, Zhe Liu, Yu Jiang 0001",Zeror - Speed Up Fuzzing with Coverage-sensitive Tracing and Scheduling.,https://doi.org/10.1145/3324884.3416572,ASE2020
+"Xin Wang, Jin Liu, Li Li, Xiao Chen, Xiao Liu, Hao Wu",Detecting and Explaining Self-Admitted Technical Debts with Attention-based Neural Networks.,https://doi.org/10.1145/3324884.3416583,ASE2020
+"Qihao Zhu, Zeyu Sun, Xiran Liang, Yingfei Xiong 0001, Lu Zhang 0023",OCoR - An Overlapping-Aware Code Retriever.,https://doi.org/10.1145/3324884.3416530,ASE2020
+"Yida Tao, Jiefang Jiang, Yepang Liu 0001, Zhiwu Xu 0001, Shengchao Qin",Understanding Performance Concerns in the API Documentation of Data Science Libraries.,https://doi.org/10.1145/3324884.3416543,ASE2020
+"Bruce Collie, Philip Ginsbach, Jackson Woodruff, Ajitha Rajan, Michael F. P. O&apos;Boyle",M3 - Semantic API Migrations.,https://doi.org/10.1145/3324884.3416618,ASE2020
+"Samuel Benton, Xia Li, Yiling Lou, Lingming Zhang",On the Effectiveness of Unified Debugging - An Extensive Study on 16 Program Repair Systems.,https://doi.org/10.1145/3324884.3416566,ASE2020
+"Xian Zhan, Lingling Fan, Tianming Liu, Sen Chen, Li Li, Haoyu Wang, Yifei Xu, Xiapu Luo, Yang Liu",Automated Third-Party Library Detection for Android Applications - Are We There Yet?,https://doi.org/10.1145/3324884.3416582,ASE2020
+"Yue Zou, Bihuan Ban, Yinxing Xue, Yun Xu",CCGraph - a PDG-based code clone detector with approximate graph matching.,https://doi.org/10.1145/3324884.3416541,ASE2020
+"Haichi Wang, Zan Wang, Jun Sun 0001, Shuang Liu, Ayesha Sadiq, Yuan-Fang Li",Towards Generating Thread-Safe Classes Automatically.,https://doi.org/10.1145/3324884.3416625,ASE2020
+"Aryaz Eghbali, Michael Pradel",No Strings Attached - An Empirical Study of String-related Software Bugs.,https://doi.org/10.1145/3324884.3416576,ASE2020
+"Shangwen Wang, Ming Wen 0001, Bo Lin, Hongjun Wu, Yihao Qin, Deqing Zou, Xiaoguang Mao, Hai Jin 0001",Automated Patch Correctness Assessment - How Far are We?,https://doi.org/10.1145/3324884.3416590,ASE2020
+"Haoye Tian, Kui Liu 0001, Abdoul Kader Kaboré, Anil Koyuncu, Li Li 0029, Jacques Klein, Tegawendé F. Bissyandé",Evaluating Representation Learning of Code Changes for Predicting Patch Correctness in Program Repair.,https://doi.org/10.1145/3324884.3416532,ASE2020
+"Christos Tsigkanos, Nianyu Li, Zhi Jin, Zhenjiang Hu, Carlo Ghezzi",Scalable Multiple-View Analysis of Reactive Systems via Bidirectional Model Transformations.,https://doi.org/10.1145/3324884.3416579,ASE2020
+"Peipei Wang, Chris Brown, Jamie A. Jennings, Kathryn T. Stolee",An Empirical Study on Regular Expression Bugs.,https://doi.org/10.1145/3379597.3387464,MSR2020
+"Paolo Calciati, Konstantin Kuznetsov, Alessandra Gorla, Andreas Zeller",Automatically Granted Permissions in Android apps - An Empirical Study on their Prevalence and on the Potential Threats for Privacy.,https://doi.org/10.1145/3379597.3387469,MSR2020
+"Matheus Paixão, Anderson G. Uchôa, Ana Carla Bibiano, Daniel Oliveira, Alessandro Garcia 0001, Jens Krinke, Emilio Arvonio",Behind the Intents - An In-depth Empirical Study on Software Refactoring in Modern Code Review.,https://doi.org/10.1145/3379597.3387475,MSR2020
+"Laerte Xavier, Fábio F. Ferreira, Rodrigo Brito, Marco Tulio Valente",Beyond the Code - Mining Self-Admitted Technical Debt in Issue Tracker Systems.,https://doi.org/10.1145/3379597.3387459,MSR2020
+"Che Shian Hung, Robert Dyer 0001",Boa Views - Easy Modularization and Sharing of MSR Analyses.,https://doi.org/10.1145/3379597.3387480,MSR2020
+"Nicole Novielli, Fabio Calefato, Davide Dongiovanni, Daniela Girardi, Filippo Lanubile",Can We Use SE-specific Sentiment Analysis Tools in a Cross-Platform Setting?,https://doi.org/10.1145/3379597.3387446,MSR2020
+"Jens Meinicke, Juan Hoyos, Bogdan Vasilescu, Christian Kästner",Capture the Feature Flag - Detecting Feature Flags in Open-Source.,https://doi.org/10.1145/3379597.3387463,MSR2020
+"Ahmad Abdellatif, Diego Costa 0001, Khaled Badran, Rabe Abdalkareem, Emad Shihab",Challenges in Chatbot Development - A Study of Stack Overflow Posts.,https://doi.org/10.1145/3379597.3387472,MSR2020
+"Leonardo da Silva Sousa, Diego Cedrim, Alessandro Garcia 0001, Willian Nalepa Oizumi, Ana Carla Bibiano, Daniel Oliveira, Miryung Kim, Anderson Oliveira","Characterizing and Identifying Composite Refactorings - Concepts, Heuristics and Patterns.",https://doi.org/10.1145/3379597.3387477,MSR2020
+"Antonio Borrelli, Vittoria Nardone, Giuseppe A. Di Lucca, Gerardo Canfora, Massimiliano Di Penta",Detecting Video Game-Specific Bad Smells in Unity Projects.,https://doi.org/10.1145/3379597.3387454,MSR2020
+"Tapajit Dey, Sara Mousavi, Eduardo Ponce, Tanner Fry, Bogdan Vasilescu, Anna Filippova, Audris Mockus",Detecting and Characterizing Bots that Commit Code.,https://doi.org/10.1145/3379597.3387478,MSR2020
+"Shayan A. Akbar, Avinash C. Kak",A Large-Scale Comparative Evaluation of IR-Based Tools for Bug Localization.,https://doi.org/10.1145/3379597.3387474,MSR2020
+"Fabiano Pecorelli, Fabio Palomba, Foutse Khomh, Andrea De Lucia",Developer-Driven Code Smell Prioritization.,https://doi.org/10.1145/3379597.3387457,MSR2020
+"Danielle Gonzalez, Michael Rath 0002, Mehdi Mirakhorli",Did You Remember To Test Your Tokens?,https://doi.org/10.1145/3379597.3387471,MSR2020
+"Rhys Compton, Eibe Frank, Panos Patros, Abigail Koay",Embedding Java Classes with code2vec - Improvements from Variable Obfuscation.,https://doi.org/10.1145/3379597.3387445,MSR2020
+"Thomas Durieux, Claire Le Goues, Michael Hilton, Rui Abreu",Empirical Study of Restarted and Flaky Builds on Travis CI.,https://doi.org/10.1145/3379597.3387460,MSR2020
+"Nicolas E. Gold, Jens Krinke",Ethical Mining - A Case Study on MSR Mining Challenges.,https://doi.org/10.1145/3379597.3387462,MSR2020
+"Antoine Pietri, Guillaume Rousseau, Stefano Zacchiroli",Forking Without Clicking - on How to Identify Software Repository Forks.,https://doi.org/10.1145/3379597.3387450,MSR2020
+"Ang Jia, Ming Fan, Xi Xu, Di Cui, Wenying Wei, Zijiang Yang, Kai Ye, Ting Liu 0002",From Innovations to Prospects - What Is Hidden Behind Cryptocurrencies?,https://doi.org/10.1145/3379597.3387439,MSR2020
+"Sakib Haque, Alexander LeClair, Lingfei Wu, Collin McMillan",Improved Automatic Summarization of Subroutines via Attention to File Context.,https://doi.org/10.1145/3379597.3387449,MSR2020
+"Davide Spadini, Martin Schvarcbacher, Ana-Maria Oprescu, Magiel Bruntink, Alberto Bacchelli",Investigating Severity Thresholds for Test Smells.,https://doi.org/10.1145/3379597.3387453,MSR2020
+"Yang Chen, Andrew E. Santosa, Ming Yi Ang, Abhishek Sharma 0002, Asankhaya Sharma, David Lo 0001",A Machine Learning Approach for Vulnerability Curation.,https://doi.org/10.1145/3379597.3387461,MSR2020
+"Hongbo Fang, Daniel Klug, Hemank Lamba, James D. Herbsleb, Bogdan Vasilescu",Need for Tweet - How Open Source Developers Talk About Their GitHub Work on Twitter.,https://doi.org/10.1145/3379597.3387466,MSR2020
+"Biruk Asmare Muse, Mohammad Masudur Rahman 0001, Csaba Nagy 0001, Anthony Cleve, Foutse Khomh, Giuliano Antoniol","On the Prevalence, Impact, and Evolution of SQL Code Smells in Data-Intensive Systems.",https://doi.org/10.1145/3379597.3387467,MSR2020
+"Omar El Zarif, Daniel Alencar da Costa, Safwat Hassan, Ying Zou 0001",On the Relationship between User Churn and Software Issues.,https://doi.org/10.1145/3379597.3387456,MSR2020
+"Triet Huynh Minh Le, David Hin, Roland Croft, Muhammad Ali Babar",PUMiner - Mining Security Posts from Developer Question and Answer Websites with PU Learning.,https://doi.org/10.1145/3379597.3387443,MSR2020
+"Nan Yang 0009, Pieter J. L. Cuijpers, Ramon R. H. Schiffelers, Johan Lukkien, Alexander Serebrenik",Painting Flowers - Reasons for Using Single-State State Machines in Model-Driven Engineering.,https://doi.org/10.1145/3379597.3387452,MSR2020
+"Konstantinos Barmpis, Patrick Neubauer, Jonathan Co, Dimitris S. Kolovos, Nicholas Matragkas, Richard F. Paige",Polyglot and Distributed Software Repository Mining with Crossflow.,https://doi.org/10.1145/3379597.3387481,MSR2020
+"Toni Mattis, Patrick Rein, Falco Dürsch, Robert Hirschfeld",RTPTorrent - An Open-source Dataset for Evaluating Regression Test Prioritization.,https://doi.org/10.1145/3379597.3387458,MSR2020
+"Shubhankar Suman Singh, Smruti R. Sarangi",SoftMon - A Tool to Compare Similar Open-source Software from a Performance Perspective.,https://doi.org/10.1145/3379597.3387444,MSR2020
+James Walden,The Impact of a Major Security Event on an Open Source Project - The Case of OpenSSL.,https://doi.org/10.1145/3379597.3387465,MSR2020
+"Hadhemi Jebnoun, Houssem Ben Braiek, Mohammad Masudur Rahman 0001, Foutse Khomh",The Scent of Deep Learning Code - An Empirical Study.,https://doi.org/10.1145/3379597.3387479,MSR2020
+"Irving Muller Rodrigues, Daniel Aloise, Eraldo Rezende Fernandes, Michel Dagenais",A Soft Alignment Model for Bug Deduplication.,https://doi.org/10.1145/3379597.3387470,MSR2020
+"Danielle Gonzalez, Thomas Zimmermann 0001, Nachiappan Nagappan",The State of the ML-universe - 10 Years of Artificial Intelligence &amp; Machine Learning Software Development on GitHub.,https://doi.org/10.1145/3379597.3387473,MSR2020
+"Yalin Liu, Jinfeng Lin, Jane Cleland-Huang",Traceability Support for Multi-Lingual Software Projects.,https://doi.org/10.1145/3379597.3387440,MSR2020
+"Timofey Bryksin, Victor Petukhov, Ilya Alexin, Stanislav Prikhodko, Alexey Shpilman, Vladimir Kovalenko, Nikita Povarov",Using Large-Scale Anomaly Detection on Code to Improve Kotlin Compiler.,https://doi.org/10.1145/3379597.3387447,MSR2020
+"Suhaib Mujahid, Rabe Abdalkareem, Emad Shihab, Shane McIntosh",Using Others&apos; Tests to Identify Breaking Updates.,https://doi.org/10.1145/3379597.3387476,MSR2020
+"Sergey Svitkov, Timofey Bryksin",Visualization of Methods Changeability Based on VCS Data.,https://doi.org/10.1145/3379597.3387451,MSR2020
+Rolf-Helge Pfeiffer,"What constitutes Software? - An Empirical, Descriptive Study of Artifacts.",https://doi.org/10.1145/3379597.3387442,MSR2020
+"Gustavo Pinto 0001, Breno Miranda, Supun Dissanayake, Marcelo d&apos;Amorim, Christoph Treude, Antonia Bertolino",What is the Vocabulary of Flaky Tests?,https://doi.org/10.1145/3379597.3387482,MSR2020
+"Yaroslav Golubev, Maria Eliseeva, Nikita Povarov, Timofey Bryksin",A Study of Potential Code Borrowing and License Violations in Java Projects on GitHub.,https://doi.org/10.1145/3379597.3387455,MSR2020
+"Abdulkarim Khormi, Mohammad Alahmadi, Sonia Haiduc",A Study on the Accuracy of OCR Engines for Source Code Transcription from Programming Screencasts.,https://doi.org/10.1145/3379597.3387468,MSR2020
+"Yiwen Wu, Yang Zhang 0026, Tao Wang 0006, Huaimin Wang",An Empirical Study of Build Failures in the Docker Context.,https://doi.org/10.1145/3379597.3387483,MSR2020
+"Jason Tsay, Alan Braz, Martin Hirzel, Avraham Shinnar, Todd Mummert",AIMMX - Artificial Intelligence Model Metadata Extractor.,https://doi.org/10.1145/3379597.3387448,MSR2020
+"Tomoki Nakamaru, Tomomasa Matsunaga, Tetsuro Yamazaki, Soramichi Akiyama, Shigeru Chiba",An Empirical Study of Method Chaining in Java.,https://doi.org/10.1145/3379597.3387441,MSR2020
+"M. Wessel, A. Serebrenik, I. Wiese, I. Steinmacher and M. Gerosa",Effects of Adopting Code Review Bots on Pull Requests to OSS Projects,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00011,ICSME2020
+"G. Rong, Y. Xu, S. Gu, H. Zhang and D. Shao",Can You Capture Information As You Intend To? A Case Study on Logging Practice in Industry,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00012,ICSME2020
+"Yao Lu, Xinjun Mao, Minghui Zhou, Yang Zhang, Tao Wang, Zude Li",Haste Makes Waste: An Empirical Study of Fast Answers in Stack Overflow,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00013,ICSME2020
+"Ying Wang, Bihuan Chen, Kaifeng Huang, Bowen Shi, Congying Xu, Xin Peng, Yijian Wu, Yang Liu","An Empirical Study of Usages, Updates and Risks of Third-Party Libraries in Java Projects",https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00014,ICSME2020
+J. Kruger and R. Hebig,What Developers (Care to) Recall: An Interview Survey on Smaller Systems,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00015,ICSME2020
+"Shudi Shao, Zhengyi Qiu, Xiao Yu, Wei Yang, Guoliang Jin, Tao Xie, Xintao Wu",Database-Access Performance Antipatterns in Database-Backed Web Applications,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00016,ICSME2020
+"Ting Zhang, Bowen Xu, Ferdian Thung, Stefanus Agus Haryono, David Lo, Lingxiao Jiang",Sentiment Analysis for Software Engineering: How Far Can Pre-trained Transformer Models Go?,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00017,ICSME2020
+"C. Zhu, Y. Li, J. Rubin and M. Chechik",GenSlice: Generalized Semantic History Slicing,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00018,ICSME2020
+D. Gaston and J. Clause,A Method for Finding Missing Unit Tests,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00019,ICSME2020
+"M. Openja, B. Adams and F. Khomh",Analysis of Modern Release Engineering Topics : A Large-Scale Study using StackOverflow ,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00020,ICSME2020
+"W. Li, H. Qin, S. Yan, B. Shen and Y. Chen",Learning Code-Query Interaction for Enhancing Code Searches,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00021,ICSME2020
+"A. Trautsch, S. Herbold and J. Grabowski",Static source code metrics and static analysis warnings for fine-grained just-in-time defect prediction,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00022,ICSME2020
+"P. Zhang, F. Xiao and X. Luo",A Framework and DataSet for Bugs in Ethereum Smart Contracts,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00023,ICSME2020
+"J. Yasmin, Y. Tian and J. Yang",A First Look at the Deprecation of RESTful APIs: An Empirical Study,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00024,ICSME2020
+"E. Biswas, M. Karabulut, L. Pollock and K. Vijay-Shanker",Achieving Reliable Sentiment Analysis in the Software Engineering Domain using BERT,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00025,ICSME2020
+"L. Silva, P. Borba, W. Mahmood, T. Berger and J. Moisakis",Detecting Semantic Conflicts via Automated Behavior Change Detection,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00026,ICSME2020
+J. Sillito and E. Kutomi,Failures and Fixes: A Study of Software System Incident Response,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00027,ICSME2020
+"X. Xu, C. Zou and J. Xue",Every Mutation Should Be Rewarded: Boosting Fault Localization with Mutated Predicates,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00028,ICSME2020
+"Mingyang Li, Ye Yang, Lin Shi, Qing Wang, Jun Hu, Xinhua Peng, Weimin Liao, Guizhen Pi",Automated Extraction of Requirement Entities by Leveraging LSTM-CRF and Transfer Learning,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00029,ICSME2020
+"M. Mondal, C. Roy and K. Schneider",A Fine-Grained Analysis on the Inconsistent Changes in Code Clones,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00030,ICSME2020
+D. Pizzolotto and K. Inoue,Identifying Compiler and Optimization Options from Binary Code using Deep Learning Approaches,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00031,ICSME2020
+"J. Zhu, C. Wan, P. Nie, Y. Chen and Z. Su","Guided, Deep Testing of X.509 Certificate Validation via Coverage Transfer Graphs",https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00032,ICSME2020
+"W. Fenske, J. Kruger, M. Kanyshkova and S. Schulze","#ifdef Directives and Program Comprehension: The Dilemma between Correctness and Preference,",https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00033,ICSME2020
+"S. Latif, Y. Hao, H. Zhang, R. Bassily and A. Rountev",Introducing Differential Privacy Mechanisms for Mobile App Analytics of Dynamic Content,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00034,ICSME2020
+"M. Schnappinger, A. Fietzke and A. Pretschner","Defining a Software Maintainability Dataset: Collecting, Aggregating and Analysing Expert Evaluations of Software Maintainability",https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00035,ICSME2020
+"Ferenc Horvath, Arpad Beszedes, Bela Vancsics, Gergo Balogh, Laszlo Vidacs, Tibor Gyimothy",Experiments with Interactive Fault Localization Using Simulated and Real Users,https://doi.ieeecomputersociety.org/10.1109/ICSME46990.2020.00036,ICSME2020
+"Changjian Zhang, David Garlan, Eunsuk Kang",A behavioral notion of robustness for software systems.,https://doi.org/10.1145/3368089.3409753,FSE2020
+"Claudio Mandrioli, Martina Maggio",Testing self-adaptive software with probabilistic guarantees on performance metrics.,https://doi.org/10.1145/3368089.3409685,FSE2020
+"Wenkai Xie, Xin Peng 0001, Mingwei Liu, Christoph Treude, Zhenchang Xing, Xiaoxin Zhang, Wenyun Zhao",API method recommendation via explicit matching of functionality verb phrases.,https://doi.org/10.1145/3368089.3409731,FSE2020
+"Tam Nguyen, Phong Vu, Tung Nguyen",Code recommendation for exception handling.,https://doi.org/10.1145/3368089.3409690,FSE2020
+"Arman Shahbazian, Suhrid Karthik, Yuriy Brun, Nenad Medvidovic",eQual - informing early design decisions.,https://doi.org/10.1145/3368089.3409749,FSE2020
+"Sonal Mahajan, Negarsadat Abolhassani, Mukul R. Prasad",Recommending stack overflow posts for fixing runtime exceptions using failure scenario matching.,https://doi.org/10.1145/3368089.3409764,FSE2020
+"Chris Brown, Chris Parnin",Understanding the impact of GitHub suggested changes on recommendations between developers.,https://doi.org/10.1145/3368089.3409722,FSE2020
+"Kripa Shanker, Arun Joseph, Vinod Ganapathy",An evaluation of methods to port legacy code to SGX enclaves.,https://doi.org/10.1145/3368089.3409726,FSE2020
+"Salah Ghamizi, Maxime Cordy, Martin Gubri, Mike Papadakis, Andrey Boystov, Yves Le Traon, Anne Goujon",Search-based adversarial testing and improvement of constrained credit scoring systems.,https://doi.org/10.1145/3368089.3409739,FSE2020
+"Pan Bian, Bin Liang 0002, Jianjun Huang 0001, Wenchang Shi, Xidong Wang, Jian Zhang",SinkFinder - harvesting hundreds of unknown interesting function pairs with just one seed.,https://doi.org/10.1145/3368089.3409678,FSE2020
+"Rongchen Xu, Fei He 0001, Bow-Yaw Wang",Interval counterexamples for loop invariant learning.,https://doi.org/10.1145/3368089.3409752,FSE2020
+"Eduard Baranov, Axel Legay, Kuldeep S. Meel",Baital - an adaptive weighted sampling approach for improved t-wise coverage.,https://doi.org/10.1145/3368089.3409744,FSE2020
+"Giovani Guizzo, Federica Sarro, Mark Harman",Cost measures matter for mutation testing study validity.,https://doi.org/10.1145/3368089.3409742,FSE2020
+"Manuel Rigger, Zhendong Su",Detecting optimization bugs in database engines via non-optimizing reference engine construction.,https://doi.org/10.1145/3368089.3409710,FSE2020
+"M. Ammar Ben Khadra, Dominik Stoffel, Wolfgang Kunz",Efficient binary-level coverage analysis.,https://doi.org/10.1145/3368089.3409694,FSE2020
+"Chu-Pan Wong, Jens Meinicke, Leo Chen, João P. Diniz, Christian Kästner, Eduardo Figueiredo 0001",Efficiently finding higher-order mutants.,https://doi.org/10.1145/3368089.3409713,FSE2020
+"Valerio Terragni, Gunel Jahangirova, Paolo Tonella, Mauro Pezzè",Evolutionary improvement of assertion oracles.,https://doi.org/10.1145/3368089.3409758,FSE2020
+"Yixue Zhao, Justin Chen, Adriana Sejfia, Marcelo Schmitt Laser, Jie Zhang, Federica Sarro, Mark Harman, Nenad Medvidovic",FrUITeR - a framework for evaluating UI test reuse.,https://doi.org/10.1145/3368089.3409708,FSE2020
+"Jieshan Chen, Mulong Xie, Zhenchang Xing, Chunyang Chen, Xiwei Xu, Liming Zhu, Guoqiang Li 0001",Object detection for graphical user interface - old fashioned or deep learning or a combination?,https://doi.org/10.1145/3368089.3409691,FSE2020
+"Rahmadi Trimananda, Seyed Amir Hossein Aqajari, Jason Chuang, Brian Demsky, Guoqing Harry Xu, Shan Lu 0001",Understanding and automatically detecting conflicting interactions between smart home IoT applications.,https://doi.org/10.1145/3368089.3409682,FSE2020
+"Alexander Kampmann, Nikolas Havrikov, Ezekiel O. Soremekun, Andreas Zeller",When does my program do this? learning circumstances of software behavior.,https://doi.org/10.1145/3368089.3409687,FSE2020
+"Vaibhav Sharma, Soha Hussein, Michael W. Whalen, Stephen McCamant, Willem Visser",Java Ranger - statically summarizing regions for efficient symbolic execution of Java.,https://doi.org/10.1145/3368089.3409734,FSE2020
+"Sahar Badihi, Faridah Akinotcho, Yi Li 0008, Julia Rubin",ARDiff - scaling program equivalence checking via iterative abstraction and refinement of common code.,https://doi.org/10.1145/3368089.3409757,FSE2020
+"Bobby R. Bruce, Tianyi Zhang 0001, Jaspreet Arora, Guoqing Harry Xu, Miryung Kim",JShrink - in-depth investigation into debloating modern Java applications.,https://doi.org/10.1145/3368089.3409738,FSE2020
+"Sooyoung Cha, Hakjoo Oh",Making symbolic execution promising by learning aggressive state-pruning strategy.,https://doi.org/10.1145/3368089.3409755,FSE2020
+"Khouloud Gaaloul, Claudio Menghi, Shiva Nejati, Lionel C. Briand, David Wolfe",Mining assumptions for software components using machine learning.,https://doi.org/10.1145/3368089.3409737,FSE2020
+"Rahul Gopinath, Björn Mathis, Andreas Zeller",Mining input grammars from dynamic control flow.,https://doi.org/10.1145/3368089.3409679,FSE2020
+"Dominik Helm, Florian Kübler, Michael Reif, Michael Eichberg, Mira Mezini",Modular collaborative program analysis in OPAL.,https://doi.org/10.1145/3368089.3409765,FSE2020
+"David Trabish, Timotej Kapus, Noam Rinetzky, Cristian Cadar",Past-sensitive pointer analysis for symbolic execution.,https://doi.org/10.1145/3368089.3409698,FSE2020
+"Michael Pradel, Georgios Gousios, Jason Liu, Satish Chandra 0001",TypeWriter - neural type prediction with search-based validation.,https://doi.org/10.1145/3368089.3409715,FSE2020
+"Yizhuo Zhai, Yu Hao, Hang Zhang, Daimeng Wang, Chengyu Song, Zhiyun Qian, Mohsen Lesani, Srikanth V. Krishnamurthy, Paul Yu",UBITect - a precise and scalable method to detect use-before-initialization bugs in Linux kernel.,https://doi.org/10.1145/3368089.3409686,FSE2020
+"Jiawei Wang, Li Li 0029, Kui Liu 0001, Haipeng Cai",Exploring how deprecated Python library APIs are (not) handled.,https://doi.org/10.1145/3368089.3409735,FSE2020
+"Enrique Larios Vargas, Maurício Finavaro Aniche, Christoph Treude, Magiel Bruntink, Georgios Gousios",Selecting third-party libraries - the practitioners&apos; perspective.,https://doi.org/10.1145/3368089.3409711,FSE2020
+"Juan Zhai, Yu Shi, Minxue Pan, Guian Zhou, Yongxiang Liu, Chunrong Fang, Shiqing Ma, Lin Tan 0001, Xiangyu Zhang 0001",C2S - translating natural language comments to formal program specifications.,https://doi.org/10.1145/3368089.3409716,FSE2020
+"Alan Cha, Erik Wittern, Guillaume Baudart, James C. Davis, Louis Mandel, Jim Alain Laredo",A principled approach to GraphQL query cost analysis.,https://doi.org/10.1145/3368089.3409670,FSE2020
+"Alex Cummaudo, Scott Barnett, Rajesh Vasa, John C. Grundy, Mohamed Abdelrazek 0001",Beware the evolving &apos;intelligent&apos; web service! an integration architecture tactic to guard AI-first components.,https://doi.org/10.1145/3368089.3409688,FSE2020
+"Malik Bouchet, Byron Cook, Bryant Cutler, Anna Druzkina, Andrew Gacek, Liana Hadarean, Ranjit Jhala, Brad Marshall, Daniel Peebles, Neha Rungta, Cole Schlesinger, Chriss Stephens, Carsten Varming, Andy Warfield",Block public access - trust safety verification of access control policies.,https://doi.org/10.1145/3368089.3409728,FSE2020
+"Jiazhen Gu, Chuan Luo, Si Qin, Bo Qiao, Qingwei Lin, Hongyu Zhang 0002, Ze Li, Yingnong Dang, Shaowei Cai, Wei Wu, Yangfan Zhou, Murali Chintalapati, Dongmei Zhang",Efficient incident identification from multi-dimensional issue reports via meta-heuristic search.,https://doi.org/10.1145/3368089.3409741,FSE2020
+"Yujun Chen, Xian Yang, Hang Dong, Xiaoting He, Hongyu Zhang 0002, Qingwei Lin, Junjie Chen 0003, Pu Zhao, Yu Kang, Feng Gao, Zhangwei Xu, Dongmei Zhang",Identifying linked incidents in large-scale online service systems.,https://doi.org/10.1145/3368089.3409768,FSE2020
+"Nengwen Zhao, Junjie Chen 0003, Zhou Wang, Xiao Peng, Gang Wang, Yong Wu, Fang Zhou, Zhen Feng, Xiaohui Nie, Wenchi Zhang, Kaixin Sui, Dan Pei",Real-time incident prediction for online service systems.,https://doi.org/10.1145/3368089.3409672,FSE2020
+"Carmine Vassallo, Sebastian Proksch, Anna Jancso, Harald C. Gall, Massimiliano Di Penta",Configuration smells in continuous delivery pipelines - a linter and a six-month study on GitLab.,https://doi.org/10.1145/3368089.3409709,FSE2020
+"Norbert Siegmund, Nicolai Ruckel, Janet Siegmund",Dimensions of software configuration - on the configuration context in modern software development.,https://doi.org/10.1145/3368089.3409675,FSE2020
+"Liu Liu 0015, Sibren Isaacman, Ulrich Kremer",Global cost/quality management across multiple applications.,https://doi.org/10.1145/3368089.3409721,FSE2020
+"Qingrong Chen, Teng Wang, Owolabi Legunsen, Shanshan Li, Tianyin Xu",Understanding and discovering software configuration dependencies in cloud and datacenter systems.,https://doi.org/10.1145/3368089.3409727,FSE2020
+"Samim Mirhosseini, Chris Parnin",Docable - evaluating the executability of software tutorials.,https://doi.org/10.1145/3368089.3409706,FSE2020
+"Mingxue Zhang, Wei Meng 0001",Detecting and understanding JavaScript global identifier conflicts on the web.,https://doi.org/10.1145/3368089.3409747,FSE2020
+"Sahar Mehrpour, Thomas D. LaToza, Hamed Sarvari",RulePad - interactive authoring of checkable design rules.,https://doi.org/10.1145/3368089.3409751,FSE2020
+"Xin Tan, Minghui Zhou, Zeyu Sun",A first look at good first issues on GitHub.,https://doi.org/10.1145/3368089.3409746,FSE2020
+"Phillip Merlin Uesbeck, Cole S. Peterson, Bonita Sharif, Andreas Stefik",A randomized controlled trial on the effects of embedded computer language switching.,https://doi.org/10.1145/3368089.3409701,FSE2020
+"Jefferson De Oliveira Silva, Igor Wiese, Daniel M. Germán, Christoph Treude, Marco Aurélio Gerosa, Igor Steinmacher",A theory of the engagement in open source projects via summer of code programs.,https://doi.org/10.1145/3368089.3409724,FSE2020
+"Jacob Krüger, Thorsten Berger",An empirical analysis of the costs of clone- and platform-oriented software reuse.,https://doi.org/10.1145/3368089.3409684,FSE2020
+"Linda Erlenhov, Francisco Gomes de Oliveira Neto, Philipp Leitner 0001",An empirical study of bots in software development - characteristics and challenges from a practitioner&apos;s perspective.,https://doi.org/10.1145/3368089.3409680,FSE2020
+"Yu Huang 0015, Kevin Leach, Zohreh Sharafi, Nicholas McKay, Tyler Santander, Westley Weimer","Biases and differences in code review using medical imaging and eye-tracking - genders, humans, and machines.",https://doi.org/10.1145/3368089.3409681,FSE2020
+"Ben Hermann, Stefan Winter 0001, Janet Siegmund",Community expectations for research artifacts and evaluation processes.,https://doi.org/10.1145/3368089.3409767,FSE2020
+"Mahnaz Behroozi, Shivani Shirolkar, Titus Barik, Chris Parnin",Does stress impact technical interview performance?,https://doi.org/10.1145/3368089.3409712,FSE2020
+"Yvonne Dittrich, Christian Bo Michelsen, Paolo Tell, Pernille Lous, Allan Ebdrup",Exploring the evolution of software practices.,https://doi.org/10.1145/3368089.3409766,FSE2020
+"Dirk Beyer 0001, Karlheinz Friedberger",Domain-independent interprocedural program analysis using block-abstraction memoization.,https://doi.org/10.1145/3368089.3409718,FSE2020
+"Hemank Lamba, Asher Trockman, Daniel Armanios, Christian Kästner, Heather Miller, Bogdan Vasilescu",Heard it through the Gitvine - an empirical study of tool diffusion across the npm ecosystem.,https://doi.org/10.1145/3368089.3409705,FSE2020
+"Kaifeng Huang, Bihuan Chen 0001, Bowen Shi, Ying Wang, Congying Xu, Xin Peng 0001","Interactive, effort-aware library version harmonization.",https://doi.org/10.1145/3368089.3409689,FSE2020
+"Jaeseong Lee, Pengyu Nie, Junyi Jessy Li, Milos Gligoric",On the naturalness of hardware descriptions.,https://doi.org/10.1145/3368089.3409692,FSE2020
+"Umme Ayda Mannan, Iftekhar Ahmed 0001, Carlos Jensen, Anita Sarma",On the relationship between design discussions and design quality - a case study of Apache projects.,https://doi.org/10.1145/3368089.3409707,FSE2020
+"Massimiliano Di Penta, Gabriele Bavota, Fiorella Zampetti",On the relationship between refactoring actions and bugs - a differentiated replication.,https://doi.org/10.1145/3368089.3409695,FSE2020
+"Hennie Huijgens, Ayushi Rastogi, Ernst Mulders, Georgios Gousios, Arie van Deursen",Questions for data scientists in software engineering - a replication.,https://doi.org/10.1145/3368089.3409717,FSE2020
+"Yi Wang, Min Zhang",Reducing implicit gender biases in software development - does intergroup contact theory work?,https://doi.org/10.1145/3368089.3409762,FSE2020
+"Sergio García 0002, Daniel Strüber 0001, Davide Brugali, Thorsten Berger, Patrizio Pelliccione",Robotics software engineering - a perspective from the service robotics domain.,https://doi.org/10.1145/3368089.3409743,FSE2020
+"Dan Gopstein, Anne-Laure Fayard, Sven Apel, Justin Cappos",Thinking aloud about confusing code - a qualitative investigation of program comprehension and atoms of confusion.,https://doi.org/10.1145/3368089.3409714,FSE2020
+"Yiling Lou, Zhenpeng Chen, Yanbin Cao, Dan Hao, Lu Zhang",Understanding build issue resolution in practice - symptoms and fix patterns.,https://doi.org/10.1145/3368089.3409760,FSE2020
+"Ameya Ketkar, Nikolaos Tsantalis, Danny Dig",Understanding type changes in Java.,https://doi.org/10.1145/3368089.3409725,FSE2020
+"Profir-Petru Pârtachi, Santanu Kumar Dash, Miltiadis Allamanis, Earl T. Barr",Flexeme - untangling commits using lexical flows.,https://doi.org/10.1145/3368089.3409693,FSE2020
+"Sumon Biswas, Hridesh Rajan",Do the machine learning models on a crowd sourced platform exhibit bias? an empirical study on model fairness.,https://doi.org/10.1145/3368089.3409704,FSE2020
+"Joymallya Chakraborty, Suvodeep Majumder, Zhe Yu 0002, Tim Menzies",Fairway - a way to build fair ML software.,https://doi.org/10.1145/3368089.3409697,FSE2020
+"Ye Liu, Yi Li, Shang-Wei Lin 0001, Rong Zhao",Towards automated verification of smart contract fairness.,https://doi.org/10.1145/3368089.3409740,FSE2020
+"Marcel Böhme, Valentin J. M. Manès, Sang Kil Cha",Boosting fuzzer efficiency - an information theoretic perspective.,https://doi.org/10.1145/3368089.3409748,FSE2020
+"Suhwan Song, Chengyu Song, Yeongjin Jang, Byoungyoung Lee",CrFuzz - fuzzing multi-purpose programs through input validation.,https://doi.org/10.1145/3368089.3409769,FSE2020
+"Muhammad Numair Mansur, Maria Christakis, Valentin Wüstholz, Fuyuan Zhang",Detecting critical bugs in SMT solvers using blackbox mutational fuzzing.,https://doi.org/10.1145/3368089.3409763,FSE2020
+"Marcel Böhme, Brandon Falk",Fuzzing - on the exponential cost of vulnerability discovery.,https://doi.org/10.1145/3368089.3409729,FSE2020
+"Patrice Godefroid, Bo-Yuan Huang, Marina Polishchuk",Intelligent REST API data fuzzing.,https://doi.org/10.1145/3368089.3409719,FSE2020
+"Dongdong She, Rahul Krishna, Lu Yan, Suman Jana, Baishakhi Ray",MTFuzz - fuzzing with a multi-task neural network.,https://doi.org/10.1145/3368089.3409723,FSE2020
+"Zifan Nan, Hui Guan, Xipeng Shen",HISyn - human learning-inspired natural language programming.,https://doi.org/10.1145/3368089.3409673,FSE2020
+"Zhenpeng Chen, Yanbin Cao, Yuanqiang Liu, Haoyu Wang, Tao Xie 0001, Xuanzhe Liu",A comprehensive study on challenges in deploying deep learning based software.,https://doi.org/10.1145/3368089.3409759,FSE2020
+"José Pablo Cambronero, Jürgen Cito, Martin C. Rinard",AMS - generating AutoML search spaces from weak specifications.,https://doi.org/10.1145/3368089.3409700,FSE2020
+"Shenao Yan, Guanhong Tao, Xuwei Liu, Juan Zhai, Shiqing Ma, Lei Xu, Xiangyu Zhang 0001",Correlations between deep neural network model coverage criteria and model quality.,https://doi.org/10.1145/3368089.3409671,FSE2020
+"Zan Wang, Ming Yan, Junjie Chen, Shuang Liu, Dongdi Zhang",Deep learning library testing via effective model generation.,https://doi.org/10.1145/3368089.3409761,FSE2020
+"Fuyuan Zhang, Sankalan Pal Chowdhury, Maria Christakis",DeepSearch - a simple and effective blackbox attack for deep neural networks.,https://doi.org/10.1145/3368089.3409750,FSE2020
+"Simin Chen, Soroush Bateni, Sampath Grandhi, Xiaodi Li, Cong Liu, Wei Yang 0013",DENAS - automated rule generation by knowledge extraction from neural networks.,https://doi.org/10.1145/3368089.3409733,FSE2020
+"Yuhao Zhang, Luyao Ren, Liqian Chen, Yingfei Xiong 0001, Shing-Chi Cheung, Tao Xie 0001",Detecting numerical bugs in neural network architectures.,https://doi.org/10.1145/3368089.3409720,FSE2020
+"Ziqi Zhang, Yuanchun Li, Yao Guo 0001, Xiangqun Chen, Yunxin Liu",Dynamic slicing for deep neural networks.,https://doi.org/10.1145/3368089.3409676,FSE2020
+"Fabrice Harel-Canada, Lingxiao Wang, Muhammad Ali Gulzar, Quanquan Gu, Miryung Kim",Is neuron coverage a meaningful measure for testing deep neural networks?,https://doi.org/10.1145/3368089.3409754,FSE2020
+"Shashij Gupta, Pinjia He, Clara Meister, Zhendong Su",Machine translation testing via pathological invariance.,https://doi.org/10.1145/3368089.3409756,FSE2020
+"Shivam Handa, Martin C. Rinard",Inductive program synthesis over noisy data.,https://doi.org/10.1145/3368089.3409732,FSE2020
+"Vincenzo Riccio, Paolo Tonella",Model-based exploration of the frontier of behaviours for deep learning system testing.,https://doi.org/10.1145/3368089.3409730,FSE2020
+"Rangeet Pan, Hridesh Rajan",On decomposing a deep neural network into modules.,https://doi.org/10.1145/3368089.3409668,FSE2020
+"Zenan Li, Xiaoxing Ma, Chang Xu 0001, Jingwei Xu 0001, Chun Cao, Jian Lu 0001",Operational calibration - debugging confidence errors for DNNs in the field.,https://doi.org/10.1145/3368089.3409696,FSE2020
+"Yutian Tang, Yulei Sui, Haoyu Wang 0001, Xiapu Luo, Hao Zhou, Zhou Xu 0003",All your app links are belong to us - understanding the threats of instant apps based attacks.,https://doi.org/10.1145/3368089.3409702,FSE2020
+"Reyhaneh Jabbarvand, Forough Mehralian, Sam Malek",Automated construction of energy test oracles for Android.,https://doi.org/10.1145/3368089.3409677,FSE2020
+"Jun Gao 0001, Li Li 0029, Pingfan Kong, Tegawendé F. Bissyandé, Jacques Klein",Borrowing your enemy&apos;s arrows - the case of code reuse in Android via direct inter-app code invocation.,https://doi.org/10.1145/3368089.3409745,FSE2020
+"Linjie Pan 0001, Baoquan Cui, Hao Liu, Jiwei Yan, Siqi Wang, Jun Yan 0009, Jian Zhang 0001",Static asynchronous component misuse detection for Android applications.,https://doi.org/10.1145/3368089.3409699,FSE2020
+"Yutong Zhao, Lu Xiao 0001, Pouria Babvey, Lei Sun, Sunny Wong, Angel A. Martinez, Xiao Wang",Automatically identifying performance issue reports with heuristic linguistic patterns.,https://doi.org/10.1145/3368089.3409674,FSE2020
+"Timur Babakol, Anthony Canino, Khaled Mahmoud, Rachit Saxena, Yu David Liu",Calm energy accounting for multithreaded Java applications.,https://doi.org/10.1145/3368089.3409703,FSE2020
+"Christoph Laaber, Stefan Würsten, Harald C. Gall, Philipp Leitner 0001",Dynamically reconfiguring software microbenchmarks - reducing execution time without sacrificing result quality.,https://doi.org/10.1145/3368089.3409683,FSE2020
+"Shahar Maoz, Rafi Shalom",Inherent vacuity for GR(1) specifications.,https://doi.org/10.1145/3368089.3409669,FSE2020
+"Andrew J. Simmons, Scott Barnett, Jessica Rivera-Villicana, Akshat Bajaj, and Rajesh Vasa.",A large-scale comparative analysis of Coding Standard conformance in Open-Source Data Science projects,https://doi.org/10.1145/3382494.3410680,ESEM2020
+"Héctor Cadavid, Vasilios Andrikopoulos, Paris Avgeriou, and John Klein",A Survey on the Interplay between Software Engineering and Systems Engineering during SoS Architecting,https://doi.org/10.1145/3382494.3410671,ESEM2020
+"Alex Serban, Koen van der Blom, Holger Hoos, and Joost Visser",Adoption and Effects of Software Engineering Best Practices in Machine Learning,https://doi.org/10.1145/3382494.3410681,ESEM2020
+"Foyzul Hassan, Chetan Bansal, Nachiappan Nagappan, Thomas Zimmermann, and Ahmed Hassan Awadallah",An Empirical Study of Software Exceptions in the Field using Search Logs,https://doi.org/10.1145/3382494.3410692,ESEM2020
+"Marvin Muñoz Barón, Marvin Wyrich, and Stefan Wagner",An Empirical Validation of Cognitive Complexity as a Measure of Source Code Understandability,https://doi.org/10.1145/3382494.3410636,ESEM2020
+Jorge Melegati and Xiaofeng Wang,Case Survey Studies in Software Engineering Research,https://doi.org/10.1145/3382494.3410683,ESEM2020
+"Mubin Ul Haque, Leonardo Horn Iwaya, and M. Ali Babar",Challenges in Docker Development: A Large-scale Study Using Stack Overflow,https://doi.org/10.1145/3382494.3410693,ESEM2020
+Andreas Schuler and Gabriele Anderst-Kotsis,Characterizing Energy Consumption of Third-Party API Libraries using API Utilization Profiles,https://doi.org/10.1145/3382494.3410688,ESEM2020
+"Martin Forsberg Lie, Mary Sánchez-Gordón, and Ricardo Colomo-Palacios",DevOps in an ISO 13485 Regulated Environment: A Multivocal Literature Review,https://doi.org/10.1145/3382494.3410679,ESEM2020
+"Aravind Nair, Avijit Roy, and Karl Meinke",FuncGNN: A Graph Neural Network Approach to Program Similarity,https://doi.org/10.1145/3382494.3410675,ESEM2020
+Tapajit Dey and Audris Mockus,Effect of Technical and Social Factors on Pull Request Quality for the NPM Ecosystem,https://doi.org/10.1145/3382494.3410685,ESEM2020
+"Kamonphop Srisopha, Daniel Link, Devendra Swami, and Barry Boehm",Learning Features that Predict Developer Responses for iOS App Store Reviews,https://doi.org/10.1145/3382494.3410686,ESEM2020
+Arthur-Jozsef Molnar and Simona Motogna,Long-Term Evaluation of Technical Debt in Open-Source Software,https://doi.org/10.1145/3382494.3410673,ESEM2020
+"Zakaria Ournani, Romain Rouvoy, Pierre Rust, and Joel Penhoat",On Reducing the Energy Consumption of Software: From Hurdles to Requirements,https://doi.org/10.1145/3382494.3410678,ESEM2020
+Bruno Gois Mateus and Matias Martinez,"On the adoption, usage and evolution of Kotlin features in Android development",https://doi.org/10.1145/3382494.3410676,ESEM2020
+"Yangyang Shu, Yulei Sui, Hongyu Zhang, and Guandong Xu","Yangyang Shu, Yulei Sui, Hongyu Zhang, and Guandong Xu",https://doi.org/10.1145/3382494.3410677,ESEM2020
+"Yuekai Huang, Junjie Wang, Song Wang, Zhe Liu, Yuanzhe Hu, and Qing Wang",Quest for the Golden Approach: An Experimental Evaluation of Duplicate Crowdtesting Reports Detection,https://doi.org/10.1145/3382494.3410694,ESEM2020
+Carl Martin Rosenberg and Leon Moonen,Spectrum-Based Log Diagnosis,https://doi.org/10.1145/3382494.3410684,ESEM2020
+"Denisse Martinez Mejorado, Razieh Saremi, Ye Yang, and Jose E. Ramirez-Marquez",Study on Patterns and Effect of Task Diversity in Software Crowdsourcing,https://doi.org/10.1145/3382494.3410689,ESEM2020
+"Any Caroliny D. Batista, Renata M.C.R. de Souza, Fabio Q. B. da Silva, Leandro de Almeida Melo, and George Marsicano",Teamwork Quality and Team Success in Software Development: A Non-exact Replication Study,https://doi.org/10.1145/3382494.3410632,ESEM2020
+"Juri Di Rocco, Davide Di Ruscio, Claudio Di Sipio, Phuong Nguyen, and Riccardo Rubei",TopFilter: An Approach to Recommend Relevant GitHub Topics,https://doi.org/10.1145/3382494.3410690,ESEM2020
+Ying Meng and Gregory Gay,Understanding The Impact of Solver Choice in Model-Based Test Generation,https://doi.org/10.1145/3382494.3410674,ESEM2020
+"Luigi Lavazza, Geng Liu, and Roberto Meli",Using Extremely Simplified Functional Size Measures for Effort Estimation: an Empirical Study,https://doi.org/10.1145/3382494.3410691,ESEM2020
+"Chong Wang, Yaqian Tang, Peng Liang, Maya Daneva, and Marten van Sinderen",What Industry Wants from Requirements Engineers in China? An Exploratory and Comparative Study on RE Job Ads,https://doi.org/10.1145/3382494.3410672,ESEM2020
+"Mohammad Ghafari, Timm Gross, Davide Fucci, and Michael Felderer",Why Research on Test-Driven Development is Inconclusive?,https://doi.org/10.1145/3382494.3410687,ESEM2020
+"Edna Dias Canedo, Rodrigo Bonifácio, Márcio Vinicius Okimoto, Alexander Serebrenik, Gustavo Pinto, and Eduardo Monteiro",Work Practices and Perceptions from Women Core Developers in OSS Communities,https://doi.org/10.1145/3382494.3410682,ESEM2020

@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Malik Bouchet, Byron Cook, Bryant Cutler, Anna Druzkina, Andrew Gacek, Liana Hadarean, Ranjit Jhala, Brad Marshall, Daniel Peebles, Neha Rungta, Cole Schlesinger, Chriss Stephens, Carsten Varming, Andy Warfield",Block public access - trust safety verification of access control policies.,https://doi.org/10.1145/3368089.3409728,FSE2020
+"Jiazhen Gu, Chuan Luo, Si Qin, Bo Qiao, Qingwei Lin, Hongyu Zhang 0002, Ze Li, Yingnong Dang, Shaowei Cai, Wei Wu, Yangfan Zhou, Murali Chintalapati, Dongmei Zhang",Efficient incident identification from multi-dimensional issue reports via meta-heuristic search.,https://doi.org/10.1145/3368089.3409741,FSE2020
+"Yujun Chen, Xian Yang, Hang Dong, Xiaoting He, Hongyu Zhang 0002, Qingwei Lin, Junjie Chen 0003, Pu Zhao, Yu Kang, Feng Gao, Zhangwei Xu, Dongmei Zhang",Identifying linked incidents in large-scale online service systems.,https://doi.org/10.1145/3368089.3409768,FSE2020
+"Nengwen Zhao, Junjie Chen 0003, Zhou Wang, Xiao Peng, Gang Wang, Yong Wu, Fang Zhou, Zhen Feng, Xiaohui Nie, Wenchi Zhang, Kaixin Sui, Dan Pei",Real-time incident prediction for online service systems.,https://doi.org/10.1145/3368089.3409672,FSE2020
+"Carmine Vassallo, Sebastian Proksch, Anna Jancso, Harald C. Gall, Massimiliano Di Penta",Configuration smells in continuous delivery pipelines - a linter and a six-month study on GitLab.,https://doi.org/10.1145/3368089.3409709,FSE2020
+"Norbert Siegmund, Nicolai Ruckel, Janet Siegmund",Dimensions of software configuration - on the configuration context in modern software development.,https://doi.org/10.1145/3368089.3409675,FSE2020
+"Liu Liu 0015, Sibren Isaacman, Ulrich Kremer",Global cost/quality management across multiple applications.,https://doi.org/10.1145/3368089.3409721,FSE2020
+"Qingrong Chen, Teng Wang, Owolabi Legunsen, Shanshan Li, Tianyin Xu",Understanding and discovering software configuration dependencies in cloud and datacenter systems.,https://doi.org/10.1145/3368089.3409727,FSE2020
+"Samim Mirhosseini, Chris Parnin",Docable - evaluating the executability of software tutorials.,https://doi.org/10.1145/3368089.3409706,FSE2020
+"Mingxue Zhang, Wei Meng 0001",Detecting and understanding JavaScript global identifier conflicts on the web.,https://doi.org/10.1145/3368089.3409747,FSE2020

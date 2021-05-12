@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Yiling Lou, Zhenpeng Chen, Yanbin Cao, Dan Hao, Lu Zhang",Understanding build issue resolution in practice - symptoms and fix patterns.,https://doi.org/10.1145/3368089.3409760,FSE2020
+"Ameya Ketkar, Nikolaos Tsantalis, Danny Dig",Understanding type changes in Java.,https://doi.org/10.1145/3368089.3409725,FSE2020
+"Profir-Petru Pârtachi, Santanu Kumar Dash, Miltiadis Allamanis, Earl T. Barr",Flexeme - untangling commits using lexical flows.,https://doi.org/10.1145/3368089.3409693,FSE2020
+"Sumon Biswas, Hridesh Rajan",Do the machine learning models on a crowd sourced platform exhibit bias? an empirical study on model fairness.,https://doi.org/10.1145/3368089.3409704,FSE2020
+"Joymallya Chakraborty, Suvodeep Majumder, Zhe Yu 0002, Tim Menzies",Fairway - a way to build fair ML software.,https://doi.org/10.1145/3368089.3409697,FSE2020
+"Ye Liu, Yi Li, Shang-Wei Lin 0001, Rong Zhao",Towards automated verification of smart contract fairness.,https://doi.org/10.1145/3368089.3409740,FSE2020
+"Marcel Böhme, Valentin J. M. Manès, Sang Kil Cha",Boosting fuzzer efficiency - an information theoretic perspective.,https://doi.org/10.1145/3368089.3409748,FSE2020
+"Suhwan Song, Chengyu Song, Yeongjin Jang, Byoungyoung Lee",CrFuzz - fuzzing multi-purpose programs through input validation.,https://doi.org/10.1145/3368089.3409769,FSE2020
+"Muhammad Numair Mansur, Maria Christakis, Valentin Wüstholz, Fuyuan Zhang",Detecting critical bugs in SMT solvers using blackbox mutational fuzzing.,https://doi.org/10.1145/3368089.3409763,FSE2020
+"Marcel Böhme, Brandon Falk",Fuzzing - on the exponential cost of vulnerability discovery.,https://doi.org/10.1145/3368089.3409729,FSE2020

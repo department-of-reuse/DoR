@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Ahmad Abdellatif, Diego Costa 0001, Khaled Badran, Rabe Abdalkareem, Emad Shihab",Challenges in Chatbot Development - A Study of Stack Overflow Posts.,https://doi.org/10.1145/3379597.3387472,MSR2020
+"Leonardo da Silva Sousa, Diego Cedrim, Alessandro Garcia 0001, Willian Nalepa Oizumi, Ana Carla Bibiano, Daniel Oliveira, Miryung Kim, Anderson Oliveira","Characterizing and Identifying Composite Refactorings - Concepts, Heuristics and Patterns.",https://doi.org/10.1145/3379597.3387477,MSR2020
+"Antonio Borrelli, Vittoria Nardone, Giuseppe A. Di Lucca, Gerardo Canfora, Massimiliano Di Penta",Detecting Video Game-Specific Bad Smells in Unity Projects.,https://doi.org/10.1145/3379597.3387454,MSR2020
+"Tapajit Dey, Sara Mousavi, Eduardo Ponce, Tanner Fry, Bogdan Vasilescu, Anna Filippova, Audris Mockus",Detecting and Characterizing Bots that Commit Code.,https://doi.org/10.1145/3379597.3387478,MSR2020
+"Shayan A. Akbar, Avinash C. Kak",A Large-Scale Comparative Evaluation of IR-Based Tools for Bug Localization.,https://doi.org/10.1145/3379597.3387474,MSR2020
+"Fabiano Pecorelli, Fabio Palomba, Foutse Khomh, Andrea De Lucia",Developer-Driven Code Smell Prioritization.,https://doi.org/10.1145/3379597.3387457,MSR2020
+"Danielle Gonzalez, Michael Rath 0002, Mehdi Mirakhorli",Did You Remember To Test Your Tokens?,https://doi.org/10.1145/3379597.3387471,MSR2020
+"Rhys Compton, Eibe Frank, Panos Patros, Abigail Koay",Embedding Java Classes with code2vec - Improvements from Variable Obfuscation.,https://doi.org/10.1145/3379597.3387445,MSR2020
+"Thomas Durieux, Claire Le Goues, Michael Hilton, Rui Abreu",Empirical Study of Restarted and Flaky Builds on Travis CI.,https://doi.org/10.1145/3379597.3387460,MSR2020
+"Nicolas E. Gold, Jens Krinke",Ethical Mining - A Case Study on MSR Mining Challenges.,https://doi.org/10.1145/3379597.3387462,MSR2020
