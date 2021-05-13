@@ -7,6 +7,7 @@ const dataPath = "../workflow/done";
 
 const csvContents = fs.readdirSync(dataPath)
     .filter(x => x.endsWith('.csv'))
+    .filter(x => !x.endsWith('-sample.csv'))
     .map(file => fs.readFileSync(path.join(dataPath, file), { encoding: 'utf-8' }))
     .flatMap(contents => {
         return parse(contents,
