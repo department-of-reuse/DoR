@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "prebuild": "tsc --outDir scripts/target -target es5 --lib es2019,dom --resolveJsonModule --esModuleInterop scripts/data-transformation.ts && node scripts/target/scripts/data-transformation.js",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "node scripts/gh-pages-deploy.js",
@@ -11,11 +12,13 @@
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "@types/csv-parse": "^1.2.2",
     "@types/cytoscape": "^3.14.12",
     "@types/xml2js": "^0.4.8",
     "autoprefixer": "^9",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "csv-parse": "^4.15.4",
     "cytoscape": "^3.18.2",
     "cytoscape-cola": "^2.4.0",
     "cytoscape-dagre": "^2.3.2",
