@@ -9,6 +9,7 @@ export default interface Reuse {
 }
 
 export enum ReuseType {
+  UNKNOWN = "Unknown",
   METHODOLOGY = "Methodology",
   DATASET = "Dataset",
   TOOL = "Tool",
