@@ -33,3 +33,22 @@ export function ReuseFromJson(json: any): Reuse {
     "sourceReferenceDetail": json['sourceReferenceDetail']
   };
 }
+
+
+export function ReuseToJson(value? : Reuse) : any {
+  if (value === undefined) {
+    return undefined;
+  }
+  if (value === null) {
+    return null;
+  }
+  return {
+    "sourceDOI": value.sourceDOI,
+    "reusedDOI": value.reusedDOI,
+    "type" : value.type,
+    "comment": value.comment,
+    "sourceReference": value.sourceReference,
+    "alternativeID": value.alternativeID,
+    "sourceReferenceDetail": value.sourceReferenceDetail
+  };
+}
