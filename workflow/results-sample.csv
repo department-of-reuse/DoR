@@ -13,7 +13,7 @@ neilernst, https://doi.org/10.1145/3368089.3409695, method,	link commits and bug
 neilernst, https://doi.org/10.1145/3368089.3409695, method,	link commits and bugs (old ref),	25	,10.1109/ICSM.2003.1235403,,
 neilernst, https://doi.org/10.1145/3368089.3409695, tool, SZZ Unleashed,	13, 10.1145/3340482.3342742,,
 neilernst, https://doi.org/10.1145/3368089.3409695, tool, lme4,	7, ,	arXiv:1406.5823,
-bhermann, https://doi.org/10.1145/3368089.3409695, method, replication of, [8],	10.1109/SCAM.2012.20	
+bhermann, https://doi.org/10.1145/3368089.3409695, method, replication of, [8],	10.1109/SCAM.2012.20,,	
 bhermann, https://doi.org/10.1145/3368089.3409695, tool, RMiner , [47],	10.1145/3180155.3180206,	https://github.com/tsantalis/RefactoringMiner
 bhermann,  https://doi.org/10.1145/3368089.3409695, method,	regular expression based linking, ([25] Fisher et al. 2003),	10.1109/ICSM.2003.1235403	
 bhermann, https://doi.org/10.1145/3368089.3409695, tool, Perceval, [4], 	10.1145/3183440.3183475,	https://github.com/chaoss/grimoirelab-perceval
