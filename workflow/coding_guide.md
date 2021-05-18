@@ -1,5 +1,7 @@
 # Reuse Taxonomy/Coding Guide v 0.2
 
+_Important note: before doing this, please to the [Training](training.md)_
+
 ## Coding Instructions  
 - Thanks for agreeing to participate! 
 - Process:
