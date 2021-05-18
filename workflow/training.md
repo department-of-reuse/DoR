@@ -6,7 +6,7 @@ Reuse is not a clear cut yes,no. It is a continium. Somethings are used all the 
 
 So you need to learn to calibrate when you decide something is reused or not.
 
-To do that, you need to dp a training exercise; i..e.
+To do that, you need to do a training exercise; i..e.
 
 - Read 5 papers that have been analyzed before. Here are the those results. DO NOT LOOK at these until you get your own results.
   - Hint: 
