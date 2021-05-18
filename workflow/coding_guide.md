@@ -5,12 +5,12 @@ _Important note: before doing this, please to the [Training](training.md)_
 ## Coding Instructions  
 - Thanks for agreeing to participate! 
 - Process:
-  1.  Browse the issue list and assign yourself to an open issue. Change the label to "initial review". 
-  2.  Download the corresponding CSV file from the 'todo' folder for the work package associated with that issue (in the title). 
+  1.  Browse the [issue list](https://github.com/bhermann/DoR/issues) and assign yourself to an open issue. Change the label to "initial review". 
+  2.  Download the corresponding CSV file from the [todo](https://github.com/bhermann/DoR/tree/main/workflow/todo) folder for the work package associated with that issue (in the title). 
   3.  Scan the relevant papers (ask us if you need access to PDFs) and do the coding. 
   4.  Make a copy of the [template provided](results-sample.csv) to document the reuse you see on each row. In some cases a reference may be 2 types of reuse (e.g. a replication and a dataset). That should be 2 separate rows. We have found between 2-10 types of reuse on average, so every DOI would have 2-10 rows.
   5.  Once you are done with the papers in the issue
-      - move the CSV file to the "done" folder
+      - move the CSV file to the [done](https://github.com/bhermann/DoR/tree/main/workflow/todo) folder
       - name your results CSV file "wp-XX-results.csv" and put it in the "done" folder (where XX refers to the work package id like "ae")
       - change the issue label from initial review to "check work package"
 
@@ -35,7 +35,7 @@ _Important note: before doing this, please to the [Training](training.md)_
 
 ## What is Not Reuse?
 
-- drive by references, refs "in the air"
+- drive by references, refs "in the air" (i.e. shared by all the community)
 - motivational references (X also did J)
 - reuse of a closed dataset
 - expensively licenced tools like Coverity, Q1, Simulink, Matlab
