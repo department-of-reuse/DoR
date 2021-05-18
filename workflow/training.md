@@ -15,7 +15,7 @@ So you need to learn to calibrate when you decide something is reused or not.
 
 To do that, you need to do a training exercise; i..e.
 
-- Read 5 papers that have been analyzed before. [Here are the those results(https://docs.google.com/spreadsheets/d/1UZJVq-JWE_k-gGbihMlcvKmfUT2LGBiB/edit#gid=1835550509). DO NOT LOOK at these until you get your own results.
+- Read 5 papers that have been analyzed before. [Here are the those results](https://docs.google.com/spreadsheets/d/1UZJVq-JWE_k-gGbihMlcvKmfUT2LGBiB/edit#gid=1835550509). DO NOT LOOK at these until you get your own results.
   - Hint: 
      - Paper1 will take about an hour to skim to look for reused parts
      - atfter that, ypu will speed up and it should abot 15-20 minutes to skims paper2,3,4,5 
