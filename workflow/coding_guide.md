@@ -1,16 +1,23 @@
 # Reuse Taxonomy/Coding Guide v 0.2
 
+_Important note: before doing this, please to the [Training](training.md)_
+
 ## Coding Instructions  
 - Thanks for agreeing to participate! 
 - Process:
-  1.  Browse the issue list and assign yourself to an open issue. Change the label to "initial review". 
-  2.  Download the corresponding CSV file from the 'todo' folder for the work package associated with that issue (in the title). 
-  3.  Scan the relevant papers (ask us if you need access to PDFs) and do the coding. 
-  4.  Make a copy of the [template provided](results-sample.csv) to document the reuse you see on each row. In some cases a reference may be 2 types of reuse (e.g. a replication and a dataset). That should be 2 separate rows. We have found between 2-10 types of reuse on average, so every DOI would have 2-10 rows.
-  5.  Once you are done with the papers in the issue
-      - move the CSV file to the "done" folder
-      - name your results CSV file "wp-XX-results.csv" and put it in the "done" folder (where XX refers to the work package id like "ae")
-      - change the issue label from initial review to "check work package"
+  1. [ ] Ensure you are aware of basic Git(Hub) transactions and clone the repository.
+  2.  [ ] Browse the [issue list](https://github.com/bhermann/DoR/issues) and assign yourself to an open issue. Change the label to **initial review**. 
+  3.  [ ] Download the corresponding CSV file from the [todo](https://github.com/bhermann/DoR/tree/main/workflow/todo) folder for the work package associated with that issue (in the title). 
+  4.  [ ] Scan the relevant papers (ask us if you need access to PDFs) and do the coding. 
+  5. [ ] Make a copy of the [template provided](results-sample.csv) to document the reuse you see on each row. In some cases a reference may be 2 types of reuse (e.g. a replication and a dataset). That should be 2 separate rows. We have found between 2-10 types of reuse on average, so every DOI would have 2-10 rows.
+  6.  [ ] Once you are done with the papers in the issue
+      - name your results CSV file **wp-XX-results.csv** and put it in the [underreview](https://github.com/bhermann/DoR/tree/main/workflow/underreview) folder  (where XX refers to the work package id like "ae")
+      - change the issue label from initial review to **check work package**
+  7. [ ] Once you've done your own package, then go review someone else's  **check work package**. 
+         - This will mean discussing the results with the author of the initial package results. 
+         - Once you get agreement, update  **wp-XX-results.csv** and then
+            -  relabel the issue **tell ben** 
+            -  We will move the file into the done folder. The website will magically include your results.
 
 ### Coding Notes
 - It's taken from 10-20 mins to scan a paper for reuse. If you are taking more than 20 mins you are doing too thorough a job. 
@@ -33,7 +40,7 @@
 
 ## What is Not Reuse?
 
-- drive by references, refs "in the air"
+- drive by references, refs "in the air" (i.e. shared by all the community)
 - motivational references (X also did J)
 - reuse of a closed dataset
 - expensively licenced tools like Coverity, Q1, Simulink, Matlab
