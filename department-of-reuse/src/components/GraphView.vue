@@ -21,55 +21,65 @@ export default {
     const cyInstance = ref<Core | null>(null);
     const worksApi = new CachedWorksApi();
 
+    class CompoundSet<T> {
+      private set: Map<string, T>;
+
+      constructor(initial: T[] = []) {
+        this.set = new Map(initial.map(val => [this.toKey(val), val]));
+      }
+
+      has(val: T): boolean {
+        return this.set.has(this.toKey(val));
+      }
+
+      add(val: T): this {
+        this.set.set(this.toKey(val), val);
+        return this;
+      }
+
+      delete(val: T): this {
+        this.set.delete(this.toKey(val));
+        return this;
+      }
+
+      [Symbol.iterator]() {
+        return this.set.values();
+      }
+
+      get size() {
+        return this.set.size;
+      }
+
+      private toKey(val: T): string {
+        return JSON.stringify(val);
+      }
+    }
+
     async function transformToGraph(data: Array<Reuse>) : Promise<ElementsDefinition> {
       const transformedNodes = await getNodes(data);
-     
       return {
         nodes: transformedNodes,
         edges: getLinks(data),
       };
     }
     async function getNodes(data: Array<Reuse>) : Promise<Array<NodeDefinition>> {
-      const reusedNodes = async() => {
-        return Promise.all(
-          data.map(getReusedNode)
-        )
-      };
+      const dois = Array.from(new Set(data
+                        .map(entry => entry.sourceDOI)
+                        .concat(data.map(entry => entry.reusedDOI))
+                        .filter(doi => doi.trim() != "")));
 
-      const sourceNodes = async() => {
-        return Promise.all(
-          data.map(getSourceNode)
-        )
-      };
-      
-      const result = 
-        (await reusedNodes())
-        .concat(await sourceNodes())
-        .sort()
-        .filter(function (item: any, pos: any, ary: any) {
-           return !pos || item.data.id != ary[pos - 1].data.id;
-        });
-
-      return result;
+      return Promise.all(dois.map(currentDoi => createNodeFromDOI(currentDoi)));
     }
 
-    async function getReusedNode(item : Reuse) : Promise<NodeDefinition> {
-      const title = await getItemTitle(item.reusedDOI);
-      return {
-            data: { id: item.reusedDOI, name: title },
-          };
-    }
-
-    async function getSourceNode(item : Reuse) : Promise<NodeDefinition> {
-      return {
-            data: { id: item.sourceDOI, name: (await getItemTitle(item.sourceDOI)) },
-          };
+    async function createNodeFromDOI(doi : string) : Promise<NodeDefinition> {
+      const title = await getItemTitle(doi);
+      return { data: {id: doi, name : title }};
     }
     
     function getLinks(data: Array<Reuse>) : Array<EdgeDefinition> {
-      return data.map((item: Reuse) => {
+      return Array.from(new CompoundSet(data.filter(item => item.reusedDOI.trim().length > 0).map((item: Reuse) => {
         return { data: { source: item.sourceDOI, target: item.reusedDOI } };
-      });
+      })));
     }
     async function getItemTitle(doi: string) {
       const work = await worksApi.worksDoiGet({ doi: doi })
@@ -79,7 +89,10 @@ export default {
 
       if (work as WorkMessage) {
         const workMessage = (work as WorkMessage).message
-        return getAuthors(workMessage.author) + " (" + workMessage.issued.dateParts[0][0] + ")"; 
+        if (workMessage.issued) 
+          return getAuthors(workMessage.author) + " (" + workMessage.issued.dateParts[0][0] + ")"; 
+        else 
+          return getAuthors(workMessage.author) + "(???)";
       } else {
         return doi;
       }
