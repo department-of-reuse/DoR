@@ -42,7 +42,13 @@ function ProcessDOI(doi : string) : string {
 function TransformType(csvType : string) : ReuseType {
     switch (csvType) {
         case "method":
-            return ReuseType.METHODOLOGY;            
+            return ReuseType.METHODOLOGY;     
+        case "tool": 
+            return ReuseType.TOOL;
+        case "dataset":
+            return ReuseType.DATASET;
+        case "statistics":
+            return ReuseType.STATISTICS;     
         default:
             return ReuseType.UNKNOWN;
     }
@@ -56,4 +62,4 @@ const outputObject =
         .map(o => JSON.stringify(o))
         .join(",")
 
-fs.writeFileSync('./src/assets/data/reuse-generated.json', "[" + outputObject + "]");
+fs.writeFileSync('./src/assets/data/reuse.json', "[" + outputObject + "]");
