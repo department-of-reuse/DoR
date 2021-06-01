@@ -34,6 +34,7 @@
     "vue-axios": "^3.2.4",
     "vue-class-component": "^8.0.0-0",
     "vuex": "4.0.0-rc.1",
+    "ws": "7.4.6",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
