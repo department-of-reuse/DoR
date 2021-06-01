@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "prebuild": "tsc --outDir scripts/target -target es5 --lib es2019,dom --resolveJsonModule --esModuleInterop scripts/data-transformation.ts && node scripts/target/scripts/data-transformation.js",
     "build": "vue-cli-service build",
+    "prebuild": "yarn transform && yarn fill-cache",
     "lint": "vue-cli-service lint",
     "deploy": "node scripts/gh-pages-deploy.js",
-    "fill-cache": "tsc --outDir scripts/target -target es5 --resolveJsonModule --esModuleInterop scripts/prefill-cache.ts && node scripts/target/scripts/prefill-cache.js"
+    "fill-cache": "tsc --outDir scripts/target -target es5 --resolveJsonModule --esModuleInterop scripts/prefill-cache.ts && node scripts/target/scripts/prefill-cache.js",
+    "transform": "tsc --outDir scripts/target -target es5 --lib es2019,dom --resolveJsonModule --esModuleInterop scripts/data-transformation.ts && node scripts/target/scripts/data-transformation.js"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.0.2",

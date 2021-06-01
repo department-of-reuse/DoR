@@ -3,12 +3,17 @@ import * as fs from 'fs';
 import * as path from 'path';
 import parse from 'csv-parse/lib/sync';
 
-const dataPath = "../workflow/done";
+console.log("Transforming CSV data to JSON...");
+
+const dataPath = "../workflow";
 
 const csvContents = fs.readdirSync(dataPath)
     .filter(x => x.endsWith('.csv'))
-    .filter(x => !x.endsWith('-sample.csv'))
-    .map(file => fs.readFileSync(path.join(dataPath, file), { encoding: 'utf-8' }))
+    //.filter(x => !x.endsWith('-sample.csv'))
+    .map(file => { 
+        console.log(`Processing ${file}...`);
+        return fs.readFileSync(path.join(dataPath, file), { encoding: 'utf-8' });
+    })
     .flatMap(contents => {
         return parse(contents,
             {
@@ -63,3 +68,5 @@ const outputObject =
         .join(",")
 
 fs.writeFileSync('./src/assets/data/reuse.json', "[" + outputObject + "]");
+
+console.log("Transformation complete.");

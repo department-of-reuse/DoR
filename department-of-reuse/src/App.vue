@@ -59,7 +59,6 @@ export default {
   setup() {
     let showSplash = ref(true);
     const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
-    console.log(reuseData);
 
     onMounted(() => {
       setTimeout(() => {
