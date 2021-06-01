@@ -27,6 +27,7 @@
     "fast-xml-parser": "^3.19.0",
     "is-svg": "^4.2.2",
     "node-fetch": "^2.6.1",
+    "p-throttle": "^4.1.1",
     "postcss": "^7",
     "ssri": "^8.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
@@ -54,7 +55,7 @@
     "vue-cli-plugin-tailwind": "~2.0.6"
   },
   "resolutions": {
-    "ws" : "7.4.6"
+    "ws": "7.4.6"
   },
   "eslintConfig": {
     "root": true,
