@@ -31,7 +31,7 @@
               </select>
             </div>
             <div class="flex-none w-72 order-3 hidden lg:block" >
-                <TopFive class="z-10" />
+                <TopFive class="z-10" :reuseData="reuseData" />
             </div>
           </div>
           <footer class="mt-3 absolute -bottom-0 mx-auto w-full pb-3 bg-opacity-40 bg-gray-200">
