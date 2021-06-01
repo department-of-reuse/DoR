@@ -22,7 +22,7 @@
       ]
     },
     "lib": [
-      "es6",
+      "es2019",
       "dom",
       "dom.iterable",
       "scripthost"
