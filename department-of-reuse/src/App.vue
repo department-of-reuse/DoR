@@ -71,61 +71,6 @@ export default {
     return { showSplash, reuseData };
   },
 };
-
-/*
-methods: {
-   nodeClicked(doi) {
-     this.$refs.doiFull.updateRecord(doi);
-   },
-   computeTopResearchers(data) {
-     return {
-       reused: this.sortByCount(data.flatMap((item) => { return item.reused.author; }), this.authorKey).slice(0,5),
-       reusing: this.sortByCount(data.flatMap((item) => { return item.reusing.author; }), this.authorKey).slice(0,5)
-     };
-   },
-   computeTopPublications(data) {
-     return {
-       reused: this.sortByCount(data.map((item) => { return {title: item.reused.title, url: item.reused.url }; }), this.publicationKey).slice(0,5),
-       reusing: this.sortByCount(data.map((item) => { return {title: item.reusing.title, url: item.reused.url }; }), this.publicationKey).slice(0,5)
-     };
-   },
-   authorKey(item) {
-     return item.given + " " + item.family;
-   },
-   publicationKey(item) {
-     return item.title;
-   },
-   sortByCount(toBeSorted, key) {
-     var hash = new Object();
-
-     toBeSorted.forEach(function (element) {
-                            var name = key(element);
-                            if (hash[name] == undefined) {
-                                hash[name] = 1;
-                            }
-                            else {
-                                hash[name] +=1;
-                            }});
-
-     var sorted = toBeSorted.sort(function(a,b) {
-       return hash[key(b)] - hash[key(a)];
-     });
-
-     var seen = new Object();
-     sorted = sorted.filter(function(item) {
-       var name = key(item);
-       if (seen[name] == undefined) {
-           seen[name] = true;
-           return true;
-       }
-       return false;
-     });
-
-     return sorted;
-   }
- }
-
-*/
 </script>
 
 <style>
