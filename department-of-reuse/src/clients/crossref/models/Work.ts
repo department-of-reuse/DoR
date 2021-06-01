@@ -553,7 +553,7 @@ export function WorkFromJSONTyped(json: any, ignoreDiscriminator: boolean): Work
         'prefix': json['prefix'],
         'volume': !exists(json, 'volume') ? undefined : json['volume'],
         'clinicalTrialNumber': !exists(json, 'clinical-trial-number') ? undefined : ((json['clinical-trial-number'] as Array<any>).map(WorkClinicalTrialFromJSON)),
-        'author': ((json['author'] as Array<any>).map(AuthorFromJSON)),
+        'author': !exists(json, 'author') ? new Array<Author>() : (json['author'] as Array<any>).map(AuthorFromJSON),
         'member': json['member'],
         'contentCreated': !exists(json, 'content-created') ? undefined : DatePartsFromJSON(json['content-created']),
         'publishedOnline': !exists(json, 'published-online') ? undefined : DatePartsFromJSON(json['published-online']),
