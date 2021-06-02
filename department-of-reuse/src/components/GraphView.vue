@@ -1,5 +1,5 @@
 <template>
-  <div ref="cyroot" class="h-full w-full mx-auto pt-14 pb-10"></div>
+  <div ref="cyroot" class="h-full w-full mx-auto pt-14 pb-10 pr-10"></div>
 </template>
 
 <script lang="ts">
@@ -108,7 +108,7 @@ export default {
           },
         ],
         // initial viewport state:
-        zoom: 1,
+        zoom: 2,
         pan: { x: 0, y: 0 },
         // interaction options:
         minZoom: 1e-50,
@@ -129,7 +129,7 @@ export default {
         styleEnabled: true,
         hideEdgesOnViewport: false,
         textureOnViewport: false,
-        motionBlur: true,
+        motionBlur: false,
         motionBlurOpacity: 0.1,
         animate: true,
         pixelRatio: "auto",
