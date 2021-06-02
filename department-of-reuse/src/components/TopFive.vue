@@ -8,16 +8,16 @@
 
       <h3 class="text-l bg-opacity-40 bg-blue-200">Most reused (R+)</h3>
       <table class="m-1 table-auto text-xs w-full bg-opacity-40 bg-white">
-        <tr v-for="(p, index) in researchers.reused" :key="index" :class="index % 2 ? 'bg-opacity-60 bg-white' : ''">
-          <td>{{p.entry.given}} {{p.entry.family}}</td>
+        <tr v-for="(p, index) in researchers.reused" :key="index" :class="index % 2 ? 'bg-opacity-80 bg-white' : ''">
+          <td class="text-left">{{p.entry.given}} {{p.entry.family}}</td>
           <td>{{p.frequency}}</td>
         </tr>
       </table>
 
       <h3 class="text-l bg-opacity-40 bg-blue-200">Most reusing (R)</h3>
       <table class="m-1 table-auto text-xs w-full bg-opacity-40 bg-white">
-        <tr v-for="(p, index) in researchers.reusing" :key="index" :class="index % 2 ? 'bg-opacity-60 bg-white' : ''">
-          <td>{{p.entry.given}} {{p.entry.family}}</td>
+        <tr v-for="(p, index) in researchers.reusing" :key="index" :class="index % 2 ? 'bg-opacity-80 bg-white' : ''">
+          <td class="text-left">{{p.entry.given}} {{p.entry.family}}</td>
           <td>{{p.frequency}}</td>
         </tr>
       </table>
@@ -27,16 +27,16 @@
       <h3 class="text-l bg-opacity-40 bg-blue-200">Most reused (R+)</h3>
       
       <table class="m-1 table-auto text-xs bg-opacity-40 bg-white">
-        <tr v-for="(p, index) in publications.reused" :key="index" :class="index % 2 ? 'bg-gray-50' : ''">
-          <td><a :href="'https://doi.org/' + p.entry.dOI" target="_blank">{{p.entry.title[0]}}</a></td>
+        <tr v-for="(p, index) in publications.reused" :key="index" :class="index % 2 ? 'bg-opacity-80 bg-white' : ''">
+          <td class="text-left"><a :href="'https://doi.org/' + p.entry.dOI" target="_blank">{{p.entry.title[0]}}</a></td>
           <td>{{p.frequency}}</td>
         </tr>
       </table>
 
       <h3 class="text-l bg-opacity-40 bg-blue-200">Most reusing (R)</h3>
       <table class="m-1 table-auto text-xs bg-opacity-40 bg-white">
-        <tr v-for="(p, index) in publications.reusing" :key="index" :class="index % 2 ? 'bg-opacity-60 bg-red' : ''">
-          <td><a :href="'https://doi.org/' + p.entry.dOI" target="_blank">{{p.entry.title[0]}}</a></td>
+        <tr v-for="(p, index) in publications.reusing" :key="index" :class="index % 2 ? 'bg-opacity-80 bg-white' : ''">
+          <td class="text-left"><a :href="'https://doi.org/' + p.entry.dOI" target="_blank">{{p.entry.title[0]}}</a></td>
           <td>{{p.frequency}}</td>
         </tr>
       </table>
