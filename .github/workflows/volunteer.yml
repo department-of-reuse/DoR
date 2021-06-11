@@ -9,3 +9,6 @@ jobs:
     - uses: bhermann/issue-volunteer@v0.1.12
       with:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        assign_phrase: 'I would like to work on this please!'
+        completed_phrase: 'I completed this work package.'
+        completed_label: '2. check work package'
