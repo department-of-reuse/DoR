@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: bhermann/issue-volunteer@v0.1.12
+    - uses: bhermann/issue-volunteer@v0.1.14
       with:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         assign_phrase: 'I would like to work on this please!'
