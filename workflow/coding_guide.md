@@ -5,19 +5,23 @@ _Important note: before doing this, please to the [Training](training.md)_
 ## Coding Instructions  
 - Thanks for agreeing to participate!
 - Process:
-  1. [ ] Ensure you are aware of basic Git(Hub) transactions and clone the repository.
-  2.  [ ] Browse the [issue list](https://github.com/bhermann/DoR/issues) and assign yourself to an open issue. You can do this by commenting with the phrase `I would like to work on this please!` on the issue. Change the label to **initial review**. 
-  3.  [ ] Download the corresponding CSV file from the [todo](https://github.com/bhermann/DoR/tree/main/workflow/todo) folder for the work package associated with that issue (in the title).
-  4.  [ ] Scan the relevant papers (ask us if you need access to PDFs) and do the coding.
+  1. [ ] Ensure you are aware of basic Git(Hub) transactions.
+  2. [ ] Browse the [issue list](https://github.com/bhermann/DoR/issues?q=is%3Aopen+is%3Aissue+label%3A%221.+data+collection%22+no%3Aassignee) and assign yourself to an open issue. You can do this by commenting with the phrase `I would like to work on this please!` on the issue. The issue will be automatically assigned to you in a matter of seconds.
+  3. [ ] Download the corresponding CSV file from the [todo](https://github.com/bhermann/DoR/tree/main/workflow/todo) folder for the work package associated with that issue (in the title).
+  4. [ ] Scan the relevant papers (ask us if you need access to PDFs) and do the coding.
   5. [ ] Make a copy of the [template provided](results-sample.csv) to document the reuse you see on each row. In some cases a reference may be 2 types of reuse (e.g. a replication and a dataset). That should be 2 separate rows. We have found between 2-10 types of reuse on average, so every DOI would have 2-10 rows.
-  6.  [ ] Once you are done with the papers in the issue
-      - name your results CSV file **wp-XX-results.csv** and put it in the [underreview](https://github.com/bhermann/DoR/tree/main/workflow/underreview) folder  (where XX refers to the work package id like "ae")
-      - change the issue label from initial review to **check work package**
-  7. [ ] Once you've done your own package, then go review someone else's  **check work package**.
+        - Note down the time you took for each paper
+  6. [ ] Once you are done with the papers in the issue
+      - name your results CSV file **wp-XX-results.csv** (where XX refers to the work package id like "ae")
+      - create a comment in your issue with the phrase `Results of Phase 1` and attach the CSV file to the comment by dragging the file into the comment box. Also add the times for each paper as recording in the previous step.
+      - create another comment with the phrase `I completed this work package.`. You will be automatically unassigned from the issue and a label indicating the next phase will be applied.
+  7. [ ] Once you've done your own package, then go review someone else's
+         - Browse the [issue list](https://github.com/bhermann/DoR/issues?q=is%3Aopen+is%3Aissue+label%3A%222.+check+work+package%22+no%3Aassignee) and assign yourself to an open issue. You can do this by commenting with the phrase `I would like to work on this please!` on the issue. The issue will be automatically assigned to you in a matter of seconds.
          - This will mean discussing the results with the author of the initial package results.
          - Once you get agreement, update  **wp-XX-results.csv** and then
-            -  relabel the issue **tell ben**
-            -  We will move the file into the done folder. The website will magically include your results.
+            - create a comment in your issue with the phrase `Results of Phase 2` and attach the CSV file to the comment by dragging the file into the comment box
+            - create another comment with the phrase `I completed this work package.`. You will be automatically unassigned from the issue and a label indicating the next phase will be applied.
+            - After an editorial check, we will move the file into the done folder. The website will magically include your results.
 
 ### Coding Notes
 - It's taken from 10-20 mins to scan a paper for reuse. If you are taking more than 20 mins you are doing too thorough a job.

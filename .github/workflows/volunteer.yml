@@ -6,9 +6,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: bhermann/issue-volunteer@v0.1.14
+    - uses: bhermann/issue-volunteer@v0.1.20
       with:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        label_phase1: '1. data collection'
+        label_phase2: '2. check work package'
+        label_phase3: '3. collect statistics'
         assign_phrase: 'I would like to work on this please!'
-        completed_phrase: 'I completed this work package.'
-        completed_label: '2. check work package'
+        completion_phrase: 'I completed this work package.'
+        phase1_results_phrase: 'Results of Phase 1'
+        phase2_results_phrase: 'Results of Phase 2'
+        unroll_phrase: 'Unroll please!'
