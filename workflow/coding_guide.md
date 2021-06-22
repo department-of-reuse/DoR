@@ -1,4 +1,4 @@
-# Reuse Taxonomy/Coding Guide v 0.2
+# Reuse Taxonomy/Coding Guide v 0.3
 
 _Important note: before doing this, please to the [Training](training.md)_
 
