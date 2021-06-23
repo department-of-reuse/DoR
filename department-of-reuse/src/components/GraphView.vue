@@ -9,13 +9,14 @@ import fcose from "cytoscape-fcose";
 import { ref, onMounted, PropType } from "vue";
 
 import Reuse from "../backend/models/Reuse";
+import RIndex from "../backend/RIndex";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
 import { Author, WorkMessage } from "@/clients/crossref";
 import CompoundSet from "@/tools/CompoundSet";
 
 export default {
   props: {
-    reuseData: Array as PropType<Array<Reuse>>,
+    reuseData: Array as PropType<Array<Reuse>>
   },
   setup(props: any) {
     const cyroot = ref(null);
@@ -39,8 +40,11 @@ export default {
     }
 
     async function createNodeFromDOI(doi : string) : Promise<NodeDefinition> {
+      const indexer = new RIndex(props.reuseData);
+      const citationCount = await indexer.computeCitationCountForWork(doi)
+
       const title = await getItemTitle(doi);
-      return { data: {id: doi, name : title }};
+      return { data: {id: doi, name : title, citations: citationCount }};
     }
     
     function getLinks(data: Array<Reuse>) : Array<EdgeDefinition> {
@@ -85,7 +89,7 @@ export default {
           {
             selector: "node",
             style: {
-              content: "data(name)",
+              content: "data(citations)",
               "font-family": "Roboto Condensed, Helvetica, Arial, sans-serif",
               width: 10,
               height: 10,

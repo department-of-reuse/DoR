@@ -22,6 +22,13 @@ export default class RIndex {
             }));
     }
 
+    async computeCitationCountForWork(sourceDoi: string) : Promise<any> {
+        const crWorksApi = new CachedWorksApi();
+
+        const work = await crWorksApi.worksDoiGet({ doi: sourceDoi });
+        return work.message.isReferencedByCount;
+    }
+
     async computeAuthorsReusing() : Promise<Array<HistogramEntry<Author>>> {
         const crWorksApi = new CachedWorksApi();
         
