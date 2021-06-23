@@ -4,6 +4,7 @@
 
 <script lang="ts">
 import cytoscape, { Core, CytoscapeOptions, ElementsDefinition, NodeDefinition, EdgeDefinition } from "cytoscape";
+import popper from "cytoscape-popper";
 import fcose from "cytoscape-fcose";
 
 import { ref, onMounted, PropType } from "vue";
@@ -89,7 +90,7 @@ export default {
           {
             selector: "node",
             style: {
-              content: "data(citations)",
+              content: "data(name)",
               "font-family": "Roboto Condensed, Helvetica, Arial, sans-serif",
               width: 10,
               height: 10,
@@ -139,7 +140,18 @@ export default {
         pixelRatio: "auto",
       } as CytoscapeOptions;
       cytoscape.use(fcose);
+      cytoscape.use(popper);
       var cy = cytoscape(cytoConfig);
+
+      /* This function is a work-in-progress. How to get the tooltip
+      is one of the world's greatest mysteries. For whoever attempts
+      this task, may God be with you. */
+      cy.on("click", "node", event => {
+        let element = cy.getElementById(event.target._private.data.id);
+        var node = event.target._private;
+        console.log(node.data.citations);
+      });
+
       cy.layout({ name: "fcose" }).run();
       cyInstance.value = cy;
 

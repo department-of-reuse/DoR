@@ -985,6 +985,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@popperjs/core@^2.0.0":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
+  integrity sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q==
+
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@soda/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-1.8.0.tgz#84751d82a93019d5c92c0cf0e45ac59087cd2240"
@@ -3341,6 +3346,13 @@ cytoscape-fcose@^2.0.0:
   integrity sha512-Wy80mbn50qKba5KH2GhZRPZYZGvGXCVK3yWcxSxrZOMJwXmoFQqp76OLUASgdSk5jPsrH3XA+O/bW+hJ5I0Dzw==
   dependencies:
     cose-base "^2.0.0"
+
+cytoscape-popper@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/cytoscape-popper/-/cytoscape-popper-2.0.0.tgz#d93917695a9b8af3dbda1d8ee433618ac4d4e359"
+  integrity sha512-b7WSOn8qXHWtdIXFNmrgc8qkaOs16tMY0EwtRXlxzvn8X+al6TAFrUwZoYATkYSlotfd/36ZMoeKMEoUck6feA==
+  dependencies:
+    "@popperjs/core" "^2.0.0"
 
 cytoscape-spread@^3.0.0:
   version "3.0.0"
