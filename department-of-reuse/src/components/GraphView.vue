@@ -26,6 +26,7 @@ export default {
 
     async function transformToGraph(data: Array<Reuse>) : Promise<ElementsDefinition> {
       const transformedNodes = await getNodes(data);
+      
       return {
         nodes: transformedNodes,
         edges: getLinks(data),
@@ -142,7 +143,8 @@ export default {
       cytoscape.use(fcose);
       cytoscape.use(popper);
       var cy = cytoscape(cytoConfig);
-
+      cyInstance.value = cy;
+      
       /* This function is a work-in-progress. How to get the tooltip
       is one of the world's greatest mysteries. For whoever attempts
       this task, may God be with you. */
@@ -153,7 +155,7 @@ export default {
       });
 
       cy.layout({ name: "fcose" }).run();
-      cyInstance.value = cy;
+
 
       var throttle: any;
       function handleWindowResize() {

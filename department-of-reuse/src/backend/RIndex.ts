@@ -22,7 +22,7 @@ export default class RIndex {
             }));
     }
 
-    async computeCitationCountForWork(sourceDoi: string) : Promise<any> {
+    async computeCitationCountForWork(sourceDoi: string) : Promise<number> {
         const crWorksApi = new CachedWorksApi();
 
         const work = await crWorksApi.worksDoiGet({ doi: sourceDoi });
