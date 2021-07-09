@@ -38,8 +38,12 @@ let doiRegExp : RegExp = new RegExp('(?:^' + '(10[.][0-9]{4,}(?:[.][0-9]+)*/(?:(
 let irregularDOIS = dois.filter(d => !d.match(doiRegExp));
 let regularDOIS = dois.filter(d => d.match(doiRegExp));
 
-console.log(`Found ${irregularDOIS.length} irregular DOI(s) listed below.`);
-irregularDOIS.forEach(d => console.warn(d));
+if (irregularDOIS.length > 0) {
+    console.log(`Found ${irregularDOIS.length} irregular DOI(s) listed below.`);
+    irregularDOIS.forEach(d => console.warn(d));
+} else {
+    console.log(`Found no irregular DOIs. `);
+    console.log(`Trying to resolve ${regularDOIS.length} regular DOI(s).`);
+    Promise.all(regularDOIS.map(throttled)).then(_ => console.log("Check complete. See errors above."));
+}
 
-console.log(`Trying to resolve ${regularDOIS.length} regular DOI(s).`);
-Promise.all(regularDOIS.map(throttled)).then(_ => console.log("Check complete. See errors above."));
