@@ -5,7 +5,7 @@ import parse from 'csv-parse/lib/sync';
 
 console.log("Transforming CSV data to JSON...");
 
-const dataPath = "../workflow";
+const dataPath = "../workflow/done";
 
 const csvContents = fs.readdirSync(dataPath)
     .filter(x => x.endsWith('.csv'))
@@ -35,13 +35,20 @@ function ReuseFromCSVData(csvData: any): Reuse {
         "type" : TransformType(csvData['reuse_type']),
         "comment": csvData['comment'],
         "sourceReference": csvData['citation_number'],
-        "alternativeID": csvData['alt_url'],
+        "alternativeID": ProcessAlternativeId(csvData['alt_url']),
         "sourceReferenceDetail": csvData['page_num']
     };
 }
 
 function ProcessDOI(doi : string) : string {
-    return doi.replace("https://doi.org/", "");
+    return doi.replace("https://doi.org/", "")
+              .replace("https://dl.acm.org/doi/", "")
+              .replace("http://dx.doi.org/", "");
+}
+
+function ProcessAlternativeId(altId : string) : string {
+
+    return altId;
 }
 
 function TransformType(csvType : string) : ReuseType {

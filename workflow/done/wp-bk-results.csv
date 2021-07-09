@@ -14,7 +14,7 @@ johannesduesing, https://doi.org/10.1145/3368089.3409725, method, method for eva
 johannesduesing, https://doi.org/10.1145/3368089.3409725, tool, using tool GumTree for evaluation, 36, 10.1145/2642937.2642982, , p631
 johannesduesing, https://doi.org/10.1145/3368089.3409725, method, using type fact graphs from 49, 49, 10.1109/ICSE.2019.00117, , p631
 johannesduesing, https://doi.org/10.1145/3368089.3409725, method, comparison with identifier renaming from 7, 7, 10.1109/TSE.2014.2312942, , p632
-johannesduesing, https://doi.org/10.1145/3368089.3409693, method, using Weisfeiler-Lehman graph kernel from 25, 25, 10.5555/1953048.2078187, , p64
+johannesduesing, https://doi.org/10.1145/3368089.3409693, method, using Weisfeiler-Lehman graph kernel from 25, 25, , https://dl.acm.org/doi/abs/10.5555/1953048.2078187 , p64
 johannesduesing, https://doi.org/10.1145/3368089.3409693, method, Incorporate Name Flow Graphs from 3, 3, 10.1145/3236024.3236042, , p65
 johannesduesing, https://doi.org/10.1145/3368089.3409693, method, Stable roommates problem algorithm from 9, 9, 10.1006/jagm.2002.1219, , p66
 johannesduesing, https://doi.org/10.1145/3368089.3409693, tool, Using GraKel for Weisfeiler-Lehman Graph Kernels from 26, 26, , https://arxiv.org/abs/1806.02193, p67
@@ -30,7 +30,7 @@ johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Disparate Impa
 johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Adversarial Debiasing algorithm from 52, 52, 10.1145/3278721.3278779, , p645
 johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Prejudice Remover Regularizer algorithm from 36, 36, 10.1007/978-3-642-33486-3_3, , p645
 johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Equalized odds approach to post-processing from 20, 20, , https://arxiv.org/abs/1610.02413v1, p645
-johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Calibrated equalized odds approach to post-processing from 41, 41, 10.5555/3295222.3295319, , p645
+johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Calibrated equalized odds approach to post-processing from 41, 41, , https://dl.acm.org/doi/10.5555/3295222.3295319, p645
 johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Reject Option Classification from 35, 35, 10.1109/ICDM.2012.45, , p645
 johannesduesing, https://doi.org/10.1145/3368089.3409697, metric, Equal Opportunity Difference for measuring fairness from 42, 42, , https://arxiv.org/abs/1810.01943, p656
 johannesduesing, https://doi.org/10.1145/3368089.3409697, metric, Average Odds Difference for measuring fairness from 42, 42, , https://arxiv.org/abs/1810.01943, p657
@@ -42,9 +42,9 @@ johannesduesing, https://doi.org/10.1145/3368089.3409697, dataset, Default Credi
 johannesduesing, https://doi.org/10.1145/3368089.3409697, dataset, Heart Health dataset from 53, 53, , https://archive.ics.uci.edu/ml/datasets/Heart+Disease, p657
 johannesduesing, https://doi.org/10.1145/3368089.3409697, stepping-stone, Improve on FLASH algorithm from 57, 57, 10.1109/TSE.2018.2870895, , p660
 johannesduesing, https://doi.org/10.1145/3368089.3409740, method, Symbolic Execution from 35, 35, 10.1145/360248.360252, , p667
-johannesduesing, https://doi.org/10.1145/3368089.3409740, method, Strongest Postcondition operator from 20, 20, 10.5555/77545, , p672
+johannesduesing, https://doi.org/10.1145/3368089.3409740, method, Strongest Postcondition operator from 20, 20, 10.1007/978-1-4612-3228-5, , p672
 johannesduesing, https://doi.org/10.1145/3368089.3409740, tool, Dafny tool for program verification from 38, 38, 10.1007/978-3-642-17511-4_20, , p672
-johannesduesing, https://doi.org/10.1145/3368089.3409740, tool, Z3 SMT solver, , 10.5555/1792734.1792766, , p672
+johannesduesing, https://doi.org/10.1145/3368089.3409740, tool, Z3 SMT solver, , 10.1007/978-3-540-78800-3_24, , p672
 johannesduesing, https://doi.org/10.1145/3368089.3409748, metric, Shannon entropy for measuring information from 39, 39, 10.1145/584091.584093, , p678
 johannesduesing, https://doi.org/10.1145/3368089.3409748, tool, Integrate approach into LibFuzzer from 27, 27, , https://www.llvm.org/docs/LibFuzzer.html, p678
 johannesduesing, https://doi.org/10.1145/3368089.3409748, statistics, STADS probabilistic model for blackbox fuzzing from 6, 6, 10.1145/3210309, , p679
@@ -52,9 +52,9 @@ johannesduesing, https://doi.org/10.1145/3368089.3409748, dataset, FTS benchmark
 johannesduesing, https://doi.org/10.1145/3368089.3409748, dataset, OSS-Fuzz fuzzing platform from 31 used for evaluation, 31, , https://github.com/google/oss-fuzz/tree/master/infra, p684
 johannesduesing, https://doi.org/10.1145/3368089.3409748, metric, Vargha-Delaney effect size metric from 4, 4, 10.1145/1985793.1985795, , p685
 johannesduesing, https://doi.org/10.1145/3368089.3409769, tool, Approach is implemented into AFL fuzzer, , , https://github.com/google/AFL, p695
-johannesduesing, https://doi.org/10.1145/3368089.3409769, tool, Approach is implemented into QSYM fuzzer, , 10.5555/3277203.3277260, , p695
+johannesduesing, https://doi.org/10.1145/3368089.3409769, tool, Approach is implemented into QSYM fuzzer, , , https://www.usenix.org/conference/usenixsecurity18/presentation/yun , p695
 johannesduesing, https://doi.org/10.1145/3368089.3409769, tool, Approach is implemented into MOpt fuzzer, , , https://www.usenix.org/system/files/sec19-lyu.pdf, p695
-johannesduesing, https://doi.org/10.1145/3368089.3409763, tool, Using Z3 from 24 to implement new approach, 24, 10.5555/1792734.1792766, , p705
+johannesduesing, https://doi.org/10.1145/3368089.3409763, tool, Using Z3 from 24 to implement new approach, 24, 10.1007/978-3-540-78800-3_24, , p705
 johannesduesing, https://doi.org/10.1145/3368089.3409763, dataset, Using seed instances from SMT-COMP 2019 (3), 3, , https://smt-comp.github.io/, p706
 johannesduesing, https://doi.org/10.1145/3368089.3409729, tool, Using LibFuzz graybox fuzzer from 12 for experiments, 12, , https://www.llvm.org/docs/LibFuzzer.html, p714
 johannesduesing, https://doi.org/10.1145/3368089.3409729, tool, Using AFL graybox fuzzer from 26 for experiments, 26, , https://github.com/google/AFL, p714

@@ -5,7 +5,7 @@ import fetch from "node-fetch";
 import * as fs from 'fs';
 import pThrottle from 'p-throttle';
 
-console.log("Prefilling CrossRef resolution cache.")
+console.log("Checking DOIs...")
 
 const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
 
@@ -20,11 +20,10 @@ const throttle = pThrottle({
 })
 
 const throttled = throttle(currentDoi => {
-    console.log(`Resolving ${currentDoi} ...`);
     return crossRef
         .worksDoiGet({ doi: currentDoi as string })
         .catch(reason => {
-            console.warn("Could not resolve: " + currentDoi + " - Maybe not a DOI?"); 
+            console.error("Could not resolve: " + currentDoi + " - Maybe is not a DOI?"); 
         });
 })
 
@@ -33,23 +32,14 @@ const dois = Array.from(new Set(reuseData
                 .concat(reuseData.map(entry => entry.reusedDOI))
                 .filter(doi => doi.trim() != "")));
 
-console.log(`Resolving ${dois.length} DOI(s).`);
 
-Promise.all(dois.map(throttled)).then(entries => {
-    entries.forEach(entry => {
-        if (entry != null) {
-            const currentMessage = (entry as WorkMessage).message;
-            if (!cache.find(x => { x.doi == currentMessage.dOI }))
-                cache.push({ doi: currentMessage.dOI, result: currentMessage })
-        }
-    })
+let doiRegExp : RegExp = new RegExp('(?:^' + '(10[.][0-9]{4,}(?:[.][0-9]+)*/(?:(?![%"#? ])\\S)+)' + '$)');
 
-    const outputObject = cache
-        .map(entry => entry.result)
-        .map(WorkToJSON)
-        .map(o => JSON.stringify(o))
-        .join(",");
+let irregularDOIS = dois.filter(d => !d.match(doiRegExp));
+let regularDOIS = dois.filter(d => d.match(doiRegExp));
 
-    fs.writeFileSync('./src/assets/data/works-cache.json', "[" + outputObject + "]");
+console.log(`Found ${irregularDOIS.length} irregular DOI(s) listed below.`);
+irregularDOIS.forEach(d => console.warn(d));
 
-}).then(_ => console.log("CrossRef cache prefill complete."));
+console.log(`Trying to resolve ${regularDOIS.length} regular DOI(s).`);
+Promise.all(regularDOIS.map(throttled)).then(_ => console.log("Check complete. See errors above."));

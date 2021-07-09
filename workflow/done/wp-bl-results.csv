@@ -32,9 +32,10 @@ XiaoLing941212,https://doi.org/10.1145/3368089.3409750,tool,PGD attack,[49],,htt
 XiaoLing941212,https://doi.org/10.1145/3368089.3409733,dataset reuse,ByteWeight,[6],,https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-bao.pdf,818,4.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,bidirectional RNN model,[57],,https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-shin.pdf,818,4.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409733,dataset reuse,Mimicus,[61],10.1145/2420950.2420987,,818,4.1
-XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,MLP based malware classifier,"[55], [61]",[55]: 10.1109/MALWARE.2015.7413680     [61]:10.1145/2420950.2420987,,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,MLP based malware classifier,"[55]", 10.1145/2420950.2420987,,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,MLP based malware classifier,"[61]", 10.1145/2420950.2420987,,818,4.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409733,dataset reuse,AndroZoo,[3],10.1145/2901739.2903508,,818,4.1
-XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,Drebin,"[5], [62]",[62]: 10.1145/2480362.2480701,[5]: https://www.researchgate.net/profile/Hugo-Gascon/publication/264785935_DREBIN_Effective_and_Explainable_Detection_of_Android_Malware_in_Your_Pocket/links/53efd0020cf26b9b7dcdf395/DREBIN-Effective-and-Explainable-Detection-of-Android-Malware-in-Your-Pocket.pdf,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,Drebin,"[62]",10.1145/2480362.2480701, https://www.researchgate.net/profile/Hugo-Gascon/publication/264785935_DREBIN_Effective_and_Explainable_Detection_of_Android_Malware_in_Your_Pocket/links/53efd0020cf26b9b7dcdf395/DREBIN-Effective-and-Explainable-Detection-of-Android-Malware-in-Your-Pocket.pdf ,818,4.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409733,method,LEMNA (baseline),[26],10.1145/3243734.3243792,,818,4.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409733,method,Gradient (baseline),[36],10.1109/5.726791,,818,4.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409733,method,IG (baseline),[66],,http://proceedings.mlr.press/v70/sundararajan17a/sundararajan17a.pdf,818,4.1

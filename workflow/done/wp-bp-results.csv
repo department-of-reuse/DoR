@@ -2,7 +2,7 @@ gh_id, paper_doi, reuse_type, comment, citation_number, reused_doi, alt_url, pag
 yrahul3910,https://doi.org/10.1145/3382494.3410677,method,Dropout,[14],,https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf,p3,,,,
 yrahul3910,https://doi.org/10.1145/3382494.3410677,method,GAN,[9],https://doi.org/10.1145/3238147.3238187,,p3,,,,
 yrahul3910,https://doi.org/10.1145/3382494.3410677,method,GAN,[8],,https://proceedings.neurips.cc/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf,p5,,,,
-yrahul3910,https://doi.org/10.1145/3382494.3410677,method,Adam,[19],https://arxiv.org/abs/1412.6980,,p7,,,,
+yrahul3910,https://doi.org/10.1145/3382494.3410677,method,Adam,[19],,https://arxiv.org/abs/1412.6980,p7,,,,
 yrahul3910,https://doi.org/10.1145/3382494.3410677,method,DECART,[12],https://doi.org/10.1007/s10664-017-9573-6,,p7,,,,
 yrahul3910,https://doi.org/10.1145/3382494.3410677,method,DeepPerf,[15],https://doi.org/10.1109/ICSE.2019.00113,,p7,,,,
 yrahul3910,https://doi.org/10.1145/3382494.3410694,method,ML-REP,[39],https://doi.org/10.1109/ASE.2011.6100061,,p2,,,,
