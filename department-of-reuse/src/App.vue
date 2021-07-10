@@ -32,6 +32,7 @@
         </div>
         <div class="flex-none w-72 order-3 hidden lg:block" >
             <TopFive class="z-10" :reuseData="reuseData" />
+            <Stats :reuseData="reuseData" />
         </div>
       </div>
       <footer class="mt-3 absolute -bottom-0 mx-auto w-full pb-3 bg-opacity-40 bg-gray-200">
@@ -49,13 +50,14 @@ import { ref, onMounted } from "vue";
 import GraphView from './components/GraphView.vue';
 import TopFive from './components/TopFive.vue';
 import Navigation from './components/Navigation.vue';
+import Stats from './components/Stats.vue';
 
 import reuseJson from './assets/data/reuse.json';
 import { ReuseFromJson } from './backend/models/Reuse';
 
 export default {
   name: "App",
-  components: { GraphView, TopFive, Navigation },
+  components: { GraphView, TopFive, Navigation, Stats },
   setup() {
     let showSplash = ref(true);
     const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
