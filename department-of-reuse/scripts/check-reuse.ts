@@ -35,7 +35,7 @@ const dois = Array.from(new Set(reuseData
 
 let doiRegExp : RegExp = new RegExp('(?:^' + '(10[.][0-9]{4,}(?:[.][0-9]+)*/(?:(?![%"#? ])\\S)+)' + '$)');
 
-let irregularDOIS = dois.filter(d => !d.match(doiRegExp));
+let irregularDOIS = dois.filter(d => !d.match(doiRegExp)).concat(dois.filter(d => d.startsWith("10.5555/")));
 let regularDOIS = dois.filter(d => d.match(doiRegExp));
 
 if (irregularDOIS.length > 0) {
