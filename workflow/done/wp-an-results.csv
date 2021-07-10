@@ -1,0 +1,107 @@
+gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num
+aaleti,https://doi.org/10.1145/3324884.3416569,tool, MiniSAT v2.1.1,11,https://doi.org/10.1007/978-3-540-24605-3_37,,7
+aaleti,https://doi.org/10.1145/3324884.3416569,tool,EDUCIBone tool ,43,https://doi.org/10.1109/TASE.2017.8285627,,9
+aaleti,https://doi.org/10.1145/3324884.3416569,sanity check,configuration,43,https://doi.org/10.1109/TASE.2017.8285627,,9
+aaleti,https://doi.org/10.1145/3324884.3416569,dataset," SAT competitions of 2014, the SATLIB benchmark and the ISCAS85 librarie",39,https://doi.org/10.1145/2975585,,11
+aaleti,https://doi.org/10.1145/3324884.3416631,method,model- driven trace checking,19,https://doi.org/10.1109/MODELS.2017.9,,1005
+aaleti,https://doi.org/10.1145/3324884.3416631,method,SBTP proposed in a recent taxonomy ,11,,http://arxiv.org/abs/1910.08330,1006
+aaleti,https://doi.org/10.1145/3324884.3416631,method,OMG,43,,http://www.omg.org/spec/OCL/ISO/,1007
+aaleti,https://doi.org/10.1145/3324884.3416631,sanity check,checking linear temporal logic properties,19,https://doi.org/10.1109/MODELS.2017.9,,1007
+aaleti,https://doi.org/10.1145/3324884.3416631,sanity check,properties with temporal aggregations,10,https://doi.org/10.5381/jot.2019.18.2.a15,,1007
+aaleti,https://doi.org/10.1145/3324884.3416633,method,Transformer architecture of Vaswani et al.,64,,https://arxiv.org/abs/1706.03762,1018
+aaleti,https://doi.org/10.1145/3324884.3416633,method, split the program as proposed by Zhang et al. [,68,https://doi.org/10.1109/ICSE.2019.00086,,1020
+aaleti,https://doi.org/10.1145/3324884.3416633,method,abstract syntax tree (AST),11,https://doi.org/10.1109/ICSM.1998.738528,,1020
+aaleti,https://doi.org/10.1145/3324884.3416633,dataset, 5687 programs taken from the software verification competition SV-COMP 2018,14,10.1007/978-3-030-03421-4_11,,1022
+aaleti,https://doi.org/10.1145/3324884.3416633,method,tune hyper-parameter via Bayesian Optimization,2,https://doi.org/10.1145/3292500.3330701,,1023
+aaleti,https://doi.org/10.1145/3324884.3416633,tool,CLANG C compiler frontend,footnote 5,,https://clang.llvm.org/,1023
+aaleti,https://doi.org/10.1145/3324884.3416553,dataset,11714 frequently-used real-world contracts,2,,https://etherscan.io/,1032
+aaleti,https://doi.org/10.1145/3324884.3416553,method,CFG adopted from SlithIR,20,https://doi.org/10.1109/WETSEB.2019.00008,,1034
+aaleti,https://doi.org/10.1145/3324884.3416553,method,8 variables and 14 types of operations in SlitherIR,41,,https://github.com/crytic/slither/wiki/,1035
+aaleti,https://doi.org/10.1145/3324884.3416553,dataset,public Google BigQuery dataset,23,,https://cloud.google.com/,1036
+aaleti,https://doi.org/10.1145/3324884.3416635,tool,Coccinelle,8,,https://dl.acm.org/doi/10.5555/3277355.3277413,108
+aaleti,https://doi.org/10.1145/3324884.3416635,dataset,Linux kernel,23,https://doi.org/10.1145/3280986,,108
+aaleti,https://doi.org/10.1145/3324884.3416609,dataset,MNIST,18,,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.222.9220&rep=rep1&type=pdf,1043
+aaleti,https://doi.org/10.1145/3324884.3416609,dataset,CIFAR-10,21,,http://yann.lecun.com/exdb/mnist/,1043
+aaleti,https://doi.org/10.1145/3324884.3416609,dataset, FashionMNIST,53,,arXiv:cs.LG/cs.LG/1708.07747,1043
+aaleti,https://doi.org/10.1145/3324884.3416609,tool,Baseline,15,,http://arxiv.org/abs/1610.02136,1043
+aaleti,https://doi.org/10.1145/3324884.3416609,tool,Odin,24,,https://openreview.net/forum?id=H1VGkIxRZ,1043
+aaleti,https://doi.org/10.1145/3324884.3416609,tool,Mahalanobis,23,,http://papers.nips.cc/paper/7947-,1043
+aaleti,https://doi.org/10.1145/3324884.3416609,tool,Outlier Exposure,16,,https://openreview.net/forum?id=HyxCxhRcY7,1043
+aaleti,https://doi.org/10.1145/3324884.3416609,tool,Likelihood-Ratio,40,,https://openreview.net/forum?id=SyxIWpVYvr,1043
+aaleti,https://doi.org/10.1145/3324884.3416609,metric,AUROC,14,,http://www.ncbi.nlm.nih.gov/pubmed/7063747,1044
+aaleti,https://doi.org/10.1145/3324884.3416609,stepping stones,DeepTest,48,,http://arxiv.org/abs/1708.08559,1044
+aaleti,https://doi.org/10.1145/3324884.3416609,stepping stones,DeepHunter,55,https://doi.org/10.1145/3293882.3330579,,1044
+aaleti,https://doi.org/10.1145/3324884.3416609,stepping stones,TensorFuzz,33,,https://arxiv.org/abs/1807.10875,1044
+aaleti,https://doi.org/10.1145/3324884.3416584,tool, YOLACT,7,,https://github.com/dbolya/yolact,1057
+aaleti,https://doi.org/10.1145/3324884.3416584,sanity check,empirical evidence,14,,arXiv:1904.02689,1057
+aaleti,https://doi.org/10.1145/3324884.3416584,method,average hash,40,,http://www.hackerfactor.com/blog/index.php?/archives/432- Looks- Like- It.html,1058
+aaleti,https://doi.org/10.1145/3324884.3416584,dataset, COCO image set ,45,https://doi.org/10.1007/978-3-319-10602-1_48,,1058
+aaleti,https://doi.org/10.1145/3324884.3416584,tool, models are disclosed by Google,3,,https://cloud.google.com/solutions/,1059
+aaleti,https://doi.org/10.1145/3324884.3416584,tool,Amazon Rekognintion API,1,,https://aws.amazon.com/rekognition/,1060
+aaleti,https://doi.org/10.1145/3324884.3416584,tool,Google AutoML Vision API,2,,https://cloud.google.com/vision/docs/detecting-objects,1060
+aaleti,https://doi.org/10.1145/3324884.3416584,tool,Microsoft Azure Vision API,3,,https://cloud.google.com/solutions/creating- object- detection- application- tensorflow,1060
+aaleti,https://doi.org/10.1145/3324884.3416584,tool,IBM Vision API,6,,https://developer.ibm.com/exchanges/models/all/max-object-detector//,1060
+aaleti,https://doi.org/10.1145/3324884.3416584,tool,TensorFlow SSD Mobilenet,37,,https://arxiv.org/abs/1704.04861,1060
+aaleti,https://doi.org/10.1145/3324884.3416584,tool,TensorFlow SSD Inception ,47,https://doi.org/10.1007/978-3-319-46448-0_2,,1060
+aaleti,https://doi.org/10.1145/3324884.3416584,tool,TensorFlow faster RCNN Resnet,29,,https://arxiv.org/abs/1504.08083,1060
+aaleti,https://doi.org/10.1145/3324884.3416584,tool,TensorFlow faster RCNN Inception Resnet,72,,https://arxiv.org/abs/1512.00567,1060
+aaleti,https://doi.org/10.1145/3324884.3416567,tool,Monkey,5,,https://developer.android.com/studio/test/monkey,1068
+aaleti,https://doi.org/10.1145/3324884.3416567,dataset,F-droid ,18,,https://f-droid.org,1068
+aaleti,https://doi.org/10.1145/3324884.3416567,tool,JaCoCo ,29,,https://www.eclemma.org/jacoco,1068
+aaleti,https://doi.org/10.1145/3324884.3416567,tool,Android 4.4 KitKat ,-,,https://www.android.com/intl/en_au/versions/kit-kat-4-4/,1074
+aaleti,https://doi.org/10.1145/3324884.3416623,dataset,GHTorrent database,28,,http://dl.acm.org/citation.cfm?id=2487085.24871322,1081
+aaleti,https://doi.org/10.1145/3324884.3416623,dataset,AndroZoo,17,,https://f-droid.org,1081
+aaleti,https://doi.org/10.1145/3324884.3416623,dataset,F-droid ,3,https://doi.org/10.1145/2901739.2903508,,1081
+aaleti,https://doi.org/10.1145/3324884.3416623,sanity check,Cruz et al.,13,https://doi.org/10.1007/s10664-019-09701-0,,1086
+aaleti,https://doi.org/10.1145/3324884.3416630,method,Signal Temporal Logic,31,https://doi.org/10.1007/978-3-540-30206-3_12,,1092
+aaleti,https://doi.org/10.1145/3324884.3416630,method,variable- specific method ,9,https://doi.org/10.1145/2635868.2635927,,1093
+aaleti,https://doi.org/10.1145/3324884.3416630,method,variable- specific method ,49,https://doi.org/10.1145/3106237.3106302,,1093
+aaleti,https://doi.org/10.1145/3324884.3416630,tool,PX4,23,,https://px4.io,1096
+aaleti,https://doi.org/10.1145/3324884.3416630,statistics,regression discontinuity analysis,8,https://doi.org/10.1080/19345747.2011.578707,,1098
+aaleti,https://doi.org/10.1145/3324884.3416630,statistics,regression discontinuity analysis,17,,https://www.scholars.northwestern.edu/en/publications/the-design-and-conduct-of-true-experiments-and-quasi-experiments--2,1098
+aaleti,https://doi.org/10.1145/3324884.3416630,statistics,regression discontinuity analysis,44,https://doi.org/10.1037/h0044319,,1098
+afonsohfontes,https://doi.org/10.1145/3324884.3416553,dataset,,2,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416553,dataset,,23,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416553,method,,20,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416553,method,,41,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416567,dataset,,18,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416567,tool,,5,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416567,tool,JaCoCo ,29,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416569,dataset,,39,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416569,sanity check,,43,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416569,tool, MiniSAT v2.1.1,11,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416569,tool,EDUCIBone tool ,43,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416584,dataset,image,45,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416584,tool,,7,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416584,tool,,3,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416584,tool,,1,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416584,tool,,2,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416584,tool,,3,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416584,tool,IBM API,6,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416584,tool,TensorFlow,"29, 37, 47, 72",,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,dataset,MNIST,18,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,dataset,,21,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,metric,,14,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,stepping stone,,48,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,stepping stone,,55,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,stepping stone,,33,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,tool,,24,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,tool,,23,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,tool,,16,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416609,tool,,40,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416623,dataset,GHTorrent,28,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416623,dataset,AndroZoo,17,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416623,dataset,,3,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416630,method,,31,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416630,method,,9,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416630,method,,49,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416630,tool,,23,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416631,method,,19,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416631,method,,11,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416631,method,,43,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416633,dataset,,14,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416633,method,,64,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416633,method,,68,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416633,method,,11,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416633,method,,2,,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416635,tool,Coccinelle,8,,,
