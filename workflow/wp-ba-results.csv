@@ -1,0 +1,16 @@
+gh_id, paper_doi, reuse_type, comment, citation_number, reused_doi, alt_url, page_num
+andre-motta,https://doi.org/10.1145/3379597.3387451,tool,RefactoringMiner,[9],https://doi.org/10.1145/3180155.3180206,,p478
+andre-motta,https://doi.org/10.1145/3379597.3387442,tool,GithubAPI,N/A,,https://developer.github.com/v3/search/,p485
+andre-motta,https://doi.org/10.1145/3379597.3387442,tool,Fine Free File Command,N/A,,http://www.darwinsys.com/file/,p485
+andre-motta,https://doi.org/10.1145/3379597.3387442,tool,DROID,N/A,,https://digital-preservation.github.io/droid/,p485
+andre-motta,https://doi.org/10.1145/3379597.3387442,tool,Linguist,N/A,,https://github.com/github/linguist,p486
+andre-motta,https://doi.org/10.1145/3379597.3387482,tool,Weka,[31],https://doi.org/10.1145/507338.507355,,p494
+andre-motta,https://doi.org/10.1145/3379597.3387482,method,DeFlaker benchmark,N/A,https://dl.acm.org/doi/10.1145/3180155.3180164,http://www.deflaker.org/icsecomp/,p494
+andre-motta,https://doi.org/10.1145/3379597.3387482,statistics,MCC,N/A,,,p494
+andre-motta,https://doi.org/10.1145/3379597.3387482,dataset,DeFlaker dataset,[3],https://dl.acm.org/doi/10.1145/3180155.3180164,http://www.deflaker.org/icsecomp/,p501
+andre-motta,https://doi.org/10.1145/3379597.3387455,dataset,Public Git Archive,[14],https://doi.org/10.1145/3196398.3196464,,p54
+andre-motta,https://doi.org/10.1145/3379597.3387455,tool,Go License Detector,N/A,,https://github.com/go-enry/go-license-detector,p56
+andre-motta,https://doi.org/10.1145/3379597.3387455,tool,SourcererCC,[26],https://doi.org/10.1145/2884781.2884877,,p57
+andre-motta,https://doi.org/10.1145/3379597.3387455,tool,Ninka,[9],https://doi.org/10.1145/1858996.1859088,,p57
+andre-motta,https://doi.org/10.1145/3379597.3387468,metric,Levenshtein distance,[15],,https://nymity.ch/sybilhunting/pdf/Levenshtein1966a.pdf,p69
+andre-motta,https://doi.org/10.1145/3379597.3387468,tool,mogrify,N/A,,https://imagemagick.org/script/mogrify.php,p69
