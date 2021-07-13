@@ -1,0 +1,64 @@
+gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num
+aaleti,https://doi.org/10.1145/3377811.3380927,tool,Adapting requirements models to varying environments,1,,http://formal.cs.utah.edu:8080/pbl/PBL.php,58
+aaleti,https://doi.org/10.1145/3377811.3380927,tool,NuSMV2 2.6,16,https://doi.org/10.1007/3-540-45657-0_29,,58
+aaleti,https://doi.org/10.1145/3377811.3380927,tool,RASPAL learning-based revision tool,10,https://doi.org/10.1007/978-3-319-23708-4_2,,58
+aaleti,https://doi.org/10.1145/3377811.3380392,dataset,AndroZoo,5,10.1109/MSR.2016.056,,1325
+aaleti,https://doi.org/10.1145/3377811.3380392,tool,Android Monkey,8,,https://developer.android.com/studio/test/monkey.html,1326
+aaleti,https://doi.org/10.1145/3377811.3380392,statistical,ESD,45,https://doi.org/10.1109/TSE.2016.2584050,,1327
+aaleti,https://doi.org/10.1145/3377811.3380392,tool,NLTK library,34,,https://www.nltk.org,1327
+aaleti,https://doi.org/10.1145/3377811.3380354,tool,AndroGuard tool,Desnos et al. 2011,,http://lilicoding.github.io/SA3Repo/papers/2011_desnos2011android.pdf,1563
+aaleti,https://doi.org/10.1145/3377811.3380354,tool,"PScout, which produces a mapping between per- missions and API calls",Au et al. 2012,https://doi.org/10.1145/2382196.2382222,,1563
+aaleti,https://doi.org/10.1145/3377811.3380354,dataset,Android Malware Genome Project (Genome),Zhou and Jiang 2012,https://doi.org/10.1109/SP.2012.16,,1563
+aaleti,https://doi.org/10.1145/3377811.3380354,dataset,Drebin Dataset (Drebin),Arp et al. 2014,http://dx.doi.org/10.14722/ndss.2014.23247,,1563
+aaleti,https://doi.org/10.1145/3377811.3380354,dataset,AMD Project (AMD),Wei et al. 2017,https://doi.org/10.1007/978-3-319-60876-1_12,,1563
+aaleti,https://doi.org/10.1145/3377811.3380438,tool,FlowDroid,1,https://doi.org/10.1145/2594291.2594299,,1063
+aaleti,https://doi.org/10.1145/3377811.3380438,tool,Soot,14,,http://www.bodden.de/pubs/lblh11soot.pdf,1063
+aaleti,https://doi.org/10.1145/3377811.3380438,tool,Spark,15,10.1007/3-540-36579-6_12,,1063
+aaleti,https://doi.org/10.1145/3377811.3380438,tool,Apktool,footnote 5,,https://ibotpeaches.github.io/Apktool/,1065
+aaleti,https://doi.org/10.1145/3377811.3380328,method,Faster R-CNN,66,,https://proceedings.neurips.cc/paper/2015/file/14bfa6bb14875e45bba028a21ed38046-Paper.pdf,311
+aaleti,https://doi.org/10.1145/3377811.3380328,method,VGGNet,69,,https://arxiv.org/abs/1409.1556,311
+aaleti,https://doi.org/10.1145/3377811.3380328,method,AlexNet,45,,https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf,311
+aaleti,https://doi.org/10.1145/3377811.3380328,tool,TensorFlow Object Detection API,19,,https://github.com/tensorflow/models/tree/master/research/object_detection,312
+aaleti,https://doi.org/10.1145/3377811.3380328,method,RERAN,35,https://doi.org/10.1109/ICSE.2013.6606553,,313
+anjiperera,https://doi.org/10.1145/3377811.3380328,tool,FFmpeg tool,10,,http://ffmpeg.org/,312
+anjiperera,https://doi.org/10.1145/3377811.3380328,dataset,ReDraw dataset,59,10.1109/TSE.2018.2844788,,312
+aaleti,https://doi.org/10.1145/3377811.3380369,sanity check,"selecting a subset of tests, instead of prioritizing them",22,https://doi.org/10.1109/ICSE-SEIP.2017.16,,3
+aaleti,https://doi.org/10.1145/3377811.3380369,sanity check,using a temporal threshold excluding the lowest priority ones,28,https://doi.org/10.1145/3092703.3092709,,3
+aaleti,https://doi.org/10.1145/3377811.3380369,tool,scitools,footnote 2,,http://scitools.com,3
+aaleti,https://doi.org/10.1145/3377811.3380369,sanity check,"use pointwise, pairwise or listwise algorithms ",18,https://doi.org/10.2200/S00348ED1V01Y201104HLT012,,3
+aaleti,https://doi.org/10.1145/3377811.3380369,tool,Weka,footnote 4,,https://www.cs.waikato.ac.nz/ml/weka/,4
+aaleti,https://doi.org/10.1145/3377811.3380369,tool,Knime,footnote 5,,https://www.knime.com/knime-software,4
+aaleti,https://doi.org/10.1145/3377811.3380369,tool,RankLib library,footnote 6,,https://sourceforge.net/p/lemur/wiki/RankLib/,4
+aaleti,https://doi.org/10.1145/3377811.3380369,statistical,Iman and Davemport extension,11,https://doi.org/10.1080/03610928008827904,,6
+aaleti,https://doi.org/10.1145/3377811.3380432,dataset,introduced in Blazer,7,https://doi.org/10.1145/3140587.3062378,,1011
+aaleti,https://doi.org/10.1145/3377811.3380432,dataset,introduced in Themis,17,https://doi.org/10.1145/3133956.3134058,,1011
+aaleti,https://doi.org/10.1145/3377811.3380432,dataset,introduced in DiffFuzz,39,https://doi.org/10.1109/ICSE.2019.00034,,1011
+anjiperera,https://doi.org/10.1145/3377811.3380432,tool,Blazer,7,https://doi.org/10.1145/3140587.3062378,,1019
+anjiperera,https://doi.org/10.1145/3377811.3380432,tool,Themis,17,https://doi.org/10.1145/3133956.3134058,,1019
+anjiperera,https://doi.org/10.1145/3377811.3380432,tool,DiffFuzz,39,https://doi.org/10.1109/ICSE.2019.00034,,1019
+aaleti,https://doi.org/10.1145/3377811.3380432,tool,grey-box fuzzer AFL,53,,http://lcamtuf.coredump.cx/afl/,1013
+aaleti,https://doi.org/10.1145/3377811.3380432,tool,Janalyzer,8,,https://www.isis.vanderbilt.edu/node/4850,1014
+aaleti,https://doi.org/10.1145/3377811.3380432,method,system dependence graph (SDG),29,https://doi.org/10.1145/53990.53994,,1014
+aaleti,https://doi.org/10.1145/3377811.3380344,method,categorising projects Souza et al.,23,https://doi.org/10.1109/MSR.2013.6624030,,803
+aaleti,https://doi.org/10.1145/3377811.3380344,method,guidelines presented by Kalliamvakou et al. for mining Git repositories,36,https://doi.org/10.1145/2597073.2597074,,803
+aaleti,https://doi.org/10.1145/3377811.3380344,method,"grouped these factors into five unique di- mensions: size, complexity, diffusion, development pattern and comment ",62,https://doi.org/10.1145/2961111.2962606,,804
+aaleti,https://doi.org/10.1145/3377811.3380344,method,checked for multicollinearity using the Variance Inflation Factor (VIF),19,,https://www.taylorfrancis.com/books/mono/10.4324/9781410606266/applied-multiple-regression-correlation-analysis-behavioral-sciences-patricia-cohen-patricia-cohen-stephen-west-leona-aiken,805
+aaleti,https://doi.org/10.1145/3377811.3380344,sanity check,used a subset of these factors as a proxy for difficulty of a conflict,37,https://doi.org/10.1109/ICSE.2013.6606619,,805
+aaleti,https://doi.org/10.1145/3377811.3380344,sanity check,used a subset of these factors as a proxy for difficulty of a conflict,51,https://doi.org/10.1016/j.jss.2011.04.065,,805
+aaleti,https://doi.org/10.1145/3377811.3380344,tool,Auto-WEKA,38,https://doi.org/10.1007/978-3-030-05318-5_4,,806
+aaleti,https://doi.org/10.1145/3377811.3380398,method,SMT-LIB standard,12,,https://smtlib.cs.uiowa.edu/language.shtml,1460
+aaleti,https://doi.org/10.1145/3377811.3380398,method,reprocessing rules,35,https://doi.org/10.1145/2491411.2491456,,1461
+aaleti,https://doi.org/10.1145/3377811.3380398,method,SMT- LIB specification,5,,http://smtlib.cs.uiowa.edu/theories-,1463
+aaleti,https://doi.org/10.1145/3377811.3380398,tool,utomata-based solver MT-ABC,11,https://doi.org/10.1145/3236024.3236064,,1464
+anjiperera,https://doi.org/10.1145/3377811.3380398,stepping stones,StringFuzz,16,10.1007/978-3-319-96142-2_6,,1468
+anjiperera,https://doi.org/10.1145/3377811.3380398,tool,Z3-seq,7,,https://github.com/Z3Prover/z3/,1460
+anjiperera,https://doi.org/10.1145/3377811.3380398,tool,Z3str3,13,10.23919/FMCAD.2017.8102241,,1460
+anjiperera,https://doi.org/10.1145/3377811.3380398,tool,CVC4,25,10.1007/s10703-016-0247-6,,1460
+aaleti,https://doi.org/10.1145/3377811.3380330,method,user study design,40,https://doi.org/10.1007/s10664-008-9102-8,,655
+aaleti,https://doi.org/10.1145/3377811.3380330,method,negotiated agreement,13,https://doi.org/10.1016/j.iheduc.2005.11.001,,656
+aaleti,https://doi.org/10.1145/3377811.3380330,method,categorising interviews with Pattern Coding,33,,https://us.sagepub.com/en-us/nam/qualitative-data-analysis/book246128,656
+aaleti,https://doi.org/10.1145/3377811.3380330,method,qualitative coding,41,,https://us.sagepub.com/en-us/nam/book/coding-manual-qualitative-researchers-1,656
+aaleti,https://doi.org/10.1145/3377811.3380330,method,observed biases,34,https://doi.org/10.1109/TSE.2018.2877759,,657
+aaleti,https://doi.org/10.1145/3377811.3380330,method,the definitions of biases in cognitive science literature,50,https://doi.org/10.1016/0010-0285(73)90033-9,,657
+aaleti,https://doi.org/10.1145/3377811.3380330,method,the definitions of biases in cognitive science literature,51,https://doi.org/10.1126/science.185.4157.1124,,657
+aaleti,https://doi.org/10.1145/3377811.3380330,statistical,Cramer’s V measure,39,,https://analysis.mitre.org/proceedings/Final_Papers_Files/206_Camera_Ready_Paper.pdf,658
