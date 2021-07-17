@@ -1,0 +1,69 @@
+﻿gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num,sect_num
+XiaoLing941212,https://doi.org/10.1145/3368089.3409722,metric,cibtruvytuib acceotace,[38],10.1145/2468356.2468382,,1068,3.1.3
+XiaoLing941212,https://doi.org/10.1145/3368089.3409722,metric,introduced by Gousios et al.,[25],10.1145/2597073.2597122,,1069,3.1.4
+XiaoLing941212,https://doi.org/10.1145/3368089.3409726,tool,Haven,[5],10.1145/2799647,,1078,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409726,tool,Graphene-SGX,[31],,https://www.usenix.org/system/files/conference/atc17/atc17-tsai.pdf,1078,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409726,tool,SGX-LKL,[21],,https://arxiv.org/pdf/1908.11143.pdf,1078,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409739,dataset ,Lending Club Load Data,,,https://www.kaggle.com/wendykan/lending-club-loan-data,1092,4.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409739,method,Papernot attack,[21],,https://arxiv.org/pdf/1605.07277.pdf,1093,5.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409739,method,PGD,[16],,https://arxiv.org/pdf/1706.06083),1093,5.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409739,method,CW2,[7],10.1109/SP.2017.49,,1093,5.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409678,tool,fastText,[6],,https://watermark.silverchair.com/tacl_a_00051.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAsswggLHBgkqhkiG9w0BBwagggK4MIICtAIBADCCAq0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMw71zPUg2bM1fg1rnAgEQgIICfrwuchHNkfUWu602883Ly9InzXPMo0vYHn8g6GLdAe_C9nyPK4F-wN44it9u5efPtqlCfjFMVuvHnU2keaZ2ODiUbVdjK0FofwzWvNAur2e6hd9nLLMWw5J1jlOPKU1Py0MI-CS1yO79D4B79ty4BisLoZ-Gu-keQ6MPgkEDdFEfGDYABHCW59AwY3i1wXqWNnXf3t26DZlQQGIBJdHA4Z-RiHiKh8MsrtiHypEXLY7HxhHab-9lFDIkb3xsI0cBLjd0gJER_fr4F2Mn3vkrDV5iBY5EbOEyUA90wJz_ClZIvOBfJQeUzvIj0FJk8L_hDV7ZBXddAb31TkhHTUSThRBIf1ijPc_iW89YzYs2zhqbhd5WMj-xUDn6QzfPhmvZmYhcQ4MZMPuSfquI8zmMW4BI7n4Q1LT14NIH94EdLM7D6OdlnbCcmahnpsbnDjXfd4MzEARnb5Y6nmgF7rZMbRNd1s89k7BRsEAPh1aJaSCFF4aTkgyOLCRvuPYxgOQKnmfjqzufxqB1UJ6ChayFyWvXBaShiDBsKEivl_etQDEi1q8e9GLSz5aZciaOnt3XcgZR3FkuILD-V5NHXOCiDe62bXNEsoTVS8oX1zP2_tXZVkPWhUHq_4KGNSJpfM-rwSDZrbbypN2K2dA3N5unrad0e9JTopL0MwmnCuLA40lbuQQn9zBoFSBG3C4mYblkW2r3Rgx4o0duq3BmVLP9VWn4jIbc3Z3QuWZiB9rfRu_C_ud6kjk3jUasMFXCJ7c_5NxRHsD_PRadfbzU2NyfEALkjDGvQ9QOBhJKrRy9LNAa93mrYr84GjiUECshxL6-jcNlVqpvmKqu63O9r5nR,1104,3.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409678,method,Spy idea,[33],10.1109/ICDM.2003.1250918,,1106,3.5
+XiaoLing941212,https://doi.org/10.1145/3368089.3409678,method,ranking mechanism,[31],10.1145/1095430.1081755,,1107,4
+XiaoLing941212,https://doi.org/10.1145/3368089.3409678,method,ranking mechanism,[55],,https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_yun.pdf,1107,4
+XiaoLing941212,https://doi.org/10.1145/3368089.3409752,tool,ICE learning framework,[15],,https://link.springer.com/content/pdf/10.1007/978-3-319-08867-9_5.pdf,117,5
+XiaoLing941212,https://doi.org/10.1145/3368089.3409752,method,ICE-DT baseline,[16],10.1145/2837614.2837664,,118,5.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409744,method,WAPS,[20],,WAPS: Weighted and Projected Sampling,1120,4
+XiaoLing941212,https://doi.org/10.1145/3368089.3409744,method,ecos-icse11,[51],10.1109/ICST.2019.00032,,1120,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409744,method,embtoolkit,[29],10.1145/3106237.3106252,,1120,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409744,method,FinancialServices01,[50],10.1145/3336294.3336322,,1120,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409742,method,reproduce of SM work,[63],10.1145/227607.227610,,1128,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409742,tool,PIT v1.2.0,[10],10.1145/2931037.2948707,,1131,3.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409742,statistical reuse,Spearman's rank correlation coefficient test,[27],10.1016/j.infsof.2017.03.002,,1131,3.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409742,dataset ,SLR ,[75],10.1016/j.jss.2019.07.100,,1131,3.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409742,tool,EvoSuite,[28],10.1109/QSIC.2011.19,,1134,4.4
+XiaoLing941212,https://doi.org/10.1145/3368089.3409710,tool,SQLancer,[46],,https://www.usenix.org/system/files/osdi20-rigger.pdf,1145,3.5
+XiaoLing941212,https://doi.org/10.1145/3368089.3409710,tool,C-Reduce,[43],10.1145/2254064.2254104,,1146,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409694,method,microexecution,[19],10.1145/2568225.2568273,,1157,4.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409694,method,SEMI-NCA,[18],,https://www.cs.princeton.edu/research/techreps/TR-737-05,1160,6
+XiaoLing941212,https://doi.org/10.1145/3368089.3409694,tool,capstone,[11],,https://github.com/aquynh/capstone,1160,6
+XiaoLing941212,https://doi.org/10.1145/3368089.3409713,method,variational execution,[3],10.1145/2103656.2103677,,1166,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409713,method,variational execution,[53],10.1145/2970276.2970322,,1166,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409713,method,variational execution,[54],10.1145/2568225.2568300,,1166,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409713,tool,VarexC,[75],10.1145/3276487,,1169,3.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409713,method,brute-force search_bf,[17],10.1145/2642937.2643008,,1169,3.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409713,stepping stone,search_gen,[17],10.1145/2642937.2643008,,1169,3.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409713,method,regression test selection technique,[60],10.1016/bs.adcom.2018.03.015,,1173,5.3
+afonsohfontes,https://doi.org/10.1145/3368089.3409678,metric,,[31],https://doi.org/10.1145/1095430.1081755,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409678,metric,,[55],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409678,tool,,[6],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409694,tool,,[11],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409694,method,,[18],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409694,method,,[19],https://doi.org/10.1145/2568225.2568273,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409710,tool,,[43],https://doi.org/10.1145/2254064.2254104,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409710,tool,,[46],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409713,method,,[17],https://doi.org/10.1145/2642937.2643008,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409713,method,,[17],https://doi.org/10.1145/2642937.2643008,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409713,method,,[3],https://doi.org/10.1145/2103656.2103677,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409713,method,,[53],https://doi.org/10.1145/2970276.2970322,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409713,method,,[54],https://doi.org/10.1145/2568225.2568300,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409713,method,,[60],https://doi.org/10.1016/bs.adcom.2018.03.015,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409713,tool,,[75],https://doi.org/10.1145/3276487,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409722,metric,,[25],https://doi.org/10.1145/2597073.2597122,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409722,metric,,[38],https://doi.org/10.1145/2468356.2468382,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409726,tool,,[21],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409726,tool,,[31],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409726,tool,,[5],https://doi.org/10.1145/2799647,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409739,method,,[16],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409739,method,,[7],https://doi.org/10.1109/SP.2017.49,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409742,tool,,[10],https://doi.org/10.1145/2931037.2948707,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409742,metric,,[27],https://doi.org/10.1016/j.infsof.2017.03.002,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409742,tool,,[28],https://doi.org/10.1109/QSIC.2011.19,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409742,method,,[63],https://doi.org/10.1145/227607.227610,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409744,method,,[20],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409744,method,,[29],https://doi.org/10.1145/3106237.3106252,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409744,method,,[50],https://doi.org/10.1145/3336294.3336322,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409744,method,,[51],https://doi.org/10.1109/ICST.2019.00032,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409752,tool,,[15],,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409752,method,,[16],https://doi.org/10.1145/2837614.2837664,,,
