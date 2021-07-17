@@ -43,6 +43,7 @@ function ReuseFromCSVData(csvData: any): Reuse {
 function ProcessDOI(doi : string) : string {
     return doi.replace("https://doi.org/", "")
               .replace("https://dl.acm.org/doi/abs/", "")
+              .replace("https://dl.acm.org/doi/pdf/", "")
               .replace("https://dl.acm.org/doi/", "")
               .replace("http://dx.doi.org/", "")
               .trim();
