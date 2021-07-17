@@ -46,6 +46,7 @@ function ProcessDOI(doi : string) : string {
               .replace("https://dl.acm.org/doi/pdf/", "")
               .replace("https://dl.acm.org/doi/", "")
               .replace("http://dx.doi.org/", "")
+              .replace("https://dx.doi.org/", "")
               .trim();
 }
 
