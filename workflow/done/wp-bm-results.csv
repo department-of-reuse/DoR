@@ -1,0 +1,126 @@
+gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num
+kpeng2019,https://doi.org/10.1145/3368089.3409676,method,replication of prior work,57,10.1109/cvpr.2019.00491,,841
+kpeng2019,https://doi.org/10.1145/3368089.3409676,dataset,dataset used in experiment,2,,https://arxiv.org/pdf/1804.07729.pdf,845
+kpeng2019,https://doi.org/10.1145/3368089.3409676,dataset,dataset used in experiment,8,,https://arxiv.org/abs/1712.04248,845
+kpeng2019,https://doi.org/10.1145/3368089.3409676,dataset,dataset used in experiment,11,10.1109/sp.2017.49,,845
+kpeng2019,https://doi.org/10.1145/3368089.3409676,dataset,dataset used in experiment,21,,https://arxiv.org/pdf/1712.02779.pdf,845
+kpeng2019,https://doi.org/10.1145/3368089.3409676,dataset,dataset used in experiment,27,,https://arxiv.org/abs/1412.6572,845
+kpeng2019,https://doi.org/10.1145/3368089.3409676,dataset,dataset used in experiment,49,,https://arxiv.org/abs/1706.06083,845
+kpeng2019,https://doi.org/10.1145/3368089.3409676,dataset,dataset used in experiment,50,10.1109/cvpr.2016.282,,845
+kpeng2019,https://doi.org/10.1145/3368089.3409676,dataset,dataset used in experiment,52,10.1109/cvprw.2017.172,,945
+kpeng2019,https://doi.org/10.1145/3368089.3409676,dataset,dataset used in experiment,55,10.1109/eurosp.2016.36,,845
+kpeng2019,https://doi.org/10.1145/3368089.3409674,"metric, method","metric to criticize, and replication of method",47,10.1145/3132747.3132785,,973
+kpeng2019,https://doi.org/10.1145/3368089.3409754,metric,eval metric,51,,https://arxiv.org/abs/1606.03498,973
+kpeng2019,https://doi.org/10.1145/3368089.3409754        ,metric,eval metric,17,,https://dl.acm.org/doi/10.5555/3295222.3295408,965
+kpeng2019,"https://doi.org/10.1145/3368089.3409754	",method,replication of prior work,5,,https://arxiv.org/abs/1604.07316,965
+kpeng2019,"https://doi.org/10.1145/3368089.3409754	",method,replication of prior work,16,10.1109/cvpr.2016.90,,965
+kpeng2019,"https://doi.org/10.1145/3368089.3409754	",method,replication of prior work,19,10.17504/protocols.io.8j6hure,,965
+kpeng2019,"https://doi.org/10.1145/3368089.3409754	",method,prior work evaluated in discussion section,58,10.1145/3180155.3180220,,973
+kpeng2019,https://doi.org/10.1145/3368089.3409756,dataset,dataset used in experiment,30,10.1145/3377811.3380339,,864
+kpeng2019,https://doi.org/10.1145/3368089.3409756,method,replication of prior work,30,10.1145/3377811.3380339,,864
+kpeng2019,https://doi.org/10.1145/3368089.3409756,method,replication of prior work,69,10.1145/3377811.3380420,,868
+kpeng2019,https://doi.org/10.1145/3368089.3409756,theory,theory reuse,20,10.18653/v1/N19-1423,,864
+kpeng2019,https://doi.org/10.1145/3368089.3409756,algorithm,core component,51,,https://arxiv.org/abs/1301.3781,865
+kpeng2019,https://doi.org/10.1145/3368089.3409732,dataset,benchmark problems,2,10.1109/FMCAD.2013.6679385,,93
+kpeng2019,https://doi.org/10.1145/3368089.3409732,method,replication of prior work,20,10.1145/3133886,,95
+kpeng2019,https://doi.org/10.1145/3368089.3409732,Benchmark suite,repo of benchmark suite,1,,https://github.com/SyGuS-Org/benchmarks/tree/master/comp/2019/PBE_SLIA_Track/from_2018,88
+kpeng2019,https://doi.org/10.1145/3368089.3409730,dataset,dataset used in experiment,28,10.1109/5.726791,,878
+kpeng2019,https://doi.org/10.1145/3368089.3409730,tool,tool to transform data format,45,,http://potrace.sourceforge.net/potrace.pdf,878
+kpeng2019,https://doi.org/10.1145/3368089.3409730,core component,based on previous work,12,10.1109/4235.996017,,879
+kpeng2019,https://doi.org/10.1145/3368089.3409730,core component,based on previous work,36,10.1007/978-3-642-18272-3_10,,879
+kpeng2019,https://doi.org/10.1145/3368089.3409730,dataset,dataset used in experiment,5,,https://www.beamng.gmbh/research,878
+kpeng2019,https://doi.org/10.1145/3368089.3409730,method,benchmark method,18,10.1145/3236024.3264835,,877
+kpeng2019,https://doi.org/10.1145/3368089.3409668,theory,theory as a core component,23,10.1145/302405.302457,,891
+kpeng2019,https://doi.org/10.1145/3368089.3409668,dataset,dataset used in experiment,2,,arxiv:1812.01718,895
+kpeng2019,https://doi.org/10.1145/3368089.3409668,dataset,dataset used in experiment,3,10.1109/ijcnn.2017.7966217,,894
+kpeng2019,https://doi.org/10.1145/3368089.3409668,dataset,dataset used in experiment,8,10.1109/9780470544976.ch9,,890
+kpeng2019,https://doi.org/10.1145/3368089.3409668,dataset,dataset used in experiment,26,,https://arxiv.org/abs/1708.07747,895
+kpeng2019,https://doi.org/10.1145/3368089.3409696,dataset,dataset used in experiment,24,10.1109/5.726791,,907
+kpeng2019,https://doi.org/10.1145/3368089.3409696,dataset,dataset used in experiment,39,10.3115/1118693.1118704,,907
+kpeng2019,https://doi.org/10.1145/3368089.3409696,dataset,dataset used in experiment,21,,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.222.9220,907
+kpeng2019,https://doi.org/10.1145/3368089.3409696,dataset,dataset used in experiment,7,,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.222.2063,907
+kpeng2019,https://doi.org/10.1145/3368089.3409696,dataset,dataset used in experiment,30,,https://link.springer.com/book/10.1007%2F978-3-642-15181-1,907
+kpeng2019,https://doi.org/10.1145/3368089.3409696,dataset,dataset used in experiment,9,10.1109/CVPR.2009.5206848,,907
+kpeng2019,https://doi.org/10.1145/3368089.3409696,method,benchmark method,16,,https://arxiv.org/abs/1503.02531,908
+kpeng2019,https://doi.org/10.1145/3368089.3409696,method,benchmark method,45,,http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.1639,908
+kpeng2019,https://doi.org/10.1145/3368089.3409696,method,benchmark method,65,10.1145/775047.775151,,904
+kpeng2019,https://doi.org/10.1145/3368089.3409702,method,method reuse,14,10.1145/24039.24041,,920
+kpeng2019,https://doi.org/10.1145/3368089.3409702,tool,reuse of EdgeMiner,8,10.14722/ndss.2015.23140,,920
+kpeng2019,https://doi.org/10.1145/3368089.3409702,tool,reuse of TIRO,42,,https://dl.acm.org/doi/10.5555/3277203.3277297,920
+kpeng2019,https://doi.org/10.1145/3368089.3409702,tool,reuse of PackerGrind,44,10.1109/TSE.2020.2996433,,920
+kpeng2019,https://doi.org/10.1145/3368089.3409702,tool,reuse of FlowDroid,3,10.1145/2666356.2594299,,920
+kpeng2019,https://doi.org/10.1145/3368089.3409702,tool,reuse of IC3,34,10.1109/ICSE.2015.30,,920
+kpeng2019,https://doi.org/10.1145/3368089.3409702,tool,reuse of OpenWPM to extract domain,13,10.1145/2976749.2978313,,921
+kpeng2019,https://doi.org/10.1145/3368089.3409677,method,reuse of LSTM,26,10.1162/neco.1997.9.8.1735,,931
+kpeng2019,https://doi.org/10.1145/3368089.3409677,tool,reuse of uDroid,29,10.1145/3106237.3106244,,931
+kpeng2019,https://doi.org/10.1145/3368089.3409677,method,reuse of attention mechanism,8,10.1109/TSE.2017.2689012,,931
+kpeng2019,https://doi.org/10.1145/3368089.3409745,tool,FlowDroid to extract cal graph,28,10.1145/2666356.2594299,,943
+kpeng2019,https://doi.org/10.1145/3368089.3409745,tool,Soot framework to extract cal graph,33,,https://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.221.5311,943
+kpeng2019,https://doi.org/10.1145/3368089.3409745,dataset,AndroZoo dataset,20,10.1145/2901739.2903508,,945
+kpeng2019,https://doi.org/10.1145/3368089.3409745,dataset,dataset reuse,34,,https://arxiv.org/abs/1709.05281,945
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,stepping stone,compare to prior SOTA,[57],10.1109/cvpr.2019.00491,,844
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,method,compare to baseline,[57],10.1109/cvpr.2019.00491,,844
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,FGSM,[27],,https://arxiv.org/pdf/1412.6572.pdf),845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,Deepfool,[50],10.1109/cvpr.2016.282,,845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,JSMA,[55],10.1109/EuroSP.2016.36,,845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,PGD,[49],,https://arxiv.org/pdf/1706.06083),845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,Adef,[2],,https://arxiv.org/pdf/1804.07729.pdf,845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,LocalSearch,[52],,https://arxiv.org/pdf/1612.06299.pdf,845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,Boundary,[8],,https://arxiv.org/pdf/1712.04248.pdf,845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,Spatial,[21],,https://openreview.net/pdf?id=BJfvknCqFQ,845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,CWL2,[11],10.1109/SP.2017.49,,845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,metric,Inception Score,[51],,https://arxiv.org/pdf/1606.03498.pdf,852
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,metric,Frechet Inception Distance,[17],,https://arxiv.org/pdf/1706.08500.pdf?source=post_page---------------------------,852
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,method,Pielou's evenness score,[49],,https://www.sciencedirect.com/science/article/abs/pii/0022519366900130,852
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,dataset,CIFAR10,[27],,http://www.cs.toronto.edu/~kriz/cifar.html,853
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,dataset,MNIST,[32],,http://yann.lecun.com/exdb/mnist/,853
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,dataset,Undacity Self-Driving Car,[1],,https://github.com/udacity/self-driving-car,853
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,method,Carlini-Wagner,[8],10.1109/SP.2017.49,,854
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,method,Projected Gradient Descent,[39],,https://openreview.net/forum?id=rJzIBfZAb,854
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,method,Kullback-Leibler divergence,[29],,https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-1/On-Information-and-Sufficiency/10.1214/aoms/1177729694.full,854
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,statistical method,correlative significance,[50],10.1057/jt.2009.5,,856
+XiaoLing941212,https://doi.org/10.1145/3368089.3409754,tool,masked language model,[20],,https://arxiv.org/pdf/1810.04805.pdf&usg=ALkJrhhzxlCL6yTht2BRmH9atgvKFxHsxQ,864
+XiaoLing941212,https://doi.org/10.1145/3368089.3409756,tool,MLM,[51],,https://arxiv.org/pdf/1301.3781.pdf%C3%AC%E2%80%94%20%C3%AC%E2%80%9E%C5%93,865
+XiaoLing941212,https://doi.org/10.1145/3368089.3409756,dataset,experimental dataset,[30],10.1145/3377811.3380339,,867
+XiaoLing941212,https://doi.org/10.1145/3368089.3409756,stepping stone,compare to SOTA,[30],10.1145/3377811.3380339,,868
+XiaoLing941212,https://doi.org/10.1145/3368089.3409756,stepping stone,compare to SOTA,[69],10.1145/3377811.3380420,,868
+XiaoLing941212,https://doi.org/10.1145/3368089.3409732,dataset,SyGus 2018 banchmark set,[1],,https://github.com/SyGuS-Org/benchmarks/tree/master/comp/2019/PBE_SLIA_Track/from_2018,88
+XiaoLing941212,https://doi.org/10.1145/3368089.3409732,method,DSL,[19],10.1145/3158151,,93
+XiaoLing941212,https://doi.org/10.1145/3368089.3409732,replication,FTAs,[20],10.1145/3133886,,95
+XiaoLing941212,https://doi.org/10.1145/3368089.3409730,dataset,MNIST,[28],10.1109/5.726791,,878
+XiaoLing941212,https://doi.org/10.1145/3368089.3409730,method,Potrace algorithm,[45],,http://potrace.sourceforge.net/potrace.pdf,878
+XiaoLing941212,https://doi.org/10.1145/3368089.3409730,algorithm,multi-objective evolutionary search algorithm,[12],10.1109/4235.996017,,879
+XiaoLing941212,https://doi.org/10.1145/3368089.3409730,algorithm,novelty search,[36],,https://hal.archives-ouvertes.fr/hal-01300711/file/2011COS1944.pdf,879
+XiaoLing941212,https://doi.org/10.1145/3368089.3409730,tool,DEAP v1.3.0,[15],,https://psychclassics.yorku.ca/Fisher/Methods/chap6.htm,879
+XiaoLing941212,https://doi.org/10.1145/3368089.3409730,metric reuse,,[16],10.1145/3293882.3330566,,880
+XiaoLing941212,https://doi.org/10.1145/3368089.3409730,dataset,BeamNG,[5],,https://beamng.gmbh/research/,882
+XiaoLing941212,https://doi.org/10.1145/3368089.3409730,stepping stone,compare to SOTA,[18],10.1145/3236024.3264835,,883
+XiaoLing941212,https://doi.org/10.1145/3368089.3409668,theory,theory used in algorithm,[23],10.1145/302405.302457,,891
+XiaoLing941212,https://doi.org/10.1145/3368089.3409668,dataset,MNIST,[8],10.1109/9780470544976.ch9,,894
+XiaoLing941212,https://doi.org/10.1145/3368089.3409668,dataset,EMNIST,[3],10.1109/IJCNN.2017.7966217,,894
+XiaoLing941212,https://doi.org/10.1145/3368089.3409668,dataset,Kuzushiji MNIST,[2],,https://arxiv.org/pdf/1812.01718.pdf,894
+XiaoLing941212,https://doi.org/10.1145/3368089.3409668,dataset,Fashion MNIST,[26],,https://arxiv.org/pdf/1708.07747.pdf,894
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,dataset,MNIST,[24],10.1109/5.726791,,907
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,dataset,USPS,[11],,http://statweb.stanford.edu/~tibs/book/preface.ps,907
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,dataset,Polarity,[39],,https://arxiv.org/pdf/cs/0205070.pdf,907
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,dataset,CIFAR-10,[21],,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.222.9220,907
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,dataset,STL-10,[7],,http://proceedings.mlr.press/v15/coates11a/coates11a.pdf,907
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,dataset,Image-CLEF,[30],,https://books.google.com/books?hl=en&lr=&id=ww1PjB4DlUYC&oi=fnd&pg=PR7&dq=.+ImageCLEF:+Experimental+Evaluation+in+Visual+Information+Retrieval+(1st+ed.)&ots=A9Fbl9j6uD&sig=bZ29voY_PBw7xIvwnDIw3jcvdQg,907
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,dataset,ImageNet,[9],10.1109/CVPR.2009.5206848,,907
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,method,Temperature Scaling,[16],,https://arxiv.org/pdf/1503.02531.pdf,908
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,method,Platt Scaling,[45],,https://www.researchgate.net/profile/John_Platt/publication/2594015_Probabilistic_Outputs_for_Support_Vector_Machines_and_Comparisons_to_Regularized_Likelihood_Methods/links/004635154cff5262d6000000.pdf,908
+XiaoLing941212,https://doi.org/10.1145/3368089.3409696,method,Isotonic Regression,[65],10.1145/775047.775151,,908
+XiaoLing941212,https://doi.org/10.1145/3368089.3409702,tool,EdgeMiner,[8],,http://yinzhicao.org/EdgeMiner/2015_ndss_edgeminer.pdf,920
+XiaoLing941212,https://doi.org/10.1145/3368089.3409702,tool,TIRO,[42],,https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-wong.pdf,920
+XiaoLing941212,https://doi.org/10.1145/3368089.3409702,tool,PackerGrind,[44],10.1109/ICSE.2017.40,,920
+XiaoLing941212,https://doi.org/10.1145/3368089.3409702,tool,FlowDroid,[3],10.1145/2594291.2594299,,920
+XiaoLing941212,https://doi.org/10.1145/3368089.3409702,tool,IC3,[34],10.1109/ICSE.2015.30,,920
+XiaoLing941212,https://doi.org/10.1145/3368089.3409702,method,taint analysis,[3],10.1145/2594291.2594299,,921
+XiaoLing941212,https://doi.org/10.1145/3368089.3409702,tool,OpenWPM,[13],10.1145/2976749.2978313,,921
+XiaoLing941212,https://doi.org/10.1145/3368089.3409677,method,DL engine - Attention Mechanism,[8],,https://arxiv.org/pdf/1409.0473.pdf?utm_source=ColumnsChannel,929
+XiaoLing941212,https://doi.org/10.1145/3368089.3409677,tool,Udroid,[29],10.1145/3106237.3106244,,931
+XiaoLing941212,https://doi.org/10.1145/3368089.3409677,tool,LSTM,[26],,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.676.4320&rep=rep1&type=pdf,931
+XiaoLing941212,https://doi.org/10.1145/3368089.3409745,dataset,AndroZoo,[20],10.1145/2901739.2903508,,940
+XiaoLing941212,https://doi.org/10.1145/3368089.3409745,method,Soot Framework,[33],,https://pdfs.semanticscholar.org/ee6e/6d0f9a1d034ad00ea2179fa1fcb81bb26bd7.pdf,943
+XiaoLing941212,https://doi.org/10.1145/3368089.3409745,tool,FlowDroid,[28],10.1145/2594291.2594299,,943
+XiaoLing941212,https://doi.org/10.1145/3368089.3409745,dataset,lineage dataset,[37],10.1109/TR.2019.2956690,,946
