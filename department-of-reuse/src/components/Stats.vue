@@ -16,7 +16,7 @@
 </template>
 <script lang="ts">
 import { ref, PropType } from "vue";
-import Reuse from '@/backend/models/Reuse';
+import Reuse from '../backend/models/Reuse';
 
 export default ({
     props: {

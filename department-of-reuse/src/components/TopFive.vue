@@ -57,11 +57,11 @@
 <script lang="ts">
 import { ref, onBeforeMount, PropType } from "vue";
 
-import Reuse from '@/backend/models/Reuse';
+import Reuse from '../backend/models/Reuse';
 
-import RIndex from '@/backend/RIndex';
-import { HistogramEntry } from '@/tools/Histogram';
-import { Author, Work } from '@/clients/crossref';
+import RIndex from '../backend/RIndex';
+import { HistogramEntry } from '../tools/Histogram';
+import { Author, Work } from '../clients/crossref';
 
 interface HistogramContainer<T> {
   reused : Array<HistogramEntry<T>>,
