@@ -1,0 +1,10 @@
+name: Report reusing
+description: Report a single paper reusing (parts) from other papers
+title: "[Reusing]: "
+labels: []
+assignees: 
+body: 
+  - type: markdown
+    attributes: 
+      value: |
+        Thank you for reporting research which is reusing other papers. 
