@@ -35,6 +35,6 @@ export function EntryFromXmlTyped(xml: any, ignoreDiscriminator: boolean) {
         comment: CommentFromXml(xml['arxiv:comment']),
         link: ((xml.link as Array<any>).map(LinkFromXml)),
         primary_category: CategoryFromXml(xml['arxiv:primary_category']),
-        category: ((xml.category as Array<any>).map(CategoryFromXml))
+        category: (xml.category == null) ? new Array() : ((xml.category as Array<any>).map(CategoryFromXml))
     };
 }
