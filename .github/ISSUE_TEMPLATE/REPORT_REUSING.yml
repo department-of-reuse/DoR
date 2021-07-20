@@ -8,3 +8,11 @@ body:
     attributes: 
       value: |
         Thank you for reporting research which is reusing other papers. 
+  - type: input
+    id: source_doi
+    attributes: 
+      label: DOI 
+      description: The DOI of the paper to be inspected 
+      placeholder: e.g. 10.1145/3368089.3409767
+    validations:
+      required: true
