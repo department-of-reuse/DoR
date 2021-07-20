@@ -1,57 +1,81 @@
 ﻿gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num
-XueqiYang,https://doi.org/10.1145/3368089.3409751,replication,implemented using the ANTLR parser generator [25],25,,https://pragprog.com/titles/tpantlr2/the-definitive-antlr-4-reference/,391
-XueqiYang,https://doi.org/10.1145/3368089.3409751,stepping stone,built on top of the ActiveDocumentation system for working with design rules [23].,23,10.1109/VLHCC.2019.8818816,,390
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409746,dataset,We conduct this study based on GHTorrent database [10],10,10.1109/MSR.2013.6624034,,400
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409746,metrics,we utilize the Mann-Whitney U test to compare the two independent groups [25].,25,10.20982/tqmp.04.1.p013,,402
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409746,metrics,The following metrics are borrowed from a study evaluating software changes [31].,31,https://dl.acm.org/doi/10.1145/2393596.2393670,,404
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409701,stepping stone,We report this paper under an adapted CONSORT format [9] used for reporting randomized controlled trials,9,https://doi.org/10.1136/bmj.c869,,411
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409702,replication,All the code used for tasks and to perform the experiment can be found the replication package artifact [32].,32,https://dl.acm.org/doi/abs/10.1145/3368089.3409701,,414
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409703,method,followed the covariate adaptive randomization approach [26],26,10.4103/0974-1208.82352,,414
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409724,dataset,dataset reuse,,https://doi.org/10.1016/j.jss.2019.110487,,422
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409725,method,We followed Charmaz’s constructivist approach [8],8,10.7748/nr.13.4.84.s4,,422
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409726,method,Silva et al.’s motivation scheme [43],43,https://doi.org/10.1016/j.jss.2019.110487,,423
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409727,metrics,employ the term functional significance [9],9,10.1037/0033-2909.125.6.627,,426
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409684,method,snowballing search [107],107,https://dl.acm.org/doi/10.1145/2601248.2601268,,436
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409685,stepping stone,a catalog of SPLE publications against which we compared our sample [26].,26,,https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513798,436
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409686,method,"data analysis method, an open-card sorting-like method [110]",110,https://doi.org/10.1016/B978-0-12-804206-9.00027-1,,436
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409680,replication,"Interview guide, survey materials, and analysis scripts can be found in the replication package of the study [9].",9,10.5281/zenodo.4022892,,447
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409680,method,a saturation approach [19],19,https://doi.org/10.1016/C2015-0-00521-4,,447
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409681,stepping stone,adopted from a previous fMRI study conducted by Floyd et al. [26],26,10.1109/ICSE.2017.24,,459
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409682,dataset,human photos from the Chicago Face Database [60],60,10.3758/s13428-014-0532-5,,459
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409683,metrics,conducted equivalence hypothesis tests [22],22,https://dl.acm.org/doi/10.1007/s11219-013-9196-0,,459
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409684,method,This stimulus structure is broadly similar to that used by Ford et al. [27].,27,https://dl.acm.org/doi/10.1109/ICSE-SEIS.2019.17,,460
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409767,tool,A tool for plagiarism checking,,,https://github.com/diogocabral/sherlock,471
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409767,method,Hudson’s approach of open card sorting to analyze the answers [14].,14,,https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed,473
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409712,dataset,Eyetracking Data,,,https://drive.google.com/drive/folders/1HeZY-bg6fLhgPF4xL2EQvl9FQZLIkWau,483
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409712,method,a block randomized controlled trial [72],72,https://doi.org/10.4103/0974-1208.82352,,482
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409712,method,a post-survey and a NASA Task Load Index (TLX) questionnaire [35],35,https://doi.org/10.1016/S0166-4115(08)62386-9,,483
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409712,metrics,measured cognitive load [73] using two proxy measures,73,https://doi.org/10.1016/B978-0-12-387691-1.00002-8,,484
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409766,stepping stone,fieldwork collaborated,,https://dl.acm.org/doi/10.1145/3196369.3196374,,496
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409766,method,an interaction analysis approach [15],15,https://doi.org/10.1207/s15327809jls0401_2,,497
-XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409766,method,an ethnographic approach [30],30,10.1109/TSE.2016.2519887,,496
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409680,method,,9,10.5281/zenodo.4022892,,
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409680,replication,,9,,https://zenodo.org/record/4022892#.YNPfIGZKgxk,447
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409680,method,,19,https://doi.org/10.1016/C2015-0-00521-4,,447
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409681,stepping stone,,26,10.1109/ICSE.2017.24,,459
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409681,dataset,,60,10.3758/s13428-014-0532-5,,459
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409681,metrics,,22,https://dl.acm.org/doi/10.1007/s11219-013-9196-0,,459
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409684,method,,107,https://dl.acm.org/doi/10.1145/2601248.2601268,,436
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409684,method,,27,https://dl.acm.org/doi/10.1109/ICSE-SEIS.2019.17,,460
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409684,stepping stone,,26,,https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513798,436
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409684,method,,110,https://doi.org/10.1016/B978-0-12-804206-9.00027-1,,436
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409701,stepping stone,,9,https://doi.org/10.1136/bmj.c869,,411
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409701,replication,,32,https://dl.acm.org/doi/abs/10.1145/3368089.3409701,,414
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409701,method,,26,10.4103/0974-1208.82352,,414
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409712,dataset,,,,https://drive.google.com/drive/folders/1HeZY-bg6fLhgPF4xL2EQvl9FQZLIkWau,483
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409712,method,,72,https://doi.org/10.4103/0974-1208.82352,,482
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409712,method,,35,https://doi.org/10.1016/S0166-4115(08)62386-9,,483
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409712,metrics,,73,https://doi.org/10.1016/B978-0-12-387691-1.00002-8,,484
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409724,dataset,,,https://doi.org/10.1016/j.jss.2019.110487,,422
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409724,method,,8,10.7748/nr.13.4.84.s4,,422
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409724,method,,43,https://doi.org/10.1016/j.jss.2019.110487,,423
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409724,metrics,,9,10.1037/0033-2909.125.6.627,,426
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409746,dataset,,10,10.1109/MSR.2013.6624034,,400
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409746,metrics,,25,,https://www.tqmp.org/RegularArticles/vol04-1/p013/p013.pdf,402
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409746,metrics,,31,https://dl.acm.org/doi/10.1145/2393596.2393670,,404
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409766,stepping stone,,,https://dl.acm.org/doi/10.1145/3196369.3196374,,496
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409766,method,,15,https://doi.org/10.1207/s15327809jls0401_2,,497
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409766,method,,30,10.1109/TSE.2016.2519887,,496
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409767,tool,,,,https://github.com/diogocabral/sherlock,471
+XueqiYang,https://dl.acm.org/doi/10.1145/3368089.3409767,method,,14,,https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed,473
+XueqiYang,https://doi.org/10.1145/3368089.3409751,replication,,25,,https://pragprog.com/titles/tpantlr2/the-definitive-antlr-4-reference/,391
+XueqiYang,https://doi.org/10.1145/3368089.3409751,stepping stone,,23,10.1109/VLHCC.2019.8818816,,390
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409680,method,,9,,https://zenodo.org/record/4022892#.YNPfIGZKgxk,
 afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409680,method,,19,https://doi.org/10.1016/C2015-0-00521-4,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409680,method,,13,https://doi.org/10.1007/s10664-011-9161-0,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409680,method,,25,https://doi.org/10.1145/2884781.2884833,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409680,method,,5,https://doi.org/10.1023/A:1014866909191,,
 afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409681,method,,26,10.1109/ICSE.2017.24,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409682,dataset,human photos,60,10.3758/s13428-014-0532-5,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409683,metrics,,22,https://dl.acm.org/doi/10.1007/s11219-013-9196-0,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409684,method,snowballing,107,https://dl.acm.org/doi/10.1145/2601248.2601268,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409681,dataset,,60,10.3758/s13428-014-0532-5,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409681,metrics,,22,https://dl.acm.org/doi/10.1007/s11219-013-9196-0,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409681,method,,27,,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409681,method,,41,,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409684,method,,107,https://dl.acm.org/doi/10.1145/2601248.2601268,,
 afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409684,method,,27,https://dl.acm.org/doi/10.1109/ICSE-SEIS.2019.17,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409685,method,,26,,https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513798,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409686,method,data analysis,110,https://doi.org/10.1016/B978-0-12-804206-9.00027-1,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409701,method,,9,https://doi.org/10.1136/bmj.c869,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409702,method?,Code used,32,https://dl.acm.org/doi/abs/10.1145/3368089.3409701,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409703,method,,26,10.4103/0974-1208.82352,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409684,method,,26,,https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=513798,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409684,method,,110,https://doi.org/10.1016/B978-0-12-804206-9.00027-1,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409701,method,,1,,http://www.consortstatement.org/,
+afonsohfontes,https://doi.org/10.1145/3368089.3409701,method,,26,10.4103/0974-1208.82352,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409701,method,,9,https://doi.org/10.1136/bmj.c869,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409701,stepping stone,,32,https://dl.acm.org/doi/abs/10.1145/3368089.3409701,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409701,method,,26,10.4103/0974-1208.82352,,
 afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409712,method,,72,https://doi.org/10.4103/0974-1208.82352,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409712,method,NASA questionnaire,35,https://doi.org/10.1016/S0166-4115(08)62386-9,,
+afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409712,method,,35,https://doi.org/10.1016/S0166-4115(08)62386-9,,
 afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409712,metrics,,73,https://doi.org/10.1016/B978-0-12-387691-1.00002-8,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409725,method,,8,10.7748/nr.13.4.84.s4,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409726,method,,43,https://doi.org/10.1016/j.jss.2019.110487,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409727,metrics,,9,10.1037/0033-2909.125.6.627,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409746,dataset,,10,10.1109/MSR.2013.6624034,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409746,metrics,,25,10.20982/tqmp.04.1.p013,,
-afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409746,metrics,,31,https://dl.acm.org/doi/10.1145/2393596.2393670,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409724,method,,8,10.7748/nr.13.4.84.s4,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409724,method,,9,,https://psycnet.apa.org/buy/1999-01567-001,
+afonsohfontes,https://doi.org/10.1145/3368089.3409724,metrics,,20,https://dx.doi.org/10.2139/ssrn.443040,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409724,metrics,,24,https://doi.org/10.1002/0471264385.wei1210,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409724,metrics,,26,https://doi.org/10.1080/00220671.2016.1220359,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409724,method,,33,10.1109/TSE.2018.2796554,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409724,method,,37,,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409724,stepping stone,,43,https://doi.org/10.1016/j.jss.2019.110487,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409724,method,,48,,https://google.github.io/gsocguides/mentor/index,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,metrics,,3,,https://www.opalco.com/wp-content/uploads/2014/10/Reading-Sample-Size1.pdf,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,Method,,7,https://doi.org/10.2307/1937887,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,Method,,6,10.1109/ESEM.2011.36,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,dataset,,10,10.1109/MSR.2013.6624034,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,dataset,,12,https://doi.org/10.1007/s10664-018-9636-3,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,metrics,,25,,https://www.tqmp.org/RegularArticles/vol04-1/p013/p013.pdf,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,Method,,15,https://doi.org/10.1145/2597073.2597074,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,Tool,,20,,https://arxiv.org/abs/cs/0205028,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,Method,,24,10.1147/sj.153.0225,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,metrics,,21,https://doi.org/10.1145/800174.809754,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,tool,,28,,https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.121.1424&rep=rep1&type=pdf,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,metrics,,31,https://doi.org/10.1145/2393596.2393670,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409746,metrics,,36,https://doi.org/10.1145/2568225.2568315,,
 afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409766,method,,15,https://doi.org/10.1207/s15327809jls0401_2,,
 afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409766,method,,30,10.1109/TSE.2016.2519887,,
 afonsohfontes,https://dl.acm.org/doi/10.1145/3368089.3409767,method,,14,,https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed,
-afonsohfontes,https://doi.org/10.1145/3368089.3409751,method,,25,,https://pragprog.com/titles/tpantlr2/the-definitive-antlr-4-reference/,
-afonsohfontes,https://doi.org/10.1145/3368089.3409751,method,,23,10.1109/VLHCC.2019.8818816,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409751,Tool,,25,,https://pragprog.com/titles/tpantlr2/the-definitive-antlr-4-reference/,
+afonsohfontes,https://doi.org/10.1145/3368089.3409751,Method,,23,10.1109/VLHCC.2019.8818816,,
+afonsohfontes,https://doi.org/10.1145/3368089.3409751,Method,,4,,,
