@@ -44,8 +44,6 @@ export default {
                         .filter(id => id.startsWith("arxiv:"))
                         .map(id => id.replace("arxiv:", ""))));
 
-      console.log(arxivIds);
-
       return Promise.all(dois.map(currentDoi => createNodeFromDOI(currentDoi)).concat(
                          arxivIds.map(id => createNodeFromArxivId(id))));
     }
