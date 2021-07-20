@@ -10,8 +10,11 @@ import { ref, onMounted, PropType } from "vue";
 
 import Reuse from "../backend/models/Reuse";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
-import { Author, WorkMessage } from "@/clients/crossref";
-import CompoundSet from "@/tools/CompoundSet";
+import { CachedArxivApi } from "../tools/CachedArxivApi";
+import { Author, WorkMessage } from "../clients/crossref";
+import { Feed } from "../clients/arxiv";
+
+import CompoundSet from "../tools/CompoundSet";
 
 export default {
   props: {
@@ -21,6 +24,7 @@ export default {
     const cyroot = ref(null);
     const cyInstance = ref<Core | null>(null);
     const worksApi = new CachedWorksApi();
+    const arxivApi = new CachedArxivApi();
 
     async function transformToGraph(data: Array<Reuse>) : Promise<ElementsDefinition> {
       const transformedNodes = await getNodes(data);
@@ -35,18 +39,53 @@ export default {
                         .concat(data.map(entry => entry.reusedDOI))
                         .filter(doi => doi.trim() != "")));
 
-      return Promise.all(dois.map(currentDoi => createNodeFromDOI(currentDoi)));
+      const arxivIds = Array.from(new Set(data
+                        .map(entry => entry.alternativeID)
+                        .filter(id => id.startsWith("arxiv:"))
+                        .map(id => id.replace("arxiv:", ""))));
+
+      console.log(arxivIds);
+
+      return Promise.all(dois.map(currentDoi => createNodeFromDOI(currentDoi)).concat(
+                         arxivIds.map(id => createNodeFromArxivId(id))));
     }
+
+    async function createNodeFromArxivId(id : string) : Promise<NodeDefinition> {
+      const arxivEntry = await arxivApi.queryById({id : id}).catch((err) => {
+          console.warn(err);
+        });
+      var nodeName = id;
+
+      if (arxivEntry as Feed) {
+        const entry = (arxivEntry as Feed).entry;
+
+        if (entry.author.length > 0) {
+          if (entry.author.length == 1) nodeName = entry.author[0].name
+          else nodeName = entry.author[0].name + " et al."
+        }
+        nodeName += ` (${entry.published == null ? '???' : new Date(entry.published).getFullYear()})` 
+      }
+
+      return { data: {id: "arxiv:" + id, name: nodeName}, classes: "arxiv" };
+    }
+
+    
 
     async function createNodeFromDOI(doi : string) : Promise<NodeDefinition> {
       const title = await getItemTitle(doi);
-      return { data: {id: doi, name : title }};
+      return { data: {id: doi, name : title}, classes: "crossref" };
     }
     
     function getLinks(data: Array<Reuse>) : Array<EdgeDefinition> {
-      return Array.from(new CompoundSet(data.filter(item => item.reusedDOI.trim().length > 0).map((item: Reuse) => {
+      const linksToDois = Array.from(new CompoundSet(data.filter(item => item.reusedDOI.trim().length > 0).map((item: Reuse) => {
         return { data: { source: item.sourceDOI, target: item.reusedDOI } };
       })));
+
+      const linksToArxiv = Array.from(new CompoundSet(data.filter(item => item.alternativeID.startsWith("arxiv:")).map((item : Reuse) => {
+          return { data: { source: item.sourceDOI, target: item.alternativeID } };
+      })));
+
+      return linksToDois.concat(linksToArxiv);
     }
     async function getItemTitle(doi: string) {
       const work = await worksApi.worksDoiGet({ doi: doi })
@@ -93,9 +132,20 @@ export default {
               "text-opacity": 1,
               "text-valign": "center",
               "text-halign": "right",
-              color: "#2c3e50",
-              "background-color": "#77aaff",
+              color: "#2c3e50"
             },
+          },
+          {
+            selector: ".crossref",
+            style: {
+              "background-color": "#77aaff"
+            }
+          },
+          {
+            selector: ".arxiv",
+            style: {
+              "background-color": "#b31b1b"
+            }
           },
           {
             selector: "edge",
