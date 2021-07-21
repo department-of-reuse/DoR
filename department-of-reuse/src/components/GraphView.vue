@@ -44,8 +44,19 @@ export default {
                         .filter(id => id.startsWith("arxiv:"))
                         .map(id => id.replace("arxiv:", ""))));
 
+      const githubRepos = Array.from(new Set(data
+                        .map(entry => entry.alternativeID)
+                        .filter(id => id.startsWith("https://github.com"))));
+
       return Promise.all(dois.map(currentDoi => createNodeFromDOI(currentDoi)).concat(
-                         arxivIds.map(id => createNodeFromArxivId(id))));
+                         arxivIds.map(id => createNodeFromArxivId(id)).concat(
+                           githubRepos.map(url => createGithubNode(url))
+                         )));
+    }
+
+    async function createGithubNode(url : string) : Promise<NodeDefinition> {
+      const nodeName = url.replace("https://github.com/", "");
+      return { data: {id: url, name: nodeName}, classes: "github" };
     }
 
     async function createNodeFromArxivId(id : string) : Promise<NodeDefinition> {
@@ -83,7 +94,11 @@ export default {
           return { data: { source: item.sourceDOI, target: item.alternativeID } };
       })));
 
-      return linksToDois.concat(linksToArxiv);
+      const linksToGithub = Array.from(new CompoundSet(data.filter(item => item.alternativeID.startsWith("https://github.com")).map((item: Reuse) => {
+          return { data: { source: item.sourceDOI, target: item.alternativeID } }
+      })));
+
+      return linksToDois.concat(linksToArxiv).concat(linksToGithub);
     }
     async function getItemTitle(doi: string) {
       const work = await worksApi.worksDoiGet({ doi: doi })
@@ -143,6 +158,12 @@ export default {
             selector: ".arxiv",
             style: {
               "background-color": "#b31b1b"
+            }
+          },
+          {
+            selector: ".github",
+            style: {
+              "background-color": "#238636"
             }
           },
           {
