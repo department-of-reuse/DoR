@@ -1,4 +1,5 @@
-import { Feed } from "@/clients/arxiv";
+import { Feed, FeedFromJSON } from "@/clients/arxiv";
+import prefillData from '../assets/data/arxiv-cache.json';
 
 type CacheResult = Feed;
 
@@ -17,12 +18,12 @@ export class ArxivFeedCache {
         return this;
     }
 
-    /*
+    
     private prefill() {
-        const prefillWorks = ((prefillData as Array<any>).map(WorkFromJSON));
-        prefillWorks.forEach( currentWork => this.set(currentWork.dOI, currentWork));
+        const prefillWorks = ((prefillData as Array<any>).map(FeedFromJSON));
+        prefillWorks.forEach( currentFeed => this.set(currentFeed.entry.id, currentFeed));
     }
-    */
+    
    
     public set = (id: string, result: CacheResult): void => {
         if (!this.recordExists(id)) {
@@ -35,7 +36,7 @@ export class ArxivFeedCache {
 
     public get = (id: string): CacheResult | null => {
         const cacheRecord = this.cache.find(x => {
-            return x.id == id;
+            return x.id.startsWith(id);
         });
 
         if (cacheRecord) {
