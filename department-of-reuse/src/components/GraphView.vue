@@ -35,6 +35,17 @@ export default {
         edges: getLinks(data),
       };
     }
+
+    function trimGitHubURL(url : string) : string {
+      const githubPrefix = "https://github.com/"
+      const path = url.replace(githubPrefix, "");
+      const firstSlashPos = path.indexOf("/");
+      const secondSlashPos = path.indexOf("/", firstSlashPos + 1);
+
+      if (firstSlashPos > 0 && secondSlashPos > 0) return url.substring(0, secondSlashPos + githubPrefix.length);
+      return url;
+    }
+
     async function getNodes(data: Array<Reuse>) : Promise<Array<NodeDefinition>> {
       const dois = Array.from(new Set(data
                         .map(entry => entry.sourceDOI)
@@ -48,7 +59,8 @@ export default {
 
       const githubRepos = Array.from(new Set(data
                         .map(entry => entry.alternativeID)
-                        .filter(id => id.startsWith("https://github.com"))));
+                        .filter(id => id.startsWith("https://github.com"))
+                        .map(id => trimGitHubURL(id))));
 
       const urls = Array.from(new Set(data
                         .map(entry => entry.alternativeID)
@@ -109,7 +121,7 @@ export default {
       })));
 
       const linksToGithub = Array.from(new CompoundSet(data.filter(item => item.alternativeID.startsWith("https://github.com")).map((item: Reuse) => {
-          return { data: { source: item.sourceDOI, target: item.alternativeID } }
+          return { data: { source: item.sourceDOI, target: trimGitHubURL(item.alternativeID) } };
       })));
 
       const linksToWebsites = Array.from(new CompoundSet(data.filter(item => websiteFilter(item.alternativeID)).map((item: Reuse) => {
