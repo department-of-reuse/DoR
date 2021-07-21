@@ -24,7 +24,7 @@ anjiperera,https://doi.org/10.1145/3377811.3380364,dataset,BigQuery,29,,https://
 anjiperera,https://doi.org/10.1145/3377811.3380414,,,,,,,10
 anjiperera,https://doi.org/10.1145/3377811.3380413,tool,Servo,3,10.1145/2889160.2889229,,250,15
 anjiperera,https://doi.org/10.1145/3377811.3380415,method,optimisation problem for training a DNN,21,,arxiv:1706.06083,1150,45
-anjiperera,https://doi.org/10.1145/3377811.3380415,tool,"models for GTSRB, FM, SVHN, IMDB datasets",28,,arvix:1409.1556,1152,
+anjiperera,https://doi.org/10.1145/3377811.3380415,tool,"models for GTSRB, FM, SVHN, IMDB datasets",28,,arxiv:1409.1556,1152,
 anjiperera,https://doi.org/10.1145/3377811.3380415,tool,models for GTSRB dataset,38,,https://github.com/chsasank/Traffic-Sign-Classification.keras,1152,
 anjiperera,https://doi.org/10.1145/3377811.3380415,tool,models for GTSRB dataset,39,,https://github.com/xitizzz/Traffic-Sign-Recognition-using-Deep-Neural-Network,1152,
 anjiperera,https://doi.org/10.1145/3377811.3380415,tool,models for FM dataset,36,,https://github.com/umbertogriffo/Fashion-mnist-cnn-keras,1152,
