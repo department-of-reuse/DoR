@@ -12,7 +12,7 @@ XiaoLing941212,https://doi.org/10.1145/3368089.3409678,tool,fastText,[6],,https:
 XiaoLing941212,https://doi.org/10.1145/3368089.3409678,method,Spy idea,[33],10.1109/ICDM.2003.1250918,,1106,3.5
 XiaoLing941212,https://doi.org/10.1145/3368089.3409678,method,ranking mechanism,[31],10.1145/1095430.1081755,,1107,4
 XiaoLing941212,https://doi.org/10.1145/3368089.3409678,method,ranking mechanism,[55],,https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_yun.pdf,1107,4
-XiaoLing941212,https://doi.org/10.1145/3368089.3409752,tool,ICE learning framework,[15],,https://link.springer.com/content/pdf/10.1007/978-3-319-08867-9_5.pdf,117,5
+XiaoLing941212,https://doi.org/10.1145/3368089.3409752,tool,ICE learning framework,[15],10.1007/978-3-319-08867-9_5,117,,5
 XiaoLing941212,https://doi.org/10.1145/3368089.3409752,method,ICE-DT baseline,[16],10.1145/2837614.2837664,,118,5.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409744,method,WAPS,[20],,WAPS: Weighted and Projected Sampling,1120,4
 XiaoLing941212,https://doi.org/10.1145/3368089.3409744,method,ecos-icse11,[51],10.1109/ICST.2019.00032,,1120,4.1

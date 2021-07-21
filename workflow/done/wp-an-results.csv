@@ -49,7 +49,7 @@ aaleti,https://doi.org/10.1145/3324884.3416567,tool,Monkey,5,,https://developer.
 aaleti,https://doi.org/10.1145/3324884.3416567,dataset,F-droid ,18,,https://f-droid.org,1068
 aaleti,https://doi.org/10.1145/3324884.3416567,tool,JaCoCo ,29,,https://www.eclemma.org/jacoco,1068
 aaleti,https://doi.org/10.1145/3324884.3416567,tool,Android 4.4 KitKat ,-,,https://www.android.com/intl/en_au/versions/kit-kat-4-4/,1074
-aaleti,https://doi.org/10.1145/3324884.3416623,dataset,GHTorrent database,28,,http://dl.acm.org/citation.cfm?id=2487085.24871322,1081
+aaleti,https://doi.org/10.1145/3324884.3416623,dataset,GHTorrent database,28,10.1109/MSR.2013.6624034,,1081
 aaleti,https://doi.org/10.1145/3324884.3416623,dataset,AndroZoo,17,,https://f-droid.org,1081
 aaleti,https://doi.org/10.1145/3324884.3416623,dataset,F-droid ,3,https://doi.org/10.1145/2901739.2903508,,1081
 aaleti,https://doi.org/10.1145/3324884.3416623,sanity check,Cruz et al.,13,https://doi.org/10.1007/s10664-019-09701-0,,1086

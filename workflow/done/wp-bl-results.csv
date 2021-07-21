@@ -1,9 +1,9 @@
 ﻿gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num,sect_num
 XiaoLing941212,https://doi.org/10.1145/3368089.3409719,tool,reproduce RESTler,[15],10.1109/ICSE.2019.00083,,726,2
-XiaoLing941212,https://doi.org/10.1145/3368089.3409723,tool,reuse of MTNN architecture - hard parameter sharing,[18],,https://link.springer.com/content/pdf/10.1023/A:1007379606734.pdf,738,2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409723,tool,reuse of MTNN architecture - hard parameter sharing,[18],10.1023/A:1007379606734,,738,2
 XiaoLing941212,https://doi.org/10.1145/3368089.3409723,stepping stone,comparison of SOTA - Neuzz,[65],10.1109/SP.2019.00052,,747,6
 XiaoLing941212,https://doi.org/10.1145/3368089.3409673,dataset reuse,reuse DSL data sets,[8],10.1145/2884781.2884786,,82,6.1.1
-XiaoLing941212,https://doi.org/10.1145/3368089.3409673,tool,replicated rule-based synthesizer,[25],,https://dl.acm.org/doi/pdf/10.1145/2462456.2464443,83,6.1.3
+XiaoLing941212,https://doi.org/10.1145/3368089.3409673,tool,replicated rule-based synthesizer,[25],10.1145/2462456.2464443,,83,6.1.3
 XiaoLing941212,https://doi.org/10.1145/3368089.3409673,tool,synonym list,[34],,https://books.google.com/books?hl=en&lr=&id=Rehu8OOzMIMC&oi=fnd&pg=PR11&dq=WordNet:+An+electronic+lexical+database&ots=IsiaJfRSda&sig=hizysrTqMm0d1dIms2EDW4VkOHg#v=onepage&q=WordNet%3A%20An%20electronic%20lexical%20database&f=false,77,4.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409759,replication of questions extraction,extract questions tagged with top 5 DL framework,[84],10.1145/3377811.3380395,,752,3
 XiaoLing941212,https://doi.org/10.1145/3368089.3409759,replication of questions extraction,extract questions tagged with top 5 DL framework,[85],10.1145/3338906.3338955,,752,3
@@ -27,7 +27,7 @@ XiaoLing941212,https://doi.org/10.1145/3368089.3409761,tool & dataset,to test DL
 XiaoLing941212,https://doi.org/10.1145/3368089.3409750,method,hierarchical grouping,[50],,http://proceedings.mlr.press/v97/moon19a/moon19a.pdf,800,1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409750,dataset reuse,SVHN,[53],,https://storage.googleapis.com/pub-tools-public-publication-data/pdf/37648.pdf,801,1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409750,dataset reuse,CIFAR-10,[38],,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.222.9220&rep=rep1&type=pdf,801,1
-XiaoLing941212,https://doi.org/10.1145/3368089.3409750,dataset reuse,ImageNet,[61],,https://link.springer.com/content/pdf/10.1007/s11263-015-0816-y.pdf,801,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409750,dataset reuse,ImageNet,[61],10.1007/s11263-015-0816-y,801,,1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409750,tool,PGD attack,[49],,https://arxiv.org/abs/1706.06083,807,7.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409733,dataset reuse,ByteWeight,[6],,https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-bao.pdf,818,4.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,bidirectional RNN model,[57],,https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-shin.pdf,818,4.1

@@ -24,7 +24,7 @@ asslisa,https://doi.org/10.1145/3377811.3380342,Replication,Similar Experiment,[
 asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Java Lexer,[41],10.1145/3106237.3106290,https://github.com/SLP-team/SLP-Core,1076
 asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Pygments Library ,,,http://pygments.org/docs/lexers/,1076
 asslisa,https://doi.org/10.1145/3377811.3380342,Method�,Word Splitting,[3],10.1145/2786805.2786849,,1077
-asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Byte Pair Encoding (BPE) Algorithm,[34],,http://dl.acm.org/citation.cfm?id=177910.177914,1077
+asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Byte Pair Encoding (BPE) Algorithm,[34],,https://dl.acm.org/doi/10.5555/177910.177914,1077
 asslisa,https://doi.org/10.1145/3377811.3380342,Replication,GRU,[56],10.18653/v1/P18-1027,,1078
 asslisa,https://doi.org/10.1145/3377811.3380342,Tool,BPE Implementation,,,https://github.com/rsennrich/subword-nmt,1078
 asslisa,https://doi.org/10.1145/3377811.3380342,Method�,Code Completion Scenarios ,[41],10.1145/3106237.3106290,,1080
@@ -32,10 +32,10 @@ asslisa,https://doi.org/10.1145/3377811.3380342,Tool,n-gram Implementation,[41],
 asslisa,https://doi.org/10.1145/3377811.3380342,Dataset,Defects4j dataset,[53],10.1145/2610384.2628055,,1082
 asslisa,https://doi.org/10.1145/3377811.3380341,Method ,Typestate Analysis ,[61],10.1109/TSE.1986.6312929,,1448
 asslisa,https://doi.org/10.1145/3377811.3380341,Tool,Checker Framework ,[50],10.1145/1390630.1390656,,1453
-asslisa,https://doi.org/10.1145/3377811.3380341,Tool,Object Construction Checker ,,,https://github.com/ kelloggm/object-construction-checker,1453
+asslisa,https://doi.org/10.1145/3377811.3380341,Tool,Object Construction Checker ,,,https://github.com/kelloggm/object-construction-checker,1453
 asslisa,https://doi.org/10.1145/3377811.3380324,Tool,OCL,[37],,http://www.eclipse.org/modeling/mdt/?project= ocl,1497
-asslisa,https://doi.org/10.1145/3377811.3380324,Tool,Modisco,[36],,http://www. eclipse.org/modeling/mdt/?project=modisco,1497
-asslisa,https://doi.org/10.1145/3377811.3380324,Tool,Papyrus,[38],,http://www. eclipse.org/modeling/mdt/?project=papyrus,1497
+asslisa,https://doi.org/10.1145/3377811.3380324,Tool,Modisco,[36],,http://www.eclipse.org/modeling/mdt/?project=modisco,1497
+asslisa,https://doi.org/10.1145/3377811.3380324,Tool,Papyrus,[38],,http://www.eclipse.org/modeling/mdt/?project=papyrus,1497
 asslisa,https://doi.org/10.1145/3377811.3380324,Method,Impact Analysis,[22],10.5381/jot.2012.11.3.a3,,1500
 asslisa,https://doi.org/10.1145/3377811.3380324,Tool,JDT API,,,https://www.eclipse.org/jdt/core/,1501
 asslisa,https://doi.org/10.1145/3377811.3380355,Statistical ,ANOVA F-test,[30],10.1093/bioinformatics/btm344,,227

@@ -38,12 +38,12 @@ yrahul3910,https://doi.org/10.1145/3379597.3387470,method,replication,[6],https:
 yrahul3910,https://doi.org/10.1145/3379597.3387470,method,replication,[10],https://doi.org/10.1109/ICSME.2017.69,,5
 yrahul3910,https://doi.org/10.1145/3379597.3387470,dataset,Lazar et al,[14],https://doi.org/10.1145/2597073.2597128,,6
 yrahul3910,https://doi.org/10.1145/3379597.3387470,method,GloVe,[21],,http://www.aclweb.org/anthology/D14-1162,6
-yrahul3910,https://doi.org/10.1145/3379597.3387473,tool,GHTorrent,[27],,http://dl.acm.org/citation.cfm?id=2487085.2487132,2
+yrahul3910,https://doi.org/10.1145/3379597.3387473,tool,GHTorrent,[27],10.1109/MSR.2013.6624034,,2
 yrahul3910,https://doi.org/10.1145/3379597.3387440,method,Time-based heuristic,[43],https://doi.org/10.1145/3180155.3180207,,3
 yrahul3910,https://doi.org/10.1145/3379597.3387440,method,Open coding technique,[29],,https://pages.cpsc.ucalgary.ca/~saul/wiki/uploads/CPSC681/opencoding.pdf,3
 yrahul3910,https://doi.org/10.1145/3379597.3387440,tool,nltk,[9],,https://www.aclweb.org/anthology/P06-4018/,5
 yrahul3910,https://doi.org/10.1145/3379597.3387440,metric,AP,[46],https://doi.org/10.1109/SST.2015.13,,5
-yrahul3910,https://doi.org/10.1145/3379597.3387440,statistics,Wilcoxon test,[56],,https://onlinelibrary.wiley.com/doi/abs/10.1002/9780471462422.eoct979,5
+yrahul3910,https://doi.org/10.1145/3379597.3387440,statistics,Wilcoxon test,[56],10.1002/9780471462422.eoct979,,5
 yrahul3910,https://doi.org/10.1145/3379597.3387440,tool,scipy,[25],,http://www.scipy.org,5
 yrahul3910,https://doi.org/10.1145/3379597.3387440,method,CBOW,[38],,https://arxiv.org/abs/1712.09405,7
 yrahul3910,https://doi.org/10.1145/3379597.3387440,method,RCSLS,[26],,https://aclanthology.info/papers/D18-1330/d18-1330,7

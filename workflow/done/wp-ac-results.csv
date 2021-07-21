@@ -1,7 +1,7 @@
 gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num,time
 anjiperera,https://doi.org/10.1145/3377811.3380350,method,queue-based model checker for the testing procedure,27,10.1145/263699.263717,,1489,35
-anjiperera,https://doi.org/10.1145/3377811.3380350,tool,QEMU,12,,https://doi.org/10.5555/1247360.1247401,1490,
-anjiperera,https://doi.org/10.1145/3377811.3380350,tool,CrashMonkey,41,,https://doi.org/10.5555/3154601.3154607,1490,
+anjiperera,https://doi.org/10.1145/3377811.3380350,tool,QEMU,12,,https://dl.acm.org/doi/10.5555/1247360.1247401,1490,
+anjiperera,https://doi.org/10.1145/3377811.3380350,tool,CrashMonkey,41,,https://dl.acm.org/doi/10.5555/3154601.3154607,1490,
 anjiperera,https://doi.org/10.1145/3377811.3380350,stepping stones,Syzkaller (informal comparison),5,,https://github.com/google/syzkaller,1491,
 anjiperera,https://doi.org/10.1145/3377811.3380350,stepping stones,CrashMonkey has a built-in workload generator ACE,45,,https://dl.acm.org/doi/abs/10.5555/3291168.3291172,1491,
 anjiperera,https://doi.org/10.1145/3377811.3380350,tool,KProbes,58,,https://lwn.net/Articles/132196/,1491,
@@ -81,8 +81,8 @@ afonsohfontes,https://doi.org/10.1145/3377811.3380327,stepping stones,,22,https:
 afonsohfontes,https://doi.org/10.1145/3377811.3380327,tool,,32,https://doi.org/10.1145/3180155.3180240,,,
 afonsohfontes,https://doi.org/10.1145/3377811.3380350,method,,27,https://doi.org/10.1145/263699.263717,,,
 afonsohfontes,https://doi.org/10.1145/3377811.3380350,stepping stones,,45,,https://dl.acm.org/doi/abs/10.5555/3291168.3291172,,
-afonsohfontes,https://doi.org/10.1145/3377811.3380350,tool,,12,,https://doi.org/10.5555/1247360.1247401,,
-afonsohfontes,https://doi.org/10.1145/3377811.3380350,tool,,41,,https://doi.org/10.5555/3154601.3154607,,
+afonsohfontes,https://doi.org/10.1145/3377811.3380350,tool,,12,,https://dl.acm.org/doi/10.5555/1247360.1247401,,
+afonsohfontes,https://doi.org/10.1145/3377811.3380350,tool,,41,,https://dl.acm.org/doi/10.5555/3154601.3154607,,
 afonsohfontes,https://doi.org/10.1145/3377811.3380351,tool,,19,https://doi.org/10.1145/3196398.3196448,,,
 afonsohfontes,https://doi.org/10.1145/3377811.3380381,dataset,,14,https://doi.org/10.1145/3196478.3196484,,,
 afonsohfontes,https://doi.org/10.1145/3377811.3380381,metrics,,47,https://doi.org/10.1145/2993412.3004853,,,
