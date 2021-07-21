@@ -30,7 +30,7 @@ anjiperera,https://doi.org/10.1145/3377811.3380417,stepping stones,ICCTA,54,10.1
 anjiperera,https://doi.org/10.1145/3377811.3380389,dataset,PROMISE,,,http://openscience.us/repo/defect/,579,40
 anjiperera,https://doi.org/10.1145/3377811.3380389,method,AlexNet,19,10.1145/3065386,,579,
 anjiperera,https://doi.org/10.1145/3377811.3380389,method,deep transfer learning,20,,https://dl.acm.org/doi/10.5555/3045118.3045130,579,
-anjiperera,https://doi.org/10.1145/3377811.3380389,method,self attention mechanism,21,,arxiv:805.08318,579,
+anjiperera,https://doi.org/10.1145/3377811.3380389,method,self attention mechanism,21,,arxiv:1805.08318,579,
 anjiperera,https://doi.org/10.1145/3377811.3380389,metric,MK-MMD,69,,https://dl.acm.org/doi/10.5555/2999134.2999269,"580,583",
 anjiperera,https://doi.org/10.1145/3377811.3380389,method,"DANs, multi-kernal MMD strategy",68,10.1109/TPAMI.2018.2868685,,582,
 anjiperera,https://doi.org/10.1145/3377811.3380389,sanity check,why padding is used,74,,https://www.semanticscholar.org/paper/An-Overview-of-Convolutional-Neural-Network-for-Murphy/64db333bb1b830f937b47d786921af4a6c2b3233,582,

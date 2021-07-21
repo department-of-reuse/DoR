@@ -60,10 +60,10 @@ kpeng2019,https://doi.org/10.1145/3368089.3409745,dataset,AndroZoo dataset,20,10
 kpeng2019,https://doi.org/10.1145/3368089.3409745,dataset,dataset reuse,34,,https://arxiv.org/abs/1709.05281,945
 XiaoLing941212,https://doi.org/10.1145/3368089.3409676,stepping stone,compare to prior SOTA,[57],10.1109/cvpr.2019.00491,,844
 XiaoLing941212,https://doi.org/10.1145/3368089.3409676,method,compare to baseline,[57],10.1109/cvpr.2019.00491,,844
-XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,FGSM,[27],,https://arxiv.org/abs/1412.6572),845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,FGSM,[27],,https://arxiv.org/abs/1412.6572,845
 XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,Deepfool,[50],10.1109/cvpr.2016.282,,845
 XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,JSMA,[55],10.1109/EuroSP.2016.36,,845
-XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,PGD,[49],,https://arxiv.org/abs/1706.06083),845
+XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,PGD,[49],,https://arxiv.org/abs/1706.06083,845
 XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,Adef,[2],,https://arxiv.org/abs/1804.07729,845
 XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,LocalSearch,[52],,https://arxiv.org/abs/1612.06299,845
 XiaoLing941212,https://doi.org/10.1145/3368089.3409676,dataset,Boundary,[8],,https://arxiv.org/abs/1712.04248,845
