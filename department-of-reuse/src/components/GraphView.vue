@@ -16,6 +16,8 @@ import { Feed } from "../clients/arxiv";
 
 import CompoundSet from "../tools/CompoundSet";
 
+const websiteFilter = (id: string): boolean => !id.startsWith("https://github.com")&&(id.startsWith("http://")||id.startsWith("https://"));
+
 export default {
   props: {
     reuseData: Array as PropType<Array<Reuse>>,
@@ -48,10 +50,22 @@ export default {
                         .map(entry => entry.alternativeID)
                         .filter(id => id.startsWith("https://github.com"))));
 
-      return Promise.all(dois.map(currentDoi => createNodeFromDOI(currentDoi)).concat(
-                         arxivIds.map(id => createNodeFromArxivId(id)).concat(
-                           githubRepos.map(url => createGithubNode(url))
-                         )));
+      const urls = Array.from(new Set(data
+                        .map(entry => entry.alternativeID)
+                        .filter(websiteFilter)
+      ))
+
+      return Promise.all(dois.map(currentDoi => createNodeFromDOI(currentDoi))
+                             .concat(arxivIds.map(id => createNodeFromArxivId(id)))
+                             .concat(githubRepos.map(url => createGithubNode(url)))
+                             .concat(urls.map(url => createWebsiteNode(url)))
+                         );
+    }
+
+    async function createWebsiteNode(url : string) : Promise<NodeDefinition> {
+      const protocolStripped = url.replace("https://", "").replace("http://", "");
+      const nodeName = protocolStripped.substring(0, protocolStripped.indexOf("/"))
+      return { data: {id: url, name: nodeName}, classes: "website" };
     }
 
     async function createGithubNode(url : string) : Promise<NodeDefinition> {
@@ -98,7 +112,14 @@ export default {
           return { data: { source: item.sourceDOI, target: item.alternativeID } }
       })));
 
-      return linksToDois.concat(linksToArxiv).concat(linksToGithub);
+      const linksToWebsites = Array.from(new CompoundSet(data.filter(item => websiteFilter(item.alternativeID)).map((item: Reuse) => {
+          return { data: { source: item.sourceDOI, target: item.alternativeID } }
+      })));
+
+      return linksToDois
+              .concat(linksToArxiv)
+              .concat(linksToGithub)
+              .concat(linksToWebsites);
     }
     async function getItemTitle(doi: string) {
       const work = await worksApi.worksDoiGet({ doi: doi })
