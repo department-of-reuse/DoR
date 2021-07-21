@@ -1,7 +1,7 @@
-import { Entry, EntryFromXml } from "./Entry";
-import { ItemsPerPage, ItemsPerPageFromXml } from "./ItemsPerPage";
-import { Link, LinkFromXml } from './Link';
-import { Title, TitleFromXml } from "./Title";
+import { Entry, EntryFromXml, EntryFromJSON, EntryToJSON } from "./Entry";
+import { ItemsPerPage, ItemsPerPageFromXml, ItemsPerPageFromJSON, ItemsPerPageToJSON } from "./ItemsPerPage";
+import { Link, LinkFromXml, LinkFromJSON, LinkToJSON } from './Link';
+import { Title, TitleFromXml, TitleFromJSON, TitleToJSON } from "./Title";
 
 export interface Feed {
     link:         Link;
@@ -36,4 +36,45 @@ export function FeedFromXmlTyped(xml: any, ignoreDiscriminator: boolean): Feed {
     };
 }
 
+export function FeedFromJSON(json: any): Feed {
+    return FeedFromJSONTyped(json, false);
+}
+
+export function FeedFromJSONTyped(json: any, ignoreDiscriminator: boolean): Feed {
+    if ((json === undefined) || (json === null)) {
+        return json;
+    }
+    return {
+        link: LinkFromJSON(json['link']),
+        title: TitleFromJSON(json['title']),
+        id: json['id'],
+        updated: json['updated'],
+        totalResults: ItemsPerPageFromJSON(json['totalResults']),
+        startIndex: ItemsPerPageFromJSON(json['startIndex']),
+        itemsPerPage: ItemsPerPageFromJSON(json['itemsPerPage']), 
+        entry: EntryFromJSON(json['entry']),
+        _xmlns: json['_xmlns']
+    }
+}
+
+
+export function FeedToJSON(value?: Feed | null): any {
+    if (value === undefined) {
+        return undefined;
+    }
+    if (value === null) {
+        return null;
+    }
+    return {
+        link: LinkToJSON(value.link),
+        title: TitleToJSON(value.title),
+        id: value.id,
+        updated: value.updated,
+        totalResults: ItemsPerPageFromJSON(value.totalResults),
+        startIndex: ItemsPerPageFromJSON(value.startIndex),
+        itemsPerPage: ItemsPerPageFromJSON(value.itemsPerPage), 
+        entry: EntryToJSON(value.entry),
+        _xmlns: value._xmlns
+    }
+}
 

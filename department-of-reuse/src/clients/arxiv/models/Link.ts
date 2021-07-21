@@ -23,3 +23,34 @@ export function LinkFromXmlTyped(xml: any, ignoreDiscriminator: boolean): Link {
         title: !exists(xml.$, 'title') ? undefined : xml.$.title
     };
 }
+
+export function LinkFromJSON(json: any): Link {
+    return LinkFromJSONTyped(json, false);
+}
+
+export function LinkFromJSONTyped(json: any, ignoreDiscriminator: boolean): Link {
+    if ((json === undefined) || (json === null)) {
+        return json;
+    }
+    return {
+        href: json['href'],
+        rel: json['rel'],
+        type: json['type'],
+        title: !exists(json, 'title') ? undefined : json['title']
+    }
+}
+
+export function LinkToJSON(value?: Link | null): any {
+    if (value === undefined) {
+        return undefined;
+    }
+    if (value === null) {
+        return null;
+    }
+    return {
+        href: value.href,
+        rel: value.rel,
+        type: value.type,
+        title: value.title === undefined ? undefined : value.title
+    }
+}

@@ -15,3 +15,28 @@ export function AuthorFromXmlTyped(xml: any, ignoreDiscriminator: boolean): Auth
         name: xml.name
     };
 }
+
+export function AuthorFromJSON(json: any): Author {
+    return AuthorFromJSONTyped(json, false);
+}
+
+export function AuthorFromJSONTyped(json: any, ignoreDiscriminator: boolean): Author {
+    if ((json === undefined) || (json === null)) {
+        return json;
+    }
+    return {
+        name: json['name']
+    }
+}
+
+export function AuthorToJSON(value?: Author | null): any {
+    if (value === undefined) {
+        return undefined;
+    }
+    if (value === null) {
+        return null;
+    }
+    return {
+        name: value.name
+    }
+}

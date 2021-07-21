@@ -1,8 +1,9 @@
-import { Author, AuthorFromXml } from "./Author";
-import { Category, CategoryFromXml } from "./Category";
-import { Comment, CommentFromXml } from "./Comment";
-import { Link, LinkFromXml } from './Link';
+import { Author, AuthorFromXml, AuthorFromJSON, AuthorToJSON } from "./Author";
+import { Category, CategoryFromXml, CategoryFromJSON, CategoryToJSON } from "./Category";
+import { Comment, CommentFromXml, CommentFromJSON, CommentToJSON } from "./Comment";
+import { Link, LinkFromXml, LinkFromJSON, LinkToJSON } from './Link';
 
+import { exists } from '../runtime';
 
 export interface Entry {
     id: string;
@@ -49,4 +50,47 @@ export function EntryFromXmlTyped(xml: any, ignoreDiscriminator: boolean) {
         primary_category: CategoryFromXml(xml['arxiv:primary_category']),
         category: (xml.category == null) ? new Array() : ((xml.category as Array<any>).map(CategoryFromXml))
     };
+}
+
+export function EntryFromJSON(json: any): Entry {
+    return EntryFromJSONTyped(json, false);
+}
+
+export function EntryFromJSONTyped(json: any, ignoreDiscriminator: boolean): Entry {
+    if ((json === undefined) || (json === null)) {
+        return json;
+    }
+    return {
+        id: json['id'],
+        updated: json['updated'],
+        published: json['published'],
+        title: json['title'],
+        summary: json['title'],
+        author: !exists(json, 'author') ? new Array() : ((json['author'] as Array<any>).map(AuthorFromJSON)),
+        comment: CommentFromJSON(json['comment']),
+        link: !exists(json, 'link') ? new Array() : ((json['link'] as Array<any>).map(LinkFromJSON)),
+        primary_category: CategoryFromJSON(json['primary_category']),
+        category: !exists(json, 'category') ? new Array() : ((json['category'] as Array<any>).map(CategoryFromJSON))
+    }
+}
+
+export function EntryToJSON(value?: Entry | null): any {
+    if (value === undefined) {
+        return undefined;
+    }
+    if (value === null) {
+        return null;
+    }
+    return {
+        id: value.id,
+        updated: value.updated,
+        published: value.published,
+        title: value.title,
+        summary: value.summary,
+        author: value.author.map(AuthorToJSON),
+        comment: CommentToJSON(value.comment),
+        link: value.link.map(LinkToJSON),
+        primary_category: CategoryToJSON(value.primary_category),
+        category: value.category.map(CategoryToJSON)
+    }
 }

@@ -16,3 +16,30 @@ export function ItemsPerPageFromXmlTyped(xml: any, ignoreDiscriminator: boolean)
         value: xml._
     };
 }
+
+export function ItemsPerPageFromJSON(json: any): ItemsPerPage {
+    return ItemsPerPageFromJSONTyped(json, false);
+}
+
+export function ItemsPerPageFromJSONTyped(json: any, ignoreDiscriminator: boolean): ItemsPerPage {
+    if ((json === undefined) || (json === null)) {
+        return json;
+    }
+    return {
+        namespace: json['namespace'],
+        value: json['value']
+    }
+}
+
+export function ItemsPerPageToJSON(value?: ItemsPerPage | null): any {
+    if (value === undefined) {
+        return undefined;
+    }
+    if (value === null) {
+        return null;
+    }
+    return {
+        namespace: value.namespace,
+        value: value.value
+    }
+}
