@@ -51,8 +51,7 @@ function ProcessDOI(doi : string) : string {
 }
 
 function ProcessAlternativeId(altId : string) : string {
-
-    return altId;
+    return altId.replace("https://arxiv.org/abs/", "arxiv:");
 }
 
 function TransformType(csvType : string) : ReuseType {

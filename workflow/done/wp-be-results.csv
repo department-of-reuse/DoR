@@ -3,10 +3,10 @@ XiaoLing941212,https://doi.org/10.1145/3368089.3409722,metric,cibtruvytuib acceo
 XiaoLing941212,https://doi.org/10.1145/3368089.3409722,metric,introduced by Gousios et al.,[25],10.1145/2597073.2597122,,1069,3.1.4
 XiaoLing941212,https://doi.org/10.1145/3368089.3409726,tool,Haven,[5],10.1145/2799647,,1078,1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409726,tool,Graphene-SGX,[31],,https://www.usenix.org/system/files/conference/atc17/atc17-tsai.pdf,1078,1
-XiaoLing941212,https://doi.org/10.1145/3368089.3409726,tool,SGX-LKL,[21],,https://arxiv.org/pdf/1908.11143.pdf,1078,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409726,tool,SGX-LKL,[21],,https://arxiv.org/abs/1908.11143,1078,1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409739,dataset ,Lending Club Load Data,,,https://www.kaggle.com/wendykan/lending-club-loan-data,1092,4.2
-XiaoLing941212,https://doi.org/10.1145/3368089.3409739,method,Papernot attack,[21],,https://arxiv.org/pdf/1605.07277.pdf,1093,5.1
-XiaoLing941212,https://doi.org/10.1145/3368089.3409739,method,PGD,[16],,https://arxiv.org/pdf/1706.06083),1093,5.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409739,method,Papernot attack,[21],,https://arxiv.org/abs/1605.07277,1093,5.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409739,method,PGD,[16],,https://arxiv.org/abs/1706.06083,1093,5.2
 XiaoLing941212,https://doi.org/10.1145/3368089.3409739,method,CW2,[7],10.1109/SP.2017.49,,1093,5.2
 XiaoLing941212,https://doi.org/10.1145/3368089.3409678,tool,fastText,[6],,https://watermark.silverchair.com/tacl_a_00051.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAsswggLHBgkqhkiG9w0BBwagggK4MIICtAIBADCCAq0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMw71zPUg2bM1fg1rnAgEQgIICfrwuchHNkfUWu602883Ly9InzXPMo0vYHn8g6GLdAe_C9nyPK4F-wN44it9u5efPtqlCfjFMVuvHnU2keaZ2ODiUbVdjK0FofwzWvNAur2e6hd9nLLMWw5J1jlOPKU1Py0MI-CS1yO79D4B79ty4BisLoZ-Gu-keQ6MPgkEDdFEfGDYABHCW59AwY3i1wXqWNnXf3t26DZlQQGIBJdHA4Z-RiHiKh8MsrtiHypEXLY7HxhHab-9lFDIkb3xsI0cBLjd0gJER_fr4F2Mn3vkrDV5iBY5EbOEyUA90wJz_ClZIvOBfJQeUzvIj0FJk8L_hDV7ZBXddAb31TkhHTUSThRBIf1ijPc_iW89YzYs2zhqbhd5WMj-xUDn6QzfPhmvZmYhcQ4MZMPuSfquI8zmMW4BI7n4Q1LT14NIH94EdLM7D6OdlnbCcmahnpsbnDjXfd4MzEARnb5Y6nmgF7rZMbRNd1s89k7BRsEAPh1aJaSCFF4aTkgyOLCRvuPYxgOQKnmfjqzufxqB1UJ6ChayFyWvXBaShiDBsKEivl_etQDEi1q8e9GLSz5aZciaOnt3XcgZR3FkuILD-V5NHXOCiDe62bXNEsoTVS8oX1zP2_tXZVkPWhUHq_4KGNSJpfM-rwSDZrbbypN2K2dA3N5unrad0e9JTopL0MwmnCuLA40lbuQQn9zBoFSBG3C4mYblkW2r3Rgx4o0duq3BmVLP9VWn4jIbc3Z3QuWZiB9rfRu_C_ud6kjk3jUasMFXCJ7c_5NxRHsD_PRadfbzU2NyfEALkjDGvQ9QOBhJKrRy9LNAa93mrYr84GjiUECshxL6-jcNlVqpvmKqu63O9r5nR,1104,3.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409678,method,Spy idea,[33],10.1109/ICDM.2003.1250918,,1106,3.5
