@@ -18,7 +18,7 @@ const crossRef = new WorksApi(new Configuration({
 var cache: { doi: string, result: Work }[] = [];
 cacheData.forEach( currentWork => cache.push({doi: currentWork.dOI, result: currentWork}));
 
-console.log(`Reusing ${cacheData.length} previously cached items.`);
+console.log(`Reusing ${cacheData.length} previously cached CrossRef items.`);
 
 const throttle = pThrottle({
     limit: 2,
@@ -60,3 +60,4 @@ Promise.all(dois.map(throttled)).then(entries => {
     fs.writeFileSync('./src/assets/data/works-cache.json', "[" + outputObject + "]");
 
 }).then(_ => console.log(`CrossRef cache prefill complete. Wrote ${cache.length} item(s).`));
+
