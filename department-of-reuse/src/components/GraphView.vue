@@ -64,7 +64,7 @@ export default {
 
     async function createWebsiteNode(url : string) : Promise<NodeDefinition> {
       const protocolStripped = url.replace("https://", "").replace("http://", "");
-      const nodeName = protocolStripped.substring(0, protocolStripped.indexOf("/"))
+      const nodeName = protocolStripped.substring(0, protocolStripped.indexOf("/") > 0 ? protocolStripped.indexOf("/") : protocolStripped.length)
       return { data: {id: url, name: nodeName}, classes: "website" };
     }
 
