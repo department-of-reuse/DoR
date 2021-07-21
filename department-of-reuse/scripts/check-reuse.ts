@@ -78,6 +78,24 @@ if (irregularArxivIds.length > 0) {
     console.log(`Found no irregular arXiv IDs.`);
 }
 
+
+
+
+const doisInAlternateId = Array.from(new Set(reuseData
+    .map(entry => entry.alternativeID)
+    .filter(id => matchesDOI(id) || 
+                    matchesRegularACM(id) || 
+                    matchesSpringer(id) || 
+                    matchesWiley(id) ||
+                    matchesIEEE(id))));
+
+if (doisInAlternateId.length > 0) {
+    console.log(`Found ${doisInAlternateId.length} DOIs in alternative id column.`);
+    doisInAlternateId.forEach(d => console.warn(d));
+}
+
+
+
 if (irregularArxivIds.length == 0) {
     console.log(`Trying to resolve ${regularArxivIds.length} regular arXiv ID(s).`);
     Promise.all(regularArxivIds.map(throttledArxivApi)).then(_ => console.log("ArXiv check complete. See errors above."));
@@ -86,4 +104,27 @@ if (irregularArxivIds.length == 0) {
 if (irregularDOIS.length == 0) {
     console.log(`Trying to resolve ${regularDOIS.length} regular DOI(s).`);
     Promise.all(regularDOIS.map(throttledWorksApi)).then(_ => console.log("CrossRef check complete. See errors above."));
+}
+
+function matchesDOI(id: string): boolean {
+    return (id.startsWith("http://doi.org") || id.startsWith("https://doi.org")) &&
+            id.indexOf("10.7488") == -1 && // DataCite
+            id.indexOf("10.5281") == -1 // Zenodo            
+}
+
+function matchesRegularACM(id : string) : boolean {
+    return (id.startsWith("http://dl.acm.org") || id.startsWith("https://dl.acm.org")) &&
+        id.indexOf("10.5555") == -1 // ACM Mirror DOIs
+}
+
+function matchesSpringer(id : string) : boolean {
+    return id.indexOf("link.springer.com") > 0
+}
+
+function matchesWiley(id: string) : boolean {
+    return id.indexOf("onlinelibrary.wiley.com") > 0
+}
+
+function matchesIEEE(id: string) : boolean {
+    return id.indexOf("ieeexplore.ieee.org") > 0
 }
