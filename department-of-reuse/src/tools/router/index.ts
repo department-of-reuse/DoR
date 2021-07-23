@@ -8,8 +8,8 @@ const routerHistory = createWebHistory(process.env.BASE_URL);
 const router = createRouter({
     history: routerHistory,
     routes: [
-        { path: '/', component: Home },
-        { path: '/contributors', component: Contributors},
+        { path: '/', component: Home, name: "home" },
+        { path: '/contributors', component: Contributors, name: "contributors"},
     ]
 });
 
