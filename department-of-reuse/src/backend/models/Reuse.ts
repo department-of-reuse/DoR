@@ -5,7 +5,8 @@ export default interface Reuse {
   sourceReference: string,
   reusedDOI: string,
   alternativeID: string,
-  sourceReferenceDetail: string
+  sourceReferenceDetail: string,
+  contributor: string
 }
 
 export enum ReuseType {
@@ -30,7 +31,8 @@ export function ReuseFromJson(json: any): Reuse {
     "sourceReference": json['sourceReference'],
     "reusedDOI": json['reusedDOI'],
     "alternativeID": json['alternativeID'],
-    "sourceReferenceDetail": json['sourceReferenceDetail']
+    "sourceReferenceDetail": json['sourceReferenceDetail'],
+    "contributor" : json['contributor']
   };
 }
 
@@ -49,6 +51,7 @@ export function ReuseToJson(value? : Reuse) : any {
     "comment": value.comment,
     "sourceReference": value.sourceReference,
     "alternativeID": value.alternativeID,
-    "sourceReferenceDetail": value.sourceReferenceDetail
+    "sourceReferenceDetail": value.sourceReferenceDetail,
+    "contributor" : value.contributor
   };
 }

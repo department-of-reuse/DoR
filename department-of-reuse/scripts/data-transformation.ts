@@ -36,7 +36,8 @@ function ReuseFromCSVData(csvData: any): Reuse {
         "comment": csvData['comment'],
         "sourceReference": csvData['citation_number'],
         "alternativeID": ProcessAlternativeId(csvData['alt_url']),
-        "sourceReferenceDetail": csvData['page_num']
+        "sourceReferenceDetail": csvData['page_num'],
+        "contributor" : csvData['gh_id']
     };
 }
 
