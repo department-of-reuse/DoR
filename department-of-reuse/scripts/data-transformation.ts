@@ -20,7 +20,8 @@ const csvContents = fs.readdirSync(dataPath)
                 delimiter: ',',
                 columns: true,
                 skip_empty_lines: true,
-                ltrim: true
+                ltrim: true,
+                bom: true
             }) as Array<any>;
     });
 
@@ -29,6 +30,7 @@ function ReuseFromCSVData(csvData: any): Reuse {
     if ((csvData === undefined) || (csvData === null)) {
         return csvData;
     }
+
     return {
         "sourceDOI": ProcessDOI(csvData['paper_doi']),
         "reusedDOI": ProcessDOI(csvData['reused_doi']),
@@ -56,7 +58,7 @@ function ProcessAlternativeId(altId : string) : string {
 }
 
 function TransformType(csvType : string) : ReuseType {
-    switch (csvType) {
+    switch (csvType.toLowerCase()) {
         case "method":
             return ReuseType.METHODOLOGY;     
         case "tool": 
