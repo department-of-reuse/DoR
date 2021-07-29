@@ -32,6 +32,14 @@ export default {
         edges: getLinks(data),
       };
     }
+
+    async function computeCitationCountForWork(sourceDoi: string) : Promise<number> {
+        const crWorksApi = new CachedWorksApi();
+
+        const work = await crWorksApi.worksDoiGet({ doi: sourceDoi });
+        return work.message.isReferencedByCount;
+    }
+
     async function getNodes(data: Array<Reuse>) : Promise<Array<NodeDefinition>> {
       const dois = Array.from(new Set(data
                         .map(entry => entry.sourceDOI)
@@ -42,8 +50,7 @@ export default {
     }
 
     async function createNodeFromDOI(doi : string) : Promise<NodeDefinition> {
-      const indexer = new RIndex(props.reuseData);
-      const citationCount = await indexer.computeCitationCountForWork(doi)
+      const citationCount = await this.computeCitationCountForWork(doi)
 
       const title = await getItemTitle(doi);
       return { data: {id: doi, name : title, citations: citationCount }};
@@ -149,7 +156,7 @@ export default {
       is one of the world's greatest mysteries. For whoever attempts
       this task, may God be with you. */
       cy.on("click", "node", event => {
-        let element = cy.getElementById(event.target._private.data.id);
+        //let element = cy.getElementById(event.target._private.data.id);
         var node = event.target._private;
         console.log(node.data.citations);
       });

@@ -20,14 +20,7 @@ export default class RIndex {
             .map(item => {
                 return {source: item.sourceDOI, dest: item.reusedDOI ? item.reusedDOI : item.alternativeID }
             }));
-    }
-
-    async computeCitationCountForWork(sourceDoi: string) : Promise<number> {
-        const crWorksApi = new CachedWorksApi();
-
-        const work = await crWorksApi.worksDoiGet({ doi: sourceDoi });
-        return work.message.isReferencedByCount;
-    }
+    }   
 
     async computeAuthorsReusing() : Promise<Array<HistogramEntry<Author>>> {
         const crWorksApi = new CachedWorksApi();
