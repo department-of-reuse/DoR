@@ -1,0 +1,168 @@
+gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,method,image transformation strategies,44,10.1145/3180155.3180220,,2
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,method,adversarial attack strategies,17,10.1109/ICSE.2019.00108,,2
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,dataset,MNIST,19,,http://yann.lecun.com/exdb/mnist/.,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,dataset,CIFAR10,32,,http://www.cs.toronto.edu/~kriz/cifar.html.,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,dataset,SVHN,31,,http://ufldl.stanford.edu/housenumbers/nips2011_housenumbers.pdf,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,method,DenseNet,15,10.1109/CVPR.2017.243,,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,method,RCNN,22,10.1109/CVPR.2015.7298958,,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,method,AAL (Adaptive Active Learning),20,10.1109/CVPR.2013.116,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,method,CES,21,10.1145/3338906.3338930,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,method,SADL,17,10.1109/ICSE.2019.00108,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416621,method,Wilcoxon rank-sum test,5,10.1016/J.SPL.2011.04.001,,7
+tugcecoskunn,https://doi.org/10.1145/3324884.3416616,dataset,the dataset proposed by Zhang et al.,62,10.1145/3338906.3338917,,2
+tugcecoskunn,https://doi.org/10.1145/3324884.3416616,method,the acceptable build time is 10 minutes,27,10.1145/3106237.3106270,,2
+tugcecoskunn,https://doi.org/10.1145/3324884.3416616,method,the acceptable build time is 10 minutes,19,,http://martinfowler.com/articles/ originalContinuousIntegration.html,2
+tugcecoskunn,https://doi.org/10.1145/3324884.3416616,method, it reuses the classifiers,45,10.1145/3183440.3195012,,10
+tugcecoskunn,https://doi.org/10.1145/3324884.3416564,method,"the mean of this distribution is a vector p,",4,,https://en.wikipedia.org/wiki/Categorical_distribution,4
+tugcecoskunn,https://doi.org/10.1145/3324884.3416564,method,Markov Decision Process (MDP),45,10.1002/9780470316887,,4
+tugcecoskunn,https://doi.org/10.1145/3324884.3416564,method,word embedding vectors GloVe,44,10.3115/v1/D14-1162,,8
+tugcecoskunn,https://doi.org/10.1145/3324884.3416564,method,the same configurations,33,,arXiv:1905.07387v1,8
+tugcecoskunn,https://doi.org/10.1145/3324884.3416564,method,to reduce the data dimension to ? major components,20,10.1145/3338906.3338954,,8
+tugcecoskunn,https://doi.org/10.1145/3324884.3416539,method,using the open coding method,20,,https://books.google.com.tr/books?id=gX1ZDwAAQBAJ&dq=Qualitative+inquiry+and+research+design:+Choosing+among+five+approaches+2016&hl=tr&lr=,4
+tugcecoskunn,https://doi.org/10.1145/3324884.3416539,method,the empirical findings in existing studies,32,10.1109/QSIC.2014.19,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416539,method,the empirical findings in existing studies,36,10.1007/s10664-018-9663-0,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416539,method,the median solution,39,,https://books.google.com.tr/books/about/Understanding_Statistics.html?id=vXzWG09_SzAC&redir_esc=y,7
+tugcecoskunn,https://doi.org/10.1145/3324884.3416539,method,under-sampling techniques,29,,https://www.site.uottawa.ca/~nat/Workshop2003/jzhang.pdf,7
+tugcecoskunn,https://doi.org/10.1145/3324884.3416539,tool,EvoSuite,22,10.1145/2025113.2025179,,8
+tugcecoskunn,https://doi.org/10.1145/3324884.3416539,method,Mann-Whitney U-Test,30,10.1214/AOMS/1177730491,,8
+tugcecoskunn,https://doi.org/10.1145/3324884.3416612,tool,"D??????A ,  a state of the art SBST algorithm",52,10.1109/TSE.2017.2663435,,2
+tugcecoskunn,https://doi.org/10.1145/3324884.3416612,tool,"the Schwa, as the defect predictor module",14,,https://sigarra.up.pt/fep/en/pub_geral.show_file?pi_doc_id=43612,3
+tugcecoskunn,https://doi.org/10.1145/3324884.3416612,method,a time weighted risk (TWR),42,10.1109/ICSE.2013.6606583,,3
+tugcecoskunn,https://doi.org/10.1145/3324884.3416612,tool,EvoSuite,19,10.1109/QSIC.2011.19,,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416612,method,Mann-Whitney U-Test with the significance level (?) 0.05,5,10.1002/stvr.1486,,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416612,method,Vargha and Delaney�s ?b12 statistic,60,10.3102/10769986025002101,,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416612,dataset,Defects4J dataset,38,,https://github.com/rjust/defects4j,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416612,statistical,"EvoSuite in previous work [20, 52] except for the following parameters.",20,10.1109/TSE.2012.14,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416551,method,"Following treatments in [16, 19] , declaration-based heuristic [16]",16,10.1109/ICSME.2018.00028,,4
+tugcecoskunn,https://doi.org/10.1145/3324884.3416551,method,"Following treatments in [16, 19]",19,10.1145/3338906.3338971,,4
+tugcecoskunn,https://doi.org/10.1145/3324884.3416551,tool,Stanford CoreNLP,21,10.3115/v1/P14-5010,,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416551,method,the continuous skip-gram mode,22,,arXiv:1310.4546,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416551,method,"a statistical sampling method, MIN",35,,,8
+tugcecoskunn,https://doi.org/10.1145/3324884.3416551,method,MuBench,3,10.1145/2901739.2903506,,8
+tugcecoskunn,https://doi.org/10.1145/3324884.3416591,metric,compare their model with Byte Pair Encoding based Neural Language Model (BPE NLM) ,25,10.1145/3377811.3380342,,3
+tugcecoskunn,https://doi.org/10.1145/3324884.3416591,metric,compare their model with Pointer Mixture Network,27,10.24963/ijcai.2018/578,,3
+tugcecoskunn,https://doi.org/10.1145/3324884.3416591,metric,compare their model with Transformer-XL,8,10.18653/v1/P19-1285,,7
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,tool,Genetic Algorithm (GA),52,10.1145/2955129.2955178,,3
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,method,adversarial attack techniques: logits layer,7,10.1109/SP.2017.49,,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,method,adversarial attack techniques: logits layer,15,,arXiv:1412.6572,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,method,to measure the output change of certain layer,34,10.1109/ICSE.2019.00107,,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,tool,the state-of-the-art model converter MMdnn ,27,,https://github.com/Microsoft/MMdnn,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,dataset,LeNet-5,23,10.1109/5.726791,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,dataset,MNIST,24,,http://yann.lecun.com/exdb/mnist/,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,dataset,ResNet 20 ,18,10.1109/cvpr.2016.90,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,dataset,VGG-16,39,,arXiv:1409.1556,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,dataset,MobileNet-V2,36,10.1109/CVPR.2018.00474,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,dataset,CIFAR-10,22,,http://www.cs.toronto.edu/kriz/ cifar.html.,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,dataset,IMDb,2,,IMDb,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416571,tool,TensorFuzz,30,,arXiv:1807.10875,9
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,method,clustering,21,10.1109/TNNLS.2020.2967051,,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,tool,AAlergia learning algorithm,29,10.1109/QEST.2011.21,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,method,probabilistic model checking techniques,12,10.1145/186025.186051,,8
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,method,the same setting as in [46] to generate a training set and test set,46,,arXiv:1711.09576v4,9
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,dataset,Tomita Grammars,45,10.1162/neco_a_01111,,9
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,dataset,Rotten Tomatoes Movie Review dataset,33,10.3115/1219840.1219855,,9
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,statistical,set the dimensions of hidden  states and the number of hidden layers for the two RNNs as 512  and 1 respectively as in [50],50,,arXiv:1509.01626v3,9
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,tool,word2vec,30,,arXiv:1301.3781,9
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,method,the recent approach reported in [47].,47,,arXiv:1910.13895,11
+tugcecoskunn,https://doi.org/10.1145/3324884.3416592,tool,TEXTBUGGER,26,10.1145/3375627.3375833,,12
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,method,type-checking,30,10.1145/301618.301665,,4
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,tool,Checker Framework,59,10.1145/1390630.1390656,,4
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,method,folding and interval analysis,23,,https:// checkerframework.org/manual/#constant-value-checker,4
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,method,indexing analysis,44,10.1145/3213846.3213849,,4
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,tool,whole-program type inference tool,24,,https: //checkerframework.org/manual/#whole-program-inference,5
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,method,used the implementation from [45] ,45,10.1145/3377811.3380341,,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,tool,do-like-javac,43,,https://github.com/kelloggm/do-like-javac,6
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,replication,repeated their experiments and extended,65,10.1145/3319535.3345659,,7
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,tool,SpotBugs,25,,https://spotbugs.github.io/.,7
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,tool,Coverity,13,10.1145/1646353.1646374,,7
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,tool,CogniCrypt???T,47,10.1109/TSE.2019.2948910,,7
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,tool,CryptoGuard,65,10.1145/3319535.3345659,,8
+tugcecoskunn,https://doi.org/10.1145/3324884.3416593,method,CryptoAPIBench,3,10.1109/SecDev.2019.00017,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,dataset,MNIST ,19,,http://yann.lecun.com/exdb/mnist/.,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,dataset,CIFAR10,32,,http://www.cs.toronto.edu/~kriz/cifar.html.,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,dataset,SVHN,31,,http://ufldl.stanford.edu/housenumbers/nips2011_housenumbers.pdf,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,method,image transformation strategy,44,https://doi.org/10.1145/3180155.3180220,,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,method,adversarial attack strategy,17,https://doi.org/10.1109/ICSE.2019.00108,,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,method,baseline method: LSA&DSA (SADL),17,https://doi.org/10.1109/ICSE.2019.00108,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,method,baseline method: AAL,20,https://doi.org/10.1109/CVPR.2013.116,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,method,baseline method: CES,21,https://doi.org/10.1145/3338906.3338930,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,statistics,W/T/L (win/tie/lose),30,https://doi.org/10.1109/TSE.2017.2720603,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416621,statistics,average rank (AR) ,23,https://doi.org/10.1109/SANER.2018.8330212,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416616,dataset,the dataset proposed by Zhang et al.,62,https://doi.org/10.1145/3338906.3338917,,2
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416616,tool,CLDIFF,29,https://doi.org/10.1145/3238147.3238219,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416616,method,baseline method1,26,https://doi.org/10.1109/ESEM.2017.23,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416616,method,baseline method1,44,https://doi.org/10.1109/MSR.2017.26,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416616,method,baseline method3,59,https://doi.org/10.24963/ijcai.2018/399,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416616,metric,TravisTorrent database,7,https://doi.org/10.1109/MSR.2017.24,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416616,method,it is orthogonal to their study and  it reuses the classifiers,45,https://doi.org/10.1145/3183440.3195012,,10
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416564,method,POPQORN to address the robustness verification of RNNs.,33,,arXiv:1905.07387v1,2
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416564,method,categorical distribution,4,,https://en.wikipedia.org/wiki/Categorical_distribution,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416564,method,followed the same configurations to train an LSTM model ,33,,arXiv:1905.07387v1,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416564,dataset,The CogComp QC,37,https://doi.org/10.3115/1072228.1072378,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416564,dataset,The Jigsaw Toxic Comment,1,,https://www.kaggle. com/c/jigsaw-toxic-comment-classification-challenge,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416564,dataset,The Sentiment Analysis,39,,https://aclanthology.org/P11-1015/,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416564,method,ω major components as in [20] when applying PCA,20,https://doi.org/10.1145/3338906.3338954,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,method,the open coding method to identify common code-level characteristics ,20,,https://books.google.com.tr/books?id=gX1ZDwAAQBAJ&dq=Qualitative+inquiry+and+research+design:+Choosing+among+five+approaches+2016&hl=tr&lr=,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,method,standardization method: subtracting the median from the dataset and scaling it according to the interquartile range,39,,https://books.google.com.tr/books/about/Understanding_Statistics.html?id=vXzWG09_SzAC&redir_esc=y,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,metric,Empirical finding: ICB (feature),32,https://doi.org/10.1109/QSIC.2014.19,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,metric,Empirical finding: JDK (feature),36,https://doi.org/10.1007/s10664-018-9663-0,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,tool,EvoSuite,22,https://doi.org/10.1145/2025113.2025179,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,metric/method?,EvoSuite MockList: list of dependencies to mock,4,,https://github.com/EvoSuite/ evosuite/blob/master/runtime/src/main/java/org/evosuite/runtime/mock/ MockList.java,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,tool,Schwa:defect predictor,14,,https://sigarra.up.pt/fep/en/pub_geral.show_file?pi_doc_id=43612,3
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,tool,EvoSuite: automated test generation framework that generates JUnit test suites for Java classes,19,https://doi.org/10.1109/QSIC.2011.19,,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,tool,DynaMOSA: Dynamic Many-Objective Sorting Algorithm,52,https://doi.org/10.1109/TSE.2017.2663435,,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,dataset,Defects4J,38,,https://github.com/rjust/defects4j,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,method,Coverage criteria,31,10.1007/978-3-319-66299-2_5,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,method,Assertion strategy,59,https://doi.org/10.1109/ASE.2015.86,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,method,EvoSuite default parameters in previous work,20,https://doi.org/10.1109/TSE.2012.14,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,method,EvoSuite default parameters in previous work,52,https://doi.org/10.1109/TSE.2017.2663435,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,method,General API knowledge graphs: following the threatment,16,https://doi.org/10.1109/ICSME.2018.00028,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,method,General API knowledge graphs: following the threatment,19,https://doi.org/10.1145/3338906.3338971,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,method,"following the threatment in [16,19], they use software-specific tokenizer ",5,https://doi.org/10.1109/ICSE.2017.48,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,method,"following the threatment in [16,19], they use software-specific tokenizer ",46,https://doi.org/10.1145/2884781.2884862,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,tool,Stanford CoreNLP,21,https://doi.org/10.3115/v1/P14-5010,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,method,the web page parser,19,https://doi.org/10.1145/3338906.3338971,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,method,API-caveat sentence patterns,16,https://doi.org/10.1109/ICSME.2018.00028,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,method,set the word embeding dimension 200,6,https://doi.org/10.1145/2970276.2970317,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,method,statistical sampling method to examine MIN randomly sampled instances of each type of constraint relation,35,https://doi.org/10.1007/978-94-017-1404-4,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416551,dataset,MuBench: API misuse benchmark,3,https://doi.org/10.1145/2901739.2903506,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416591,method,"For TypeScript programs, they apply the approach in Hellendoorn et al. to extract type annotations of the identifiers",16,https://doi.org/10.1145/3236024.3236051,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416591,method,"randomly sample 200 program files from both Java and TypeScript test sets as the small test sets for Byte Pair Encoding based Neural Language Model (BPE NLM) [25] evaluation since when performing completion (testing) in their model, they use a variation of the beam search algorithm to combine the sub-units to complete tokens, which is very time- consuming",25,https://doi.org/10.1145/3377811.3380342,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416591,method,"They choose 𝐾 (50,000) most frequent tokens in each training set to build the token vocabulary, which is the same as Li et al.’s study. ",27,https://doi.org/10.24963/ijcai.2018/578,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416591,method,They compare their model with baseline model: Pointer Mixture Network,27,https://doi.org/10.24963/ijcai.2018/578,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416591,method,They compare their model with baseline model: Byte Pair Encoding based Neural Language Model (BPE NLM),25,https://doi.org/10.1145/3377811.3380342,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416591,method,They compare their model with baseline model: Transformer-XL,8,https://doi.org/10.18653/v1/P19-1285,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416571,dataset,MNIST ,24,,http://yann.lecun.com/exdb/mnist/,2
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416571,dataset,CIFAR10,22,,http://www.cs.toronto.edu/kriz/ cifar.html.,2
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416571,dataset,IMDb,2,,https://www.imdb.com/interfaces/,2
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416571,method,They randomly add the Cauchy noise,53,https://doi.org/10.1145/3377811.3380358,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416571,method,selecting the logits layer as the target layer (inspired by SATO),7,https://doi.org/10.1109/SP.2017.49,,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416571,method,selecting the logits layer as the target layer (inspired by SATO),15,,arXiv:1412.6572,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416571,method,CRADLE: cross-backend validation to detect and localize bugs in deep learning libraries,34,https://doi.org/10.1109/ICSE.2019.00107,,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416571,tool,Mmdnn,27,,https://github.com/Microsoft/MMdnn,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416571,tool,TENSORFUZZ,30,,arXiv:1807.10875,9
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416592,tool,AAlergia learning algorithm,29,https://doi.org/10.1109/QEST.2011.21,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416592,method,They apply the same setting as in [46] to generate a training set and test set based on the grammars,46,,arXiv:1711.09576v4,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416592,dataset,Tomita Grammars,45,https://doi.org/10.1162/neco_a_01111,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416592,dataset,Rotten Tomatoes Movie Review (RTMR),33,https://doi.org/10.3115/1219840.1219855,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416592,method,set the dimensions of hidden  states and the number of hidden layers for the two RNNs as 512  and 1 respectively as in [50],50,,arXiv:1509.01626v3,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416592,method,Baseline 1,21,https://doi.org/10.1109/TNNLS.2020.2967051,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416592,method,Baseline 2,46,,arXiv:1711.09576v4,9
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416592,method,Baseline 3,47,,arXiv:1910.13895,9
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416592,method,Textbugger: Generating adversarial text against real-world applications,26,https://doi.org/10.1145/3375627.3375833,,10
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,method, type-checking,30,https://doi.org/10.1145/301618.301665,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,tool,Checker Framework,59,https://doi.org/10.1145/1390630.1390656,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,method,traditional constant propagation and folding analysis ,81,https://doi.org/10.1145/103135.103136,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,method,enhanced constant folding and interval analysis ,23,,https:// checkerframework.org/manual/#constant-value-checker,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,method,array indexing analysis,44,https://doi.org/10.1145/3213846.3213849,,4
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,tool,whole-program type inference tool,24,,https: //checkerframework.org/manual/#whole-program-inference,5
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,method,the implementation from [45],45,https://doi.org/10.1145/3377811.3380341,,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,tool,do-like-javac,43,,https://github.com/kelloggm/do-like-javac,6
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,method,CryptoAPIBench,3,https://doi.org/10.1109/SecDev.2019.00017,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,tool,SpotBugs,25,,https://spotbugs.github.io/.,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,tool,Coverity,13,https://doi.org/10.1145/1646353.1646374,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,tool,CogniCrypt𝑆𝐴𝑆T,47,https://doi.org/10.1109/TSE.2019.2948910,,7
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,tool,CryptoGuard,65,https://doi.org/10.1145/3319535.3345659,,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,method,built CryptoGuard from source code [22],22,,https://github.com/CryptoGuardOSS/cryptoguard/commit/2898b5b5ec25d94bbedda271638385c0fa6e0c9c,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416593,metric,Precision and recall are defined identically to CryptoAPIBench [3],3,https://doi.org/10.1109/SecDev.2019.00017,,8

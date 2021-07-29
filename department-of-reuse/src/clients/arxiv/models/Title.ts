@@ -15,3 +15,30 @@ export function TitleFromXmlTyped(xml: any, ignoreDiscriminator: boolean): Title
         text: xml._
     };
 }
+
+export function TitleFromJSON(json: any): Title {
+    return TitleFromJSONTyped(json, false);
+}
+
+export function TitleFromJSONTyped(json: any, ignoreDiscriminator: boolean): Title {
+    if ((json === undefined) || (json === null)) {
+        return json;
+    }
+    return {
+        type: json['type'],
+        text: json['text']
+    }
+}
+
+export function TitleToJSON(value?: Title | null): any {
+    if (value === undefined) {
+        return undefined;
+    }
+    if (value === null) {
+        return null;
+    }
+    return {
+        type: value.type,
+        text: value.text
+    }
+}

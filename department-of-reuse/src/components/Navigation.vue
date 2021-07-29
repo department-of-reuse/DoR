@@ -1,6 +1,8 @@
 <template>
     <div id="nav" class="h-6 bg-opacity-80 bg-blue-500 text-white text-xs font-bold relative flex px-5 py-1">
         <div class="flex-auto text-left flex gap-1.5">
+            <router-link :to="{ name: 'home' }" class="hover:bg-blue-400 px-1">Home</router-link>
+            <router-link :to="{ name: 'contributors'}" class="hover:bg-blue-400 px-1">Contributors</router-link>
             <a class="hover:bg-blue-400 px-1" href="https://github.com/bhermann/DoR">Source code</a>
             <!-- <a class="hover:bg-blue-400 px-1" href="https://github.com/bhermann/DoR">Meet the team</a> -->
         </div>

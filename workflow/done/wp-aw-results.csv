@@ -1,0 +1,157 @@
+gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num
+karacitir,https://doi.org/10.1145/3324884.3416590,Stepping stone,Reuses list of identified techniques in this review paper,57,,https://hal.archives-ouvertes.fr/hal-01956501/document,Page 3 - Specifically we consider the living review of APR by Monperrus [57]
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,Test generation tool Randoop,59,https://doi.org/10.1145/1297846.1297902,,Page 4- paragraph 1
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,Test generation tool Evosuite,19,https://doi.org/10.1145/2025113.2025179,,Page 4- paragraph 1
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,Diffgen,79,https://doi.org/10.1145/3092703.3092718,,Page 4 - DiffTGen is a tool that identifies overfitting patches through test case generation [79]
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,Daikon invariant generation tool,18,https://doi.org/10.1109/32.908957,,Page 4 - captured by Daikon [18]
+karacitir,https://doi.org/10.1145/3324884.3416590,Sanity check,Use results from [85]: differences in running times to detect overfitting,85,10.1109/IBF50092.2020.9034821,,Page 4 - Based on their findings- in this study- we adopt a simple heuristic that is to see if the inferred invariant of a generated patch is different from that of the oracle program.
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,Opad,86,,https://arxiv.org/abs/1703.00198,Page 4- paragraph 4
+karacitir,https://doi.org/10.1145/3324884.3416590,Method,Use method from [81] to apply Opad tool on Java,81,https://doi.org/10.1145/3180155.3180182,,Page 4 -  To apply it on Java- we adopt the method provided by a recent study [81]
+karacitir,https://doi.org/10.1145/3324884.3416590,Method,Patch-Sim,81,https://doi.org/10.1145/3180155.3180182,,Page 4 - PATCH-SIM is a similarity-based patch validation technique [81]
+karacitir,https://doi.org/10.1145/3324884.3416590,Method,Also a variant of Patch-Sim is implemented,81,https://doi.org/10.1145/3180155.3180182,,Page 4 - In our study- to better explore the performance of this technique- we also implemented another version of this tool by replacing the adopted Randoop with Evosuite for test generation.
+karacitir,https://doi.org/10.1145/3324884.3416590,Method,Use method from [81] to apply Anti-patterns tool on Java. [81] is given in another instance as reference for adaptation of Opad tool to Java. I am not sure if these refer to exactly same approach or not. ,81,https://doi.org/10.1145/3180155.3180182,,Page 4 - To apply it on Java- we follow the strategy adopted by a recent study [81]
+karacitir,https://doi.org/10.1145/3324884.3416590,Metric,Static code features definein S3,34,https://doi.org/10.1145/3106237.3106309,,Page 4- column 2- paragraph 2. Also in Table 2 on page 4: Table 2 displays the details of the selected eight features in total. We follow the original studies [34- 77- 80] to compute the values for each feature- and we do not list the formulas in detail due to page limit.
+karacitir,https://doi.org/10.1145/3324884.3416590,Metric,Static code features CapGen,77,https://doi.org/10.1145/3180155.3180233,,Page 4- column 2- paragraph 2. Also in Table 2 on page 4: Table 2 displays the details of the selected eight features in total. We follow the original studies [34- 77- 80] to compute the values for each feature- and we do not list the formulas in detail due to page limit.
+karacitir,https://doi.org/10.1145/3324884.3416590,Metric,Static code features ssFix,80,https://dl.acm.org/doi/10.1109/ASE.2017.8115676,,Page 4- column 2- paragraph 2. Also in Table 2 on page 4: Table 2 displays the details of the selected eight features in total. We follow the original studies [34- 77- 80] to compute the values for each feature- and we do not list the formulas in detail due to page limit.
+karacitir,https://doi.org/10.1145/3324884.3416590,Dataset,Defects4j,28,https://dl.acm.org/doi/10.1145/2610384.2628055,,Page 5- paragraph 2 - In this study- we focus on the patches generated for a widely used benchmark by existing APR techniques which is Defects4j [28]
+karacitir,https://doi.org/10.1145/3324884.3416590,Dataset,Dataset generated for a previous study. I am not sure if it is public or not.,45,https://dl.acm.org/doi/10.1145/3377811.3380338,,Page 5- paragraph 2 - Specifically- we select all the patches prepared by a recent large-scale study [45]
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,jGenProg,54,https://dl.acm.org/doi/10.1145/2931037.2948705,,Page 5- paragraph 2. Also Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,jKali,54,https://dl.acm.org/doi/10.1145/2931037.2948705,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,jMutRepair,54,https://dl.acm.org/doi/10.1145/2931037.2948705,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,SimFix,54,https://dl.acm.org/doi/10.1145/2931037.2948705,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,ARJA,90,10.1109/TSE.2018.2874648,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,GenProg-A,90,10.1109/TSE.2018.2874648,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,Kali-A,90,10.1109/TSE.2018.2874648,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,RSRepair-A,90,10.1109/TSE.2018.2874648,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,CapGen,77,https://dl.acm.org/doi/10.1145/3180155.3180233,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,DynaMoth,16,https://doi.org/10.1145/2896921.2896931,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,Nopol,83,10.1109/TSE.2016.2560811,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,ACS,82,https://dl.acm.org/doi/10.1109/ICSE.2017.45,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,Cardumen,55,https://doi.org/10.1007/978-3-319-99241-9_3,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,JAID,9,https://dl.acm.org/doi/pdf/10.1109/ASE.2017.8115674,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,SketchFix,25,https://dl.acm.org/doi/10.1145/3180155.3180245,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,kPAR,41,10.1109/ICST.2019.00020,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,FixMiner,32,https://doi.org/10.1007/s10664-019-09780-z,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,AVATAR,42,10.1109/SANER.2019.8667970,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,TBar,43,https://doi.org/10.1145/3293882.3330577,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,SOFix,46,10.1109/SANER.2018.8330202,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Tool,SequenceR,10,https://doi.org/10.1109/tse.2019.2940179,,Page 5 - Table 3
+karacitir,https://doi.org/10.1145/3324884.3416590,Method,Strategy for reducing author bias,88,https://doi.org/10.1007/s10664-020-09920-w,,Page 5 - column 2 - paragraph 2 - To reduce such bias in our study - we further performed a sanity check to examine the correctness of the collected patches. To achieve such a goal - we followed the strategies adopted by a recent study [88]
+karacitir,https://doi.org/10.1145/3324884.3416590,Method,learning-to-rank technique,40,https://doi.org/10.1587/transinf.E94.D.1854,,Page 6 - section 3.4.2
+karacitir,https://doi.org/10.1145/3324884.3416590,Method,cost-sensitive learning,17,,https://dl.acm.org/doi/10.5555/1642194.1642224,Page 6 - section 3.4.2
+karacitir,https://doi.org/10.1145/3324884.3416532,Dataset,Bears Java bug benchmark,38,https://doi.org/10.1109/SANER.2019.8667991,,Page 3 - section 3.2 - Table 1
+karacitir,https://doi.org/10.1145/3324884.3416532,Dataset,Bugs.jar real-world Java bugs,47,https://doi.org/10.1145/3196398.3196473,,Page 3 - section 3.2 - Table 1
+karacitir,https://doi.org/10.1145/3324884.3416532,Dataset,Defects4J,17,https://doi.org/10.1145/2610384.2628055,,Page 3 - section 3.2 - Table 1
+karacitir,https://doi.org/10.1145/3324884.3416532,Dataset,ManySStubsBs4J,19,,http://arxiv.org/abs/1905.13334,Page 3 - section 3.2 - Table 1
+karacitir,https://doi.org/10.1145/3324884.3416532,Dataset,QuixBugs,28,https://doi.org/10.1145/3135932.3135941,,Page 3 - section 3.2 - Table 1
+karacitir,https://doi.org/10.1145/3324884.3416532,Dataset,RepairThemAll,10,https://doi.org/10.1145/3338906.3338911,,Page 3 - section 3.2 - Table 1
+karacitir,https://doi.org/10.1145/3324884.3416532,Dataset,A labeled dataset of patches generated by 16 APR systems for the Defects4J bugs (Liu) ,36,https://doi.org/ 10.1145/3377811.3380338,,Page 3 - section 3.2 - Table 1
+karacitir,https://doi.org/10.1145/3324884.3416532,Dataset,Labeled patches used as a test dataset (Xiong),59,https://doi.org/10.1145/3183519.3183540,,Page 3 - section 3.2 - Table 1
+karacitir,https://doi.org/10.1145/3324884.3416532,Tool,Doc2Vec,22,,http://proceedings.mlr.press/v32/le14.html,Page 2 - section 2.2.1
+karacitir,https://doi.org/10.1145/3324884.3416532,Tool,Bert:pre-trained language representation model,9,10.18653/v1/N19-1423,,Page 2 - section 2.2.2
+karacitir,https://doi.org/10.1145/3324884.3416532,Tool,code2vec: attention-based neural code embedding model,3,https://doi.org/10.1145/3290353,,Page 3 - section 2.2.3
+karacitir,https://doi.org/10.1145/3324884.3416532,Tool,CC2Vec:specialized hierarchical attention neural network model,13,https://doi.org/10.1145/3377811.3380361,,Page 3 section 2.2.4
+karacitir,https://doi.org/10.1145/3324884.3416532,Method,reuse approach from 13 for merging vectors,13,https://doi.org/10.1145/3377811.3380361,,Page 7 - Column 2 - paragraph 2 - We follow an approach that was demonstrated by Hoang et al. [13]
+karacitir,https://doi.org/10.1145/3324884.3416579,Tool,BiGUL framework,26,https://dl.acm.org/doi/10.1145/2847538.2847544,,Page 8 - Column 2 - Paragraph 1 - To provide tool support for our multiple-view analysis framework we realized a prototypical view generation and transformation tool based on BiGUL [26]
+karacitir,https://doi.org/10.1145/3324884.3416579,Method,Generation of multi-LOD 3D city models in CityGML with the procedural modelling engine,5,https://doi.org/10.5194/isprs-annals-IV-4-W1-51-2016,,Page 8 - Column 2 - last paragraph
+karacitir,https://doi.org/10.1145/3324884.3416579,Tool,SPOT: Model checking tool on the transition systems,13,https://doi.org/10.1007/978-3-319-46520-3_8,,Page 9 - Column 1 - paragraph 2 - Model checking on the transition systems produced can then be readily performed with typical tools (e.g.SPOT [13])
+karacitir,https://doi.org/10.1145/3379597.3387464,Sanity check,how to avoid issues  from reworked commits,27,https://doi.org/10.1145/2597073.2597074,,Page 2 - Section 3.1.3
+karacitir,https://doi.org/10.1145/3379597.3387464,Dataset,with a public dataset of PRs from GitHub projects that use PRs in their development cycle,25,https://doi.org/10.1145/2597073.2597122,,Page 3 - Section 3.3.1
+karacitir,https://doi.org/10.1145/3379597.3387469,Dataset,AndroZoo: a repository of Android apps maintained by the University of Luxembourg,2,https://doi.org/10.1145/2901739.2903508,,Page 5 - paragraph 2
+karacitir,https://doi.org/10.1145/3379597.3387469,Tool,Axplorer: permission-method mapping extraction,8,,https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/backes_android,Page 7 - last paragraph
+karacitir,https://doi.org/10.1145/3379597.3387469,Tool,DPSPEC: permission-method mapping extraction,10,,https://arxiv.org/abs/1706.05042,Page 7 - last paragraph
+karacitir,https://doi.org/10.1145/3379597.3387469,Sanity check,why not automated tools are used,15,https://doi.org/10.1145/2950290.2983958,,Page 8 - paragraph 2 - We do not resort to automated tools to explore the behavior of the app because we want to achieve a high behavior [15] coverage which is still a challenge for the state of the art tools
+karacitir,https://doi.org/10.1145/3379597.3387475,Dataset,CROP: Code Review Open Platform,35,https://doi.org/10.1145/3196398.3196466,,Page 4 - Section 4.2
+karacitir,https://doi.org/10.1145/3379597.3387475,Tool,RefMiner,53,,https://dl.acm.org/doi/10.5555/2555523.2555539,Page 4 - Section 4.2
+karacitir,https://doi.org/10.1145/3379597.3387475,Method,Code review classification procedure,37,10.1109/TSE.2019.2912113,,Page 5 - Step 4 paragraph - To assess this threat to our study’s validity we make use of the code reviews classification performed by our previous work [37]
+karacitir,https://doi.org/10.1145/3379597.3387459,Method,Categorization of the issues based on categories proposed in 15,15,https://doi.org/10.1016/j.jss.2014.12.027,,Page 5 - Section 5.1 - paragraph 1 - we reused the categories described in a study performed by Li et al. [15].
+karacitir,https://doi.org/10.1145/3379597.3387459,Method,open-card sorting,28,,https://books.google.com/books/about/Card_Sorting.html?id=_h4D9gqi5tsC&redir_esc=y,Page 7 - Colum 1 - last paragraph
+karacitir,https://doi.org/10.1145/3379597.3387480,Tool,reuses Boa infrastructure to implement views,6,10.1109/ICSE.2013.6606588,,Page 1 - Section 1 - first paragraph
+karacitir,https://doi.org/10.1145/3379597.3387480,Method,partial reproduction,10,https://doi.org/10.1145/2786805.2786870,,Page 1 - Column 2 - last paragraph
+karacitir,https://doi.org/10.1145/3379597.3387480,Method,partial reproduction,14,https://doi.org/10.1007/s10664-013-9261-0,,Page 1 - Column 2 - last paragraph
+karacitir,https://doi.org/10.1145/3379597.3387480,Dataset,test data for evaluating split algorithms,2,10.1109/MSR.2013.6624055,,Page 6 - Section 4.1 - first paragraph
+karacitir,https://doi.org/10.1145/3379597.3387480,Method,greedy approach for splitting identifiers,9,https://doi.org/10.1007/s10664-013-9261-0,,Page 6 - Section 4.1.1 - first paragraph
+karacitir,https://doi.org/10.1145/3379597.3387480,Dataset,SCOWL word lists,16,,http://wordlist.sourceforge.net,Page 6 - Section 4.1.1 - first paragraph
+karacitir,https://doi.org/10.1145/3379597.3387446,Method,Reuses theoretical model of emotions for annotation,42,https://doi.org/10.1037/0022-3514.52.6.1061,,Page 2 - Column 1 - first paragraph
+karacitir,https://doi.org/10.1145/3379597.3387446,Replication,partial replication of the previous study,19,https://doi.org/10.1007/s10664-016-9493-x,,Page 4 - Experimental setting - To enable comparison with the within-platform benchmark [30] we replicate the former experimental setting.
+karacitir,https://doi.org/10.1145/3379597.3387446,Replication,partial replication of the previous study,30,https://doi.org/10.1145/3196398.3196403,,Page 4 - Experimental setting - To enable comparison with the within-platform benchmark [30] we replicate the former experimental setting.
+karacitir,https://doi.org/10.1145/3379597.3387446,Tool,Senti4SD,8,10.1109/SEmotion.2019.00014,,Page 3 - Paragraph 3
+karacitir,https://doi.org/10.1145/3379597.3387446,Tool,SentiCR,2,10.1109/ASE.2017.8115623,,Page 3 - Paragraph 4
+karacitir,https://doi.org/10.1145/3379597.3387446,Tool,SentiStrength-SE,17,10.1109/MSR.2017.9,,Page 3 - Paragraph 5
+karacitir,https://doi.org/10.1145/3379597.3387446,Tool,DEVA,18,10.1145/3167132.3167296,,Page 3 - Paragraph 6
+karacitir,https://doi.org/10.1145/3379597.3387446,Method,reuses the same annotation scheme and guideline for labeling,6,10.1007/s10664-017-9546-9,,Page 3 - Column 2 - paragraph 1
+karacitir,https://doi.org/10.1145/3379597.3387446,Dataset,Stack Overflow data set,6,10.1007/s10664-017-9546-9,,Page 3 - Column 2 - paragraph 2
+karacitir,https://doi.org/10.1145/3379597.3387446,Dataset,Jira dataset,33,10.1145/2901739.2903505,,Page 3 - Column 2 - paragraph 3
+karacitir,https://doi.org/10.1145/3379597.3387446,Tool,SMOTE,10,10.1613/jair.953,,Page 5 - Fist column - last paragraph
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Dataset,,38,https://doi.org/10.1109/SANER.2019.8667991,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Dataset,,47,https://doi.org/10.1145/3196398.3196473,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Dataset,,17,https://doi.org/10.1145/2610384.2628055,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Dataset,,28,https://doi.org/10.1145/3135932.3135941,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Dataset,,10,https://doi.org/10.1145/3338906.3338911,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Dataset,,36,https://doi.org/ 10.1145/3377811.3380338,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Dataset,,59,https://doi.org/10.1145/3183519.3183540,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Method,,13,https://doi.org/10.1145/3377811.3380361,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Tool,,22,,http://proceedings.mlr.press/v32/le14.html,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Tool,,9,https://doi.org/10.18653/v1/N19-1423,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Tool,,3,https://doi.org/10.1145/3290353,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416532,Tool,,13,https://doi.org/10.1145/3377811.3380361,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416579,Method,,5,https://doi.org/10.5194/isprs-annals-IV-4-W1-51-2016,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416579,Tool,,26,https://dl.acm.org/doi/10.1145/2847538.2847544,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416579,Tool,,13,https://doi.org/10.1007/978-3-319-46520-3_8,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Dataset,,28,https://dl.acm.org/doi/10.1145/2610384.2628055,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Dataset,,45,https://dl.acm.org/doi/10.1145/3377811.3380338,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Method,,81,https://doi.org/10.1145/3180155.3180182,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Method,,81,https://doi.org/10.1145/3180155.3180182,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Method,,81,https://doi.org/10.1145/3180155.3180182,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Method,,81,https://doi.org/10.1145/3180155.3180182,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Method,,88,https://doi.org/10.1007/s10664-020-09920-w,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Method,,40,https://doi.org/10.1587/transinf.E94.D.1854,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Method,,17,,https://dl.acm.org/doi/10.5555/1642194.1642224,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Metric,,34,https://doi.org/10.1145/3106237.3106309,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Metric,,77,https://doi.org/10.1145/3180155.3180233,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Metric,,80,https://dl.acm.org/doi/10.1109/ASE.2017.8115676,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,59,https://doi.org/10.1145/1297846.1297902,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,19,https://doi.org/10.1145/2025113.2025179,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,79,https://doi.org/10.1145/3092703.3092718,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,18,https://doi.org/10.1109/32.908957,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,54,https://dl.acm.org/doi/10.1145/2931037.2948705,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,54,https://dl.acm.org/doi/10.1145/2931037.2948705,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,54,https://dl.acm.org/doi/10.1145/2931037.2948705,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,54,https://dl.acm.org/doi/10.1145/2931037.2948705,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,90,https://doi.org/10.1109/TSE.2018.2874648,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,90,https://doi.org/10.1109/TSE.2018.2874648,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,90,https://doi.org/10.1109/TSE.2018.2874648,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,90,https://doi.org/10.1109/TSE.2018.2874648,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,77,https://dl.acm.org/doi/10.1145/3180155.3180233,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,16,https://doi.org/10.1145/2896921.2896931,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,83,https://doi.org/10.1109/TSE.2016.2560811,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,82,https://dl.acm.org/doi/10.1109/ICSE.2017.45,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,55,https://doi.org/10.1007/978-3-319-99241-9_3,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,9,https://dl.acm.org/doi/pdf/10.1109/ASE.2017.8115674,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,25,https://dl.acm.org/doi/10.1145/3180155.3180245,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,41,10.1109/ICST.2019.00020,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,32,https://doi.org/10.1007/s10664-019-09780-z,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,42,10.1109/SANER.2019.8667970,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,43,https://doi.org/10.1145/3293882.3330577,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,46,10.1109/SANER.2018.8330202,,
+afonsohfontes,https://doi.org/10.1145/3324884.3416590,Tool,,10,https://doi.org/10.1109/tse.2019.2940179,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Dataset,,6,10.1007/s10664-017-9546-9,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Dataset,,33,10.1145/2901739.2903505,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Method,,42,https://doi.org/10.1037/0022-3514.52.6.1061,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Method,,19,https://doi.org/10.1007/s10664-016-9493-x,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Method,,30,https://doi.org/10.1145/3196398.3196403,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Tool,,8,https://doi.org/10.1109/SEmotion.2019.00014,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Tool,,2,https://doi.org/10.1109/ASE.2017.8115623,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Tool,,17,https://doi.org/10.1109/MSR.2017.9,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Tool,,18,https://doi.org/10.1145/3167132.3167296,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387446,Tool,,10,10.1613/jair.953,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387459,Method,,15,https://doi.org/10.1016/j.jss.2014.12.027,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387464,Dataset,,25,https://doi.org/10.1145/2597073.2597122,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387464,Metric,,27,https://doi.org/10.1145/2597073.2597074,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387469,Dataset,,2,https://doi.org/10.1145/2901739.2903508,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387475,Dataset,,35,https://doi.org/10.1145/3196398.3196466,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387475,Method,,37,10.1109/TSE.2019.2912113,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387475,Tool,,53,,https://dl.acm.org/doi/10.5555/2555523.2555539,
+afonsohfontes,https://doi.org/10.1145/3379597.3387480,Dataset,,2,10.1109/MSR.2013.6624055,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387480,Method,,9,https://doi.org/10.1007/s10664-013-9261-0,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387480,Tool,,6,10.1109/ICSE.2013.6606588,,

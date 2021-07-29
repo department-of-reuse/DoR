@@ -5,7 +5,7 @@ import parse from 'csv-parse/lib/sync';
 
 console.log("Transforming CSV data to JSON...");
 
-const dataPath = "../workflow";
+const dataPath = "../workflow/done";
 
 const csvContents = fs.readdirSync(dataPath)
     .filter(x => x.endsWith('.csv'))
@@ -20,7 +20,8 @@ const csvContents = fs.readdirSync(dataPath)
                 delimiter: ',',
                 columns: true,
                 skip_empty_lines: true,
-                ltrim: true
+                ltrim: true,
+                bom: true
             }) as Array<any>;
     });
 
@@ -29,23 +30,35 @@ function ReuseFromCSVData(csvData: any): Reuse {
     if ((csvData === undefined) || (csvData === null)) {
         return csvData;
     }
+
     return {
         "sourceDOI": ProcessDOI(csvData['paper_doi']),
         "reusedDOI": ProcessDOI(csvData['reused_doi']),
         "type" : TransformType(csvData['reuse_type']),
         "comment": csvData['comment'],
         "sourceReference": csvData['citation_number'],
-        "alternativeID": csvData['alt_url'],
-        "sourceReferenceDetail": csvData['page_num']
+        "alternativeID": ProcessAlternativeId(csvData['alt_url']),
+        "sourceReferenceDetail": csvData['page_num'],
+        "contributor" : csvData['gh_id']
     };
 }
 
 function ProcessDOI(doi : string) : string {
-    return doi.replace("https://doi.org/", "");
+    return doi.replace("https://doi.org/", "")
+              .replace("https://dl.acm.org/doi/abs/", "")
+              .replace("https://dl.acm.org/doi/pdf/", "")
+              .replace("https://dl.acm.org/doi/", "")
+              .replace("http://dx.doi.org/", "")
+              .replace("https://dx.doi.org/", "")
+              .trim();
+}
+
+function ProcessAlternativeId(altId : string) : string {
+    return altId.replace("https://arxiv.org/abs/", "arxiv:");
 }
 
 function TransformType(csvType : string) : ReuseType {
-    switch (csvType) {
+    switch (csvType.toLowerCase()) {
         case "method":
             return ReuseType.METHODOLOGY;     
         case "tool": 

@@ -321,7 +321,7 @@ export interface Work {
      * @type {Reference}
      * @memberof Work
      */
-    reference?: Reference;
+    reference?: Array<Reference>;
     /**
      * 
      * @type {Array<string>}
@@ -557,7 +557,7 @@ export function WorkFromJSONTyped(json: any, ignoreDiscriminator: boolean): Work
         'member': json['member'],
         'contentCreated': !exists(json, 'content-created') ? undefined : DatePartsFromJSON(json['content-created']),
         'publishedOnline': !exists(json, 'published-online') ? undefined : DatePartsFromJSON(json['published-online']),
-        'reference': !exists(json, 'reference') ? undefined : ReferenceFromJSON(json['reference']),
+        'reference': !exists(json, 'reference') ? undefined : (Array.isArray(json['reference']) ? ((json['reference'] as Array<any>).map(ReferenceFromJSON)) : new Array(ReferenceFromJSON(json['reference']))),
         'containerTitle': !exists(json, 'container-title') ? undefined : json['container-title'],
         'review': !exists(json, 'review') ? undefined : WorkReviewFromJSON(json['review']),
         'originalTitle': !exists(json, 'original-title') ? undefined : json['original-title'],
@@ -638,7 +638,7 @@ export function WorkToJSON(value?: Work | null): any {
         'member': value.member,
         'content-created': DatePartsToJSON(value.contentCreated),
         'published-online': DatePartsToJSON(value.publishedOnline),
-        'reference': ReferenceToJSON(value.reference),
+        'reference': value.reference === undefined ? undefined : ((value.reference as Array<any>).map(ReferenceToJSON)),
         'container-title': value.containerTitle,
         'review': WorkReviewToJSON(value.review),
         'original-title': value.originalTitle,

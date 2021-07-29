@@ -1,0 +1,108 @@
+gh_id, paper_doi, reuse_type, comment, citation_number, reused_doi, alt_url, page_num
+yrahul3910,https://doi.org/10.1145/3379597.3387481,tool,ActiveMQ,[12],,https://svn.apache.org/repos/infra/apachecon/archive.apachecon.com/na2011/presentations/10-Thursday/A-Enterprise_Java/A_1600_Snyder_ActiveMQ.pdf,2
+yrahul3910,https://doi.org/10.1145/3379597.3387481,method,Effort estimation scenario,[7],https://doi.org/10.1145/1370750.1370781,,7
+yrahul3910,https://doi.org/10.1145/3379597.3387481,method,Effort estimation scenario,[11],https://doi.org/10.1145/2597073.2597107,,7
+yrahul3910,https://doi.org/10.1145/3379597.3387481,tool,PyDriller,[13],https://doi.org/10.1145/3236024.3264598,,8
+yrahul3910,https://doi.org/10.1145/3379597.3387481,dataset,dataset,[14],https://doi.org/10.1145/2901739.2901753,,8
+yrahul3910,https://doi.org/10.1145/3379597.3387458,method,SALSA,[34],https://doi.org/10.1111/j.1471-1842.2009.00848.x,,2
+yrahul3910,https://doi.org/10.1145/3379597.3387458,method,Literature review,[69],https://doi.org/10.1016/bs.adcom.2018.10.001,,2
+yrahul3910,https://doi.org/10.1145/3379597.3387458,method,Thematic analysis,[8],https://dx.doi.org/10.1191/1478088706QP063OA,,3
+yrahul3910,https://doi.org/10.1145/3379597.3387444,tool,ftrace,[6],,https://elinux.org/Ftrace,4
+yrahul3910,https://doi.org/10.1145/3379597.3387444,tool,dtrace,[4],,http://dtrace.org,4
+yrahul3910,https://doi.org/10.1145/3379597.3387444,tool,PIN,[16],,https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool.,4
+yrahul3910,https://doi.org/10.1145/3379597.3387444,tool,cscope,[21],,http://cscope.sourceforge.net/,5
+yrahul3910,https://doi.org/10.1145/3379597.3387444,tool,Kernel glossary,[13],,https://kernelnewbies.org/KernelGlossary,5
+yrahul3910,https://doi.org/10.1145/3379597.3387444,tool,spaCy,[22],,https://spacy.io/,6
+yrahul3910,https://doi.org/10.1145/3379597.3387444,method,Hungarian algorithm,[63],https://doi.org/10.1002/nav.3800020109,,6
+yrahul3910,https://doi.org/10.1145/3379597.3387444,tool,graphviz,[46],10.1002/1097-024X(200009)30:11<1203::AID-SPE338>3.0.CO;2-N,,6
+yrahul3910,https://doi.org/10.1145/3379597.3387465,method,Lehman's laws,[19],https://doi.org/10.1007/BFb0017737,,1
+yrahul3910,https://doi.org/10.1145/3379597.3387465,metric,McCabe,[23],https://doi.org/10.1109/TSE.1976.233837,,2
+yrahul3910,https://doi.org/10.1145/3379597.3387465,metric,Halstead,[12],,https://dl.acm.org/doi/book/10.5555/540137,2
+yrahul3910,https://doi.org/10.1145/3379597.3387465,metric,Midha et al.,[26],,https://www.tandfonline.com/doi/abs/10.1080/08874417.2010.11645410,2
+yrahul3910,https://doi.org/10.1145/3379597.3387465,metric,Gill & Kemerer,[8],https://doi.org/10.1109/32.106988,,2
+yrahul3910,https://doi.org/10.1145/3379597.3387465,tool,cqmetrics,[41],https://doi.org/10.1145/2884781.2884799,,2
+yrahul3910,https://doi.org/10.1145/3379597.3387465,dataset,OpenSSL vulnerabilities list,,,https://www.openssl.org/news/vulnerabilities.html,4
+yrahul3910,https://doi.org/10.1145/3379597.3387465,tool,PyDriller,[39],https://doi.org/10.1145/3236024.3264598,,4
+yrahul3910,https://doi.org/10.1145/3379597.3387479,tool,pysmell,[27],,https://github.com/chenzhifei731/Pysmell,2
+yrahul3910,https://doi.org/10.1145/3379597.3387479,method,Code smell list,[6],https://doi.org/10.1016/j.infsof.2017.09.011,,2
+yrahul3910,https://doi.org/10.1145/3379597.3387479,method,Code smells,[10],,https://books.google.com/books?hl=en&lr=&id=2H1_DwAAQBAJ&oi=fnd&pg=PT14&dq=Refactoring:+improving+the+design+of+existing+code&ots=Ngyvvbr1PW&sig=GCwCe0_8UN9b781c5r52AYmUzTs,3
+yrahul3910,https://doi.org/10.1145/3379597.3387479,tool,GitHub API Search,[9],,https://developer.github.com/v3/search/#search-topics,3
+yrahul3910,https://doi.org/10.1145/3379597.3387479,tool,Radon,[7],,https://pypi.org/project/radon/,4
+yrahul3910,https://doi.org/10.1145/3379597.3387479,tool,Sklearn,[19],,https://scikit-learn.org/stable,4
+yrahul3910,https://doi.org/10.1145/3379597.3387479,method,keywords,[18],https://doi.org/10.1145/2786805.2803183,,5
+yrahul3910,https://doi.org/10.1145/3379597.3387479,method,SZZ,[23],https://doi.org/10.1145/1082983.1083147,,5
+yrahul3910,https://doi.org/10.1145/3379597.3387470,method,Soft attention alignment,[20],https://doi.org/10.18653/v1/D16-1244,,1
+yrahul3910,https://doi.org/10.1145/3379597.3387470,method,Ranking method,[30],https://doi.org/10.1145/1806799.1806811,,2
+yrahul3910,https://doi.org/10.1145/3379597.3387470,method,Ranking method,[29],https://doi.org/10.1109/ASE.2011.6100061,,5
+yrahul3910,https://doi.org/10.1145/3379597.3387470,method,replication,[6],https://doi.org/10.1145/3183440.3195092,,5
+yrahul3910,https://doi.org/10.1145/3379597.3387470,method,replication,[10],https://doi.org/10.1109/ICSME.2017.69,,5
+yrahul3910,https://doi.org/10.1145/3379597.3387470,dataset,Lazar et al,[14],https://doi.org/10.1145/2597073.2597128,,6
+yrahul3910,https://doi.org/10.1145/3379597.3387470,method,GloVe,[21],,http://www.aclweb.org/anthology/D14-1162,6
+yrahul3910,https://doi.org/10.1145/3379597.3387473,tool,GHTorrent,[27],10.1109/MSR.2013.6624034,,2
+yrahul3910,https://doi.org/10.1145/3379597.3387440,method,Time-based heuristic,[43],https://doi.org/10.1145/3180155.3180207,,3
+yrahul3910,https://doi.org/10.1145/3379597.3387440,method,Open coding technique,[29],,https://pages.cpsc.ucalgary.ca/~saul/wiki/uploads/CPSC681/opencoding.pdf,3
+yrahul3910,https://doi.org/10.1145/3379597.3387440,tool,nltk,[9],,https://www.aclweb.org/anthology/P06-4018/,5
+yrahul3910,https://doi.org/10.1145/3379597.3387440,metric,AP,[46],https://doi.org/10.1109/SST.2015.13,,5
+yrahul3910,https://doi.org/10.1145/3379597.3387440,statistics,Wilcoxon test,[56],10.1002/9780471462422.eoct979,,5
+yrahul3910,https://doi.org/10.1145/3379597.3387440,tool,scipy,[25],,http://www.scipy.org,5
+yrahul3910,https://doi.org/10.1145/3379597.3387440,method,CBOW,[38],,https://arxiv.org/abs/1712.09405,7
+yrahul3910,https://doi.org/10.1145/3379597.3387440,method,RCSLS,[26],,https://aclanthology.info/papers/D18-1330/d18-1330,7
+yrahul3910,https://doi.org/10.1145/3379597.3387447,method,Local outlier factor,[7],https://doi.org/10.1145/335191.335388,,4
+yrahul3910,https://doi.org/10.1145/3379597.3387447,method,Isolation forest,[23],https://doi.org/10.1109/ICDM.2008.17,,4
+yrahul3910,https://doi.org/10.1145/3379597.3387447,method,autoencoder,[32],https://doi.org/10.1145/3097983.3098052,,5
+yrahul3910,https://doi.org/10.1145/3379597.3387476,dataset,Npm registry,[26],,https://docs.npmjs.com/misc/registry.,3
+yrahul3910,https://doi.org/10.1145/3379597.3387476,tool,GitHub API,GitHub,,https://developer.github.com/v4/,3
+yrahul3910,https://doi.org/10.1145/3379597.3387476,tool,npms,[28],,https://npms.io,5
+yrahul3910,https://doi.org/10.1145/3379597.3387476,tool,istanbul,istanbul,,https://istanbul.js.org,5
+afonsohfontes,https://doi.org/10.1145/3379597.3387440,method,,[43],https://doi.org/10.1145/3180155.3180207,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387440,method,,[29],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387440,method,,[38],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387440,method,,[26],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387440,metric,,[46],https://doi.org/10.1109/SST.2015.13,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387440,metric,,[56],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387440,tool,,[9],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387440,tool,,[25],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387444,method,,[63],https://doi.org/10.1002/nav.3800020109,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387444,tool,,[6],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387444,tool,,[4],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387444,tool,,[16],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387444,tool,,[21],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387444,tool,,[13],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387444,tool,,[22],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387444,tool,,[46],10.1002/1097-024X(200009)30:11<1203::AID-SPE338>3.0.CO;2-N,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387447,method,,[7],https://doi.org/10.1145/335191.335388,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387447,method,,[23],https://doi.org/10.1109/ICDM.2008.17,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387447,method,,[32],https://doi.org/10.1145/3097983.3098052,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387458,method,,[34],https://doi.org/10.1111/j.1471-1842.2009.00848.x,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387458,method,,[69],https://doi.org/10.1016/bs.adcom.2018.10.001,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387458,method,,[8],https://dx.doi.org/10.1191/1478088706QP063OA,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387465,method,,[19],https://doi.org/10.1007/BFb0017737,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387465,metric,,[23],https://doi.org/10.1109/TSE.1976.233837,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387465,metric,,[12],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387465,metric,,[26],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387465,metric,,[8],https://doi.org/10.1109/32.106988,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387465,tool,,[41],https://doi.org/10.1145/2884781.2884799,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387465,tool,,[39],https://doi.org/10.1145/3236024.3264598,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387470,dataset,,[14],https://doi.org/10.1145/2597073.2597128,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387470,method,,[20],https://doi.org/10.18653/v1/D16-1244,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387470,method,,[30],https://doi.org/10.1145/1806799.1806811,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387470,method,,[29], https://doi.org/10.1109/ASE.2011.6100061,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387470,method,,[6],https://doi.org/10.1145/3183440.3195092,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387470,method,,[10],https://doi.org/10.1109/ICSME.2017.69,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387470,method,,[21],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387473,tool,,[27],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387476,dataset,,[26],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387476,tool,,[28],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387479,method,,[6],https://doi.org/10.1016/j.infsof.2017.09.011,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387479,method,,[10],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387479,method,,[18],https://doi.org/10.1145/2786805.2803183,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387479,method,,[23],https://doi.org/10.1145/1082983.1083147,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387479,tool,,[27],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387479,tool,,[9],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387479,tool,,[7],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387479,tool,,[19],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387481,dataset,,[14],https://doi.org/10.1145/2901739.2901753,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387481,method,,[7],https://doi.org/10.1145/1370750.1370781,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387481,method,,[11],https://doi.org/10.1145/2597073.2597107,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387481,tool,,[12],,,
+afonsohfontes,https://doi.org/10.1145/3379597.3387481,tool,,[13],https://doi.org/10.1145/3236024.3264598,,

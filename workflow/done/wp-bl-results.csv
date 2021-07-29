@@ -1,0 +1,45 @@
+﻿gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num,sect_num
+XiaoLing941212,https://doi.org/10.1145/3368089.3409719,tool,reproduce RESTler,[15],10.1109/ICSE.2019.00083,,726,2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409723,tool,reuse of MTNN architecture - hard parameter sharing,[18],10.1023/A:1007379606734,,738,2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409723,stepping stone,comparison of SOTA - Neuzz,[65],10.1109/SP.2019.00052,,747,6
+XiaoLing941212,https://doi.org/10.1145/3368089.3409673,dataset reuse,reuse DSL data sets,[8],10.1145/2884781.2884786,,82,6.1.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409673,tool,replicated rule-based synthesizer,[25],10.1145/2462456.2464443,,83,6.1.3
+XiaoLing941212,https://doi.org/10.1145/3368089.3409673,tool,synonym list,[34],,https://books.google.com/books?hl=en&lr=&id=Rehu8OOzMIMC&oi=fnd&pg=PR11&dq=WordNet:+An+electronic+lexical+database&ots=IsiaJfRSda&sig=hizysrTqMm0d1dIms2EDW4VkOHg#v=onepage&q=WordNet%3A%20An%20electronic%20lexical%20database&f=false,77,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409759,replication of questions extraction,extract questions tagged with top 5 DL framework,[84],10.1145/3377811.3380395,,752,3
+XiaoLing941212,https://doi.org/10.1145/3368089.3409759,replication of questions extraction,extract questions tagged with top 5 DL framework,[85],10.1145/3338906.3338955,,752,3
+XiaoLing941212,https://doi.org/10.1145/3368089.3409759,tool,DL framework,[83],10.1109/ASE.2019.00080,,752,3
+XiaoLing941212,https://doi.org/10.1145/3368089.3409759,replication,popularity trend of DL software deployment,[74],10.1109/ESEM.2019.8870187,,752,3
+XiaoLing941212,https://doi.org/10.1145/3368089.3409700,dataset reuse,PMLB,[38],,https://biodatamining.biomedcentral.com/track/pdf/10.1186/s13040-017-0154-4.pdf,764,6.3/6.4
+XiaoLing941212,https://doi.org/10.1145/3368089.3409700,tool,TPOT,[37],10.1145/2908812.2908918,,768,5.3.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409700,dataset reuse,code corpus,[28],,https://www.kaggle.com/kaggle/meta-kaggle/data,768,6
+XiaoLing941212,https://doi.org/10.1145/3368089.3409700,tool,BERT embeddings,[3],,https://arxiv.org/abs/1903.10676,769,6.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409671,method,DEEPSEC,[37],10.1109/SP.2019.00023,,779,3.4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409671,method,test generation technique - coverage criteria based,[71],10.1145/3293882.3330579,,780,3.4.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409671,method,test generation technique - gradient based,[41],,https://arxiv.org/abs/1706.06083,780,3.4.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409671,dataset reuse,MNIST,[32],10.1109/ICSE.2019.00108,,782,5.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409671,dataset reuse,CIFAR-10,[48],,https://arxiv.org/abs/1712.01785,782,5.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409671,dataset reuse,SVHN,[1],,https://github.com/RU-System-Software-and-Security/CovTesting,782,5.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409761,method,intact-layer/inner-layer mutation rules,[46],10.1109/ISSRE.2018.00021,,790,3.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409761,method,Metropolis-Hastings algorithm,[38],,https://www.tandfonline.com/doi/pdf/10.1080/00031305.1998.10480547,792,3.2.2
+XiaoLing941212,https://doi.org/10.1145/3368089.3409761,method,differential testing,[56],10.1109/ICSE.2019.00107,,792,3.3
+XiaoLing941212,https://doi.org/10.1145/3368089.3409761,tool & dataset,to test DL libraries,[43],10.1145/3338906.3338930,,793,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409761,tool & dataset,to test DL libraries,[56],10.1109/ICSE.2019.00107,,793,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409750,method,hierarchical grouping,[50],,http://proceedings.mlr.press/v97/moon19a/moon19a.pdf,800,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409750,dataset reuse,SVHN,[53],,https://storage.googleapis.com/pub-tools-public-publication-data/pdf/37648.pdf,801,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409750,dataset reuse,CIFAR-10,[38],,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.222.9220&rep=rep1&type=pdf,801,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409750,dataset reuse,ImageNet,[61],10.1007/s11263-015-0816-y,801,,1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409750,tool,PGD attack,[49],,https://arxiv.org/abs/1706.06083,807,7.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,dataset reuse,ByteWeight,[6],,https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-bao.pdf,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,bidirectional RNN model,[57],,https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-shin.pdf,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,dataset reuse,Mimicus,[61],10.1145/2420950.2420987,,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,MLP based malware classifier,"[55]", 10.1145/2420950.2420987,,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,MLP based malware classifier,"[61]", 10.1145/2420950.2420987,,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,dataset reuse,AndroZoo,[3],10.1145/2901739.2903508,,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,tool,Drebin,"[62]",10.1145/2480362.2480701, https://www.researchgate.net/profile/Hugo-Gascon/publication/264785935_DREBIN_Effective_and_Explainable_Detection_of_Android_Malware_in_Your_Pocket/links/53efd0020cf26b9b7dcdf395/DREBIN-Effective-and-Explainable-Detection-of-Android-Malware-in-Your-Pocket.pdf ,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,method,LEMNA (baseline),[26],10.1145/3243734.3243792,,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,method,Gradient (baseline),[36],10.1109/5.726791,,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,method,IG (baseline),[66],,http://proceedings.mlr.press/v70/sundararajan17a/sundararajan17a.pdf,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,method,DeepTaylor (baseline),[45],,https://reader.elsevier.com/reader/sd/pii/S0031320316303582,818,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409733,method,DTExtract (baseline),[7],,https://arxiv.org/abs/1705.08504,819,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409720,dataset reuse,8 architectures on TensorFlow bugs,[34],10.1145/3213846.3213866,,833,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409720,dataset reuse,1 architecture from the study to evaluate TensorFuzz,[24],,http://proceedings.mlr.press/v97/odena19a/odena19a.pdf,833,4.1

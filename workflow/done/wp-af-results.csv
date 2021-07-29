@@ -1,0 +1,161 @@
+gh_id,paper_doi,reuse_type,comment,citation_number,reused_doi,alt_url,page_num
+asslisa,https://doi.org/10.1145/3377811.3380437,Tool,HW17,[23],10.1109/ESEM.2017.23,,14
+asslisa,https://doi.org/10.1145/3377811.3380437,Dataset,TravisTorrent,[3],10.1109/MSR.2017.62,,16
+asslisa,https://doi.org/10.1145/3377811.3380437,Metric,Filtering Criteria for toy projects,[27],10.1109/MSR.2017.30 ,,16
+asslisa,https://doi.org/10.1145/3377811.3380437,Metric,Filtering Criteria for toy projects,[43],10.1109/MSR.2017.26,,16
+asslisa,https://doi.org/10.1145/3377811.3380437,Statistical,LOD,[60],10.4103/2229-5186.79345,,16
+asslisa,https://doi.org/10.1145/3377811.3380437,Metric,Correlated Features with all build failures,[27],10.1109/MSR.2017.30 ,,16
+asslisa,https://doi.org/10.1145/3377811.3380437,Metric,Correlated Features with all build failures,[47],10.1109/MSR.2017.54,,16
+asslisa,https://doi.org/10.1145/3377811.3380437,Method�,cold-start problem,[71],,https://en.wikipedia.org/w/index.php?title=Cold_start_(computing)&oldid=883021431,17
+asslisa,https://doi.org/10.1145/3377811.3380437,Metric,Correlated features with all failures ,[23],10.1109/ESEM.2017.23,,18
+asslisa,https://doi.org/10.1145/3377811.3380437,Method,Build-prediction techniques,[23] ,10.1109/ESEM.2017.23,,18
+asslisa,https://doi.org/10.1145/3377811.3380437,Method,Build-prediction techniques,[43],10.1109/MSR.2017.26,,18
+asslisa,https://doi.org/10.1145/3377811.3380437,Method,Build-prediction techniques,[73],10.1109/MSR.2017.26,,18
+asslisa,https://doi.org/10.1145/3377811.3380377,Tool,EvoSuite,[26],10.1109/TSE.2012.14,,91
+asslisa,https://doi.org/10.1145/3377811.3380377,Tool,PEACH ,,,https://github.com/MozillaSecurity/peach,91
+asslisa,https://doi.org/10.1145/3377811.3380377,Tool,FUZZER,,,https://github.com/mapbox/fuzzer ,91
+asslisa,https://doi.org/10.1145/3377811.3380377,Tool,InTrace,[36],,https://mchr3k.github.io/org.intrace/,92
+asslisa,https://doi.org/10.1145/3377811.3380377,Dataset,Defects4J benchmark,[45],10.1145/2610384.2628055,,94
+asslisa,https://doi.org/10.1145/3377811.3380342,Dataset,The Java Corpus,[6],10.1109/MSR.2013.6624029 ,,1083
+asslisa,https://doi.org/10.1145/3377811.3380342,Dataset,The Java Corpus,[41],10.1145/3106237.3106290,https://doi.org/10.7488/ds/1690,1083
+asslisa,https://doi.org/10.1145/3377811.3380342,Dataset,The C Corpus,[29],,https://doi.org/10.5281/zenodo.3628775,1083
+asslisa,https://doi.org/10.1145/3377811.3380342,Dataset,The Python Corpus,[31],,https://doi.org/10.5281/zenodo.3628784,1083
+asslisa,https://doi.org/10.1145/3377811.3380342,Replication,Similar Experiment,[75],10.1145/2884781.2884848,,1074
+asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Java Lexer,[41],10.1145/3106237.3106290,https://github.com/SLP-team/SLP-Core,1076
+asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Pygments Library ,,,http://pygments.org/docs/lexers/,1076
+asslisa,https://doi.org/10.1145/3377811.3380342,Method�,Word Splitting,[3],10.1145/2786805.2786849,,1077
+asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Byte Pair Encoding (BPE) Algorithm,[34],,https://dl.acm.org/doi/10.5555/177910.177914,1077
+asslisa,https://doi.org/10.1145/3377811.3380342,Replication,GRU,[56],10.18653/v1/P18-1027,,1078
+asslisa,https://doi.org/10.1145/3377811.3380342,Tool,BPE Implementation,,,https://github.com/rsennrich/subword-nmt,1078
+asslisa,https://doi.org/10.1145/3377811.3380342,Method�,Code Completion Scenarios ,[41],10.1145/3106237.3106290,,1080
+asslisa,https://doi.org/10.1145/3377811.3380342,Tool,n-gram Implementation,[41],10.1145/3106237.3106290,https://github.com/SLP-team/SLP-Core,1080
+asslisa,https://doi.org/10.1145/3377811.3380342,Dataset,Defects4j dataset,[53],10.1145/2610384.2628055,,1082
+asslisa,https://doi.org/10.1145/3377811.3380341,Method ,Typestate Analysis ,[61],10.1109/TSE.1986.6312929,,1448
+asslisa,https://doi.org/10.1145/3377811.3380341,Tool,Checker Framework ,[50],10.1145/1390630.1390656,,1453
+asslisa,https://doi.org/10.1145/3377811.3380341,Tool,Object Construction Checker ,,,https://github.com/kelloggm/object-construction-checker,1453
+asslisa,https://doi.org/10.1145/3377811.3380324,Tool,OCL,[37],,http://www.eclipse.org/modeling/mdt/?project= ocl,1497
+asslisa,https://doi.org/10.1145/3377811.3380324,Tool,Modisco,[36],,http://www.eclipse.org/modeling/mdt/?project=modisco,1497
+asslisa,https://doi.org/10.1145/3377811.3380324,Tool,Papyrus,[38],,http://www.eclipse.org/modeling/mdt/?project=papyrus,1497
+asslisa,https://doi.org/10.1145/3377811.3380324,Method,Impact Analysis,[22],10.5381/jot.2012.11.3.a3,,1500
+asslisa,https://doi.org/10.1145/3377811.3380324,Tool,JDT API,,,https://www.eclipse.org/jdt/core/,1501
+asslisa,https://doi.org/10.1145/3377811.3380355,Statistical ,ANOVA F-test,[30],10.1093/bioinformatics/btm344,,227
+asslisa,https://doi.org/10.1145/3377811.3380355,Method ,Structural Similarity Index Method (SSIM),[41],10.1109/TIP.2003.819861,,228
+asslisa,https://doi.org/10.1145/3377811.3380355,Tool,Tree Edit Distance ,[45],10.1137/0218082,,228
+asslisa,https://doi.org/10.1145/3377811.3380355,Tool,V8 Engine ,[6],,https://v8.dev/,228
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,Blender ,[17],,https://www.blender.org,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,Assimp,[5],,http://www.assimp.org,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,Appleseed,[43],,https://appleseedhq.net,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,JQ,[15],,https://stedolan.github. io/jq/,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,JSON-Simple,[30],,https://github.com/fangyidong/ json-simple,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,Minimal-JSON ,[51],,https://github.com/ralfstx/minimal-json,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,Graphviz,[47],,https: //www.graphviz.org/,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,Gephi,[19],,https://gephi.org/,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Dataset,ANTLR Grammar Repository,[20],,https://github.com/antlr/ grammars-v4,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,Github API for crawling,[27],,https://developer.github.com/v3/,76
+asslisa,https://doi.org/10.1145/3377811.3380329,Metric,Levenshtein Distance ,[34],,,79
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,ANTLR 4.5 Parser Generator Framework,[44],,http://www.antlr.org,82
+asslisa,https://doi.org/10.1145/3377811.3380329,Tool,The Delta Debugging Algorithm,[56],10.1109/32.988498,,83
+asslisa,https://doi.org/10.1145/3377811.3380348,Method,Functional Magnetic Resonance Imaging (fMRI),[44],10.1016/j.nec.2010.11.001,,679
+asslisa,https://doi.org/10.1145/3377811.3380348,Tool,Turing's Craft,[3],,https://www.turingscraft.com/,681
+asslisa,https://doi.org/10.1145/3377811.3380348,Method,The Canonical Hemodynamic Response Function,[77],10.1073/pnas.87.24.9868,,683
+asslisa,https://doi.org/10.1145/3377811.3380348,Method,Robust Weighted Least Squares (rWLS),[32],10.1016/j.neuroimage.2005.04.039,,683
+asslisa,https://doi.org/10.1145/3377811.3380348,Tool,The Standard Brodmann Anatomical Classification System ,[43],,,683
+asslisa,https://doi.org/10.1145/3377811.3381749,Method ,Flaky Tests,[10] ,,https://martinfowler. com/articles/nonDeterminism.html,1471
+asslisa,https://doi.org/10.1145/3377811.3381749,Method ,Flaky Tests,[20],10.1145/2635868.2635920,,1471
+asslisa,https://doi.org/10.1145/3377811.3381749,Replication,Flaky Tests of Prior Studies,[20],10.1145/2635868.2635920,,1472
+asslisa,https://doi.org/10.1145/3377811.3381749,Replication,Flaky Tests of Prior Studies,[25],10.1109/ICSME.2017.12,,1472
+asslisa,https://doi.org/10.1145/3377811.3381749,Dataset,The Flaky Tests Lifecycle Data,[4],,https://github.com/ winglam/flaky-test-lifecycle-data,1472
+asslisa,https://doi.org/10.1145/3377811.3381749,Tool,CloudBuild,[9],10.1145/2889160.2889222,,1472
+asslisa,https://doi.org/10.1145/3377811.3381749,Tool,Azure Data Explorer,[1],,https://docs.microsoft.com/en-us/azure/dataexplorer,1473
+asslisa,https://doi.org/10.1145/3377811.3380433,Dataset,Stack Overflow Post Dataset Released on 5 Jun 2018,[1],,https://archive.org/details/stackexchange,914
+asslisa,https://doi.org/10.1145/3377811.3380433,Method,Open Card Sorting,[37],10.1145/2786805.2786809,,914
+asslisa,https://doi.org/10.1145/3377811.3380433,Metric,Inter-coder Agreement,[6],10.1162/coli.07-034-R2,,915
+asslisa,https://doi.org/10.1145/3377811.3380433,Metric,Inter-coder Agreement,[32],,,915
+asslisa,https://doi.org/10.1145/3377811.3380433,Statistical�,Krippendorff's alpha,[6],10.1162/coli.07-034-R2,,915
+asslisa,https://doi.org/10.1145/3377811.3380433,Statistical�,Krippendorff's alpha,[31],,,915
+asslisa,https://doi.org/10.1145/3377811.3380433,Statistical�,Krippendorff's alpha,[32],,https://repository.upenn.edu/asc_papers/43,915
+asslisa,https://doi.org/10.1145/3377811.3380433,Tool,Java Abstract Syntax Tree Parser ,[25],,https://javaparser.org/,918
+asslisa,https://doi.org/10.1145/3377811.3380433,Tool,Symbolic Link Resolver Java Parser ,[25],,https://javaparser.org/,918
+asslisa,https://doi.org/10.1145/3377811.3380433,Tool,Hibernate,[53],,http://hibernate.org/orm,920
+asslisa,https://doi.org/10.1145/3377811.3380433,Tool,Jackson,[24],,https://github.com/FasterXML/jackson,920
+asslisa,https://doi.org/10.1145/3377811.3380433,Tool,Junit,[26],,https://junit.org/junit4,920
+asslisa,https://doi.org/10.1145/3377811.3380433,Tool,Apache Log4j,[5],,https://github.com/apache/logging-log4j2,920
+aysetosun,10.1145/3377811.3380324,dataset,OCL,37,,http://www.eclipse.org/modeling/mdt/?project=ocl,1497
+aysetosun,10.1145/3377811.3380324,dataset,Modisco,36,,http://www.eclipse.org/modeling/mdt/?project=modisco,1497
+aysetosun,10.1145/3377811.3380324,dataset,Papyrus,38,,http://www.eclipse.org/modeling/mdt/?project=papyrus,1497
+aysetosun,10.1145/3377811.3380324,method,code impact analysis based on AST,22,10.5381/jot.2012.11.3.a3,,1500
+aysetosun,10.1145/3377811.3380329,dataset,Blender,17,,https://www.blender.org,76
+aysetosun,10.1145/3377811.3380329,dataset,Assimp,5,,http://www.assimp.org,76
+aysetosun,10.1145/3377811.3380329,dataset,Appleseed,43,,https://appleseedhq.net,76
+aysetosun,10.1145/3377811.3380329,dataset,JQ,15,,https://stedolan.github.io/jq/,76
+aysetosun,10.1145/3377811.3380329,dataset,JSON-Simple,30,,https://github.com/fangyidong/ json-simple,76
+aysetosun,10.1145/3377811.3380329,dataset,Minimal-JSON,51,,https://github.com/ralfstx/minimal-json,76
+aysetosun,10.1145/3377811.3380329,dataset,Graphviz,47,,https://www.graphviz.org/,76
+aysetosun,10.1145/3377811.3380329,dataset,Gephi,19,,https://gephi.org/,76
+aysetosun,10.1145/3377811.3380329,dataset,ANTLR Grammar repository,20,,https://github.com/antlr/ grammars-v4,76
+aysetosun,10.1145/3377811.3380329,dataset,Wave OBJ grammar,42,,https://www.cs.utah.edu/~boulos/cs3505/obj_spec.pdf,76
+aysetosun,10.1145/3377811.3380329,dataset,JSON grammar,11,,https://www.json.org/,76
+aysetosun,10.1145/3377811.3380329,dataset,DOT grammar,31,,https://www.ocf.berkeley.edu/~eek/index.html/tiny_examples/thinktank/src/gv1.7c/doc/dotguide.pdf,76
+aysetosun,10.1145/3377811.3380329,tool,ddmin,56,10.1109/32.988498,,83
+aysetosun,10.1145/3377811.3380329,tool,Python ImageHash library,7,,https://pypi.org/project/ImageHash/,80
+aysetosun,10.1145/3377811.3380329,tool,ANTLR error recovery strategy,44,,http://www.antlr.org,82
+aysetosun,10.1145/3377811.3380341,tool,Lombok code generation library,66,,https://projectlombok.org/,1449
+aysetosun,10.1145/3377811.3380341,tool,AutoValue annotation processor,12,,https://github.com/google/auto/tree/master/value,1449
+aysetosun,10.1145/3377811.3380341,tool,Java atop the Checker framework,50,10.1145/1390630.1390656,,1453
+aysetosun,10.1145/3377811.3380341,method,Checker's constant propagation analysis,19,,http://CheckerFramework.org/.,1453
+aysetosun,10.1145/3377811.3380342,method,experiment by Ray et al.,75,10.1145/2884781.2884848,,1074
+aysetosun,10.1145/3377811.3380342,dataset,Java Github corpus of Allamanis et al.,6,10.1109/MSR.2013.6624029,,1075
+aysetosun,10.1145/3377811.3380342,dataset,C corpus,29,10.5281/zenodo.3628775,,1076
+aysetosun,10.1145/3377811.3380342,dataset,Python corpus,31,10.5281/zenodo.3628784,,1076
+aysetosun,10.1145/3377811.3380342,tool,Java lexer,41,10.1145/3106237.3106290,https://github.com/SLP-team/SLP-Core,1076
+aysetosun,10.1145/3377811.3380342,tool,Pygments library,,,http://pygments.org/docs/lexers/ ,1076
+aysetosun,10.1145/3377811.3380342,method,experiment procedure ,41,10.1145/3106237.3106290,,1076
+aysetosun,10.1145/3377811.3380342,tool,BPE algorithm for data compression - evaluation,34,,https://dl.acm.org/doi/10.5555/177910.177914,1077
+aysetosun,10.1145/3377811.3380342,statistics,learning rate and dropout of the GRU NLM,80,,,1078
+aysetosun,10.1145/3377811.3380342,method,unrolling GRU for 200 timesteps,56,10.18653/v1/P18-1027,,1078
+aysetosun,10.1145/3377811.3380342,method,pair merging strategy that cross token boundaries,79,,,1078
+aysetosun,10.1145/3377811.3380342,method,code completion scenarios,41,10.1145/3106237.3106290,,1080
+aysetosun,10.1145/3377811.3380342,tool,standard n-gram LMs,44,10.1109/ICSE.2012.6227135,,1080
+aysetosun,10.1145/3377811.3380342,tool,cache LMs,81,10.1145/2635868.2635875,,1080
+aysetosun,10.1145/3377811.3380342,tool,n-gram LMs with nested caching,41,10.1145/3106237.3106290,,1080
+aysetosun,10.1145/3377811.3380342,tool,token-level NLMs,88,10.1109/MSR.2015.38,,1080
+aysetosun,10.1145/3377811.3380342,tool,heuristic splitting NLMs,3,10.1145/2786805.278684,,1080
+aysetosun,10.1145/3377811.3380342,method,n-gram implementation,,,https://github.com/SLP-team/SLP-Core,1080
+aysetosun,10.1145/3377811.3380342,dataset,Defects4j,53,10.1145/2610384.2628055,,1082
+aysetosun,10.1145/3377811.3380348,dataset,Turing's Craft code stimuli,3,,https://www.turingscraft.com/,681
+aysetosun,10.1145/3377811.3380348,dataset,short programming exercises library,2,10.1145/384267.305835,,681
+aysetosun,10.1145/3377811.3380348,tool,preprocessing pipeline using Statistical Parametric Mapping 12 Matlab package,115,,https://www.fil.ion.ucl.ac.uk/spm/,683
+aysetosun,10.1145/3377811.3380348,method,spatially-normalization to MINI152 template,69,10.1016/S1361-8415(01)80026-8,,683
+aysetosun,10.1145/3377811.3380348,method,canonical hemodynamic response function,77,10.1073/pnas.87.24.9868,,683
+aysetosun,10.1145/3377811.3380348,method,robust weighted least squares,32,10.1016/j.neuroimage.2005.04.039,,683
+aysetosun,10.1145/3377811.3380348,method,cytoarchitectural similarity,43,10.1007/b138298,,
+aysetosun,10.1145/3377811.3380355,tool,Balanced RF,14,,https://statistics.berkeley.edu/sites/default/files/tech-reports/666.pdf,227
+aysetosun,10.1145/3377811.3380355,tool,weighted SVM,10,10.1007/978-3-540-30115-8_7,,227
+aysetosun,10.1145/3377811.3380355,tool,weighted LR,46,10.1145/1007730.1007741,,227
+aysetosun,10.1145/3377811.3380355,method,Structural Similarity Index Method,41,10.1109/TIP.2003.819861,,228
+aysetosun,10.1145/3377811.3380355,tool,Tree Edit Distance algorithm,45,10.1137/0218082,,228
+aysetosun,10.1145/3377811.3380355,tool,DBSCAN,18,,https://dl.acm.org/doi/10.5555/3001460.3001507,228
+aysetosun,10.1145/3377811.3380355,tool,Puppeteer library,4,,https://pptr.dev/,228
+aysetosun,10.1145/3377811.3380355,tool,V8 engine,6,,https://v8.dev/,228
+aysetosun,10.1145/3377811.3380377,dataset,Defects4j,45,10.1145/2610384.2628055,,94
+aysetosun,10.1145/3377811.3380377,tool,EvoSuite,26,10.1109/TSE.2012.14,,91
+aysetosun,10.1145/3377811.3380377,tool,Peach,,,https://github.com/MozillaSecurity/peach,91
+aysetosun,10.1145/3377811.3380377,tool,Fuzzer,,,https://github.com/mapbox/fuzzer,91
+aysetosun,10.1145/3377811.3380377,tool,InTrace,36,,https://mchr3k.github.io/org.intrace/,92
+aysetosun,10.1145/3377811.3380433,dataset,Stack Overflow post dataset,1,,https://archive.org/details/stackexchange,914
+aysetosun,10.1145/3377811.3380433,tool,NLTK toolkit,2,,https://nltk.org,914
+aysetosun,10.1145/3377811.3380433,method,open card sorting,37,10.1145/2786805.2786809,,914
+aysetosun,10.1145/3377811.3380433,statistics,Krippendorff's alpha and 0.8 threshold,32,,https://repository.upenn.edu/asc_papers/43,915
+aysetosun,10.1145/3377811.3380433,tool,Java AST parser and symbolic link resolver,25,,https://javaparser.org/,918
+aysetosun,10.1145/3377811.3380437,tool,HW17 technique as state of the art,23,10.1109/ESEM.2017.23,,14
+aysetosun,10.1145/3377811.3380437,dataset,Travis Torrent,3,10.1109/MSR.2017.62,,16
+aysetosun,10.1145/3377811.3380437,method,project filtering,27,10.1109/MSR.2017.30,,16
+aysetosun,10.1145/3377811.3380437,method,LOD to remove outliers,60,10.4103/2229-5186.79345,,16
+aysetosun,10.1145/3377811.3380437,method,project filtering,43,10.1109/MSR.2017.26,,16
+aysetosun,10.1145/3377811.3380437,metric,Correlated Features with all build failures,27,10.1109/MSR.2017.30,,16
+aysetosun,10.1145/3377811.3380437,metric,Correlated Features with all build failures,47,10.1109/MSR.2017.54,,16
+aysetosun,10.1145/3377811.3380437,metric,Correlated Features with all failures,23,10.1109/ESEM.2017.23,,18
+aysetosun,10.1145/3377811.3381749,method,flaky test category - Async Wait,20,10.1145/2635868.2635920,,1472
+aysetosun,10.1145/3377811.3381749,method,flaky test category - Async Wait,25,10.1109/ICSME.2017.12,,1472
+aysetosun,10.1145/3377811.3381749,tool,Azure data explorer for suppression of files of Flakes,1,,https://docs.microsoft.com/en-us/azure/dataexplorer,1473
+aysetosun,10.1145/3377811.3381749,method,asynchronous code testing,10,,https://martinfowler.com/articles/nonDeterminism.html,1471

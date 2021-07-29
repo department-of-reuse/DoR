@@ -1,0 +1,36 @@
+gh_id, paper_doi, reuse_type, comment, citation_number, reused_doi, alt_url, page_num
+andre-motta,https://doi.org/10.1145/3382494.3410683,method,SMS guidelines,[30],https://doi.org/10.1016/j.infsof.2015.03.007,,p2
+andre-motta,https://doi.org/10.1145/3382494.3410693,dataset,SoF dataset,[10],https://doi.org/10.1145/3196398.3196430,,p2
+andre-motta,https://doi.org/10.1145/3382494.3410693,tool,Google�s BigQuery,[19],,https://cloud.google.com/bigquery,p2
+andre-motta,https://doi.org/10.1145/3382494.3410693,statistics,alpha,[4],https://doi.org/10.1145/3239235.3239524,,p2
+andre-motta,https://doi.org/10.1145/3382494.3410693,statistics,alpha,[8],https://doi.org/10.1145/3338906.3338939,,p2
+andre-motta,https://doi.org/10.1145/3382494.3410693,statistics,beta,[42],10.1007/s11390-016-1672-0,,p2
+andre-motta,https://doi.org/10.1145/3382494.3410693,method,PUMiner,[23],https://doi.org/10.1145/3379597.3387443,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410693,method,keyword list generation,[29],https://doi.org/10.1145/2597073.2597117,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410693,dataset,NLTK English Stopwords,[26],,https://gist.github.com/sebleier/554280,p3
+andre-motta,https://doi.org/10.1145/3382494.3410693,tool,Porter Stemmer,[30],,http://snowball.tartarus.org/texts/introduction.html,p3
+andre-motta,https://doi.org/10.1145/3382494.3410693,method,LDA,[13],,https://dl.acm.org/doi/10.5555/944919.944937,p3
+andre-motta,https://doi.org/10.1145/3382494.3410688,method,energy consumption of Java�s Input/Output API,[9],10.1109/ESEM.2019.8870158,,p4
+andre-motta,https://doi.org/10.1145/3382494.3410688,tool,test environment Mana,[17],https://doi.org/10.1145/3236454.3236504,,p4
+andre-motta,https://doi.org/10.1145/3382494.3410688,tool,Monsoon Power Monitor (HVPM),[11],,http://msoon.github.io/powermonitor/HVPM.html,p5
+andre-motta,https://doi.org/10.1145/3382494.3410688,method,Energy consumption calculation method,[19],https://dl.acm.org/doi/10.1145/2597073.2597085,,p6
+andre-motta,https://doi.org/10.1145/3382494.3410688,dataset ,Maven Central Dependency Graph,[22],,https://arxiv.org/abs/1901.05392,p7
+andre-motta,https://doi.org/10.1145/3382494.3410679,method,Guidelines for Literature Review,[11],https://doi.org/10.1016/j.infsof.2018.09.006,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410679,tool,Paperpile,[31],,https://paperpile.com/?welcome,p3
+andre-motta,https://doi.org/10.1145/3382494.3410679,tool,Airtable,[32],,https://airtable.com/pricing,p3
+andre-motta,https://doi.org/10.1145/3382494.3410675,metric,graph edit distance,[6],https://doi.org/10.1016/S0167-8655(97)00060-3,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410675,method,Method for using GED,[5],https://doi.org/10.1016/j.patrec.2016.10.001,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410675,method,GraphSAGE,[17],,https://dl.acm.org/doi/10.5555/3294771.3294869,p4
+andre-motta,https://doi.org/10.1145/3382494.3410675,method,Neural Tensor Network,[46],,https://dl.acm.org/doi/10.5555/2999611.2999715,p4
+andre-motta,https://doi.org/10.1145/3382494.3410675,method,a data augmentation method,[34],https://dl.acm.org/doi/10.1145/3340482.3342741,,p5
+andre-motta,https://doi.org/10.1145/3382494.3410685,metric,Measures related to social proximity,[30],https://doi.org/10.1145/2568225.2568315,,p4
+andre-motta,https://doi.org/10.1145/3382494.3410685,method,partial dependence plots,[24],,http://www.milbo.org/doc/plotmo-notes.pdf,p6
+andre-motta,https://doi.org/10.1145/3382494.3410686,method,Time data partitioning method,[35],https://dl.acm.org/doi/10.1145/3077136.3080782,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410686,method,Porter Stemmer algorithm,[25],10.1108/00330330610681286,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410686,dataset,SentiStrength,[33],10.1002/asi.21416,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410686,dataset,opinion lexicon corpus,[12],https://dl.acm.org/doi/10.1145/1014052.1014073,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410686,tool,ARdoc,[24],10.1109/ICSM.2015.7332474,,p3
+andre-motta,https://doi.org/10.1145/3382494.3410673,tool,SonarQube,no reference,,https://github.com/SonarOpenCommunity/sonar-cxx,p2
+andre-motta,https://doi.org/10.1145/3382494.3410673,method,Guidelines for case study research,[26],10.1007/s10664-008-9102-8,,p4
+andre-motta,https://doi.org/10.1145/3382494.3410678,method,Grounded theory guidelines,[37],https://dl.acm.org/doi/10.1145/2884781.2884833,,p2
+andre-motta,https://doi.org/10.1145/3382494.3410676,dataset,open-source Android applications in Kotlin,[19],10.1007/s10664-019-09727-4,,p1

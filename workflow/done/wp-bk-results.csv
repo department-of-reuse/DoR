@@ -1,0 +1,64 @@
+gh_id, paper_doi, reuse_type, comment, citation_number, reused_doi, alt_url, page_num
+johannesduesing, https://doi.org/10.1145/3368089.3409760, dataset, uses Stack Overflow data dump Dec 2019, 2, , https://archive.org/details/stackexchange, p619
+johannesduesing, https://doi.org/10.1145/3368089.3409760, method, construction of set of relevant tag as in 8, 8, 10.1145/3338906.3338939, , p619
+johannesduesing, https://doi.org/10.1145/3368089.3409760, metric, metric for evaluating tags from 8, 8, 10.1145/3338906.3338939, , p620
+johannesduesing, https://doi.org/10.1145/3368089.3409760, metric, metric for evaluating tags from 30, 30, 10.1007/s11390-016-1672-0, , p620
+johannesduesing, https://doi.org/10.1145/3368089.3409760, method, open coding method from 24, 24, 10.1109/32.799955, , p620
+johannesduesing, https://doi.org/10.1145/3368089.3409760, sanity-check, evaluate resulting taxonomy compared to 13, 13, 10.1109/ESEM.2017.11, , p623
+johannesduesing, https://doi.org/10.1145/3368089.3409760, method, method for comparing taxonomies based on 21, 21, 10.1109/TSE.2018.2796554, , p623
+johannesduesing, https://doi.org/10.1145/3368089.3409725, dataset, uses evaluation corpus from 55, 55, 10.1145/3133909, , p630
+johannesduesing, https://doi.org/10.1145/3368089.3409725, method, method of excluding merge commits from 78, 78, 10.1145/2950290.2950305, , p630
+johannesduesing, https://doi.org/10.1145/3368089.3409725, stepping-stone, tooling builds upon RefactoringMiner from 84, 84, 10.1145/3180155.3180206, , p630
+johannesduesing, https://doi.org/10.1145/3368089.3409725, stepping-stone, tooling builds upon RefactoringMiner 2.0 from 83, 83, 10.1109/TSE.2020.3007722, , p630
+johannesduesing, https://doi.org/10.1145/3368089.3409725, method, method for evaluating tooling from 83, 83, 10.1109/TSE.2020.3007722, , p631
+johannesduesing, https://doi.org/10.1145/3368089.3409725, tool, using tool GumTree for evaluation, 36, 10.1145/2642937.2642982, , p631
+johannesduesing, https://doi.org/10.1145/3368089.3409725, method, using type fact graphs from 49, 49, 10.1109/ICSE.2019.00117, , p631
+johannesduesing, https://doi.org/10.1145/3368089.3409725, method, comparison with identifier renaming from 7, 7, 10.1109/TSE.2014.2312942, , p632
+johannesduesing, https://doi.org/10.1145/3368089.3409693, method, using Weisfeiler-Lehman graph kernel from 25, 25, , https://dl.acm.org/doi/abs/10.5555/1953048.2078187 , p64
+johannesduesing, https://doi.org/10.1145/3368089.3409693, method, Incorporate Name Flow Graphs from 3, 3, 10.1145/3236024.3236042, , p65
+johannesduesing, https://doi.org/10.1145/3368089.3409693, method, Stable roommates problem algorithm from 9, 9, 10.1006/jagm.2002.1219, , p66
+johannesduesing, https://doi.org/10.1145/3368089.3409693, tool, Using GraKel for Weisfeiler-Lehman Graph Kernels from 26, 26, , https://arxiv.org/abs/1806.02193, p67
+johannesduesing, https://doi.org/10.1145/3368089.3409693, method, Mimic clustering behavior from 7, 7, 10.1109/MSR.2013.6624018, , p67
+johannesduesing, https://doi.org/10.1145/3368089.3409693, method, Use method from 6 as baseline comparison, 6, 10.1007/s10664-015-9376-6, , p68
+johannesduesing, https://doi.org/10.1145/3368089.3409693, method, Use method from 2 as baseline comparison, 2, 10.1109/ICSE.2015.35, , p68
+johannesduesing, https://doi.org/10.1145/3368089.3409693, method, Using Hungarian Algorithm for permutations from 15, 15, 10.1002/nav.3800020109, , p69
+johannesduesing, https://doi.org/10.1145/3368089.3409704, statistics, Using 10 time mean for fairness as suggested in 16, 16, 10.1145/3287560.3287589, , p644
+johannesduesing, https://doi.org/10.1145/3368089.3409704, tool, Using Python library AIF360 for fairness metrics, 4, , https://arxiv.org/abs/1810.01943, p644
+johannesduesing, https://doi.org/10.1145/3368089.3409704, stepping-stone, Extend list of metrics from 16, 16, , 10.1145/3287560.3287589, p645
+johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Reweighting algorithm for biased datasets from 34, 34, 10.1007/s10115-011-0463-8, , p645
+johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Disparate Impact Remover algorithm for biased datasets from 15, 15, 10.1145/2783258.2783311, , p645
+johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Adversarial Debiasing algorithm from 52, 52, 10.1145/3278721.3278779, , p645
+johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Prejudice Remover Regularizer algorithm from 36, 36, 10.1007/978-3-642-33486-3_3, , p645
+johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Equalized odds approach to post-processing from 20, 20, , https://arxiv.org/abs/1610.02413v1, p645
+johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Calibrated equalized odds approach to post-processing from 41, 41, , https://dl.acm.org/doi/10.5555/3295222.3295319, p645
+johannesduesing, https://doi.org/10.1145/3368089.3409704, method, Reject Option Classification from 35, 35, 10.1109/ICDM.2012.45, , p645
+johannesduesing, https://doi.org/10.1145/3368089.3409697, metric, Equal Opportunity Difference for measuring fairness from 42, 42, , https://arxiv.org/abs/1810.01943, p656
+johannesduesing, https://doi.org/10.1145/3368089.3409697, metric, Average Odds Difference for measuring fairness from 42, 42, , https://arxiv.org/abs/1810.01943, p657
+johannesduesing, https://doi.org/10.1145/3368089.3409697, method, Situation Testing method from 31, 31, 10.1145/3106237.3106277, , p656
+johannesduesing, https://doi.org/10.1145/3368089.3409697, dataset, Adult Census Income dataset from 49, 49, , http://mlr.cs.umass.edu/ml/datasets/Adult, p657
+johannesduesing, https://doi.org/10.1145/3368089.3409697, dataset, Compas criminal history dataset from 50, 50, , https://github.com/propublica/compas-analysis, p657
+johannesduesing, https://doi.org/10.1145/3368089.3409697, dataset, German Credit dataset from 51, 51, , https://archive.ics.uci.edu/ml/datasets/Statlog+(German+Credit%20+Data), p657
+johannesduesing, https://doi.org/10.1145/3368089.3409697, dataset, Default Credit dataset from 52, 52, , https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients, p657
+johannesduesing, https://doi.org/10.1145/3368089.3409697, dataset, Heart Health dataset from 53, 53, , https://archive.ics.uci.edu/ml/datasets/Heart+Disease, p657
+johannesduesing, https://doi.org/10.1145/3368089.3409697, stepping-stone, Improve on FLASH algorithm from 57, 57, 10.1109/TSE.2018.2870895, , p660
+johannesduesing, https://doi.org/10.1145/3368089.3409740, method, Symbolic Execution from 35, 35, 10.1145/360248.360252, , p667
+johannesduesing, https://doi.org/10.1145/3368089.3409740, method, Strongest Postcondition operator from 20, 20, 10.1007/978-1-4612-3228-5, , p672
+johannesduesing, https://doi.org/10.1145/3368089.3409740, tool, Dafny tool for program verification from 38, 38, 10.1007/978-3-642-17511-4_20, , p672
+johannesduesing, https://doi.org/10.1145/3368089.3409740, tool, Z3 SMT solver, , 10.1007/978-3-540-78800-3_24, , p672
+johannesduesing, https://doi.org/10.1145/3368089.3409748, metric, Shannon entropy for measuring information from 39, 39, 10.1145/584091.584093, , p678
+johannesduesing, https://doi.org/10.1145/3368089.3409748, tool, Integrate approach into LibFuzzer from 27, 27, , https://www.llvm.org/docs/LibFuzzer.html, p678
+johannesduesing, https://doi.org/10.1145/3368089.3409748, statistics, STADS probabilistic model for blackbox fuzzing from 6, 6, 10.1145/3210309, , p679
+johannesduesing, https://doi.org/10.1145/3368089.3409748, dataset, FTS benchmark for evaluating fuzzer performance from 37, 37, , https://github.com/google/fuzzer-test-suite/blob/master/engine-comparison/tutorial/abTestingTutorial.md, p684
+johannesduesing, https://doi.org/10.1145/3368089.3409748, dataset, OSS-Fuzz fuzzing platform from 31 used for evaluation, 31, , https://github.com/google/oss-fuzz/tree/master/infra, p684
+johannesduesing, https://doi.org/10.1145/3368089.3409748, metric, Vargha-Delaney effect size metric from 4, 4, 10.1145/1985793.1985795, , p685
+johannesduesing, https://doi.org/10.1145/3368089.3409769, tool, Approach is implemented into AFL fuzzer, , , https://github.com/google/AFL, p695
+johannesduesing, https://doi.org/10.1145/3368089.3409769, tool, Approach is implemented into QSYM fuzzer, , , https://www.usenix.org/conference/usenixsecurity18/presentation/yun , p695
+johannesduesing, https://doi.org/10.1145/3368089.3409769, tool, Approach is implemented into MOpt fuzzer, , , https://www.usenix.org/system/files/sec19-lyu.pdf, p695
+johannesduesing, https://doi.org/10.1145/3368089.3409763, tool, Using Z3 from 24 to implement new approach, 24, 10.1007/978-3-540-78800-3_24, , p705
+johannesduesing, https://doi.org/10.1145/3368089.3409763, dataset, Using seed instances from SMT-COMP 2019 (3), 3, , https://smt-comp.github.io/, p706
+johannesduesing, https://doi.org/10.1145/3368089.3409729, tool, Using LibFuzz graybox fuzzer from 12 for experiments, 12, , https://www.llvm.org/docs/LibFuzzer.html, p714
+johannesduesing, https://doi.org/10.1145/3368089.3409729, tool, Using AFL graybox fuzzer from 26 for experiments, 26, , https://github.com/google/AFL, p714
+johannesduesing, https://doi.org/10.1145/3368089.3409729, dataset, OSS-Fuzz fuzzing platform from 15 used as benchmark, 15, , https://github.com/google/oss-fuzz/tree/master/infra, p714
+johannesduesing, https://doi.org/10.1145/3368089.3409729, dataset, FTS benchmark for evaluating fuzzer performance from 20, 20, , https://github.com/google/fuzzer-test-suite/blob/master/engine-comparison/tutorial/abTestingTutorial.md, p714
+johannesduesing, https://doi.org/10.1145/3368089.3409729, metric, Measure of fuzzer effectiveness from 5, 5, 10.1145/2976749.2978428, , p715
+johannesduesing, https://doi.org/10.1145/3368089.3409729, statistics, STADS probabilistic model for blackbox fuzzing from 2, 2, 10.1145/3210309, , p718
