@@ -10,19 +10,19 @@
     <div v-else class="bg-logo bg-no-repeat bg-cover bg-center">
       <Navigation />
       <!-- <navbar />-->
-      <div class="bg-gray-50 bg-opacity-95 h-screen ">
+      <div class="bg-gray-50 bg-opacity-95 min-h-screen ">
         <router-view />
       </div>
 
       <footer
         class="
           mt-3
-          absolute
+          fixed
           -bottom-0
           mx-auto
           w-full
           pb-2
-          bg-opacity-40 bg-gray-200
+          bg-opacity-90 bg-gray-200
         "
       >
         <p class="text-xs">
