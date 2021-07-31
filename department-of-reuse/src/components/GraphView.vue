@@ -12,7 +12,7 @@ import { ref, onMounted, PropType } from "vue";
 import Reuse from "../backend/models/Reuse";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
 import { CachedArxivApi } from "../tools/CachedArxivApi";
-import { Author, WorkMessage } from "../clients/crossref";
+import { Author, Work, WorkMessage } from "../clients/crossref";
 import { Feed } from "../clients/arxiv";
 
 import CompoundSet from "../tools/CompoundSet";
@@ -36,14 +36,6 @@ export default {
         nodes: transformedNodes,
         edges: getLinks(data),
       };
-    }
-
-    async function computeCitationCountForWork(sourceDoi: string) : Promise<number> {
-      
-        const crWorksApi = new CachedWorksApi();
-
-        const work = await crWorksApi.worksDoiGet({ doi: sourceDoi });
-        return work.message.isReferencedByCount;
     }
 
     function trimGitHubURL(url : string) : string {
@@ -117,10 +109,19 @@ export default {
     
 
     async function createNodeFromDOI(doi : string) : Promise<NodeDefinition> {
-      const citationCount = await computeCitationCountForWork(doi)
+      const work = await worksApi.worksDoiGet({ doi: doi })
+        .catch((err) => {
+          console.warn(err);
+        });
 
-      const title = await getItemTitle(doi);
-      return { data: {id: doi, name : title, citations: citationCount}, classes: "crossref" };
+      if (work as WorkMessage) {
+        const message = (work as WorkMessage).message
+        const citationCount =  message.isReferencedByCount;
+        const title = getItemTitle(message);
+        return { data: {id: doi, name : title, citations: citationCount}, classes: "crossref" };
+      } else {
+        return { data: {id: doi, name : doi, citations: 0}, classes: "crossref" };
+      }
     }
     
     function getLinks(data: Array<Reuse>) : Array<EdgeDefinition> {
@@ -145,23 +146,13 @@ export default {
               .concat(linksToGithub)
               .concat(linksToWebsites);
     }
-    async function getItemTitle(doi: string) {
-      const work = await worksApi.worksDoiGet({ doi: doi })
-        .catch((err) => {
-          console.warn(err);
-        });
-
-      if (work as WorkMessage) {
-        const workMessage = (work as WorkMessage).message
-        if (workMessage.issued) 
-          return getAuthors(workMessage.author) + " (" + workMessage.issued.dateParts[0][0] + ")"; 
-        else 
-          return getAuthors(workMessage.author) + "(???)";
-      } else {
-        return doi;
-      }
- 
+    function getItemTitle(work: Work) {
+      if (work.issued) 
+        return getAuthors(work.author) + " (" + work.issued.dateParts[0][0] + ")"; 
+      else 
+        return getAuthors(work.author) + "(???)"; 
     }
+    
     function getAuthors(authors: Array<Author>): string {
       if (!authors) return "";
       if (!authors[0]) return "";
