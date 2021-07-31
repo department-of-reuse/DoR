@@ -21,7 +21,7 @@
           -bottom-0
           mx-auto
           w-full
-          pb-3
+          pb-2
           bg-opacity-40 bg-gray-200
         "
       >
@@ -54,7 +54,7 @@ export default {
     onMounted(() => {
       setTimeout(() => {
         showSplash.value = false;
-      }, 3000);
+      }, 2000);
     });
 
     return { showSplash };

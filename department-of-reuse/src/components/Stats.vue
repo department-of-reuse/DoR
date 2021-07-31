@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2 class="text-xl bg-opacity-80 bg-blue-200 mt-5">Statistics</h2>
+      <h2 class="text-base bg-opacity-80 bg-blue-200 mt-3">Statistics</h2>
       
       <table class="m-1 table-auto text-xs bg-opacity-40 bg-white">
         <tr>

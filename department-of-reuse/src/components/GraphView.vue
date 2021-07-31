@@ -1,13 +1,15 @@
 <template>
-  <div ref="cyroot" class="h-full w-full mx-auto pt-14 pb-10 pr-10"></div>
+  <div id="cyroot" class="w-full h-full fixed"></div>
 </template>
 
 <script lang="ts">
 import cytoscape, { Core, CytoscapeOptions, ElementsDefinition, NodeDefinition, EdgeDefinition } from "cytoscape";
-import popper from "cytoscape-popper";
+//import popper from "cytoscape-popper";
 import fcose from "cytoscape-fcose";
+//import cola from "cytoscape-cola";
+//import d3Force from 'cytoscape-d3-force';
 
-import { ref, onMounted, PropType } from "vue";
+import { ref, PropType, onBeforeMount } from "vue";
 
 import Reuse from "../backend/models/Reuse";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
@@ -24,7 +26,6 @@ export default {
     reuseData: Array as PropType<Array<Reuse>>
   },
   setup(props: any) {
-    const cyroot = ref(null);
     const cyInstance = ref<Core | null>(null);
     const worksApi = new CachedWorksApi();
     const arxivApi = new CachedArxivApi();
@@ -152,7 +153,7 @@ export default {
       else 
         return getAuthors(work.author) + "(???)"; 
     }
-    
+
     function getAuthors(authors: Array<Author>): string {
       if (!authors) return "";
       if (!authors[0]) return "";
@@ -160,15 +161,16 @@ export default {
       return authors[0].family + " et al.";
     }
 
-    const elementsPromise = transformToGraph(props.reuseData);
 
-    onMounted(() => {
+
+    onBeforeMount(async () => {
+      const elements = await transformToGraph(props.reuseData);
+
       var cytoConfig = {
-        container: cyroot.value,
-        elements: elementsPromise,
-        layout: {
-          name: "fcose",
-        },
+        container: document.getElementById('cyroot'),
+        elements: elements,
+        animate: true,
+        layout: { name: "fcose"},
         style: [
           {
             selector: "node",
@@ -212,63 +214,38 @@ export default {
             },
           },
         ],
-        // initial viewport state:
-        zoom: 2,
-        pan: { x: 0, y: 0 },
-        // interaction options:
-        minZoom: 1e-50,
-        maxZoom: 1e50,
-        zoomingEnabled: true,
-        userZoomingEnabled: true,
-        panningEnabled: true,
-        userPanningEnabled: true,
-        boxSelectionEnabled: true,
-        selectionType: "single",
-        touchTapThreshold: 8,
-        desktopTapThreshold: 4,
-        autolock: false,
-        autoungrabify: false,
-        autounselectify: false,
-        // rendering options:
-        headless: false,
-        styleEnabled: true,
-        hideEdgesOnViewport: false,
-        textureOnViewport: false,
-        motionBlur: false,
-        motionBlurOpacity: 0.1,
-        animate: true,
-        pixelRatio: "auto",
       } as CytoscapeOptions;
+
       cytoscape.use(fcose);
-      cytoscape.use(popper);
+      //cytoscape.use(popper);
       var cy = cytoscape(cytoConfig);
       cyInstance.value = cy;
       
       /* This function is a work-in-progress. How to get the tooltip
       is one of the world's greatest mysteries. For whoever attempts
       this task, may God be with you. */
-      cy.on("click", "node", event => {
+      /*cy.on("click", "node", event => {
         //let element = cy.getElementById(event.target._private.data.id);
         var node = event.target._private;
         console.log(node.data.citations);
-      });
+      });*/
 
       cy.layout({ name: "fcose" }).run();
 
 
-      var throttle: any;
-      function handleWindowResize() {
+      //var throttle: any;
+      /*function handleWindowResize() {
         clearTimeout(throttle);
         throttle = setTimeout(function () {
           cyInstance.value!.layout({ name: "fcose" }).run();
         }, 100);
-      }
+      }*/
 
-      window.addEventListener("resize", handleWindowResize);
-    });
+      // window.addEventListener("resize", handleWindowResize);
+    })
+
 
     return {
-      cyroot,
       cyInstance,
     };
   },

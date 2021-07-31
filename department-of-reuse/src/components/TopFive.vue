@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2 class="text-xl bg-opacity-80 bg-blue-200">Researchers</h2>
+    <h2 class="text-base bg-opacity-80 bg-blue-200">Researchers</h2>
 
-    <h3 class="text-l bg-opacity-40 bg-blue-200">Most reused (R+)</h3>
+    <h3 class="text-sm bg-opacity-40 bg-blue-200">Most reused (R+)</h3>
       <div v-if="isLoading">
         <p>Loading...</p>
       </div>
@@ -14,7 +14,7 @@
           </tr>
         </table>
       </div>
-    <h3 class="text-l bg-opacity-40 bg-blue-200">Most reusing (R)</h3>
+    <h3 class="text-sm bg-opacity-40 bg-blue-200">Most reusing (R)</h3>
       <div v-if="isLoading">
         <p>Loading...</p>
       </div>
@@ -26,9 +26,9 @@
           </tr>
         </table>
       </div>
-    <h2 class="text-xl bg-opacity-80 bg-blue-200 mt-5">Artifacts</h2>
+    <h2 class="text-base bg-opacity-80 bg-blue-200 mt-3">Artifacts</h2>
 
-    <h3 class="text-l bg-opacity-40 bg-blue-200">Most reused (R+)</h3>
+    <h3 class="text-sm bg-opacity-40 bg-blue-200">Most reused (R+)</h3>
       <div v-if="isLoading">
         <p>Loading...</p>
       </div>
@@ -40,7 +40,7 @@
           </tr>
         </table>
       </div>
-    <h3 class="text-l bg-opacity-40 bg-blue-200">Most reusing (R)</h3>
+    <h3 class="text-sm bg-opacity-40 bg-blue-200">Most reusing (R)</h3>
       <div v-if="isLoading">
         <p>Loading...</p>
       </div>
