@@ -7,10 +7,10 @@
         class="place-self-center w-1/3 mx-auto mt-10"
       />
     </div>
-    <div v-else>
+    <div v-else class="bg-logo bg-no-repeat bg-cover bg-center">
       <Navigation />
       <!-- <navbar />-->
-      <div>
+      <div class="bg-gray-50 bg-opacity-95 h-screen ">
         <router-view />
       </div>
 

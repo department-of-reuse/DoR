@@ -1,8 +1,8 @@
 <template>
   <div class="w-full">
 
-      <div class="h-screen w-screen fixed bg-logo bg-no-repeat bg-cover bg-center">
-        <div class="h-full w-full bg-gray-50 bg-opacity-95 ">
+      <div class="h-screen w-screen fixed">
+        <div class="h-full w-full">
             <GraphView :reuseData="reuseData"/>
         </div>
       </div>
