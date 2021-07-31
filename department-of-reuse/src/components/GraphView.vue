@@ -4,11 +4,13 @@
 
 <script lang="ts">
 import cytoscape, { Core, CytoscapeOptions, ElementsDefinition, NodeDefinition, EdgeDefinition } from "cytoscape";
+import popper from "cytoscape-popper";
 import fcose from "cytoscape-fcose";
 
 import { ref, onMounted, PropType } from "vue";
 
 import Reuse from "../backend/models/Reuse";
+import RIndex from "../backend/RIndex";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
 import { CachedArxivApi } from "../tools/CachedArxivApi";
 import { Author, WorkMessage } from "../clients/crossref";
@@ -20,7 +22,7 @@ const websiteFilter = (id: string): boolean => !id.startsWith("https://github.co
 
 export default {
   props: {
-    reuseData: Array as PropType<Array<Reuse>>,
+    reuseData: Array as PropType<Array<Reuse>>
   },
   setup(props: any) {
     const cyroot = ref(null);
@@ -30,10 +32,18 @@ export default {
 
     async function transformToGraph(data: Array<Reuse>) : Promise<ElementsDefinition> {
       const transformedNodes = await getNodes(data);
+      
       return {
         nodes: transformedNodes,
         edges: getLinks(data),
       };
+    }
+
+    async function computeCitationCountForWork(sourceDoi: string) : Promise<number> {
+        const crWorksApi = new CachedWorksApi();
+
+        const work = await crWorksApi.worksDoiGet({ doi: sourceDoi });
+        return work.message.isReferencedByCount;
     }
 
     function trimGitHubURL(url : string) : string {
@@ -107,8 +117,10 @@ export default {
     
 
     async function createNodeFromDOI(doi : string) : Promise<NodeDefinition> {
+      const citationCount = await this.computeCitationCountForWork(doi)
+
       const title = await getItemTitle(doi);
-      return { data: {id: doi, name : title}, classes: "crossref" };
+      return { data: {id: doi, name : title, citations: citationCount}, classes: "crossref" };
     }
     
     function getLinks(data: Array<Reuse>) : Array<EdgeDefinition> {
@@ -237,9 +249,21 @@ export default {
         pixelRatio: "auto",
       } as CytoscapeOptions;
       cytoscape.use(fcose);
+      cytoscape.use(popper);
       var cy = cytoscape(cytoConfig);
-      cy.layout({ name: "fcose" }).run();
       cyInstance.value = cy;
+      
+      /* This function is a work-in-progress. How to get the tooltip
+      is one of the world's greatest mysteries. For whoever attempts
+      this task, may God be with you. */
+      cy.on("click", "node", event => {
+        //let element = cy.getElementById(event.target._private.data.id);
+        var node = event.target._private;
+        console.log(node.data.citations);
+      });
+
+      cy.layout({ name: "fcose" }).run();
+
 
       var throttle: any;
       function handleWindowResize() {

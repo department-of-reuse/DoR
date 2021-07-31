@@ -25,6 +25,7 @@
     "cytoscape-cola": "^2.4.0",
     "cytoscape-dagre": "^2.3.2",
     "cytoscape-fcose": "^2.0.0",
+    "cytoscape-popper": "^2.0.0",
     "cytoscape-spread": "^3.0.0",
     "fast-xml-parser": "^3.19.0",
     "glob-parent": "^5.1.2",

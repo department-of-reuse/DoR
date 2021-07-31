@@ -20,7 +20,7 @@ export default class RIndex {
             .map(item => {
                 return {source: item.sourceDOI, dest: item.reusedDOI ? item.reusedDOI : item.alternativeID }
             }));
-    }
+    }   
 
     async computeAuthorsReusing() : Promise<Array<HistogramEntry<Author>>> {
         const crWorksApi = new CachedWorksApi();
