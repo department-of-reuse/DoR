@@ -170,7 +170,7 @@ export default {
         container: document.getElementById('cyroot'),
         elements: elements,
         animate: true,
-        layout: { name: "fcose"},
+        layout: { name: "fcose" },
         style: [
           {
             selector: "node",
