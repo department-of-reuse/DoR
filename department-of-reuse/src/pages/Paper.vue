@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navigation />
     <h1 class="text-xl bg-opacity-80 bg-blue-200">Publication Details</h1>
     <div v-if="isLoading">
       <p>Loading data for {{ doi }} ...</p>
@@ -113,7 +112,6 @@
 import { defineComponent, onBeforeMount, ref, watch } from "vue";
 import { Work, WorkMessage } from "../clients/crossref";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
-import Navigation from "../components/Navigation.vue";
 
 import router from "../tools/router";
 
@@ -133,7 +131,7 @@ interface ReuseLine {
 
 export default defineComponent({
   name: "Paper",
-  components: { Navigation },
+  components: {  },
   setup() {
     const isLoading = ref(false);
     const paper = ref({} as WorkMessage);
@@ -152,7 +150,6 @@ export default defineComponent({
         const doiPrefix = router.currentRoute.value.params.doiPrefix as string;
         const doiSuffix = router.currentRoute.value.params.doiSuffix as string;
         doi.value = `${doiPrefix}/${doiSuffix}`;
-        console.log("onBeforeMount");
         await loadPaper();
     });
 
@@ -162,7 +159,6 @@ export default defineComponent({
         const doiPrefix = newParams.doiPrefix as string;
         const doiSuffix = newParams.doiSuffix as string;
         doi.value = `${doiPrefix}/${doiSuffix}`;
-        console.log("watch");
         await loadPaper();
     })
 

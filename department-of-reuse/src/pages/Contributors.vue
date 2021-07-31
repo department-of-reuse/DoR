@@ -1,6 +1,5 @@
 <template>
     <div >
-         <Navigation />
         <h1 class="text-xl bg-opacity-80 bg-blue-200">Contributors</h1>
         
         <p class="mt-5 mb-5">We are thankful to our data collectors to take the time and contribute to the effort. </p>
@@ -25,11 +24,9 @@ import reuseJson from '@/assets/data/reuse.json';
 import { ReuseFromJson } from '../backend/models/Reuse';
 import { Histogram } from '../tools/Histogram';
 
-import Navigation from '../components/Navigation.vue';
-
 export default defineComponent({
     name: "Contributors",
-    components: { Navigation },
+    components: {  },
     setup() {
         const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
 
