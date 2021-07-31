@@ -107,13 +107,13 @@ if (irregularDOIS.length == 0) {
 }
 
 function matchesDOI(id: string): boolean {
-    return (id.startsWith("http://doi.org") || id.startsWith("https://doi.org")) &&
+    return (id.startsWith("http://doi.org/") || id.startsWith("https://doi.org/")) &&
             id.indexOf("10.7488") == -1 && // DataCite
             id.indexOf("10.5281") == -1 // Zenodo            
 }
 
 function matchesRegularACM(id : string) : boolean {
-    return (id.startsWith("http://dl.acm.org") || id.startsWith("https://dl.acm.org")) &&
+    return (id.startsWith("http://dl.acm.org/") || id.startsWith("https://dl.acm.org/")) &&
         id.indexOf("10.5555") == -1 // ACM Mirror DOIs
 }
 

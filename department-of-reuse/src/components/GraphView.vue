@@ -16,7 +16,7 @@ import { Feed } from "../clients/arxiv";
 
 import CompoundSet from "../tools/CompoundSet";
 
-const websiteFilter = (id: string): boolean => !id.startsWith("https://github.com")&&(id.startsWith("http://")||id.startsWith("https://"));
+const websiteFilter = (id: string): boolean => !id.startsWith("https://github.com/")&&(id.startsWith("http://")||id.startsWith("https://"));
 
 export default {
   props: {
@@ -59,7 +59,7 @@ export default {
 
       const githubRepos = Array.from(new Set(data
                         .map(entry => entry.alternativeID)
-                        .filter(id => id.startsWith("https://github.com"))
+                        .filter(id => id.startsWith("https://github.com/"))
                         .map(id => trimGitHubURL(id))));
 
       const urls = Array.from(new Set(data
@@ -120,7 +120,7 @@ export default {
           return { data: { source: item.sourceDOI, target: item.alternativeID } };
       })));
 
-      const linksToGithub = Array.from(new CompoundSet(data.filter(item => item.alternativeID.startsWith("https://github.com")).map((item: Reuse) => {
+      const linksToGithub = Array.from(new CompoundSet(data.filter(item => item.alternativeID.startsWith("https://github.com/")).map((item: Reuse) => {
           return { data: { source: item.sourceDOI, target: trimGitHubURL(item.alternativeID) } };
       })));
 
