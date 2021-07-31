@@ -37,7 +37,7 @@
             <tr v-for="(r, index) in reusedStuff" :key="index">
               <td>
                 <router-link
-                  class="hover:bg-blue-400"
+                  class="hover:bg-blue-50"
                   :to="{
                     name: 'paper',
                     params: {
@@ -71,7 +71,7 @@
                <td>
                    <span v-if="r.doi">
                         <router-link
-                        class="hover:bg-blue-400"
+                        class="hover:bg-blue-50"
                         :to="{
                             name: 'paper',
                             params: {
@@ -166,9 +166,9 @@ export default defineComponent({
     async function loadPaper() {
       isLoading.value = true;
 
-      paper.value = await new CachedWorksApi().worksDoiGet({
+      paper.value = await worksApi.worksDoiGetInteral({
         doi: doi.value,
-      });
+      }, true);
 
       const reducer = (
         accumulator: Array<ReuseLine>,
@@ -221,10 +221,12 @@ export default defineComponent({
     }
 
     async function resolveDoi(reuse: ReuseLine): Promise<ReuseLine> {
-      if (reuse.doi)
-        reuse.doiDetails = (
-          await worksApi.worksDoiGet({ doi: reuse.doi })
-        ).message;
+      if (reuse.doi) {
+        const workResult = await worksApi.worksDoiGetInteral({ doi: reuse.doi }, true).catch((err) => { console.warn(err); })
+        if (workResult as WorkMessage) {
+            reuse.doiDetails = (workResult as WorkMessage).message;
+        }
+      }
       return reuse;
     }
 
