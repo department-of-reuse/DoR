@@ -16,10 +16,15 @@ export class CachedWorksApi extends WorksApi {
                 }
                 )
             );
+        } else {
+            //console.debug("Cache miss")
+            /*
+            const response = await super.worksDoiGet(requestParameters);
+            this.apiCache.set(requestParameters.doi, response.message);
+            return response;
+            */
+           throw new Error('Cache miss');
         }
-        //console.debug("Cache miss")
-        const response = await super.worksDoiGet(requestParameters);
-        this.apiCache.set(requestParameters.doi, response.message);
-        return response;
+
     }
 }

@@ -34,7 +34,7 @@ export class WorksCache {
 
     public get = (doi: string): CacheResult | null => {
         const cacheRecord = this.cache.find(x => {
-            return x.doi == doi;
+            return x.doi.toLowerCase() == doi.toLowerCase();
         });
 
         if (cacheRecord) {
