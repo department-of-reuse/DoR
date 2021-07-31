@@ -10,7 +10,6 @@ import fcose from "cytoscape-fcose";
 import { ref, onMounted, PropType } from "vue";
 
 import Reuse from "../backend/models/Reuse";
-import RIndex from "../backend/RIndex";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
 import { CachedArxivApi } from "../tools/CachedArxivApi";
 import { Author, WorkMessage } from "../clients/crossref";
@@ -40,6 +39,7 @@ export default {
     }
 
     async function computeCitationCountForWork(sourceDoi: string) : Promise<number> {
+      
         const crWorksApi = new CachedWorksApi();
 
         const work = await crWorksApi.worksDoiGet({ doi: sourceDoi });
@@ -117,7 +117,7 @@ export default {
     
 
     async function createNodeFromDOI(doi : string) : Promise<NodeDefinition> {
-      const citationCount = await this.computeCitationCountForWork(doi)
+      const citationCount = await computeCitationCountForWork(doi)
 
       const title = await getItemTitle(doi);
       return { data: {id: doi, name : title, citations: citationCount}, classes: "crossref" };
