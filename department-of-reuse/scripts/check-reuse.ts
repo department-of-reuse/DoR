@@ -66,7 +66,7 @@ const arxivIds = Array.from(new Set(reuseData
                                     .filter(id => id.startsWith("arxiv:"))
                                     .map(id => id.replace("arxiv:", ""))));
 
-let arxivRegEx = new RegExp('(^[0-9]{4}.[0-9]{4,5}|[a-z\-]+(\.[A-Z]{2})?\/[0-9]{7})(v[0-9]+)?$');
+let arxivRegEx = new RegExp('(^[0-9]{4}.[0-9]{4,5}|[a-z-]+(.[A-Z]{2})?\/[0-9]{7})(v[0-9]+)?$');
 
 let irregularArxivIds = arxivIds.filter(id => !id.match(arxivRegEx));
 let regularArxivIds = arxivIds.filter(id => id.match(arxivRegEx));
