@@ -123,7 +123,7 @@ import { useRoute } from "vue-router";
 
 interface ReuseLine {
   doi?: string;
-  doiDetails?: Work;
+  doiDetails?: any;
   alternativeId?: string;
   //arxivPreprint?: Feed,
   contributors: Array<string>;
