@@ -3,27 +3,29 @@
 </template>
 
 <script lang="ts">
-import cytoscape, { Core, CytoscapeOptions, ElementsDefinition, NodeDefinition, EdgeDefinition } from "cytoscape";
+import cytoscape, { Core, CytoscapeOptions, ElementsDefinition, NodeDefinition, EdgeDefinition, CollectionReturnValue } from "cytoscape";
 //import popper from "cytoscape-popper";
 import fcose from "cytoscape-fcose";
 //import cola from "cytoscape-cola";
 //import d3Force from 'cytoscape-d3-force';
 
-import { ref, PropType, onBeforeMount } from "vue";
+import { ref, PropType, onBeforeMount, watch } from "vue";
 
-import Reuse from "../backend/models/Reuse";
+import Reuse, {  ReuseType, ReuseTypeFilter } from "../backend/models/Reuse";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
 import { CachedArxivApi } from "../tools/CachedArxivApi";
 import { Author, Work, WorkMessage } from "../clients/crossref";
 import { Feed } from "../clients/arxiv";
 
 import CompoundSet from "../tools/CompoundSet";
+import { $enum } from 'ts-enum-util';
 
 const websiteFilter = (id: string): boolean => !id.startsWith("https://github.com/")&&(id.startsWith("http://")||id.startsWith("https://"));
 
 export default {
   props: {
-    reuseData: Array as PropType<Array<Reuse>>
+    reuseData: Array as PropType<Array<Reuse>>,
+    filter : String as PropType<ReuseTypeFilter>
   },
   setup(props: any) {
     const cyInstance = ref<Core | null>(null);
@@ -132,19 +134,19 @@ export default {
     
     function getLinks(data: Array<Reuse>) : Array<EdgeDefinition> {
       const linksToDois = Array.from(new CompoundSet(data.filter(item => item.reusedDOI.trim().length > 0).map((item: Reuse) => {
-        return { data: { source: item.sourceDOI, target: item.reusedDOI } };
+        return { data: { source: item.sourceDOI, target: item.reusedDOI, type: item.type } };
       })));
 
       const linksToArxiv = Array.from(new CompoundSet(data.filter(item => item.alternativeID.startsWith("arxiv:")).map((item : Reuse) => {
-          return { data: { source: item.sourceDOI, target: item.alternativeID } };
+          return { data: { source: item.sourceDOI, target: item.alternativeID, type: item.type } };
       })));
 
       const linksToGithub = Array.from(new CompoundSet(data.filter(item => item.alternativeID.startsWith("https://github.com/")).map((item: Reuse) => {
-          return { data: { source: item.sourceDOI, target: trimGitHubURL(item.alternativeID) } };
+          return { data: { source: item.sourceDOI, target: trimGitHubURL(item.alternativeID), type: item.type } };
       })));
 
       const linksToWebsites = Array.from(new CompoundSet(data.filter(item => websiteFilter(item.alternativeID)).map((item: Reuse) => {
-          return { data: { source: item.sourceDOI, target: item.alternativeID } }
+          return { data: { source: item.sourceDOI, target: item.alternativeID, type: item.type } }
       })));
 
       return linksToDois
@@ -170,7 +172,7 @@ export default {
 
     onBeforeMount(async () => {
       const elements = await transformToGraph(props.reuseData);
-
+      
       var cytoConfig = {
         container: document.getElementById('cyroot'),
         elements: elements,
@@ -242,6 +244,8 @@ export default {
         console.log(node.data.citations);
       });*/
 
+      filterElements(props.filter)
+
       cy.layout({ name: "fcose" }).run();
 
 
@@ -255,8 +259,30 @@ export default {
 
       // window.addEventListener("resize", handleWindowResize);
     })
+  
+    var filteredElements : CollectionReturnValue | null = null ;
 
+    function filterElements(filter : ReuseTypeFilter) {
+        const cy = cyInstance.value!
 
+        if (filteredElements != null) filteredElements!.forEach(e => {
+          e.restore()
+        });
+
+        if (filter as String != "ALL") {
+          const filterValue = $enum(ReuseType).getValueOrDefault(filter);
+          const filterExpression = `edge[type != "${filterValue}"]`;
+          filteredElements = cy.filter(filterExpression);
+          
+          cy.remove(filteredElements)
+        }
+    }
+
+    watch(
+      () => props.filter,
+      async filter => {
+        filterElements(filter)
+      })
     return {
       cyInstance,
     };

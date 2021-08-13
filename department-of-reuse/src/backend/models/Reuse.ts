@@ -15,12 +15,17 @@ export enum ReuseType {
   DATASET = "Dataset",
   TOOL = "Tool",
   STATISTICS = "Statistics",
-  PROTOCOL = "Protocol",
   METRIC = "Metric",
   SANITYCHECK = "Sanity check",
   STEPPINGSTONE = "Stepping stone",
   REPLICATION = "Replication"
 }
+
+export enum ReuseTypeFilterAdditions {
+  ALL = "All"
+}
+
+export type ReuseTypeFilter = ReuseType | ReuseTypeFilterAdditions
 
 export function ReuseFromJson(json: any): Reuse {
   if ((json === undefined) || (json === null)) {

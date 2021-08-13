@@ -4,17 +4,14 @@
         <div class="w-72 h-screen" style="margin-bottom: -125px">
             <h2 class="text-xl bg-opacity-80 bg-blue-200">Filter</h2>
             <label>Reuse type</label>
-            <select class="" name="">
-                <option value="">All</option>
-                <option value="">Methodology</option>
-                <option value="">Dataset</option>
-                <option value="">Tool</option>
-                <option value="">Statistics</option>
-                <option value="">Protocol</option>
-                <option value="">Metric</option>
+            <select class="" name="" v-model="selectedFilter">
+                <option value="ALL">All</option>
+                <option v-for="type in reuseTypes" :key="type[0]" :value="type[0]">
+                  {{ type[1] }}
+                </option>
             </select>
             <div class="w-full h-full">
-            <GraphView :reuseData="reuseData"/>
+            <GraphView :reuseData="reuseData" :filter="selectedFilter" />
           </div>
         </div>
         <div class="w-full">
@@ -41,15 +38,27 @@ import Stats from '../components/Stats.vue';
 import Legend from '../components/Legend.vue';
 
 import reuseJson from '../assets/data/reuse.json';
-import { ReuseFromJson } from '../backend/models/Reuse';
+import { ReuseFromJson, ReuseType } from '../backend/models/Reuse';
+
+import { $enum } from "ts-enum-util";
+import { ref } from '@vue/reactivity';
 
 export default {
   name: "Home",
   components: { Stats, TopFive, GraphView, Legend },
   setup() {
+
+    const selectedFilter = ref("ALL");
+
     const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
 
-    return { reuseData };
+    const reuseTypes = $enum(ReuseType).getEntries().sort((a,b) => {
+      if (a[1] < b[1]) return -1;
+      else if (a[1] > b[1]) return 1;
+      else return 0;
+    });
+
+    return { reuseData, reuseTypes, selectedFilter};
   },
 };
 </script>
