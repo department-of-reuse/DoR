@@ -11,7 +11,7 @@ export class Histogram<T> {
     constructor(toKey: (value : T) => string, initial: T[] = []) {
         this.set = new Map();
         this.histo = new Map();
-        this.toKey = (value : T) => { return JSON.stringify(value)};
+        this.toKey = (toKey != null) ? toKey :  (value : T) => { return JSON.stringify(value)};
 
         initial.forEach(entry => this.add(entry));
     }
