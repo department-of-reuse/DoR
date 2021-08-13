@@ -10,14 +10,16 @@ export default interface Reuse {
 }
 
 export enum ReuseType {
-  UNKNOWN = "Unknown",
+  UNKNOWN = "Other",
   METHODOLOGY = "Methodology",
   DATASET = "Dataset",
   TOOL = "Tool",
   STATISTICS = "Statistics",
   PROTOCOL = "Protocol",
   METRIC = "Metric",
-  SANITYCHECK = "Sanity check"
+  SANITYCHECK = "Sanity check",
+  STEPPINGSTONE = "Stepping stone",
+  REPLICATION = "Replication"
 }
 
 export function ReuseFromJson(json: any): Reuse {
