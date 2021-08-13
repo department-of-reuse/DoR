@@ -221,6 +221,11 @@ export default {
           {
             selector: "edge",
             style: {
+              content: "data(type)",
+              "font-size": "4pt",
+              'text-wrap': 'wrap' ,
+               'edge-text-rotation': 'autorotate',
+               'min-zoomed-font-size': 10,
               "curve-style": "straight",
               "target-arrow-shape": "triangle",
               "line-color": "#9dbaea",
