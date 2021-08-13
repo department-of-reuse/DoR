@@ -88,8 +88,8 @@ function TransformType(csvType : string, csvData: any) : ReuseType {
         case "replication":
             return ReuseType.REPLICATION;
         default: {
-            console.log(csvType.toLowerCase());
-            console.table(csvData)
+            // console.log(csvType.toLowerCase());
+            // console.table(csvData)
             return ReuseType.UNKNOWN;
         }
             
