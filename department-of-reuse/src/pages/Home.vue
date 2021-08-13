@@ -25,7 +25,7 @@
 
 
         </div>
-        <div class="flex-none w-72 order-3 hidden lg:block z-10" >
+        <div class="flex-none w-72 order-3 hidden lg:block z-10 overflow-y-auto h-screen" >
             <TopFive class="z-10" :reuseData="reuseData" />
             <Stats :reuseData="reuseData" />
         </div>
