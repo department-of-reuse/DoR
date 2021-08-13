@@ -4,6 +4,10 @@
 
     <table class="m-1 table-auto text-xs bg-opacity-40 bg-white w-full text-left">
       <tr>
+        <td><div style="background-color: #77aaff; border-width: 2px; border-color: #5588dd" class="w-4 h-4 rounded-full mx-auto"></div></td>
+        <td>Inspected Paper</td>
+      </tr>
+      <tr>
         <td><div style="background-color: #77aaff" class="w-4 h-4 rounded-full mx-auto"></div></td>
         <td>Published Paper</td>
       </tr>

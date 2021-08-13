@@ -50,10 +50,14 @@ export default {
     }
 
     async function getNodes(data: Array<Reuse>) : Promise<Array<NodeDefinition>> {
-      const dois = Array.from(new Set(data
+      const sourceDois = Array.from(new Set(data
                         .map(entry => entry.sourceDOI)
-                        .concat(data.map(entry => entry.reusedDOI))
                         .filter(doi => doi.trim() != "")));
+
+      const destinationDois = Array.from(new Set(data
+                        .map(entry => entry.reusedDOI)
+                        .filter(doi => doi.trim() != "")
+                        .filter(doi => (sourceDois.findIndex(d => d == doi) < 0))));
 
       const arxivIds = Array.from(new Set(data
                         .map(entry => entry.alternativeID)
@@ -70,7 +74,8 @@ export default {
                         .filter(websiteFilter)
       ))
 
-      return Promise.all(dois.map(currentDoi => createNodeFromDOI(currentDoi))
+      return Promise.all(sourceDois.map(currentDoi => createNodeFromDOI(currentDoi, "source"))
+                             .concat(destinationDois.map(currentDoi => createNodeFromDOI(currentDoi, "")))
                              .concat(arxivIds.map(id => createNodeFromArxivId(id)))
                              .concat(githubRepos.map(url => createGithubNode(url)))
                              .concat(urls.map(url => createWebsiteNode(url)))
@@ -109,7 +114,7 @@ export default {
 
     
 
-    async function createNodeFromDOI(doi : string) : Promise<NodeDefinition> {
+    async function createNodeFromDOI(doi : string, extraClass : string) : Promise<NodeDefinition> {
       const work = await worksApi.worksDoiGet({ doi: doi })
         .catch((err) => {
           console.warn(err);
@@ -119,9 +124,9 @@ export default {
         const message = (work as WorkMessage).message
         const citationCount =  message.isReferencedByCount;
         const title = getItemTitle(message);
-        return { data: {id: doi, name : title, citations: citationCount}, classes: "crossref" };
+        return { data: {id: doi, name : title, citations: citationCount}, classes: "crossref " + extraClass  };
       } else {
-        return { data: {id: doi, name : doi, citations: 0}, classes: "crossref" };
+        return { data: {id: doi, name : doi, citations: 0}, classes: "crossref " + extraClass   };
       }
     }
     
@@ -190,6 +195,13 @@ export default {
             selector: ".crossref",
             style: {
               "background-color": "#77aaff"
+            }
+          },
+          {
+            selector: ".source",
+            style: {
+              "border-width": "2px",
+              "border-color": "#5588dd"
             }
           },
           {
