@@ -110,7 +110,7 @@
 </template>
 <script lang="ts">
 import { defineComponent, onBeforeMount, ref, watch } from "vue";
-import { Work, WorkMessage } from "../clients/crossref";
+import { WorkMessage } from "../clients/crossref";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
 
 import router from "../tools/router";
@@ -123,7 +123,7 @@ import { useRoute } from "vue-router";
 
 interface ReuseLine {
   doi?: string;
-  doiDetails?: Work;
+  doiDetails?: any;
   alternativeId?: string;
   //arxivPreprint?: Feed,
   contributors: Array<string>;
