@@ -48,7 +48,7 @@ export default {
     const papersInspected = ref(new Set(data.map((r) => r.sourceDOI)).size);
 
     const targetDoiNodes = ref(new Set(data.filter(r => r.reusedDOI.trim().length > 0).map(r => r.reusedDOI)).size);
-    const targetGitHubNodes = ref(new Set(data.filter(r => r.alternativeID.startsWith("https://github.com")).map(r => r.alternativeID)).size);
+    const targetGitHubNodes = ref(new Set(data.filter(r => r.alternativeID.startsWith("https://github.com/")).map(r => r.alternativeID)).size);
     const targetArxivNodes = ref(new Set(data.filter(r => r.alternativeID.startsWith("arxiv:")).map(r => r.alternativeID)).size);
     
     const websiteFilter = (id: string): boolean => !id.startsWith("https://github.com/")&&(id.startsWith("http://")||id.startsWith("https://"));
