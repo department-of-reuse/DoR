@@ -219,7 +219,7 @@ export default {
           {
             selector: "edge",
             style: {
-              "curve-style": "line",
+              "curve-style": "straight",
               "target-arrow-shape": "triangle",
               "line-color": "#9dbaea",
               "target-arrow-color": "#9dbaea",
