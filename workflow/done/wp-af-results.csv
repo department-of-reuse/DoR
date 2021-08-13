@@ -6,7 +6,7 @@ asslisa,https://doi.org/10.1145/3377811.3380437,Metric,Filtering Criteria for to
 asslisa,https://doi.org/10.1145/3377811.3380437,Statistical,LOD,[60],10.4103/2229-5186.79345,,16
 asslisa,https://doi.org/10.1145/3377811.3380437,Metric,Correlated Features with all build failures,[27],10.1109/MSR.2017.30 ,,16
 asslisa,https://doi.org/10.1145/3377811.3380437,Metric,Correlated Features with all build failures,[47],10.1109/MSR.2017.54,,16
-asslisa,https://doi.org/10.1145/3377811.3380437,Method�,cold-start problem,[71],,https://en.wikipedia.org/w/index.php?title=Cold_start_(computing)&oldid=883021431,17
+asslisa,https://doi.org/10.1145/3377811.3380437,Method,cold-start problem,[71],,https://en.wikipedia.org/w/index.php?title=Cold_start_(computing)&oldid=883021431,17
 asslisa,https://doi.org/10.1145/3377811.3380437,Metric,Correlated features with all failures ,[23],10.1109/ESEM.2017.23,,18
 asslisa,https://doi.org/10.1145/3377811.3380437,Method,Build-prediction techniques,[23] ,10.1109/ESEM.2017.23,,18
 asslisa,https://doi.org/10.1145/3377811.3380437,Method,Build-prediction techniques,[43],10.1109/MSR.2017.26,,18
@@ -23,11 +23,11 @@ asslisa,https://doi.org/10.1145/3377811.3380342,Dataset,The Python Corpus,[31],,
 asslisa,https://doi.org/10.1145/3377811.3380342,Replication,Similar Experiment,[75],10.1145/2884781.2884848,,1074
 asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Java Lexer,[41],10.1145/3106237.3106290,https://github.com/SLP-team/SLP-Core,1076
 asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Pygments Library ,,,http://pygments.org/docs/lexers/,1076
-asslisa,https://doi.org/10.1145/3377811.3380342,Method�,Word Splitting,[3],10.1145/2786805.2786849,,1077
+asslisa,https://doi.org/10.1145/3377811.3380342,Method,Word Splitting,[3],10.1145/2786805.2786849,,1077
 asslisa,https://doi.org/10.1145/3377811.3380342,Tool,Byte Pair Encoding (BPE) Algorithm,[34],,https://dl.acm.org/doi/10.5555/177910.177914,1077
 asslisa,https://doi.org/10.1145/3377811.3380342,Replication,GRU,[56],10.18653/v1/P18-1027,,1078
 asslisa,https://doi.org/10.1145/3377811.3380342,Tool,BPE Implementation,,,https://github.com/rsennrich/subword-nmt,1078
-asslisa,https://doi.org/10.1145/3377811.3380342,Method�,Code Completion Scenarios ,[41],10.1145/3106237.3106290,,1080
+asslisa,https://doi.org/10.1145/3377811.3380342,Method,Code Completion Scenarios ,[41],10.1145/3106237.3106290,,1080
 asslisa,https://doi.org/10.1145/3377811.3380342,Tool,n-gram Implementation,[41],10.1145/3106237.3106290,https://github.com/SLP-team/SLP-Core,1080
 asslisa,https://doi.org/10.1145/3377811.3380342,Dataset,Defects4j dataset,[53],10.1145/2610384.2628055,,1082
 asslisa,https://doi.org/10.1145/3377811.3380341,Method ,Typestate Analysis ,[61],10.1109/TSE.1986.6312929,,1448
@@ -71,9 +71,9 @@ asslisa,https://doi.org/10.1145/3377811.3380433,Dataset,Stack Overflow Post Data
 asslisa,https://doi.org/10.1145/3377811.3380433,Method,Open Card Sorting,[37],10.1145/2786805.2786809,,914
 asslisa,https://doi.org/10.1145/3377811.3380433,Metric,Inter-coder Agreement,[6],10.1162/coli.07-034-R2,,915
 asslisa,https://doi.org/10.1145/3377811.3380433,Metric,Inter-coder Agreement,[32],,,915
-asslisa,https://doi.org/10.1145/3377811.3380433,Statistical�,Krippendorff's alpha,[6],10.1162/coli.07-034-R2,,915
-asslisa,https://doi.org/10.1145/3377811.3380433,Statistical�,Krippendorff's alpha,[31],,,915
-asslisa,https://doi.org/10.1145/3377811.3380433,Statistical�,Krippendorff's alpha,[32],,https://repository.upenn.edu/asc_papers/43,915
+asslisa,https://doi.org/10.1145/3377811.3380433,Statistical,Krippendorff's alpha,[6],10.1162/coli.07-034-R2,,915
+asslisa,https://doi.org/10.1145/3377811.3380433,Statistical,Krippendorff's alpha,[31],,,915
+asslisa,https://doi.org/10.1145/3377811.3380433,Statistical,Krippendorff's alpha,[32],,https://repository.upenn.edu/asc_papers/43,915
 asslisa,https://doi.org/10.1145/3377811.3380433,Tool,Java Abstract Syntax Tree Parser ,[25],,https://javaparser.org/,918
 asslisa,https://doi.org/10.1145/3377811.3380433,Tool,Symbolic Link Resolver Java Parser ,[25],,https://javaparser.org/,918
 asslisa,https://doi.org/10.1145/3377811.3380433,Tool,Hibernate,[53],,http://hibernate.org/orm,920

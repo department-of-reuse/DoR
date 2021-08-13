@@ -22,8 +22,8 @@ XiaoLing941212,https://doi.org/10.1145/3368089.3409671,dataset reuse,SVHN,[1],,h
 XiaoLing941212,https://doi.org/10.1145/3368089.3409761,method,intact-layer/inner-layer mutation rules,[46],10.1109/ISSRE.2018.00021,,790,3.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409761,method,Metropolis-Hastings algorithm,[38],,https://www.tandfonline.com/doi/pdf/10.1080/00031305.1998.10480547,792,3.2.2
 XiaoLing941212,https://doi.org/10.1145/3368089.3409761,method,differential testing,[56],10.1109/ICSE.2019.00107,,792,3.3
-XiaoLing941212,https://doi.org/10.1145/3368089.3409761,tool & dataset,to test DL libraries,[43],10.1145/3338906.3338930,,793,4.1
-XiaoLing941212,https://doi.org/10.1145/3368089.3409761,tool & dataset,to test DL libraries,[56],10.1109/ICSE.2019.00107,,793,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409761,tool,to test DL libraries,[43],10.1145/3338906.3338930,,793,4.1
+XiaoLing941212,https://doi.org/10.1145/3368089.3409761,tool,to test DL libraries,[56],10.1109/ICSE.2019.00107,,793,4.1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409750,method,hierarchical grouping,[50],,http://proceedings.mlr.press/v97/moon19a/moon19a.pdf,800,1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409750,dataset reuse,SVHN,[53],,https://storage.googleapis.com/pub-tools-public-publication-data/pdf/37648.pdf,801,1
 XiaoLing941212,https://doi.org/10.1145/3368089.3409750,dataset reuse,CIFAR-10,[38],,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.222.9220&rep=rep1&type=pdf,801,1

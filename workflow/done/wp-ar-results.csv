@@ -108,7 +108,7 @@ rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,method,standardization
 rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,metric,Empirical finding: ICB (feature),32,https://doi.org/10.1109/QSIC.2014.19,,8
 rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,metric,Empirical finding: JDK (feature),36,https://doi.org/10.1007/s10664-018-9663-0,,8
 rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,tool,EvoSuite,22,https://doi.org/10.1145/2025113.2025179,,8
-rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,metric/method?,EvoSuite MockList: list of dependencies to mock,4,,https://github.com/EvoSuite/ evosuite/blob/master/runtime/src/main/java/org/evosuite/runtime/mock/ MockList.java,8
+rusenhalepmollasi,https://doi.org/10.1145/3324884.3416539,dataset,EvoSuite MockList: list of dependencies to mock,4,,https://github.com/EvoSuite/ evosuite/blob/master/runtime/src/main/java/org/evosuite/runtime/mock/ MockList.java,8
 rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,tool,Schwa:defect predictor,14,,https://sigarra.up.pt/fep/en/pub_geral.show_file?pi_doc_id=43612,3
 rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,tool,EvoSuite: automated test generation framework that generates JUnit test suites for Java classes,19,https://doi.org/10.1109/QSIC.2011.19,,5
 rusenhalepmollasi,https://doi.org/10.1145/3324884.3416612,tool,DynaMOSA: Dynamic Many-Objective Sorting Algorithm,52,https://doi.org/10.1109/TSE.2017.2663435,,5
