@@ -22,7 +22,7 @@ If no one agrees on what is the state-of-the-art then:
 
 
 Here, we assume that the _leading_ edge can be found amongst artifacts that are heavily reused.
-Our goal is to map out that leading edge  and reward its contribtorsL
+Our goal is to map out that leading edge  and reward its contributors:
 
 - An _R-index_ (reuse index) score will be awarded to resaerchers  that reuse the most from other sources;
 - An _R<sup>+</sup>-index_ score will be awarded to resaerchers that build the artifacts that are most reused.
