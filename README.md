@@ -70,14 +70,14 @@ This data was collected as follows:
     - These conferences were selected
 using advice from [prior work](https://arxiv.org/pdf/1608.08100.pdf) but our vision is to expand; for example, by looking at all top-ranked SE conferences. 
 - GitHub issues were used to divide up the hundreds of papers from those conferences into “work packets" of ten papers each. 
-- -Reading teams were set up from software engineering research teams from around the globe in Hong Kong, Istanbul (Turkey), Victoria (Canada), Gothenburg (Sweden), Oulu (Finland), Melbourne (Australia), and Raleigh (USA). 
+- Reading teams were set up from software engineering research teams from around the globe in Hong Kong, Istanbul (Turkey), Victoria (Canada), Gothenburg (Sweden), Oulu (Finland), Melbourne (Australia), and Raleigh (USA). 
 - Team members would assign themselves work packets and then read the papers looking for the six kinds of reuse listed below:
   - _Stepping Stones_: Most papers have to benchmark their new ideas against some prior recent state-of-the-art paper. That is, they reuse old papers as stepping stones towards new results.
-  -  _Advnaced States_ Here we do not mean “we use a two-tailed t-test” or some other decades-old widely-used statistical method. Rather, we refer instead to statistical methods for recent papers that propose statistical guidance for the kinds of analysis seen in SE . Perhaps because this kind of analysis is very rare, these people are exceedingly high cited
   - _Metrics and Method descriptions_ (which may be guidelines, with no tools);
   - _Data sets_
   -  _Sanity checks_ (justification for why a particular approach works or is reasonable to avoid bad data);
   - _Software packages_ of the kind currently being reviewed by SE conference artifact evaluation committees (tools and replications).
+  - _Advanced Statistics_ Here we do not mean “we use a two-tailed t-test” or some other decades-old widely-used statistical method. Rather, we refer instead to statistical methods for recent papers that propose statistical guidance for the kinds of analysis seen in SE . Perhaps because this kind of analysis is very rare, these people are exceedingly high cited
   - Of course, there any [many other items being reused](https://pasteboard.co/Ke4tKgO.png) than these  six (and  it is an open question, worthy of future work, to check if those other items can be collected in this way).
 
 - Once completed, a second person (from any of our teams) would do the same and check for consistency. 
