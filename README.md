@@ -95,9 +95,12 @@ by  performing  our standard  [how-to-read-for-reuse tutorial](https://github.co
  
 As a result, students will join an international team exploring reuse in SE that will keep them informed and updated about the state-of-the-art in SE for many years to come. Also, as a side-effect, they will also see first hand the benefit of open source tools that can be shared by teams working around the globe.
  
+ <img   width=1000 src="https://user-images.githubusercontent.com/29195/129488735-3be50fe0-ea41-4dd4-8b86-586c88232ae1.png">
+
+
+
  ## About this data
  
-<img align=right width=300 src="https://user-images.githubusercontent.com/29195/129488735-3be50fe0-ea41-4dd4-8b86-586c88232ae1.png">
 
  At the time of this writing (August 2021) it is our judgement that there is not enough data here, yet, to do things like (e.g.) topological studies on the nature of SE science. That said, at our current rate of data collection, we should be at that stage by end 2021.
 
