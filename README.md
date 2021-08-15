@@ -29,7 +29,9 @@ _correctable_,
 - All the data used for our reuse graphs is community-collected. 
 - All the data can be audited at  this site} and if errors are detected, issue reports can be raised in our GitHub repository (and the error  corrected). 
 
-<img align=right width=300 src="https://user-images.githubusercontent.com/29195/129488071-7fa01c49-efa3-464a-b501-48806a518552.png">
+ 
+
+<img align=right width=200 src="https://user-images.githubusercontent.com/29195/129488096-e0eb11e7-9f0d-409b-90ab-a3b98f0edd36.png">
 
 ## Progress Report
 
@@ -94,7 +96,9 @@ to your community, please use the tools in this repo.
 find an issue with no one's face on it, and assign yourself a task.
 - Better yet, if you are an educator teaching a graduate SE class, then get your students to do the following three week reading assignments,
 
-## Using thiese tools for Graduate SE education
+<img align=right width=300 src="https://user-images.githubusercontent.com/29195/129488128-597c203c-2ddb-48f9-a732-0ae9f07cf373.png">
+
+## Using these tools for Graduate SE education
 
 Start by telling students
 that understanding the current state of the art will be their challenge for the rest of their career.  Using reuse graphs,   
