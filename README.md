@@ -43,11 +43,17 @@ _correctable_,
 <img align=right width=200 src="https://user-images.githubusercontent.com/29195/129488096-e0eb11e7-9f0d-409b-90ab-a3b98f0edd36.png">
 
 
-- Currently (Aug'21) we have covered around 40% of the papers from the main technical track of the six main SE conferences (listed below)
-- Our short term **tactical goal** is to analyze 200, 2000, 5000 papers in 2021, 2022, 2023 (respectively) by which time we would have covered most of the major SE conferences in the last five years. 
-  - If you want to help with that, see "Getting Invloved" (below).
-- After that, our **long term strategic  goal** is  to read 500 (ish) papers per year to keep up to date with the conferences.
-  - Based on results so far,  then assuming each paper is read by two people, that strategic goal would be achievable by a team of twenty people working two hours per month on this task.
+Currently (Aug'21) we have covered around 40% of the papers from the main technical track of the six main SE conferences (listed below).
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/29195/129491263-82847cbd-4fcf-410c-b6bc-23ff4f45909c.png">
+
+Fron here, our short term **tactical goal** is to analyze 200, 2000, 5000 papers in 2021, 2022, 2023 (respectively) by which time we would have covered most of the major SE conferences in the last five years. 
+
+- If you want to help with that, see "Getting Invloved" (below).
+  
+After that, our **long term strategic  goal** is  to read 500 (ish) papers per year to keep up to date with the conferences.
+
+- Based on results so far,  then assuming each paper is read by two people, that strategic goal would be achievable by a team of twenty people working two hours per month on this task.
 
 
 
