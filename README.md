@@ -8,7 +8,7 @@
 
 Here, we  tracks and document reuse of artifacts in computer science (starting with the SE field). 
 
-Philosophers of science like  [Karp Popper](https://en.wikipedia.org/wiki/Karl_Popper) caution us that the ideas we can most trust are those that have been most tried and most tested. For that reason, many of us are involved in the process called “Science” that produces trusted knowledge by sharing one’s ideas, and trying out and testing others’ ideas. Science and scientists form communities where people do each other the courtesy of curating, clarifying, critiquing and improving a large pool of ideas.
+Philosophers of science like  [Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper) tell us that the ideas we can most trust are those that have been most tried and most tested. For that reason, many of us are involved in the process called “Science” that produces trusted knowledge by sharing one’s ideas, and trying out and testing others’ ideas. Science and scientists form communities where people do each other the courtesy of curating, clarifying, critiquing and improving a large pool of ideas.
 
 But in any field,
 finding   the _leading edge_ of 
@@ -32,7 +32,7 @@ We are building that map using methods that are community _comprehensible_, comm
 community
 _correctable_,
 
-- All the data used for our reuse graphs is community-collected. 
+- All the data used for our reuse graphs is community-collected (see [**About this Data**, below](#about-this-data).
 - All the data can be audited at  this site} and if errors are detected, issue reports can be raised in our GitHub repository (and the error  corrected). 
 
  
@@ -63,7 +63,7 @@ _correctable_,
    -  If wish to check that we have accurately recorded your contribution,
 please visit please check our graph at https://reuse-dept.org.  
    - If you want to use this data to study the nature of science, please note that all the data iused in this site is
-     freely and readily accessable (see **About this Data**, below)
+     freely and readily accessable (see [**About this Data**, below](#about-this-data))
 - If you want to apply reuse graphs
 to your community, please use the tools in this repo.
 - If you are interested in joining this initiative and contributing to an up-to-minute snapshot of SE research, then please 
