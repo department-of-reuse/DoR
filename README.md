@@ -1,9 +1,11 @@
-<img width=1000 src="https://user-images.githubusercontent.com/29195/129488040-41c20d47-06fc-4e2a-b1ff-baf009555a3e.png">
+<!--- img width=1000 src="https://user-images.githubusercontent.com/29195/129488040-41c20d47-06fc-4e2a-b1ff-baf009555a3e.png"--->
 
-# DoR
-The Department of Reuse tracks and documents reuse of artifacts in computer science (starting with the SE field). 
+<img align=right width=400 src="https://raw.githubusercontent.com/bhermann/DoR/main/department-of-reuse/src/assets/dor-logo.svg">
 
-According to Karp Popper, the ideas we can most trust are those that have been most tried and most tested. For that reason, many of us are involved in the process called “Science” that produces trusted knowledge by sharing one’s ideas, and trying out and testing others’ ideas. Science and scientists form communities where people do each other the courtesy of curating, clarifying, critiquing and improving a large pool of ideas.
+# Welcome to  Department of Reuse
+Here, we  tracks and document reuse of artifacts in computer science (starting with the SE field). 
+
+Philosophers of science like  [Karp Popper](https://en.wikipedia.org/wiki/Karl_Popper) caution us that the ideas we can most trust are those that have been most tried and most tested. For that reason, many of us are involved in the process called “Science” that produces trusted knowledge by sharing one’s ideas, and trying out and testing others’ ideas. Science and scientists form communities where people do each other the courtesy of curating, clarifying, critiquing and improving a large pool of ideas.
 
 But in any field,
 finding   the _leading edge_ of 
