@@ -98,7 +98,7 @@ using advice from [prior work](https://arxiv.org/pdf/1608.08100.pdf) but our vis
 
 ## Want to get involved?
 
-<img width=300 align=right src="https://user-images.githubusercontent.com/29195/129488510-71dfabb1-6537-4a0a-9646-bd8ae26305c0.png">
+<img width=200 align=right src="https://user-images.githubusercontent.com/29195/129488510-71dfabb1-6537-4a0a-9646-bd8ae26305c0.png">
 
 
  If that work interests you, then there are many ways you can get involved:
@@ -113,6 +113,7 @@ to your community, please use the tools in this repo.
 find an issue with no one's face on it, and assign yourself a task.
 - Better yet, if you are an educator teaching a graduate SE class, then get your students to do the following three week reading assignments,
 
+<br clear=all>
 
 ## Using these tools for Graduate SE education
 
