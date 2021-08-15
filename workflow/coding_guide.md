@@ -35,14 +35,14 @@ _Important note: before doing this, please to the [Training](training.md)_
 
 (FYI: "semantics" = "reuse_type" in the edges in DOR.)
 
-* **Stepping stones** (comparison of SOTA) e.g. DL model precision since they are so slow.
-* **Tool** reuse - Sonarqube, Kla's ESD tool. Tools also include survey instruments (questions).
-* **Dataset** reuse - Promise etc. Dataset must be public.
-* **Metric** reuse - MCC, McCabe, etc.
-* **Statistical** reuse - reuse of a statistical approach, e.g. https://github.com/klainfo/ScottKnottESD . Do not include references to stats that are 'in the air' and commonly used, such as Fisher's exact test, Pearson correlation, etc. One hint this is happening is if the citation is "drive-by" instead of fully explained, or if it is quite old.
-* **Method** reuse - reuse of a specific methodological approach, such as Kitchenham's SLR, Grounded Theory (Stol and Fitzgerald).
-* **Replication** of experiments - the paper clearly indicates it follows the approach from an earlier paper.
-* **Sanity Check** reuse - justification for why this approach works or is reasonable (e.g. Promise and Perils paper). Some people might include 'defensive' citations to justify why their method is valid.
+1. **Stepping stones** (comparison of SOTA) e.g. DL model precision since they are so slow.
+2. **Tool** reuse - Sonarqube, Kla's ESD tool. Tools also include survey instruments (questions).
+3. **Dataset** reuse - Promise etc. Dataset must be public.
+4. **Metric** reuse - MCC, McCabe, etc.
+5. **Statistical** reuse - reuse of a statistical approach, e.g. https://github.com/klainfo/ScottKnottESD . Do not include references to stats that are 'in the air' and commonly used, such as Fisher's exact test, Pearson correlation, etc. One hint this is happening is if the citation is "drive-by" instead of fully explained, or if it is quite old.
+6. **Method** reuse - reuse of a specific methodological approach, such as Kitchenham's SLR, Grounded Theory (Stol and Fitzgerald).
+7. **Replication** of experiments - the paper clearly indicates it follows the approach from an earlier paper.
+8. **Sanity Check** reuse - justification for why this approach works or is reasonable (e.g. Promise and Perils paper). Some people might include 'defensive' citations to justify why their method is valid.
 
 ## What is Not Reuse?
 
