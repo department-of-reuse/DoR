@@ -72,7 +72,7 @@ to your community, please use the tools in this repo.
 find an issue with no one's face on it, and assign yourself a task.
 - Better yet, if you are an educator teaching a graduate SE class, then get your students to do the following three week reading assignments,
 
-<br clear=all>
+ 
 
 ## Using these tools for Graduate SE education
 
