@@ -31,7 +31,9 @@ _Important note: before doing this, please to the [Training](training.md)_
 - Indicate approx section (page number, section heading) where the reuse happens so we can go back and verify it.
 - DOIs can be encoded either with the locator prefix (`https://doi.org/10.1145/3368089.3409717`) or without (`10.1145/3368089.3409717`). It's very easy to drop DOI elements so be careful with the copy/paste process.
 
-## Link semantics of reuse (the edges in DOR, called "reuse_type" in the sample).
+## Link semantics of reuse 
+
+(FYI: "semantics" = "reuse_type" in the edges in DOR.)
 
 * **Stepping stones** (comparison of SOTA) e.g. DL model precision since they are so slow.
 * **Tool** reuse - Sonarqube, Kla's ESD tool. Tools also include survey instruments (questions).
