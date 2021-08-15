@@ -49,50 +49,6 @@ _correctable_,
 - After that, our **long term strategic  goal** is  to read 500 (ish) papers per year to keep up to date with the conferences.
   - Based on results so far,  then assuming each paper is read by two people, that strategic goal would be achievable by a team of twenty people working two hours per month on this task.
 
-## Using this Data
-
-At the time of this writing (August 2021) it is our judgement that there is not enough data here, yet, to do things like (e.g.) topological studies on the nature of SE science. That said, at our current rate of data collection, we should be at that stage by end 2021.
-
-With that caveat, we note that
- researchers can access all the data from this project at the following places:
-
-- The primary source of data for the website is:
-https://raw.githubusercontent.com/bhermann/DoR/main/department-of-reuse/src/assets/data/reuse.json 
-- It is composed from all the CSV files in:
-https://github.com/bhermann/DoR/tree/main/workflow/done
-- The transformation process run as a build step is:
-https://github.com/bhermann/DoR/blob/main/department-of-reuse/scripts/data-transformation.ts
-- There is a separate script  used when checking new results to catch common mistakes:
-https://github.com/bhermann/DoR/blob/main/department-of-reuse/scripts/check-reuse.ts
-
-
- 
-This data was collected as follows:
-
-- We targeted papers from the 2020 technical programs of six major international SE conferences: 
-    - International Software Engineering (ICSE), 
-    - Automated Software Engineering (ASE), 
-    - Joint European Software Engineering Conference / Foundations of Software Engineering (ESEC/FSE), 
-    - Software Maintenance and Engineering (ICSME), 
-    - Mining Software Repositories (MSR), 
-    - Empirical Software Engineering and Measurement (ESEM).     
-    - These conferences were selected
-using advice from [prior work](https://arxiv.org/pdf/1608.08100.pdf) but our vision is to expand; for example, by looking at all top-ranked SE conferences. 
-- GitHub issues were used to divide up the hundreds of papers from those conferences into “work packets" of ten papers each. 
-- Reading teams were set up from software engineering research teams from around the globe in Hong Kong, Istanbul (Turkey), Victoria (Canada), Gothenburg (Sweden), Oulu (Finland), Melbourne (Australia), and Raleigh (USA). 
-- Team members would assign themselves work packets and then read the papers looking for the six kinds of reuse listed below:
-  - _Stepping Stones_: Most papers have to benchmark their new ideas against some prior recent state-of-the-art paper. That is, they reuse old papers as stepping stones towards new results.
-  - _Metrics and Method descriptions_ (which may be guidelines, with no tools);
-  - _Data sets_
-  -  _Sanity checks_ (justification for why a particular approach works or is reasonable to avoid bad data);
-  - _Software packages_ of the kind currently being reviewed by SE conference artifact evaluation committees (tools and replications).
-  - _Advanced Statistics_ Here we do not mean “we use a two-tailed t-test” or some other decades-old widely-used statistical method. Rather, we refer instead to statistical methods for recent papers that propose statistical guidance for the kinds of analysis seen in SE . Perhaps because this kind of analysis is very rare, these people are exceedingly high cited
-  - Of course, there any [many other items being reused](https://pasteboard.co/Ke4tKgO.png) than these  six (and  it is an open question, worthy of future work, to check if those other items can be collected in this way).
-
-- Once completed, a second person (from any of our teams) would do the same and check for consistency. 
-- Fleiss Kappa statistics are then computed to track the level of reader disagreement. 
--  All interaction was done via the [GitHub issue system](https://github.com/bhermann/DoR/projects/2),
-
 
 
 
@@ -103,8 +59,11 @@ using advice from [prior work](https://arxiv.org/pdf/1608.08100.pdf) but our vis
 
  If that work interests you, then there are many ways you can get involved:
 
--  If you are a researcher and wish to check that we have accurately recorded your contribution,
+-  If you are a researcher then
+   -  If wish to check that we have accurately recorded your contribution,
 please visit please check our graph at https://reuse-dept.org.  
+   - If you want to use this data to study the nature of science, please note that all the data iused in this site is
+     freely and readily accessable (see **About this Data**, below)
 - If you want to apply reuse graphs
 to your community, please use the tools in this repo.
 - If you are interested in joining this initiative and contributing to an up-to-minute snapshot of SE research, then please 
@@ -136,3 +95,49 @@ by  performing  our standard  [how-to-read-for-reuse tutorial](https://github.co
  
 As a result, students will join an international team exploring reuse in SE that will keep them informed and updated about the state-of-the-art in SE for many years to come. Also, as a side-effect, they will also see first hand the benefit of open source tools that can be shared by teams working around the globe.
  
+ ## About this data
+ 
+### Data Collection
+ 
+This data was collected as follows:
+
+- We targeted papers from the 2020 technical programs of six major international SE conferences: 
+    - International Software Engineering (ICSE), 
+    - Automated Software Engineering (ASE), 
+    - Joint European Software Engineering Conference / Foundations of Software Engineering (ESEC/FSE), 
+    - Software Maintenance and Engineering (ICSME), 
+    - Mining Software Repositories (MSR), 
+    - Empirical Software Engineering and Measurement (ESEM).     
+    - These conferences were selected
+using advice from [prior work](https://arxiv.org/pdf/1608.08100.pdf) but our vision is to expand; for example, by looking at all top-ranked SE conferences. 
+- GitHub issues were used to divide up the hundreds of papers from those conferences into “work packets" of ten papers each. 
+- Reading teams were set up from software engineering research teams from around the globe in Hong Kong, Istanbul (Turkey), Victoria (Canada), Gothenburg (Sweden), Oulu (Finland), Melbourne (Australia), and Raleigh (USA). 
+- Team members would assign themselves work packets and then read the papers looking for the six kinds of reuse listed below:
+  - _Stepping Stones_: Most papers have to benchmark their new ideas against some prior recent state-of-the-art paper. That is, they reuse old papers as stepping stones towards new results.
+  - _Metrics and Method descriptions_ (which may be guidelines, with no tools);
+  - _Data sets_
+  -  _Sanity checks_ (justification for why a particular approach works or is reasonable to avoid bad data);
+  - _Software packages_ of the kind currently being reviewed by SE conference artifact evaluation committees (tools and replications).
+  - _Advanced Statistics_ Here we do not mean “we use a two-tailed t-test” or some other decades-old widely-used statistical method. Rather, we refer instead to statistical methods for recent papers that propose statistical guidance for the kinds of analysis seen in SE . Perhaps because this kind of analysis is very rare, these people are exceedingly high cited
+  - Of course, there any [many other items being reused](https://pasteboard.co/Ke4tKgO.png) than these  six (and  it is an open question, worthy of future work, to check if those other items can be collected in this way).
+
+- Once completed, a second person (from any of our teams) would do the same and check for consistency. 
+- Fleiss Kappa statistics are then computed to track the level of reader disagreement. 
+-  All interaction was done via the [GitHub issue system](https://github.com/bhermann/DoR/projects/2),
+
+###  Using this data
+
+ At the time of this writing (August 2021) it is our judgement that there is not enough data here, yet, to do things like (e.g.) topological studies on the nature of SE science. That said, at our current rate of data collection, we should be at that stage by end 2021.
+
+With that caveat, we note that
+ researchers can access all the data from this project at the following places:
+
+- The primary source of data for the website is:
+https://raw.githubusercontent.com/bhermann/DoR/main/department-of-reuse/src/assets/data/reuse.json 
+- It is composed from all the CSV files in:
+https://github.com/bhermann/DoR/tree/main/workflow/done
+- The transformation process run as a build step is:
+https://github.com/bhermann/DoR/blob/main/department-of-reuse/scripts/data-transformation.ts
+- There is a separate script  used when checking new results to catch common mistakes:
+https://github.com/bhermann/DoR/blob/main/department-of-reuse/scripts/check-reuse.ts
+
