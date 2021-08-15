@@ -1,8 +1,11 @@
 <!--- img width=1000 src="https://user-images.githubusercontent.com/29195/129488040-41c20d47-06fc-4e2a-b1ff-baf009555a3e.png"--->
 
-<img align=right width=400 src="https://raw.githubusercontent.com/bhermann/DoR/main/department-of-reuse/src/assets/dor-logo.svg">
 
 # Welcome to  Department of Reuse
+
+<img align=right width=400 src="https://raw.githubusercontent.com/bhermann/DoR/main/department-of-reuse/src/assets/dor-logo.svg">
+
+
 Here, we  tracks and document reuse of artifacts in computer science (starting with the SE field). 
 
 Philosophers of science like  [Karp Popper](https://en.wikipedia.org/wiki/Karl_Popper) caution us that the ideas we can most trust are those that have been most tried and most tested. For that reason, many of us are involved in the process called “Science” that produces trusted knowledge by sharing one’s ideas, and trying out and testing others’ ideas. Science and scientists form communities where people do each other the courtesy of curating, clarifying, critiquing and improving a large pool of ideas.
@@ -33,10 +36,12 @@ _correctable_,
 - All the data can be audited at  this site} and if errors are detected, issue reports can be raised in our GitHub repository (and the error  corrected). 
 
  
+## Progress Report
+
+
 
 <img align=right width=200 src="https://user-images.githubusercontent.com/29195/129488096-e0eb11e7-9f0d-409b-90ab-a3b98f0edd36.png">
 
-## Progress Report
 
 - Currently (Aug'21) we have covered around 40% of the papers from the main technical track of the six main SE conferences (listed below)
 - Our short term **tactical goal** is to analyze 200, 2000, 5000 papers in 2021, 2022, 2023 (respectively) by which time we would have covered most of the major SE conferences in the last five years. 
@@ -105,9 +110,11 @@ to your community, please use the tools in this repo.
 find an issue with no one's face on it, and assign yourself a task.
 - Better yet, if you are an educator teaching a graduate SE class, then get your students to do the following three week reading assignments,
 
-<img align=right width=300 src="https://user-images.githubusercontent.com/29195/129488128-597c203c-2ddb-48f9-a732-0ae9f07cf373.png">
 
 ## Using these tools for Graduate SE education
+
+<img align=right width=300 src="https://user-images.githubusercontent.com/29195/129488128-597c203c-2ddb-48f9-a732-0ae9f07cf373.png">
+
 
 Start by telling students
 that understanding the current state of the art will be their challenge for the rest of their career.  Using reuse graphs,   
