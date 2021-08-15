@@ -1,4 +1,4 @@
-<img width=1000 src="https://user-images.githubusercontent.com/29195/129488040-41c20d47-06fc-4e2a-b1ff-baf009555a3e.png">
+<!== img width=1000 src="https://user-images.githubusercontent.com/29195/129488040-41c20d47-06fc-4e2a-b1ff-baf009555a3e.png" -->
 
 
 # Welcome to  Department of Reuse
