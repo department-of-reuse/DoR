@@ -1,16 +1,20 @@
+<img width=1000 src="https://user-images.githubusercontent.com/29195/129487992-96c2bf0f-a399-44c8-a498-e09311066549.png">
+
 # DoR
 The Department of Reuse tracks and documents reuse of artifacts in computer science (starting with the SE field). 
 
 In any field,
 finding   the _leading edge_ of 
 research   is
-an on-going challenge. 
-Researchers cannot  
-appease reviewers  and
-educators cannot teach to the leading edge of their field
-if no one agrees on what is the state-of-the-art.
+an on-going challenge.
+If no one agrees on what is the state-of-the-art then:
 
-Here, we assume that the _leading_ edge can be found amongts artifacts that are heavily reused.
+- Researchers cannot  appease reviewers  
+- Educators cannot teach to the leading edge of their field
+- Reseachers cannot step off from the leading edge to find even better results.
+
+
+Here, we assume that the _leading_ edge can be found amongst artifacts that are heavily reused.
 Our goal is to map out that leading edge  and reward its contribtorsL
 
 - Researchers that reuse the most from other papers will be applauded and awarded a _R-index_ (reuse index);
