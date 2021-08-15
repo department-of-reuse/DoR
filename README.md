@@ -98,6 +98,9 @@ using advice from [prior work](https://arxiv.org/pdf/1608.08100.pdf) but our vis
 
 ## Want to get involved?
 
+<img width=300 align=right src="https://user-images.githubusercontent.com/29195/129488510-71dfabb1-6537-4a0a-9646-bd8ae26305c0.png">
+
+
  If that work interests you, then there are many ways you can get involved:
 
 -  If you are a researcher and wish to check that we have accurately recorded your contribution,
