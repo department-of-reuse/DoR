@@ -3,7 +3,9 @@
 # DoR
 The Department of Reuse tracks and documents reuse of artifacts in computer science (starting with the SE field). 
 
-In any field,
+According to Karp Popper, the ideas we can most trust are those that have been most tried and most tested. For that reason, many of us are involved in the process called “Science” that produces trusted knowledge by sharing one’s ideas, and trying out and testing others’ ideas. Science and scientists form communities where people do each other the courtesy of curating, clarifying, critiquing and improving a large pool of ideas.
+
+But in any field,
 finding   the _leading edge_ of 
 research   is
 an on-going challenge.
