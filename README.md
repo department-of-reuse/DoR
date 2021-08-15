@@ -79,10 +79,7 @@ find an issue with no one's face on it, and assign yourself a task.
 <img align=right width=300 src="https://user-images.githubusercontent.com/29195/129488128-597c203c-2ddb-48f9-a732-0ae9f07cf373.png">
 
 
-Start by telling students
-that understanding the current state of the art will be their challenge for the rest of their career.  Using reuse graphs,   
-it is possible for a community to find and maintain a
-shared understanding of that state-of-the-art. To demonstrate this, get them to:
+Start by telling students that understanding the current state of the art will be their challenge for the rest of their career.  Using reuse graphs,   it is possible for a community to find and maintain a shared understanding of that state-of-the-art. To demonstrate this, get them to:
 
 - First,
 learn this reuse graph approach 
