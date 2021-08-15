@@ -1,4 +1,4 @@
-<img width=1000 src="https://user-images.githubusercontent.com/29195/129487992-96c2bf0f-a399-44c8-a498-e09311066549.png">
+<img width=1000 src="https://user-images.githubusercontent.com/29195/129488040-41c20d47-06fc-4e2a-b1ff-baf009555a3e.png">
 
 # DoR
 The Department of Reuse tracks and documents reuse of artifacts in computer science (starting with the SE field). 
@@ -28,6 +28,8 @@ _correctable_,
 
 - All the data used for our reuse graphs is community-collected. 
 - All the data can be audited at  this site} and if errors are detected, issue reports can be raised in our GitHub repository (and the error  corrected). 
+
+<img align=right width=300 src="https://user-images.githubusercontent.com/29195/129488071-7fa01c49-efa3-464a-b501-48806a518552.png">
 
 ## Progress Report
 
