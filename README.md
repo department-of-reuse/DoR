@@ -97,6 +97,23 @@ As a result, students will join an international team exploring reuse in SE that
  
  ## About this data
  
+<img align=right width=300 src="https://user-images.githubusercontent.com/29195/129488735-3be50fe0-ea41-4dd4-8b86-586c88232ae1.png">
+
+ At the time of this writing (August 2021) it is our judgement that there is not enough data here, yet, to do things like (e.g.) topological studies on the nature of SE science. That said, at our current rate of data collection, we should be at that stage by end 2021.
+
+With that caveat, we note that
+ researchers can access all the data from this project at the following places:
+
+- The primary source of data for the website is:
+https://raw.githubusercontent.com/bhermann/DoR/main/department-of-reuse/src/assets/data/reuse.json 
+- It is composed from all the CSV files in:
+https://github.com/bhermann/DoR/tree/main/workflow/done
+- The transformation process run as a build step is:
+https://github.com/bhermann/DoR/blob/main/department-of-reuse/scripts/data-transformation.ts
+- There is a separate script  used when checking new results to catch common mistakes:
+https://github.com/bhermann/DoR/blob/main/department-of-reuse/scripts/check-reuse.ts
+
+
 ### Data Collection
  
 This data was collected as follows:
@@ -124,20 +141,6 @@ using advice from [prior work](https://arxiv.org/pdf/1608.08100.pdf) but our vis
 - Once completed, a second person (from any of our teams) would do the same and check for consistency. 
 - Fleiss Kappa statistics are then computed to track the level of reader disagreement. 
 -  All interaction was done via the [GitHub issue system](https://github.com/bhermann/DoR/projects/2),
+ 
 
-###  Using this data
-
- At the time of this writing (August 2021) it is our judgement that there is not enough data here, yet, to do things like (e.g.) topological studies on the nature of SE science. That said, at our current rate of data collection, we should be at that stage by end 2021.
-
-With that caveat, we note that
- researchers can access all the data from this project at the following places:
-
-- The primary source of data for the website is:
-https://raw.githubusercontent.com/bhermann/DoR/main/department-of-reuse/src/assets/data/reuse.json 
-- It is composed from all the CSV files in:
-https://github.com/bhermann/DoR/tree/main/workflow/done
-- The transformation process run as a build step is:
-https://github.com/bhermann/DoR/blob/main/department-of-reuse/scripts/data-transformation.ts
-- There is a separate script  used when checking new results to catch common mistakes:
-https://github.com/bhermann/DoR/blob/main/department-of-reuse/scripts/check-reuse.ts
 
