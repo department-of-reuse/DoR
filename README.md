@@ -119,7 +119,7 @@ https://github.com/bhermann/DoR/blob/main/department-of-reuse/scripts/check-reus
 
 ### Data Collection
  
-This data was collected as follows:
+FYI, our data was collected as follows:
 
 - We targeted papers from the 2020 technical programs of six major international SE conferences: 
     - International Software Engineering (ICSE), 
