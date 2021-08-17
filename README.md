@@ -8,7 +8,7 @@
 
 Here, we  tracks and document reuse of artifacts in computer science (starting with the SE field). 
 
-Why is improtant? Well, philosophers of science like  [Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper) tell us that the ideas we can most trust are those that have been most tried and most tested. For that reason, many of us are involved in a process that produces trusted knowledge by sharing one’s ideas, and trying out and testing others’ ideas. Scientists  (like us) form communities where people do each other the courtesy of curating, clarifying, critiquing and improving a large pool of ideas.
+Why is that improtant? Well, philosophers of science like  [Karl Popper](https://en.wikipedia.org/wiki/Karl_Popper) tell us that the ideas we can most trust are those that have been most tried and most tested. For that reason, many of us are involved in a process that produces trusted knowledge by sharing one’s ideas, and trying out and testing others’ ideas. Scientists  (like us) form communities where people do each other the courtesy of curating, clarifying, critiquing and improving a large pool of ideas.
 
 But there's a problem. In any field,
 finding   the _leading edge_ of 
