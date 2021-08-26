@@ -1,0 +1,10 @@
+AUTHORS,TITLE,DOI,Venue
+"Hieu Tran, Ngoc M. Tran, Son Nguyen, Hoan Nguyen, Tien N. Nguyen",Recovering variable names for minified code with usage contexts,,ICSE 2019
+"Neville Grech, Lexi Brent, Bernhard Scholz, Yannis Smaragdakis","Gigahorse: thorough, declarative decompilation of smart contracts",,ICSE 2019
+"Kenneth A. Miller, Yonghwi Kwon, Yi Sun, Zhuo Zhang, Xiangyu Zhang, Zhiqiang Lin",Probabilistic disassembly,,ICSE 2019
+"Emad Aghajani, Csaba Nagy, Olga Lucero Vega-Márquez, Mario Linares-Vásquez, Laura Moreno, Gabriele Bavota, Michele Lanza",Software documentation issues unveiled,,ICSE 2019
+"Hideaki Hata, Christoph Treude, Raula Gaikovina Kula, Takashi Ishio","9.6 million links in source code comments: purpose, evolution, and decay",,ICSE 2019
+"Ankit Agrawal, Seyedehzahra Khoshmanesh, Michael Vierhauser, Mona Rahimi, Jane Cleland-Huang",Leveraging artifact trees to evolve and reuse safety cases,,ICSE 2019
+"Nándor Licker, Andrew Rice",Detecting incorrect build rules,,ICSE 2019
+"Jingyi Wang, Guoliang Dong, Jun Sun, Xinyu Wang, Peixin Zhang",Adversarial sample detection for deep neural network through model mutation testing,,ICSE 2019
+"Yuting Chen, Ting Su, Zhendong Su",Deep differential testing of JVM implementations,,ICSE 2019

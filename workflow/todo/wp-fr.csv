@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Richard Rutledge, Sunjae Park, Haider Adnan Khan, Alessandro Orso, Milos Prvulovic, Alenka G. Zajic",Zero-overhead path prediction with progressive symbolic execution,,ICSE 2019
+"Taeyeon Ki, Chang Min Park, Karthik Dantu, Steven Y. Ko, Lukasz Ziarek",Mimic: UI compatibility testing system for Android apps,,ICSE 2019
+"Xusheng Xiao, Xiaoyin Wang, Zhihao Cao, Hanlin Wang, Peng Gao",IconIntent: automatic identification of sensitive UI widgets based on icon classification for Android apps,,ICSE 2019
+"Tianxiao Gu, Chengnian Sun, Xiaoxing Ma, Chun Cao, Chang Xu, Yuan Yao, Qirun Zhang, Jian Lu, Zhendong Su",Practical GUI testing of Android applications via model abstraction and refinement,,ICSE 2019
+"Lefan Zhang, Weijia He, Jesse Martinez, Noah Brackenbury, Shan Lu, Blase Ur",AutoTap: synthesizing and repairing trigger-action programs using LTL properties,,ICSE 2019
+"Aishwarya Sivaraman, Tianyi Zhang, Guy Van den Broeck, Miryung Kim",Active inductive logic programming for code search,,ICSE 2019
+"Rabee Sohail Malik, Jibesh Patra, Michael Pradel",NL2Type: inferring JavaScript function types from natural language information,,ICSE 2019
+"Tianyi Zhang, Di Yang, Crista Lopes, Miryung Kim",Analyzing and supporting adaptation of online code examples,,ICSE 2019
+"Eric Horton, Chris Parnin",DockerizeMe: automatic inference of environment dependencies for python code snippets,,ICSE 2019
+"David A. Tomassi, Naji Dmeiri, Yichen Wang, Antara Bhowmick, Yen-Chuan Liu, Premkumar T. Devanbu, Bogdan Vasilescu, Cindy Rubio-González",BugSwarm: mining and continuously growing a dataset of reproducible failures and fixes,,ICSE 2019

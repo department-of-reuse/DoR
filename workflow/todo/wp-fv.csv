@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Nasif Imtiaz, Justin Middleton, Joymallya Chakraborty, Neill Robson, Gina Bai, Emerson R. Murphy-Hill",Investigating the effects of gender bias on GitHub,,ICSE 2019
+"Wei You, Xuwei Liu, Shiqing Ma, David Mitchel Perry, Xiangyu Zhang, Bin Liang",SLF: fuzzing without valid seed inputs,,ICSE 2019
+"Junjie Wang, Bihuan Chen, Lei Wei, Yang Liu",Superion: grammar-aware greybox fuzzing,,ICSE 2019
+"Jaeseung Choi, Joonun Jang, Choongwoo Han, Sang Kil Cha",Grey-box concolic testing on binary code,,ICSE 2019
+"Vaggelis Atlidakis, Patrice Godefroid, Marina Polishchuk",RESTler: stateful REST API fuzzing,,ICSE 2019
+"Facundo Molina, Renzo Degiovanni, Pablo Ponzio, Germán Regis, Nazareno Aguirre, Marcelo F. Frias",Training binary classifiers as data structure invariants,,ICSE 2019
+"Ming Fan, Xiapu Luo, Jun Liu, Meng Wang, Chunyin Nong, Qinghua Zheng, Ting Liu",Graph embedding based familial analysis of Android malware using unsupervised learning,,ICSE 2019
+"Jian Zhang, Xu Wang, Hongyu Zhang, Hailong Sun, Kaixuan Wang, Xudong Liu",A novel neural source code representation based on abstract syntax tree,,ICSE 2019
+"Alexander LeClair, Siyuan Jiang, Collin McMillan",A neural model for generating natural language summaries of program subroutines,,ICSE 2019
+"Ralf Ramsauer, Daniel Lohmann, Wolfgang Mauerer",The list is the process: reliable pre-integration tracking of commits on mailing lists,,ICSE 2019

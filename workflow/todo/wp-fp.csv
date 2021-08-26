@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Kui Liu, Dongsun Kim, Tegawendé F. Bissyandé, Tae-young Kim, Kisub Kim, Anil Koyuncu, Suntae Kim, Yves Le Traon",Learning to spot and refactor inconsistent method name,,ICSE 2019
+"Seemanta Saha, Ripon K. Saha, Mukul R. Prasad",Harnessing evolution for multi-hunk program repair,,ICSE 2019
+"Michele Tufano, Jevgenija Pantiuchina, Cody Watson, Gabriele Bavota, Denys Poshyvanyk",On learning meaningful code changes via neural machine translation,,ICSE 2019
+"Musfiqur Rahman, Dharani Palani, Peter C. Rigby",Natural software revisited,,ICSE 2019
+"Vaibhav Saini, Farima Farmahinifarahani, Yadong Lu, Di Yang, Pedro Martins, Hitesh Sajnani, Pierre Baldi, Cristina V. Lopes",Towards automating precision studies of clone detectors,,ICSE 2019
+"Xiaoning Du, Bihuan Chen, Yuekang Li, Jianmin Guo, Yaqin Zhou, Yang Liu, Yu Jiang",Leopard: identifying vulnerable code for vulnerability assessment through program metrics,,ICSE 2019
+"Gang Fan, Rongxin Wu, Qingkai Shi, Xiao Xiao, Jinguo Zhou, Charles Zhang",Smoke: scalable path-sensitive memory leak detection for millions of lines of code,,ICSE 2019
+"Erik Krogh Kristensen, Anders Møller",Reasonably-most-general clients for JavaScript library analysis,,ICSE 2019
+"Kihong Heo, Hakjoo Oh, Hongseok Yang",Resource-aware program analysis via online abstraction coarsening,,ICSE 2019
+"Carmine Vassallo, Sebastian Proksch, Harald C. Gall, Massimiliano Di Penta",Automated reporting of anti-patterns and decay in continuous integration,,ICSE 2019
