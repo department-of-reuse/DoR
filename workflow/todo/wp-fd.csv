@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Mojtaba Bagherzadeh, Nafiseh Kahani, Cor-Paul Bezemer, Ahmed E. Hassan, Juergen Dingel, James R. Cordy",Analyzing a decade of Linux system calls,,ICSE2018
+"Christopher Vendome, Daniel M. Germán, Massimiliano Di Penta, Gabriele Bavota, Mario Linares Vásquez, Denys Poshyvanyk",To distribute or not to distribute?: why licensing bugs matter,,ICSE2018
+"Leonardo Mariani, Mauro Pezzè, Daniele Zuddas",Augusto: exploiting popular functionalities for the generation of semantic GUI tests with Oracles,,ICSE2018
+"Xinyu Wang, Jun Sun, Zhenbang Chen, Peixin Zhang, Jingyi Wang, Yun Lin",Towards optimal concolic testing,,ICSE2018
+"Yuchi Tian, Kexin Pei, Suman Jana, Baishakhi Ray",DeepTest: automated testing of deep-neural-network-driven autonomous cars,,ICSE2018
+"Yunho Kim, Yunja Choi, Moonzoo Kim",Precise concolic unit testing of C programs using extended units and symbolic alarm filtering,,ICSE2018
+"Hua Yan, Yulei Sui, Shiping Chen, Jingling Xue",Spatio-temporal context reduction: a pointer-analysis-based static approach for detecting use-after-free vulnerabilities,,ICSE2018
+"Yanxin Lu, Swarat Chaudhuri, Chris Jermaine, David Melski",Program splicing,,ICSE2018
+"David Trabish, Andrea Mattavelli, Noam Rinetzky, Cristian Cadar",Chopped symbolic execution,,ICSE2018
+"Chengnian Sun, Yuanbo Li, Qirun Zhang, Tianxiao Gu, Zhendong Su",Perses: syntax-guided program reduction,,ICSE2018

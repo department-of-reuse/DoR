@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Hao Zhong, Na Meng",Towards reusing hints from past fixes: an exploratory study on thousands of real samples,,ICSE2018
+"Tianyi Zhang, Ganesha Upadhyaya, Anastasia Reinhardt, Hridesh Rajan, Miryung Kim",Are code examples on an online Q&A forum reliable?: a study of API misuse on stack overflow,,ICSE2018
+"Lingfeng Bao, Zhenchang Xing, Xin Xia, David Lo, Ahmed E. Hassan",Inference of development activities from interaction with uninstrumented applications,,ICSE2018
+"Sebastian Krieter, Thomas Thüm, Sandro Schulze, Reimar Schröter, Gunter Saake",Propagating configuration decisions with modal implication graphs,,ICSE2018
+"Kaushik Madala, Hyunsook Do, Daniel Aceituna",A combinatorial approach for exposing off-nominal behaviors,,ICSE2018
+"Leonardo da Silva Sousa, Anderson Oliveira, Willian Nalepa Oizumi, Simone D. J. Barbosa, Alessandro Garcia, Jaejoon Lee, Marcos Kalinowski, Rafael Maiani de Mello, Baldoino Fonseca, Roberto Felicio Oliveira, Carlos Lucena, Rodrigo B. de Paes",Identifying design problems in the source code: a grounded theory,,ICSE2018
+"Kostadin Damevski, Hui Chen, David C. Shepherd, Nicholas A. Kraft, Lori L. Pollock",Predicting future developer behavior in the IDE using topic models,,ICSE2018
+"Xiaodong Gu, Hongyu Zhang, Sunghun Kim",Deep code search,,ICSE2018
+"Raphael Sirres, Tegawendé F. Bissyandé, Dongsun Kim, David Lo, Jacques Klein, Kisub Kim, Yves Le Traon",Augmenting and structuring user queries to support efficient free-form code search,,ICSE2018
+"Kisub Kim, Dongsun Kim, Tegawendé F. Bissyandé, Eunjong Choi, Li Li, Jacques Klein, Yves Le Traon",FaCoY: a code-to-code search engine,,ICSE2018

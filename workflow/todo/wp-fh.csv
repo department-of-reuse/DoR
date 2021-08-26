@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Moritz Beller, Niels Spruit, Diomidis Spinellis, Andy Zaidman",On the dichotomy of debugging behavior among programmers,,ICSE2018
+"Xin Xia, Lingfeng Bao, David Lo, Zhenchang Xing, Ahmed E. Hassan, Shanping Li",Measuring program comprehension: a large-scale field study with professionals,,ICSE2018
+"Miryung Kim, Thomas Zimmermann, Robert DeLine, Andrew Begel",Data scientists in software teams: state of the art and challenges,,ICSE2018
+"Xiao Yu, Guoliang Jin",Dataflow tunneling: mining inter-request data dependencies for request-based applications,,ICSE2018
+"Yifei Zhang, Yulei Sui, Jingling Xue",Launch-mode-aware context-sensitive activity transition analysis,,ICSE2018
+Jeff Huang,UFO: predictive concurrency use-after-free detection,,ICSE2018
+"Ganesha Upadhyaya, Hridesh Rajan",Collective program analysis,,ICSE2018
+"Hung Phan, Hoan Anh Nguyen, Ngoc M. Tran, Linh H. Truong, Anh Tuan Nguyen, Tien N. Nguyen",Statistical learning of API fully qualified names in code snippets of online forums,,ICSE2018
+"Andrew Head, Caitlin Sadowski, Emerson R. Murphy-Hill, Andrea Knight",When not to comment: questions and tradeoffs with API documentation for C++ projects,,ICSE2018
+"Brian Hempel, Justin Lubin, Grace Lu, Ravi Chugh",Deuce: a lightweight user interface for structured editing,,ICSE2018

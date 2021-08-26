@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,Venue
+"Ming Wen, Junjie Chen, Rongxin Wu, Dan Hao, Shing-Chi Cheung",Context-aware patch generation for better automated program repair,,ICSE2018
+"Jinru Hua, Mengshi Zhang, Kaiyuan Wang, Sarfraz Khurshid",Towards practical program repair with on-demand candidate generation,,ICSE2018
+"Jooyong Yi, Shin Hwei Tan, Sergey Mechtaev, Marcel Böhme, Abhik Roychoudhury",A correlation study between automated program repair and test-suite metrics,,ICSE2018
+"Manish Motwani, Sandhya Sankaranarayanan, René Just, Yuriy Brun",Do automated program repair techniques repair hard and important bugs?,,ICSE2018
+"Pei Wang, Qinkun Bao, Li Wang, Shuai Wang, Zhaofeng Chen, Tao Wei, Dinghao Wu",Software protection on the go: a large-scale empirical study on mobile app obfuscation,,ICSE2018
+"Xiaoyin Wang, Xue Qin, Mitra Bokaei Hosseini, Rocky Slavin, Travis D. Breaux, Jianwei Niu",GUILeak: tracing privacy policy claims on user input data for Android applications,,ICSE2018
+"Cuiyun Gao, Jichuan Zeng, Michael R. Lyu, Irwin King",Online app review analysis for identifying emerging issues,,ICSE2018
+"Rodrigo Morales, Rubén Saborido, Foutse Khomh, Francisco Chicano, Giuliano Antoniol",EARMO: an energy-aware refactoring approach for mobile apps,,ICSE2018
+"Sahil Bhatia, Pushmeet Kohli, Rishabh Singh",Neuro-symbolic program corrector for introductory programming assignments,,ICSE2018
+"Zhilei Ren, He Jiang, Jifeng Xuan, Zijiang Yang",Automated localization for unreproducible builds,,ICSE2018
