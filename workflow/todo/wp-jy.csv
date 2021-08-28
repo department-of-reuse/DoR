@@ -1,0 +1,7 @@
+AUTHORS,TITLE,DOI,VENUE
+"Hengbiao Yu, Zhenbang Chen, Yufeng Zhang, Ji Wang, Wei Dong",RGSE - a regular property guided symbolic executor for Java.,10.1145/3106237.3122830,FSE2017
+"Tingting Yu, Tarannum S. Zaman, Chao Wang",DESCRY - reproducing system-level concurrency failures.,10.1145/3106237.3106266,FSE2017
+"Yujie Yuan, Lihua Xu, Xusheng Xiao, Andy Podgurski, Huibiao Zhu",RunDroid - recovering execution call graphs for Android applications.,10.1145/3106237.3122821,FSE2017
+"Minghui Zhou, Qingying Chen, Audris Mockus, Fengguang Wu",On the scalability of Linux kernel maintainers' work.,10.1145/3106237.3106287,FSE2017
+"Yaqin Zhou, Asankhaya Sharma",Automated identification of security issues from commit messages and bug reports.,10.1145/3106237.3117771,FSE2017
+"Mohammad Hadi Zibaeenejad, Chi Zhang, Joanne M. Atlee",Continuous variable-specific resolutions of feature interactions.,10.1145/3106237.3106302,FSE2017

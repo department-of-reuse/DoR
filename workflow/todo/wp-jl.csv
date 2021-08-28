@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Francesco A. Bianchi, Mauro Pezzè, Valerio Terragni",Reproducing concurrency failures from crash stacks.,10.1145/3106237.3106292,FSE2017
+"Marcel Böhme, Ezekiel O. Soremekun, Sudipta Chattopadhyay, Emamurho Ugherughe, Andreas Zeller",Where is the bug and how is it fixed? an experiment with practitioners.,10.1145/3106237.3106255,FSE2017
+"Tegan Brennan, Nestan Tsiskaridze, Nicolás Rosner, Abdulbaki Aydin, Tevfik Bultan",Constraint normalization and parameterized caching for quantitative program analysis.,10.1145/3106237.3106303,FSE2017
+"David Bingham Brown, Michael Vaughn, Ben Liblit, Thomas W. Reps",The care and feeding of wild-caught mutants.,10.1145/3106237.3106280,FSE2017
+"Wenqi Bu, Minhui Xue, Lihua Xu, Yajin Zhou, Zhushou Tang, Tao Xie",When program analysis meets mobile security - an industrial study of misusing Android internet sockets.,10.1145/3106237.3117764,FSE2017
+"Panuchart Bunyakiati, Chadarat Phipathananunth","Cherry-picking of code commits in long-running, multi-release software.",10.1145/3106237.3122818,FSE2017
+"Yan Cai, Lingwei Cao, Jing Zhao",Adaptively generating high quality fixes for atomicity violations.,10.1145/3106237.3106239,FSE2017

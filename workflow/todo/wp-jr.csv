@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Alexander Knüppel, Thomas Thüm, Stephan Mennicke, Jens Meinicke, Ina Schaefer",Is there a mismatch between real-world feature models and product-line research?,10.1145/3106237.3106252,FSE2017
+"Markus Kusano, Chao Wang",Thread-modular static analysis for relaxed memory models.,10.1145/3106237.3106243,FSE2017
+"Aviv Kuvent, Shahar Maoz, Jan Oliver Ringert",A symbolic justice violations transition system for unrealizable GR(1) specifications.,10.1145/3106237.3106240,FSE2017
+"Adriaan Labuschagne, Laura Inozemtseva, Reid Holmes",Measuring the cost of regression testing in practice - a study of Java projects using continuous integration.,10.1145/3106237.3106288,FSE2017
+"Wing Lam, Zhengkai Wu, Dengfeng Li, Wenyu Wang, Haibing Zheng, Hui Luo, Peng Yan, Yuetang Deng, Tao Xie",Record and replay for Android - are we there yet in industrial cases?,10.1145/3106237.3117769,FSE2017
+"Xuan-Bach D. Le, Duc-Hiep Chu, David Lo, Claire Le Goues, Willem Visser",S3 - syntax- and semantic-guided repair synthesis via programming by examples.,10.1145/3106237.3106309,FSE2017
+"Sun-Ro Lee, Min-Jae Heo, Chan-Gun Lee, Milhan Kim, Gaeul Jeong",Applying deep learning based automatic bug triager to industrial projects.,10.1145/3106237.3117776,FSE2017

@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Lili Wei, Yepang Liu, Shing-Chi Cheung",OASIS - prioritizing static analysis warnings for Android apps based on app user reviews.,10.1145/3106237.3106294,FSE2017
+"JingZheng Wu, Mutian Yang",LaChouTi - kernel vulnerability responding framework for the fragmented Android devices.,10.1145/3106237.3117768,FSE2017
+"Xiaofei Xie, Bihuan Chen, Liang Zou, Shang-Wei Lin, Yang Liu, Xiaohong Li",Loopster - static loop termination analysis.,10.1145/3106237.3106260,FSE2017
+"Bowen Xu, Zhenchang Xing, Xin Xia, David Lo, Xuan-Bach D. Le",XSearch - a domain-specific cross-language relevant question retrieval tool.,10.1145/3106237.3122820,FSE2017
+"Jinqiu Yang, Alexey Zhikhartsev, Yuefei Liu, Lin Tan",Better test cases for better automated program repair.,10.1145/3106237.3106274,FSE2017
+"Jooyong Yi, Umair Z. Ahmed, Amey Karkare, Shin Hwei Tan, Abhik Roychoudhury",A feasibility study of using automated program repair for introductory programming assignments.,10.1145/3106237.3106262,FSE2017
+"Adarsh Yoga, Santosh Nagarakatte",A fast causal profiler for task parallel programs.,10.1145/3106237.3106254,FSE2017

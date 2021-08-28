@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Janet Siegmund, Norman Peitek, Chris Parnin, Sven Apel, Johannes C. Hofmeister, Christian Kästner, Andrew Begel, Anja Bethmann, André Brechmann",Measuring neural efficiency of program comprehension.,10.1145/3106237.3106268,FSE2017
+"Norbert Siegmund, Stefan Sobernig, Sven Apel",Attributed variability models - outside the comfort zone.,10.1145/3106237.3106251,FSE2017
+"Calvin Smith, Gabriel Ferns, Aws Albarghouthi",Discovering relational specifications.,10.1145/3106237.3106279,FSE2017
+"Tyler Sorensen, Hugues Evrard, Alastair F. Donaldson",Cooperative kernels - GPU multitasking for blocking algorithms.,10.1145/3106237.3106265,FSE2017
+"Ting Su, Guozhu Meng, Yuting Chen, Ke Wu, Weiming Yang, Yao Yao, Geguang Pu, Yang Liu, Zhendong Su","Guided, stochastic model-based GUI testing of Android apps.",10.1145/3106237.3106298,FSE2017
+"Julian Thomé, Lwin Khin Shar, Domenico Bianculli, Lionel C. Briand",JoanAudit - a tool for auditing common injection vulnerabilities.,10.1145/3106237.3122822,FSE2017
+"Yuchi Tian, Baishakhi Ray",Automatically diagnosing and repairing error handling bugs in C.,10.1145/3106237.3106300,FSE2017

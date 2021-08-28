@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Christos Tsigkanos, Timo Kehrer, Carlo Ghezzi",Modeling and verification of evolving cyber-physical spaces.,10.1145/3106237.3106299,FSE2017
+"Marko Vasic, Zuhair Parvez, Aleksandar Milicevic, Milos Gligoric",File-level vs. module-level regression test selection for .NET.,10.1145/3106237.3117763,FSE2017
+"Bogdan Vasilescu, Casey Casalnuovo, Premkumar T. Devanbu","Recovering clear, natural identifiers from obfuscated JS names.",10.1145/3106237.3106289,FSE2017
+"Mario Linares Vásquez, Gabriele Bavota, Michele Tufano, Kevin Moran, Massimiliano Di Penta, Christopher Vendome, Carlos Bernal-Cárdenas, Denys Poshyvanyk",Enabling mutation testing for Android apps.,10.1145/3106237.3106275,FSE2017
+"Sahil Verma, Subhajit Roy",Synergistic debug-repair of heap manipulations.,10.1145/3106237.3106263,FSE2017
+"Zahy Volf, Edi Shmueli",Screening heuristics for project gating systems.,10.1145/3106237.3117766,FSE2017
+"Song Wang, Jaechang Nam, Lin Tan",QTEP - quality-aware test case prioritization.,10.1145/3106237.3106258,FSE2017

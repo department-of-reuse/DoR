@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Marco Castelluccio, Carlo Sansone, Luisa Verdoliva, Giovanni Poggi",Automatically analyzing groups of crashes for finding correlations.,10.1145/3106237.3106306,FSE2017
+"Diego Cedrim, Alessandro Garcia, Melina Mongiovi, Rohit Gheyi, Leonardo da Silva Sousa, Rafael Maiani de Mello, Baldoino Fonseca, Márcio Ribeiro, Alexander Chávez",Understanding the impact of refactoring on smells - a longitudinal study of 23 software projects.,10.1145/3106237.3106259,FSE2017
+"Ahmet Çelik, Marko Vasic, Aleksandar Milicevic, Milos Gligoric",Regression test selection across JVM boundaries.,10.1145/3106237.3106297,FSE2017
+"Oscar Chaparro, Jing Lu, Fiorella Zampetti, Laura Moreno, Massimiliano Di Penta, Andrian Marcus, Gabriele Bavota, Vincent Ng",Detecting missing information in bug descriptions.,10.1145/3106237.3106285,FSE2017
+"Jailton Coelho, Marco Tulio Valente",Why modern open source projects fail.,10.1145/3106237.3106246,FSE2017
+"Loris D&apos;Antoni, Rishabh Singh, Michael Vaughn",NoFAQ - synthesizing command repairs from examples.,10.1145/3106237.3106241,FSE2017
+"Csaba Debreceni, Gábor Bergmann, Márton Búr, István Ráth, Dániel Varró",The MONDO collaboration framework - secure collaborative modeling over existing version control systems.,10.1145/3106237.3122829,FSE2017

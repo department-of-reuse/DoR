@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Shengjian Guo, Meng Wu, Chao Wang",Symbolic execution of programmable logic controller code.,10.1145/3106237.3106245,FSE2017
+"Holger Harms, Collin Rogowski, Luigi Lo Iacono",Guidelines for adopting frontend architectures and patterns in microservices-based systems.,10.1145/3106237.3117775,FSE2017
+"Vincent J. Hellendoorn, Premkumar T. Devanbu",Are deep neural networks the best choice for modeling source code?,10.1145/3106237.3106290,FSE2017
+"Michael Hilton, Nicholas Nelson, Timothy Tunnell, Darko Marinov, Danny Dig","Trade-offs in continuous integration - assurance, security, and flexibility.",10.1145/3106237.3106270,FSE2017
+"Hennie Huijgens, Robert Lamping, Dick Stevens, Hartger Rothengatter, Georgios Gousios, Daniele Romano",Strong agile metrics - mining log data to determine predictive power of software metrics for continuous delivery teams.,10.1145/3106237.3117779,FSE2017
+"Vladimir Ivanov, Alan Rogers, Giancarlo Succi, Jooyong Yi, Vasilii Zorin",What do software engineers care about? gaps between research and practice.,10.1145/3106237.3117778,FSE2017
+"Reyhaneh Jabbarvand, Sam Malek",µDroid - an energy-aware mutation testing framework for Android.,10.1145/3106237.3106244,FSE2017
