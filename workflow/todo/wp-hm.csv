@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Wei Song, Jing Zhang, Jeff Huang",ServDroid - detecting service usage inefficiencies in Android applications.,10.1145/3338906.3338950,FSE2019
+Tim Sonnekalb,Machine-learning supported vulnerability detection in source code.,10.1145/3338906.3341466,FSE2019
+"Andreas Stahlbauer, Marvin Kreis, Gordon Fraser",Testing scratch programs automatically.,10.1145/3338906.3338910,FSE2019
+"Dimitri Michel Stallenberg, Annibale Panichella",JCOMIX - a search-based tool to detect XML injection vulnerabilities in web applications.,10.1145/3338906.3341178,FSE2019
+Vladislav Stepanov,File tracing by intercepting disk requests.,10.1145/3338906.3342485,FSE2019
+"Pengfei Su, Qingsen Wang, Milind Chabbi, Xu Liu",Pinpointing performance inefficiencies in Java.,10.1145/3338906.3338923,FSE2019
+"Yulei Sui, Yifei Zhang, Wei Zheng, Manqing Zhang, Jingling Xue",Event trace reduction for effective bug replay of Android apps via differential GUI state analysis.,10.1145/3338906.3341183,FSE2019
+Emre Sülün,Suggesting reviewers of software artifacts using traceability graphs.,10.1145/3338906.3342507,FSE2019
+Peiyi Sun,Context-aware test case adaptation.,10.1145/3338906.3342510,FSE2019
+Xin Tan,Reducing the workload of the Linux kernel maintainers - multiple-committer model.,10.1145/3338906.3342490,FSE2019

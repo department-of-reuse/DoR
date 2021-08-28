@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+Marco Radavelli,Using software testing to repair models.,10.1145/3338906.3342508,FSE2019
+Luyao Ren,Automated patch porting across forked projects.,10.1145/3338906.3342488,FSE2019
+"Manuel Rigger, Stefan Marr, Bram Adams, Hanspeter Mössenböck",Understanding GCC builtins to develop better tools.,10.1145/3338906.3338907,FSE2019
+"Julius Rueckert, Andreas Burger, Heiko Koziolek, Thanikesavan Sivanthi, Alexandru Moga, Carsten Franke",Architectural decision forces at work - experiences in an industrial consultancy setting.,10.1145/3338906.3340461,FSE2019
+"Khadijah Al Safwan, Francisco Servant",Decomposing the rationale of code commits - the software developer's perspective.,10.1145/3338906.3338979,FSE2019
+"Shubham Sangle, Sandeep Muvva",On the use of lambda expressions in 760 open source Python projects.,10.1145/3338906.3342499,FSE2019
+"Joanna C. S. Santos, Adriana Sejfia, Taylor Corrello, Smruthi Gadenkanahalli, Mehdi Mirakhorli",Achilles' heel of plug-and-Play software architectures - a grounded theory based approach.,10.1145/3338906.3338969,FSE2019
+"Ramy Shahin, Marsha Chechik, Rick Salay",Lifting Datalog-based analyses to software product lines.,10.1145/3338906.3338928,FSE2019
+"August Shi, Wing Lam, Reed Oei, Tao Xie, Darko Marinov",iFixFlakies - a framework for automatically fixing order-dependent flaky tests.,10.1145/3338906.3338925,FSE2019
+"Heyuan Shi, Runzhe Wang, Ying Fu, Mingzhe Wang, Xiaohai Shi, Xun Jiao, Houbing Song, Yu Jiang, Jiaguang Sun",Industry practice of coverage-guided enterprise Linux kernel fuzzing.,10.1145/3338906.3340460,FSE2019
