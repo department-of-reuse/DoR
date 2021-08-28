@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+Charalambos Mitropoulos,Employing different program analysis methods to study bug evolution.,10.1145/3338906.3342489,FSE2018
+Mahshid Helali Moghadam,Machine learning-assisted performance testing.,10.1145/3338906.3342484,FSE2018
+"Anders Møller, Martin Toldam Torp",Model-based testing of breaking changes in Node.js libraries.,10.1145/3338906.3338940,FSE2018
+"Miguel Ehécatl Morales-Trujillo, Gabriel Alberto García-Mireles",Evolving with patterns - a 31-month startup experience report.,10.1145/3338906.3340447,FSE2018
+"Austin Mordahl, Jeho Oh, Ugur Koc, Shiyi Wei, Paul Gazzillo",An empirical study of real-world variability bugs detected by variability-oblivious tools.,10.1145/3338906.3338967,FSE2018
+"Golam Mostaeen, Jeffrey Svajlenko, Banani Roy, Chanchal K. Roy, Kevin A. Schneider",CloneCognition - machine learning based code clone validation tool.,10.1145/3338906.3341182,FSE2018
+Matthias Müller,Managing the open cathedral.,10.1145/3338906.3341461,FSE2018
+"Armin Najafi, Peter C. Rigby, Weiyi Shang",Bisecting commits and modeling commit risk during testing.,10.1145/3338906.3338944,FSE2018
+"Shiva Nejati, Khouloud Gaaloul, Claudio Menghi, Lionel C. Briand, Stephen Foster, David Wolfe",Evaluating model testing and model checking for finding requirements violations in Simulink models.,10.1145/3338906.3340444,FSE2018
+"Damir Nesic, Jacob Krüger, Stefan Stanciulescu, Thorsten Berger",Principles of feature modeling.,10.1145/3338906.3338974,FSE2018

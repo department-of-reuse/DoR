@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Zhenpeng Chen, Yanbin Cao, Xuan Lu, Qiaozhu Mei, Xuanzhe Liu",SEntiMoji - an emoji-powered learning approach for sentiment analysis in software engineering.,10.1145/3338906.3338977,FSE2018
+"Yanju Chen, Ruben Martins, Yu Feng",Maximal multi-layer specification synthesis.,10.1145/3338906.3338951,FSE2018
+Daniel Correia,An industrial application of test selection using test suite diagnosability.,10.1145/3338906.3342493,FSE2018
+"Daniel Correia, Rui Abreu, Pedro Santos, João Nadkarni",MOTSD - a multi-objective test selection tool using test suite diagnosability.,10.1145/3338906.3341187,FSE2018
+"Domenico Cotroneo, Luigi De Simone, Pietro Liguori, Roberto Natella, Nematollah Bidokhti",How bad can a bug get? an empirical analysis of software failures in the OpenStack cloud computing platform.,10.1145/3338906.3338916,FSE2018
+Carmen Coviello,Distributed execution of test cases and continuous integration.,10.1145/3338906.3341460,FSE2018
+James C. Davis,Rethinking Regex engines to address ReDoS.,10.1145/3338906.3342509,FSE2018
+"James C. Davis, Louis G. Michael IV, Christy A. Coghlan, Francisco Servant, Dongyoon Lee",Why aren't regular expressions a lingua franca? an empirical study on the re-use and portability of regular expressions.,10.1145/3338906.3338909,FSE2018
+"Daniel DeFreez, Haaken Martinson Baldwin, Cindy Rubio-González, Aditya V. Thakur",Effective error-specification inference via domain-knowledge expansion.,10.1145/3338906.3338960,FSE2018
+Jasper Denkers,A longitudinal field study on creation and use of domain-specific languages in industry.,10.1145/3338906.3341463,FSE2018
