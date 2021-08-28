@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Björn Mathis, Vitalii Avdiienko, Ezekiel O. Soremekun, Marcel Böhme, Andreas Zeller",Detecting information flow by mutating input data.,10.1109/ASE.2017.8115639,ASE2017
+"Lakhdar Meftah, María Gómez, Romain Rouvoy, Isabelle Chrisment",ANDROFLEET - testing WiFi peer-to-peer mobile apps in the large.,10.1109/ASE.2017.8115712,ASE2017
+"Massimiliano Menarini, Yan Yan, William G. Griswold",Semantics-assisted code review - an efficient toolchain and a user study.,10.1109/ASE.2017.8115666,ASE2017
+"Patrick Metzler, Habib Saissi, Péter Bokor, Neeraj Suri",Quick verification of concurrent programs by iteratively relaxed scheduling.,10.1109/ASE.2017.8115688,ASE2017
+"Samim Mirhosseini, Chris Parnin",Can automated pull requests encourage software developers to upgrade out-of-date dependencies?,10.1109/ASE.2017.8115621,ASE2017
+"ThanhVu Nguyen, Matthew B. Dwyer, Willem Visser",SymInfer - inferring program invariants using symbolic states.,10.1109/ASE.2017.8115691,ASE2017
+"Truc L. Nguyen, Peter Schrammel, Bernd Fischer, Salvatore La Torre, Gennaro Parlato",Parallel bug-finding in concurrent programs via reduced interleaving instances.,10.1109/ASE.2017.8115686,ASE2017

@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Jiaying Li, Jun Sun, Li Li, Quang Loc Le, Shang-Wei Lin",Automatic loop-invariant generation and refinement through selective sampling.,10.1109/ASE.2017.8115689,ASE2017
+"Daniel Liew, Daniel Schemmel, Cristian Cadar, Alastair F. Donaldson, Rafael Zähl, Klaus Wehrle",Floating-point symbolic execution - a case study in n-version programming.,10.1109/ASE.2017.8115670,ASE2017
+"Jinfeng Lin, Yalin Liu, Jin Guo, Jane Cleland-Huang, William Goss, Wenchuang Liu, Sugandha Lohar, Natawut Monaikul, Alexander Rasin",TiQi - a natural language interface for querying software project data.,10.1109/ASE.2017.8115714,ASE2017
+"Yun Lin, Guozhu Meng, Yinxing Xue, Zhenchang Xing, Jun Sun, Xin Peng, Yang Liu, Wenyun Zhao, Jin Song Dong",Mining implicit design templates for actionable code reuse.,10.1109/ASE.2017.8115652,ASE2017
+"Shang-Wei Lin, Jun Sun, Hao Xiao, Yang Liu, David Sanán, Henri Hansen",FiB - squeezing loop invariants by interpolation between Forward/Backward predicate transformers.,10.1109/ASE.2017.8115690,ASE2017
+"Zeqi Lin, Yanzhen Zou, Junfeng Zhao, Bing Xie",Improving software text retrieval using conceptual knowledge in source code.,10.1109/ASE.2017.8115625,ASE2017
+"Ke Mao, Mark Harman, Yue Jia",Crowd intelligence enhances automated mobile testing.,10.1109/ASE.2017.8115614,ASE2017

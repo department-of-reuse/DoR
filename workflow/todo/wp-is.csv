@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Timotej Kapus, Cristian Cadar",Automatic testing of symbolic execution engines via program generation and differential testing.,10.1109/ASE.2017.8115669,ASE2017
+"Ulf Kargén, Nahid Shahmehri",Towards robust instruction-level trace alignment of binary code.,10.1109/ASE.2017.8115647,ASE2017
+"David Kavaler, Sasha Sirovica, Vincent Hellendoorn, Raúl Aranovich, Vladimir Filkov",Perceived language complexity in GitHub issue discussions and their effect on issue resolution.,10.1109/ASE.2017.8115620,ASE2017
+"Raffi Khatchadourian, Hidehiko Masuhara",Defaultification refactoring - a tool for automatically converting Java methods to default.,10.1109/ASE.2017.8115716,ASE2017
+"Soomin Kim, Markus Faerevaag, Minkyu Jung, SeungIl Jung, DongYeop Oh, JongHyup Lee, Sang Kil Cha",Testing intermediate representations for binary analysis.,10.1109/ASE.2017.8115648,ASE2017
+"Fredrik Kjolstad, Stephen Chou, David Lugato, Shoaib Kamil, Saman P. Amarasinghe",taco - a tool to generate tensor algebra kernels.,10.1109/ASE.2017.8115709,ASE2017
+"Thomas Krismayer, Rick Rabiser, Paul Grünbacher",Mining constraints for event-based monitoring in systems of systems.,10.1109/ASE.2017.8115693,ASE2017
