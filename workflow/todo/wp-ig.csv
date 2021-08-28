@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Brent van Bladel, Serge Demeyer",Clone Detection in Test Code - An Empirical Evaluation.,10.1109/SANER48275.2020.9054798,SANER2020
+"Paolo Boldi, Antoine Pietri, Sebastiano Vigna, Stefano Zacchiroli",Ultra-Large-Scale Repository Analysis via Graph Compression.,10.1109/SANER48275.2020.9054827,SANER2020
+"Scott Brisson, Ehsan Noei, Kelly A. Lyons",We Are Family - Analyzing Communication in GitHub Software Repositories and Their Forks.,10.1109/SANER48275.2020.9054834,SANER2020
+"Aline Brito, André C. Hora, Marco Tulio Valente",Refactoring Graphs - Assessing Refactoring over Time.,10.1109/SANER48275.2020.9054864,SANER2020
+Haipeng Cai,A Reflection on the Predictive Accuracy of Dynamic Impact Analysis.,10.1109/SANER48275.2020.9054806,SANER2020
+"Antonio Carvalho, Welder Pinheiro Luz, Diego Marcilio, Rodrigo Bonifácio, Gustavo Pinto, Edna Dias Canedo",C-3PR - A Bot for Fixing Static Analysis Violations via Pull Requests.,10.1109/SANER48275.2020.9054842,SANER2020
+"Nathan Cassee, Bogdan Vasilescu, Alexander Serebrenik",The Silent Helper - The Impact of Continuous Integration on Code Reviews.,10.1109/SANER48275.2020.9054818,SANER2020
+"Bo Chen, Zhenkun Yang, Li Lei, Kai Cong, Fei Xie",Automated Bug Detection and Replay for COTS Linux Kernel Modules with Concolic Execution.,10.1109/SANER48275.2020.9054797,SANER2020
+"Samridhi Choudhary, Christopher Bogart, Carolyn Penstein Rosé, Jim Herbsleb",Using Productive Collaboration Bursts to Analyze Open Source Collaboration Effectiveness.,10.1109/SANER48275.2020.9054852,SANER2020
+"Adelina Ciurumelea, Sebastian Proksch, Harald C. Gall",Suggesting Comment Completions for Python using Neural Language Models.,10.1109/SANER48275.2020.9054866,SANER2020

@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Zhensu Sun, Yan Liu, Ziming Cheng, Chen Yang, Pengyu Che",Req2Lib - A Semantic Neural Model for Software Library Recommendation.,10.1109/SANER48275.2020.9054865,SANER2020
+"Wei Tang, Ping Luo, Jialiang Fu, Dan Zhang",LibDX - A Cross-Platform and Accurate System to Detect Third-Party Libraries in Binary Code.,10.1109/SANER48275.2020.9054845,SANER2020
+"Ferdian Thung, Stefanus A. Haryono, Lucas Serrano, Gilles Muller, Julia Lawall, David Lo, Lingxiao Jiang",Automated Deprecated-API Usage Update for Android Apps - How Far are We?,10.1109/SANER48275.2020.9054860,SANER2020
+"Shogo Tokui, Norihiro Yoshida, Eunjong Choi, Katsuro Inoue",Clone Notifier - Developing and Improving the System to Notify Changes of Code Clones.,10.1109/SANER48275.2020.9054793,SANER2020
+"Béla Vancsics, Attila Szatmári, Árpád Beszédes",Relationship between the Effectiveness of Spectrum-Based Fault Localization and Bug-Fix Types in JavaScript Programs.,10.1109/SANER48275.2020.9054803,SANER2020
+"Wenhan Wang, Ge Li, Bo Ma, Xin Xia, Zhi Jin",Detecting Code Clones with Graph Neural Network and Flow-Augmented Abstract Syntax Tree.,10.1109/SANER48275.2020.9054857,SANER2020
+"Jie Wu, Chengyu Zhang, Geguang Pu",Reinforcement Learning Guided Symbolic Execution.,10.1109/SANER48275.2020.9054815,SANER2020
+"Renhao Xiong, David Lo, Bixin Li",Distinguishing Similar Design Pattern Instances through Temporal Behavior Analysis.,10.1109/SANER48275.2020.9054804,SANER2020
+"Xi Xu, Ming Fan, Ang Jia, Yin Wang, Zheng Yan, Qinghua Zheng, Ting Liu",Revisiting the Challenges and Opportunities in Software Plagiarism Detection.,10.1109/SANER48275.2020.9054847,SANER2020
+"Aman Yadav, Rishab Sharma, Fatemeh Hendijani Fard",A Semantic-Based Framework for Analyzing App Users' Feedback.,10.1109/SANER48275.2020.9054843,SANER2020
