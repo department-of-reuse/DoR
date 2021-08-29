@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h2 class="text-base bg-opacity-80 bg-blue-200 mt-3">Statistics</h2>
+    <h2 class="text-base bg-opacity-80 bg-blue-200 mt-3">Statistics <button class="float-right" v-on:click="open = !open">{{ open ? "🔼" : "🔽"  }}</button></h2>
 
-    <table class="m-1 table-auto text-xs bg-opacity-40 bg-white">
+    <table class="m-1 table-auto text-xs bg-opacity-40 bg-white" v-if="open">
       <tr>
         <td class="w-full text-left">Papers inspected</td>
         <td class="text-right">{{ papersInspected }}</td>
@@ -43,6 +43,7 @@ export default {
     reuseData: Array as PropType<Array<Reuse>>,
   },
   setup(props: any) {
+    const open = ref(true);
     const data = props.reuseData as Array<Reuse>;
 
     const papersInspected = ref(new Set(data.map((r) => r.sourceDOI)).size);
@@ -62,7 +63,7 @@ export default {
 
     const edgeTypes = edgeTypeHistogram.map(e => `${e.entry.type} (${e.frequency})`).join(", ");
 
-    return { papersInspected, targetDoiNodes, targetGitHubNodes, targetArxivNodes, targetWebsiteNodes, edgeTypes };
+    return { open, papersInspected, targetDoiNodes, targetGitHubNodes, targetArxivNodes, targetWebsiteNodes, edgeTypes };
   },
 };
 </script>
