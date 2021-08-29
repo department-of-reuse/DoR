@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Zhe Yu, Fahmid M. Fahid, Tim Menzies, Gregg Rothermel, Kyle Patrick, Snehit Cherian",TERMINATOR - better automated UI test case prioritization.,10.1145/3338906.3340448,FSE2018
+"Chen Zhang, Bihuan Chen, Linlin Chen, Xin Peng, Wenyun Zhao",A large-scale empirical study of compiler errors in continuous integration.,10.1145/3338906.3338917,FSE2018
+"He Zhang, Xin Huang, Xin Zhou, Huang Huang, Muhammad Ali Babar",Ethnographic research in software engineering - a critical review and checklist.,10.1145/3338906.3338976,FSE2018
+"Chengyu Zhang, Ting Su, Yichen Yan, Fuyuan Zhang, Geguang Pu, Zhendong Su",Finding and understanding bugs in software model checkers.,10.1145/3338906.3338932,FSE2018
+"Xu Zhang, Yong Xu, Qingwei Lin, Bo Qiao, Hongyu Zhang, Yingnong Dang, Chunyu Xie, Xinsheng Yang, Qian Cheng, Ze Li, Junjie Chen, Xiaoting He, Randolph Yao, Jian-Guang Lou, Murali Chintalapati, Furao Shen, Dongmei Zhang",Robust log-based anomaly detection on unstable log data.,10.1145/3338906.3338931,FSE2018
+"Xiang Zhou, Xin Peng, Tao Xie, Jun Sun, Chao Ji, Dewei Liu, Qilin Xiang, Chuan He",Latent error prediction and fault localization for microservice applications by learning from system trace logs.,10.1145/3338906.3338961,FSE2018
+"Shurui Zhou, Bogdan Vasilescu, Christian Kästner",What the fork - a study of inefficient and efficient forking practices in social coding.,10.1145/3338906.3338918,FSE2018

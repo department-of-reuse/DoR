@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Nicola Atzei, Massimo Bartoletti, Stefano Lande, Nobuko Yoshida, Roberto Zunino",Developing secure bitcoin contracts with BitML.,10.1145/3338906.3341173,FSE2018
+"Payas Awadhutkar, Ganesh Ram Santhanam, Benjamin Holland, Suresh C. Kothari",DISCOVER - detecting algorithmic complexity vulnerabilities.,10.1145/3338906.3341177,FSE2018
+"Domagoj Babic, Stefan Bucur, Yaohui Chen, Franjo Ivancic, Tim King, Markus Kusano, Caroline Lemieux, László Szekeres, Wei Wang",FUDGE - fuzz driver generation at scale.,10.1145/3338906.3340456,FSE2018
+"Mehdi Bagherzadeh, Raffi Khatchadourian",Going big - a large-scale study on what big data developers ask.,10.1145/3338906.3338939,FSE2018
+"Subarno Banerjee, Lazaro Clapp, Manu Sridharan",NullAway - practical type-based null safety for Java.,10.1145/3338906.3338919,FSE2018
+"Guy Barash, Eitan Farchi, Ilan Jayaraman, Orna Raz, Rachel Tzoref-Brill, Marcel Zalmanovici",Bridging the gap between ML solutions and their business requirements using feature interactions.,10.1145/3338906.3340442,FSE2018
+"Luciano Baresi, Giovanni Denaro, Giovanni Quattrocchi",Symbolic execution-driven extraction of the parallel execution plans of Spark applications.,10.1145/3338906.3338973,FSE2018
+"Rohan Bavishi, Hiroaki Yoshida, Mukul R. Prasad",Phoenix - automated data-driven synthesis of repairs for static analysis violations.,10.1145/3338906.3338952,FSE2018
+"Matteo Biagiola, Andrea Stocco, Ali Mesbah, Filippo Ricca, Paolo Tonella",Web test dependency detection.,10.1145/3338906.3338948,FSE2018
+"Matteo Biagiola, Andrea Stocco, Filippo Ricca, Paolo Tonella",Diversity-based web test generation.,10.1145/3338906.3338970,FSE2018

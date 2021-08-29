@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Mohammad Masudur Rahman, Chanchal K. Roy, Raula G. Kula",Predicting usefulness of code review comments using textual features and developer experience.,10.1109/MSR.2017.17,MSR2017
+"Gopi Krishnan Rajbahadur, Shaowei Wang, Yasutaka Kamei, Ahmed E. Hassan",The impact of using regression models to build defect classifiers.,10.1109/MSR.2017.4,MSR2017
+"Marianna Rapoport, Philippe Suter, Erik Wittern, Ondrej Lhoták, Julian Dolby",Who you gonna call? - analyzing web requests in Android applications.,10.1109/MSR.2017.11,MSR2017
+"Thomas Rausch, Waldemar Hummer, Philipp Leitner, Stefan Schulte",An empirical analysis of build failures in the continuous integration workflows of Java-based open-source software.,10.1109/MSR.2017.54,MSR2017
+"Anas Shatnawi, Hafedh Mili, Ghizlane El-Boussaidi, Anis Boubaker, Yann-Gaël Guéhéneuc, Naouel Moha, Jean Privat, Manel Abdellatif",Analyzing program dependencies in Java EE applications.,10.1109/MSR.2017.6,MSR2017
+"Danilo Silva, Marco Tulio Valente",RefDiff - detecting refactorings in version histories.,10.1109/MSR.2017.14,MSR2017
+"Davide Spadini, Mauricio Finavaro Aniche, Magiel Bruntink, Alberto Bacchelli",To mock or not to mock? - an empirical study on mocking practices.,10.1109/MSR.2017.61,MSR2017

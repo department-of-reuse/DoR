@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+Vaishali Khanve,Are existing code smells relevant in web games? an empirical study.,10.1145/3338906.3342504,FSE2019
+"Yunho Kim, Shin Hong, Moonzoo Kim",Target-driven compositional concolic testing with function summary refinement for effective bug detection.,10.1145/3338906.3338934,FSE2019
+"Anil Koyuncu, Kui Liu, Tegawendé F. Bissyandé, Dongsun Kim, Martin Monperrus, Jacques Klein, Yves Le Traon",iFixR - bug report driven program repair.,10.1145/3338906.3338935,FSE2019
+Jacob Krüger,Tackling knowledge needs during software evolution.,10.1145/3338906.3342505,FSE2019
+"Jacob Krüger, Gül Çalikli, Thorsten Berger, Thomas Leich, Gunter Saake",Effects of explicit feature traceability on program comprehension.,10.1145/3338906.3338968,FSE2019
+"Elvan Kula, Ayushi Rastogi, Hennie Huijgens, Arie van Deursen, Georgios Gousios",Releasing fast and slow - an exploratory case study at ING.,10.1145/3338906.3338978,FSE2019
+"John Lång, I. S. W. B. Prasetya",Model checking a C++ software framework - a case study.,10.1145/3338906.3340453,FSE2019
+"Zenan Li, Xiaoxing Ma, Chang Xu, Chun Cao, Jingwei Xu, Jian Lü",Boosting operational DNN testing efficiency through conditioning.,10.1145/3338906.3338930,FSE2019
+"Yuekang Li, Yinxing Xue, Hongxu Chen, Xiuheng Wu, Cen Zhang, Xiaofei Xie, Haijun Wang, Yang Liu",Cerebro - context-aware adaptive fuzzing for effective vulnerability detection.,10.1145/3338906.3338975,FSE2019
+"Daniel Liew, Cristian Cadar, Alastair F. Donaldson, J. Ryan Stinnett",Just fuzz it - solving floating-point constraints using coverage-guided fuzzing.,10.1145/3338906.3338921,FSE2019

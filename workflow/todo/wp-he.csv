@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Franziska Dobrigkeit, Danielly de Paula",Design thinking in practice - understanding manifestations of design thinking in software engineering.,10.1145/3338906.3340451,FSE2019
+"Xiaoning Du, Xiaofei Xie, Yi Li, Lei Ma, Yang Liu, Jianjun Zhao",DeepStellar - model-based quantitative analysis of stateful deep learning systems.,10.1145/3338906.3338954,FSE2019
+"Thomas Durieux, Fernanda Madeiral, Matias Martinez, Rui Abreu","Empirical review of Java program repair tools - a large-scale experiment on 2, 141 bugs and 23, 551 repair attempts.",10.1145/3338906.3338911,FSE2019
+"Moritz Eck, Fabio Palomba, Marco Castelluccio, Alberto Bacchelli",Understanding flaky tests - the developer's perspective.,10.1145/3338906.3338945,FSE2019
+Xiaoqin Fu,On the scalable dynamic taint analysis for distributed systems.,10.1145/3338906.3342506,FSE2019
+"Xiaoqin Fu, Haipeng Cai",A dynamic taint analyzer for distributed systems.,10.1145/3338906.3341179,FSE2019
+"Ying Fu, Meng Ren, Fuchen Ma, Heyuan Shi, Xin Yang, Yu Jiang, Huizhong Li, Xiang Shi",EVMFuzzer - detect EVM vulnerabilities via fuzz testing.,10.1145/3338906.3341175,FSE2019
+"Davide Fucci, Alireza Mollaalizadehbahnemiri, Walid Maalej",On using machine learning to identify knowledge in API reference documentation.,10.1145/3338906.3338943,FSE2019
+"Alessio Gambi, Tri Huynh, Gordon Fraser",Generating effective test cases for self-driving cars from police reports.,10.1145/3338906.3338942,FSE2019
+"Antonio Gamez-Diaz, Pablo Fernandez, Antonio Ruiz-Cortés",Governify for APIs - SLA-driven ecosystem for API governance.,10.1145/3338906.3341176,FSE2019

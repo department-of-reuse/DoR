@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Vijayaraghavan Murali, Swarat Chaudhuri, Chris Jermaine",Bayesian specification learning for finding API usage errors.,10.1145/3106237.3106284,FSE2017
+"Vivek Nair, Tim Menzies, Norbert Siegmund, Sven Apel",Using bad learners to find good configurations.,10.1145/3106237.3106238,FSE2017
+"Tim Nelson, Natasha Danas, Daniel J. Dougherty, Shriram Krishnamurthi","The power of ""why"" and ""why not"" - enriching scenario exploration with provenance.",10.1145/3106237.3106272,FSE2017
+"ThanhVu Nguyen, Timos Antonopoulos, Andrew Ruef, Michael Hicks",Counterexample-guided approach to finding numerical invariants.,10.1145/3106237.3106281,FSE2017
+"Wilberto Z. Nunez, Victor J. Marin, Carlos R. Rivero",ARCC - assistant for repetitive code comprehension.,10.1145/3106237.3122824,FSE2017
+"Jeho Oh, Don S. Batory, Margaret Myers, Norbert Siegmund",Finding near-optimal configurations in product lines by random sampling.,10.1145/3106237.3106273,FSE2017
+"Fabrizio Pastore, Leonardo Mariani",VART - a tool for the automatic detection of regression faults.,10.1145/3106237.3122819,FSE2017

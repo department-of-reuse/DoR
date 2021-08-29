@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Thomas Olsson, Ulrik Franke",Risks and assets - a qualitative study of a software ecosystem in the mining industry.,10.1145/3338906.3340443,FSE2018
+"Ali Mesbah, Andrew Rice, Emily Johnston, Nick Glorioso, Edward Aftandilian",DeepDelta - learning to repair compilation errors.,10.1145/3338906.3340455,FSE2018
+"Saikat Dutta, Wenxian Zhang, Zixin Huang, Sasa Misailovic",Storm - program reduction for testing and debugging probabilistic programming systems.,10.1145/3338906.3338972,FSE2018
+"Yan Cai, Biyun Zhu, Ruijie Meng, Hao Yun, Liang He, Purui Su, Bin Liang",Detecting concurrency memory corruption vulnerabilities.,10.1145/3338906.3338927,FSE2018
+"Junjie Chen, Jiaqi Han, Peiyi Sun, Lingming Zhang, Dan Hao, Lu Zhang",Compiler bug isolation via effective witness test program generation.,10.1145/3338906.3338957,FSE2018
+Shamsa Abid,Recommending related functions from API usage-based function clone structures.,10.1145/3338906.3342486,FSE2018
+"Aniya Aggarwal, Pranay Lohia, Seema Nagar, Kuntal Dey, Diptikalyan Saha",Black box fairness testing of machine learning models.,10.1145/3338906.3338937,FSE2018
+"Reza Ahmadi, Juergen Dingel",Concolic testing for models of state-based systems.,10.1145/3338906.3338908,FSE2018
+"Gabin An, Aymeric Blot, Justyna Petke, Shin Yoo",PyGGI 2.0 - language independent genetic improvement framework.,10.1145/3338906.3341184,FSE2018
+"Sumit Asthana, Rahul Kumar, Ranjita Bhagwan, Christian Bird, Chetan Bansal, Chandra Shekhar Maddila, Sonu Mehta, B. Ashok",WhoDo - automating reviewer suggestions at scale.,10.1145/3338906.3340449,FSE2018

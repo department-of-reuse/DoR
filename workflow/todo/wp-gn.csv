@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Nghi D. Q. Bui, Yijun Yu, Lingxiao Jiang",SAR - learning cross-language API mappings with little knowledge.,10.1145/3338906.3338924,FSE2018
+"Liang Cai, Haoye Wang, Qiao Huang, Xin Xia, Zhenchang Xing, David Lo",BIKER - a tool for Bi-information source based API method recommendation.,10.1145/3338906.3341174,FSE2018
+"Liang Cai, Haoye Wang, Bowen Xu, Qiao Huang, Xin Xia, David Lo, Zhenchang Xing",AnswerBot - an answer summary generation tool based on stack overflow.,10.1145/3338906.3341186,FSE2018
+"José Cambronero, Hongyu Li, Seohyun Kim, Koushik Sen, Satish Chandra",When deep learning met code search.,10.1145/3338906.3340458,FSE2018
+Maria Caulo,A taxonomy of metrics for software fault prediction.,10.1145/3338906.3341462,FSE2018
+H. Alperen Çetin,Identifying the most valuable developers using artifact traceability graphs.,10.1145/3338906.3342487,FSE2018
+"Sooyoung Cha, Hakjoo Oh",Concolic testing with adaptively changing search heuristics.,10.1145/3338906.3338964,FSE2018
+"Oscar Chaparro, Carlos Bernal-Cárdenas, Jing Lu, Kevin Moran, Andrian Marcus, Massimiliano Di Penta, Denys Poshyvanyk, Vincent Ng",Assessing the quality of the steps to reproduce in bug reports.,10.1145/3338906.3338947,FSE2018
+"Thierry Titcheu Chekam, Mike Papadakis, Yves Le Traon",Mart - a mutant generation tool for LLVM.,10.1145/3338906.3341180,FSE2018
+"Jianfeng Chen, Joymallya Chakraborty, Philip Clark, Kevin Haverlock, Snehit Cherian, Tim Menzies",Predicting breakdowns in cloud services (with SPIKE).,10.1145/3338906.3340450,FSE2018

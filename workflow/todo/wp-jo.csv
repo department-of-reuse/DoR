@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Wei Fu, Tim Menzies",Easy over hard - a case study on deep learning.,10.1145/3106237.3106256,FSE2017
+"Wei Fu, Tim Menzies",Revisiting unsupervised learning for defect prediction.,10.1145/3106237.3106257,FSE2017
+"Sainyam Galhotra, Yuriy Brun, Alexandra Meliou",Fairness testing - testing software for discrimination.,10.1145/3106237.3106277,FSE2017
+"Matthias Galster, Samuil Angelov, Silverio Martínez-Fernández, Dan Tofan",Reference architectures and Scrum - friends or foes?,10.1145/3106237.3117773,FSE2017
+"Diego Garbervetsky, Zvonimir Pavlinovic, Michael Barnett, Madanlal Musuvathi, Todd Mytkowicz, Edgardo Zoppi",Static analysis for optimizing big data queries.,10.1145/3106237.3117774,FSE2017
+"Diego Garbervetsky, Edgardo Zoppi, Benjamin Livshits",Toward full elasticity in distributed static analysis - the case of callgraph analysis.,10.1145/3106237.3106261,FSE2017
+"Jair García, Kelly Garcés",Improving understanding of dynamically typed software developed by agile practitioners.,10.1145/3106237.3117772,FSE2017

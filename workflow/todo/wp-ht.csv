@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Yibin Liu, Yanhui Li, Jianbo Guo, Yuming Zhou, Baowen Xu",Connecting software metrics across versions to predict defects.,10.1109/SANER.2018.8330212,SANER2018
+"Wenjian Liu, Xin Peng, Zhenchang Xing, Junyi Li, Bing Xie, Wenyun Zhao",Supporting exploratory code search with differencing and visualization.,10.1109/SANER.2018.8330218,SANER2018
+"Xuliang Liu, Hao Zhong",Mining stackoverflow for program repair.,10.1109/SANER.2018.8330202,SANER2018
+"Di Liu, Xiaofang Zhang, Yang Feng, James A. Jones",Generating descriptions for screenshots to assist crowdsourced testing.,10.1109/SANER.2018.8330246,SANER2018
+"Christian Macho, Shane McIntosh, Martin Pinzger",Automatically repairing dependency-related build breakage.,10.1109/SANER.2018.8330201,SANER2018
+"Katsuhisa Maruyama, Shinpei Hayashi, Takayuki Omori",ChangeMacroRecorder - Recording fine-grained textual changes of source code.,10.1109/SANER.2018.8330255,SANER2018
+"Manishankar Mondal, Chanchal K. Roy, Kevin A. Schneider",Micro-clones in evolving software.,10.1109/SANER.2018.8330196,SANER2018
+"Taiza Montenegro, Hugo Melo, Roberta Coelho, Eiji Barbosa",Improving developers awareness of the exception handling policy.,10.1109/SANER.2018.8330228,SANER2018
+"Sergio Mover, Sriram Sankaranarayanan, Rhys Braginton Pettee Olsen, Bor-Yuh Evan Chang",Mining framework usage graphs from app corpora.,10.1109/SANER.2018.8330216,SANER2018
+"Edmilson Campos Neto, Daniel Alencar da Costa, Uirá Kulesza",The impact of refactoring changes on the SZZ algorithm - An empirical study.,10.1109/SANER.2018.8330225,SANER2018

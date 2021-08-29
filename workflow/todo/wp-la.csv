@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Brian Bartman, Christian D. Newman, Michael L. Collard, Jonathan I. Maletic",srcQL - A syntax-aware query language for source code.,10.1109/SANER.2017.7884655,SANER2017
+"Tim Buckers, Clinton Cao, Michiel Doesburg, Boning Gong, Sunwei Wang, Moritz Beller, Andy Zaidman",UAV - Warnings from multiple Automated Static Analysis Tools at a glance.,10.1109/SANER.2017.7884656,SANER2017
+"Antonin Carette, Mehdi Adel Ait Younes, Geoffrey Hecht, Naouel Moha, Romain Rouvoy",Investigating the energy impact of Android smells.,10.1109/SANER.2017.7884614,SANER2017
+"Preetha Chatterjee, Manziba Akanda Nishi, Kostadin Damevski, Vinay Augustine, Lori L. Pollock, Nicholas A. Kraft",What information about code snippets is available in different software-related documents? An exploratory study.,10.1109/SANER.2017.7884638,SANER2017
+"Ting Chen, Youzheng Feng, Xiapu Luo, Xiaodong Lin, Xiaosong Zhang",Cloud-based parallel concolic execution.,10.1109/SANER.2017.7884649,SANER2017
+"Ting Chen, Xiaoqi Li, Xiapu Luo, Xiaosong Zhang",Under-optimized smart contracts devour your money.,10.1109/SANER.2017.7884650,SANER2017
+"Adelina Ciurumelea, Andreas Schaufelbühl, Sebastiano Panichella, Harald C. Gall",Analyzing reviews and code of mobile apps for better release planning.,10.1109/SANER.2017.7884612,SANER2017

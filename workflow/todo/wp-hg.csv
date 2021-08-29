@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Toshiki Hirao, Shane McIntosh, Akinori Ihara, Kenichi Matsumoto",The review linkage graph for code review analytics - a recovery approach and empirical study.,10.1145/3338906.3338949,FSE2019
+"Md Johirul Islam, Giang Nguyen, Rangeet Pan, Hridesh Rajan",A comprehensive study on deep learning bug characteristics.,10.1145/3338906.3338955,FSE2019
+"Marko Ivankovic, Goran Petrovic, René Just, Gordon Fraser",Code coverage at Google.,10.1145/3338906.3340459,FSE2019
+"Zhouyang Jia, Shanshan Li, Tingting Yu, Xiangke Liao, Ji Wang",Automatically detecting missing cleanup for ungraceful exits.,10.1145/3338906.3338938,FSE2019
+"Yanjie Jiang, Hui Liu, Lu Zhang",Semantic relation based expansion of abbreviations.,10.1145/3338906.3338929,FSE2019
+"Matthieu Jimenez, Renaud Rwemalika, Mike Papadakis, Federica Sarro, Yves Le Traon, Mark Harman",The importance of accounting for real-world labelling when predicting software vulnerabilities.,10.1145/3338906.3338941,FSE2019
+"Tiancheng Jin, Qingshun Wang, Lihua Xu, Chunmei Pan, Liang Dou, Haifeng Qian, Liang He, Tao Xie",FinExpert - domain-specific test generation for FinTech systems.,10.1145/3338906.3340441,FSE2019
+"Christian Gram Kalhauge, Jens Palsberg",Binary reduction of dependency graphs.,10.1145/3338906.3338956,FSE2019
+"Timotej Kapus, Cristian Cadar",A segmented memory model for symbolic execution.,10.1145/3338906.3338936,FSE2019
+Stefan Karlsson,Exploratory test agents for stateful software systems.,10.1145/3338906.3341458,FSE2019

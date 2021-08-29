@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Mitchell Joblin, Sven Apel, Claus Hunsen, Wolfgang Mauerer",Classifying developers into core and peripheral - an empirical study on count and network metrics.,10.1109/ICSE.2017.23,ICSE2017
+"Özgür Kafali, Jasmine Jones, Megan Petruso, Laurie A. Williams, Munindar P. Singh",How good is a security policy against real breaches? - a HIPAA case study.,10.1109/ICSE.2017.55,ICSE2017
+"Raffi Khatchadourian, Hidehiko Masuhara",Automated refactoring of legacy Java software to default methods.,10.1109/ICSE.2017.16,ICSE2017
+"Davy Landman, Alexander Serebrenik, Jurgen J. Vinju",Challenges for static analysis of Java reflection - literature review and empirical study.,10.1109/ICSE.2017.53,ICSE2017
+"Youn Kyu Lee, Jae Young Bang, Gholamreza Safi, Arman Shahbazian, Yixue Zhao, Nenad Medvidovic",A SEALANT for inter-app security holes in android.,10.1109/ICSE.2017.36,ICSE2017
+"Amanda Lee, Jeffrey C. Carver, Amiangshu Bosu","Understanding the impressions, motivations, and barriers of one time code contributors to FLOSS projects - a survey.",10.1109/ICSE.2017.25,ICSE2017
+"Menghao Li, Wei Wang, Pei Wang, Shuai Wang, Dinghao Wu, Jian Liu, Rui Xue, Wei Huo",LibD - scalable and precise third-party library detection in android markets.,10.1109/ICSE.2017.38,ICSE2017

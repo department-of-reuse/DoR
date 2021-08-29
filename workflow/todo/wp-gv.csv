@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Phu Hong Nguyen, Hui Song, Franck Chauvel, Roy Müller, Seref Boyar, Erik Levin",Using microservices for non-intrusive customization of multi-tenant SaaS.,10.1145/3338906.3340452,FSE2018
+"Pengyu Nie, Rishabh Rai, Junyi Jessy Li, Sarfraz Khurshid, Raymond J. Mooney, Milos Gligoric",A framework for writing trigger-action todo comments in executable format.,10.1145/3338906.3338965,FSE2018
+"Benjamin Barslev Nielsen, Behnaz Hassanshahi, François Gauthier",Nodest - feedback-driven static analysis of Node.js applications.,10.1145/3338906.3338933,FSE2018
+Milana Nurgalieva,The lessons software engineers can extract from painters to improve the software development process.,10.1145/3338906.3342492,FSE2018
+Rangeet Pan,Static deep neural network analysis for robustness.,10.1145/3338906.3342502,FSE2018
+Marios Papachristou,Software clusterings with vector semantics and the call graph.,10.1145/3338906.3342483,FSE2018
+"Felix Pauck, Heike Wehrheim",Together strong - cooperative Android app analysis.,10.1145/3338906.3338915,FSE2018
+Fabiano Pecorelli,Test-related factors and post-release defects - an empirical study.,10.1145/3338906.3342500,FSE2018
+"Ernest Bota Pobee, Wing Kwong Chan",AggrePlay - efficient record and replay of multi-threaded programs.,10.1145/3338906.3338959,FSE2018
+"Felipe Pontes, Rohit Gheyi, Sabrina Souto, Alessandro Garcia, Márcio Ribeiro",Java reflection API - revealing the dark side of the mirror.,10.1145/3338906.3338946,FSE2018

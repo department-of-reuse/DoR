@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Yuekang Li, Bihuan Chen, Mahinthan Chandramohan, Shang-Wei Lin, Yang Liu, Alwen Tiu",Steelix - program-state based binary fuzzing.,10.1145/3106237.3106295,FSE2017
+"Yamilet R. Serrano Llerena, Guoxin Su, David S. Rosenblum",Probabilistic model checking of perturbed MDPs with applications to cloud computing.,10.1145/3106237.3106301,FSE2017
+"Fan Long, Peter Amidon, Martin Rinard",Automatic inference of code transforms for patch generation.,10.1145/3106237.3106253,FSE2017
+"Shiqing Ma, Yousra Aafer, Zhaogui Xu, Wen-Chuan Lee, Juan Zhai, Yingqi Liu, Xiangyu Zhang",LAMP - data provenance for graph based machine learning algorithms through derivative computation.,10.1145/3106237.3106291,FSE2017
+"Martina Maggio, Alessandro Vittorio Papadopoulos, Antonio Filieri, Henry Hoffmann",Automated control of multiple software goals using multiple actuators.,10.1145/3106237.3106247,FSE2017
+"Lee Martie, André van der Hoek, Thomas Kwak",Understanding the impact of support for iteration on code search.,10.1145/3106237.3106293,FSE2017
+"Reza Matinnejad, Shiva Nejati, Lionel C. Briand",Automated testing of hybrid Simulink/Stateflow controllers - industrial case studies.,10.1145/3106237.3117770,FSE2017

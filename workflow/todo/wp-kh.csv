@@ -1,0 +1,13 @@
+AUTHORS,TITLE,DOI,VENUE
+"Julian Thomé, Lwin Khin Shar, Domenico Bianculli, Lionel C. Briand",Search-driven string constraint solving for vulnerability detection.,10.1109/ICSE.2017.26,ICSE2017
+"Nikolaos Tsantalis, Davood Mazinanian, Shahriar Rostami",Clone refactoring with lambda expressions.,10.1109/ICSE.2017.14,ICSE2017
+"Yutaka Tsutano, Shakthi Bachala, Witawas Srisa-an, Gregg Rothermel, Jackson Dinh","An efficient, robust, and scalable approach for analyzing interacting android apps.",10.1109/ICSE.2017.37,ICSE2017
+"Rachel Tzoref-Brill, Shahar Maoz",Syntactic and semantic differencing for combinatorial models of test designs.,10.1109/ICSE.2017.63,ICSE2017
+"Christopher Vendome, Mario Linares Vásquez, Gabriele Bavota, Massimiliano Di Penta, Daniel M. Germán, Denys Poshyvanyk",Machine learning-based detection of open source license exceptions.,10.1109/ICSE.2017.19,ICSE2017
+"Erik Wittern, Annie T. T. Ying, Yunhui Zheng, Julian Dolby, Jim Alain Laredo",Statically checking web API requests in JavaScript.,10.1109/ICSE.2017.30,ICSE2017
+"Yingfei Xiong, Jie Wang, Runfa Yan, Jiachen Zhang, Shi Han, Gang Huang, Lu Zhang",Precise condition synthesis for program repair.,10.1109/ICSE.2017.45,ICSE2017
+"Zhengzi Xu, Bihuan Chen, Mahinthan Chandramohan, Yang Liu, Fu Song",SPAIN - security patch analysis for binaries towards understanding the pain and pills.,10.1109/ICSE.2017.49,ICSE2017
+"Lei Xue, Xiapu Luo, Le Yu, Shuai Wang, Dinghao Wu",Adaptive unpacking of Android apps.,10.1109/ICSE.2017.40,ICSE2017
+"Tianyi Zhang, Miryung Kim",Automated transplantation and differential testing for clones.,10.1109/ICSE.2017.67,ICSE2017
+"Lu Zhang, Chao Wang",RClassify - classifying race conditions in web applications via deterministic replay.,10.1109/ICSE.2017.33,ICSE2017
+"Yu Zhou, Ruihang Gu, Taolue Chen, Zhiqiu Huang, Sebastiano Panichella, Harald C. Gall",Analyzing APIs documentation and code to detect directive defects.,10.1109/ICSE.2017.11,ICSE2017

@@ -1,0 +1,9 @@
+AUTHORS,TITLE,DOI,VENUE
+"Nitin M. Tiwari, Ganesha Upadhyaya, Hoan Anh Nguyen, Hridesh Rajan",Candoia - a platform for building and sharing mining software repositories tools as apps.,10.1109/MSR.2017.56,MSR2017
+"Mario Linares Vásquez, Gabriele Bavota, Camilo Escobar-Velasquez",An empirical study on Android-related vulnerabilities.,10.1109/MSR.2017.60,MSR2017
+"Zhiyuan Wan, David Lo, Xin Xia, Liang Cai",Bug characteristics in blockchain systems - a large-scale empirical study.,10.1109/MSR.2017.59,MSR2017
+"Takuya Watanabe, Mitsuaki Akiyama, Fumihiro Kanei, Eitaro Shioji, Yuta Takata, Bo Sun, Yuta Ishii, Toshiki Shibahara, Takeshi Yagi, Tatsuya Mori",Understanding the origins of mobile app vulnerabilities - a large-scale measurement study of free and paid apps.,10.1109/MSR.2017.23,MSR2017
+"Liang Xu, Wensheng Dou, Chushu Gao, Jie Wang, Jun Wei, Hua Zhong, Tao Huang",SpreadCluster - recovering versioned spreadsheets through similarity-based clustering.,10.1109/MSR.2017.28,MSR2017
+"Di Yang, Pedro Martins, Vaibhav Saini, Cristina V. Lopes",Stack overflow in github - any snippets there?,10.1109/MSR.2017.13,MSR2017
+"Fiorella Zampetti, Simone Scalabrino, Rocco Oliveto, Gerardo Canfora, Massimiliano Di Penta",How open source projects use static code analysis tools in continuous integration pipelines.,10.1109/MSR.2017.2,MSR2017
+"Mahdis Zolfagharinia, Bram Adams, Yann-Gaël Guéhéneuc",Do not trust build results at face value - an empirical study of 30 million CPAN builds.,10.1109/MSR.2017.7,MSR2017

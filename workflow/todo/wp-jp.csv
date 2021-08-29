@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Joshua Garcia, Mahmoud Hammad, Negar Ghorbani, Sam Malek",Automatic generation of inter-component communication exploits for Android applications.,10.1145/3106237.3106286,FSE2017
+Paul Gazzillo,Kmax - finding all configurations of Kbuild makefiles statically.,10.1145/3106237.3106283,FSE2017
+"Leonid Glanz, Sven Amann, Michael Eichberg, Michael Reif, Ben Hermann, Johannes Lerch, Mira Mezini",CodeMatch - obfuscation won't conceal your repackaged app.,10.1145/3106237.3106305,FSE2017
+"Nicolas E. Gold, David W. Binkley, Mark Harman, Syed S. Islam, Jens Krinke, Shin Yoo",Generalized observational slicing for tree-represented modelling languages.,10.1145/3106237.3106304,FSE2017
+"Dan Gopstein, Jake Iannacone, Yu Yan, Lois DeLong, Yanyan Zhuang, Martin K.-C. Yeh, Justin Cappos",Understanding misunderstandings in source code.,10.1145/3106237.3106264,FSE2017
+"Joel Greenyer, Daniel Gritzner, Florian König, Jannik Dahlke, Jianwei Shi, Eric Wete",From scenario modeling to scenario programming for reactive systems with dynamic topology.,10.1145/3106237.3122827,FSE2017
+"Yu Guo, Yan Cai, Zijiang Yang",AtexRace - across thread and execution sampling for in-house race detection.,10.1145/3106237.3106242,FSE2017

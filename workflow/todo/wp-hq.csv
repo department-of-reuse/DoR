@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Robert Chatley, Lawrence Jones",Diggit - Automated code review via software repository mining.,10.1109/SANER.2018.8330261,SANER2018
+"Xin Chen, He Jiang, Xiaochen Li, Tieke He, Zhenyu Chen",Automated quality assessment for crowdsourced test reports of mobile applications.,10.1109/SANER.2018.8330224,SANER2018
+"Carmen Coviello, Simone Romano, Giuseppe Scanniello, Alessandro Marchetto, Giuliano Antoniol, Anna Corazza",Clustering support for inadequate test suite reduction.,10.1109/SANER.2018.8330200,SANER2018
+"Dennis Dams, Arjan J. Mooij, Pepijn Kramer, Andrei Radulescu, Jaromir Vanhara",Model-based software restructuring - Lessons from cleaning up COM interfaces in industrial legacy code.,10.1109/SANER.2018.8330258,SANER2018
+"Reno Dantas, Antonio Carvalho, Diego Marcilio, Luisa Fantin, Uriel Silva, Walter Lucas, Rodrigo Bonifácio",Reconciling the past and the present - An empirical study on the application of source code transformations to automatically rejuvenate Java programs.,10.1109/SANER.2018.8330247,SANER2018
+"Georgios Digkas, Mircea Lungu, Paris Avgeriou, Alexander Chatzigeorgiou, Apostolos Ampatzoglou",How do developers fix issues and pay back technical debt in the Apache ecosystem?,10.1109/SANER.2018.8330205,SANER2018
+"Bernhard Dorninger, Michael Moser, Albin Kern","Reengineering an industrial HMI - Approach, objectives, and challenges.",10.1109/SANER.2018.8330257,SANER2018
+"Markus Exler, Michael Moser, Josef Pichler, Günter Fleck, Bernhard Dorninger",Grammatical inference from data exchange files - An experiment on engineering software.,10.1109/SANER.2018.8330259,SANER2018
+"Sarah Fakhoury, Venera Arnaoudova, Cedric Noiseux, Foutse Khomh, Giuliano Antoniol",Keep it simple - Is deep learning good for linguistic smell detection?,10.1109/SANER.2018.8330265,SANER2018
+"Luigi Frunzio, Bin Lin, Michele Lanza, Gabriele Bavota",RETICULA - Real-time code quality assessment.,10.1109/SANER.2018.8330256,SANER2018

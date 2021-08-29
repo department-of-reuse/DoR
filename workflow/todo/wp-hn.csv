@@ -1,0 +1,11 @@
+AUTHORS,TITLE,DOI,VENUE
+"Alessandro Tundo, Marco Mobilio, Matteo Orrù, Oliviero Riganelli, Michell Guzmán, Leonardo Mariani",VARYS - an agnostic model-driven monitoring-as-a-service framework for the cloud.,10.1145/3338906.3341185,FSE2019
+Olivia Rodriguez Valdes,Finding the shortest path to reproduce a failure found by TESTAR.,10.1145/3338906.3342496,FSE2019
+Bram Vandenbogaerde,A graph-based framework for analysing the design of smart contracts.,10.1145/3338906.3342495,FSE2019
+"Chong Wang, Xin Peng, Mingwei Liu, Zhenchang Xing, Xuefang Bai, Bing Xie, Tuo Wang",A learning-based approach for automatic construction of domain glossary from source code and documentation.,10.1145/3338906.3338963,FSE2019
+"Jingbo Wang, Chungha Sung, Chao Wang",Mitigating power side channels during compilation.,10.1145/3338906.3338913,FSE2019
+"Haijun Wang, Xiaofei Xie, Shang-Wei Lin, Yun Lin, Yuekang Li, Shengchao Qin, Yang Liu, Ting Liu",Locating vulnerabilities in binaries via memory layout recovering.,10.1145/3338906.3338966,FSE2019
+"Ming Wen, Rongxin Wu, Yepang Liu, Yongqiang Tian, Xuan Xie, Shing-Chi Cheung, Zhendong Su",Exploring and exploiting the correlations between bug-inducing and bug-fixing commits.,10.1145/3338906.3338962,FSE2019
+"David Gray Widder, Michael Hilton, Christian Kästner, Bogdan Vasilescu",A conceptual replication of continuous integration pain points in the context of Travis CI.,10.1145/3338906.3338922,FSE2019
+"Jos Winter, Maurício Finavaro Aniche, Jürgen Cito, Arie van Deursen",Monitoring-aware IDEs.,10.1145/3338906.3338926,FSE2019
+"Zhengkai Wu, Evan Johnson, Wei Yang, Osbert Bastani, Dawn Song, Jian Peng, Tao Xie",REINAM - reinforcement learning for input-grammar inference.,10.1145/3338906.3338958,FSE2019

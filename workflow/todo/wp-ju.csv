@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Fabrizio Pastore, Leonardo Mariani, Daniela Micucci",BDCI - behavioral driven conflict identification.,10.1145/3106237.3106296,FSE2017
+"Vaibhav Rastogi, Drew Davidson, Lorenzo De Carli, Somesh Jha, Patrick D. McDaniel",Cimplifier - automatically debloating containers.,10.1145/3106237.3106271,FSE2017
+"Germán Regis, César Cornejo, Simón Gutiérrez Brida, Mariano Politano, Fernando Raverta, Pablo Ponzio, Nazareno Aguirre, Juan Pablo Galeotti, Marcelo F. Frias",DynAlloy analyzer - a tool for the specification and analysis of alloy models with dynamic behaviour.,10.1145/3106237.3122826,FSE2017
+"Germán Regis, Renzo Degiovanni, Nicolás D&apos;Ippolito, Nazareno Aguirre",CLTSA - labelled transition system analyser with counting fluent support.,10.1145/3106237.3122828,FSE2017
+"Alireza Sadeghi, Reyhaneh Jabbarvand, Sam Malek",PATDroid - permission-aware GUI testing of Android.,10.1145/3106237.3106250,FSE2017
+"Diptikalyan Saha, Neelamadhav Gantayat, Senthil Mani, Barry Mitchell",Natural language querying in SAP-ERP platform.,10.1145/3106237.3117765,FSE2017
+"Stelios Sidiroglou-Douskos, Eric Lahtinen, Anthony Eden, Fan Long, Martin Rinard",CodeCarbonCopy.,10.1145/3106237.3106269,FSE2017

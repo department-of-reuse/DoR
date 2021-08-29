@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,VENUE
+"Ankit Choudhary, Shan Lu, Michael Pradel",Efficient detection of thread safety violations via coverage-guided generation of concurrent tests.,10.1109/ICSE.2017.32,ICSE2017
+"Maria Christakis, Patrick Emmisberger, Patrice Godefroid, Peter Müller",A general framework for dynamic stub injection.,10.1109/ICSE.2017.60,ICSE2017
+"Michael J. Coblenz, Whitney Nelson, Jonathan Aldrich, Brad A. Myers, Joshua Sunshine",Glacier - transitive class immutability for Java.,10.1109/ICSE.2017.52,ICSE2017
+"Aleksander Fabijan, Pavel A. Dmitriev, Helena Holmström Olsson, Jan Bosch",The evolution of continuous experimentation in software product development - from data to a data-driven organization at scale.,10.1109/ICSE.2017.76,ICSE2017
+"David Faitelson, Shmuel S. Tyszberowicz",UML diagram refinement (focusing on class- and use case diagrams).,10.1109/ICSE.2017.73,ICSE2017
+"Anna Filippova, Erik H. Trainer, James D. Herbsleb",From diversity by numbers to diversity as process - supporting inclusiveness in software development teams with brainstorming.,10.1109/ICSE.2017.22,ICSE2017
+"Benjamin Floyd, Tyler Santander, Westley Weimer",Decoding the representation of code in the brain - an fMRI study of code review and expertise.,10.1109/ICSE.2017.24,ICSE2017
