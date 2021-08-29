@@ -14,7 +14,7 @@
 export default {
     setup() {
         
-    },
+    },  
 }
 </script>
 <style scoped>

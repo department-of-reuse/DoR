@@ -203,7 +203,7 @@ export default {
             selector: ".source",
             style: {
               "border-width": "2px",
-              "border-color": "#5588dd"
+              "border-color": "#444"
             }
           },
           {
@@ -231,6 +231,14 @@ export default {
               "line-color": "#9dbaea",
               "target-arrow-color": "#9dbaea",
             },
+          },
+          {
+            selector: "$node > node",
+            style: {
+              "border-width": "2px",
+              "border-color": "#ff00ff",
+              "background-color": "#ff0000"
+            }
           },
         ],
       } as CytoscapeOptions;
