@@ -6,6 +6,3 @@ AUTHORS,TITLE,DOI,Venue
 "Yifei Zhang, Yulei Sui, Jingling Xue",Launch-mode-aware context-sensitive activity transition analysis,,ICSE2018
 Jeff Huang,UFO: predictive concurrency use-after-free detection,,ICSE2018
 "Ganesha Upadhyaya, Hridesh Rajan",Collective program analysis,,ICSE2018
-"Hung Phan, Hoan Anh Nguyen, Ngoc M. Tran, Linh H. Truong, Anh Tuan Nguyen, Tien N. Nguyen",Statistical learning of API fully qualified names in code snippets of online forums,,ICSE2018
-"Andrew Head, Caitlin Sadowski, Emerson R. Murphy-Hill, Andrea Knight",When not to comment: questions and tradeoffs with API documentation for C++ projects,,ICSE2018
-"Brian Hempel, Justin Lubin, Grace Lu, Ravi Chugh",Deuce: a lightweight user interface for structured editing,,ICSE2018

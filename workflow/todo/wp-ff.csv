@@ -6,6 +6,3 @@ AUTHORS,TITLE,DOI,Venue
 "Benjamin Danglot, Philippe Preux, Benoit Baudry, Martin Monperrus",Correctness attraction: a study of stability of software behavior under runtime perturbation,,ICSE2018
 "Fabio Palomba, Gabriele Bavota, Massimiliano Di Penta, Fausto Fasano, Rocco Oliveto, Andrea De Lucia",On the diffuseness and the impact on maintainability of code smells: a large scale empirical investigation,,ICSE2018
 "Nikolaos Tsantalis, Matin Mansouri, Laleh Mousavi Eshkevari, Davood Mazinanian, Danny Dig",Accurate and efficient refactoring detection in commit history,,ICSE2018
-"Radu Calinescu, Danny Weyns, Simos Gerasimou, M. Usman Iftikhar, Ibrahim Habli, Tim Kelly",ENTRUST: engineering trustworthy self-adaptive software with dynamic assurance cases,,ICSE2018
-"Sylvain Frey, Awais Rashid, Pauline Anthonysamy, Maria Pinto-Albuquerque, Syed Asad Naqvi","The good, the bad and the ugly: a study of security decisions in a cyber-physical systems game",,ICSE2018
-"Joshua Garcia, Mahmoud Hammad, Sam Malek","Lightweight, obfuscation-resilient detection and family identification of Android malware",,ICSE2018

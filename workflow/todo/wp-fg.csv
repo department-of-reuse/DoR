@@ -6,6 +6,3 @@ AUTHORS,TITLE,DOI,Venue
 "Davide Di Ruscio, Mirco Franzago, Henry Muccini, Ivano Malavolta",Collaborative model-driven software engineering: a classification framework and a research map,,ICSE2018
 "Rongxin Wu, Ming Wen, Shing-Chi Cheung, Hongyu Zhang",ChangeLocator: locate crash-inducing changes based on crash reports,,ICSE2018
 "Mike Papadakis, Donghwan Shin, Shin Yoo, Doo-Hwan Bae",Are mutation scores correlated with real fault detection?: a large scale empirical study on the relationship between mutants and real faults,,ICSE2018
-"Rafael Dutra, Kevin Laeufer, Jonathan Bachrach, Koushik Sen",Efficient sampling of SAT solutions for testing,,ICSE2018
-"Shane McIntosh, Yasutaka Kamei",Are fix-inducing changes a moving target?: a longitudinal case study of just-in-time defect prediction,,ICSE2018
-"Anand Ashok Sawant, Maurício Finavaro Aniche, Arie van Deursen, Alberto Bacchelli",Understanding developers' needs on deprecation as a language feature,,ICSE2018

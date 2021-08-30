@@ -6,6 +6,3 @@ AUTHORS,TITLE,DOI,Venue
 "Yuchi Tian, Kexin Pei, Suman Jana, Baishakhi Ray",DeepTest: automated testing of deep-neural-network-driven autonomous cars,,ICSE2018
 "Yunho Kim, Yunja Choi, Moonzoo Kim",Precise concolic unit testing of C programs using extended units and symbolic alarm filtering,,ICSE2018
 "Hua Yan, Yulei Sui, Shiping Chen, Jingling Xue",Spatio-temporal context reduction: a pointer-analysis-based static approach for detecting use-after-free vulnerabilities,,ICSE2018
-"Yanxin Lu, Swarat Chaudhuri, Chris Jermaine, David Melski",Program splicing,,ICSE2018
-"David Trabish, Andrea Mattavelli, Noam Rinetzky, Cristian Cadar",Chopped symbolic execution,,ICSE2018
-"Chengnian Sun, Yuanbo Li, Qirun Zhang, Tianxiao Gu, Zhendong Su",Perses: syntax-guided program reduction,,ICSE2018
