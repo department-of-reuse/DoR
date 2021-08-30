@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+Lina Gong, Shujuan Jiang, Rongcun Wang, Li Jiang	Empirical Evaluation of the Impact of Class Overlap on Software Defect Prediction. 698-709		ASE19
+Son Van Nguyen, Tien N. Nguyen, Yi Li, Shaohua Wang	Combining Program Analysis and Statistical Language Model for Code Statement Completion. 710-721		ASE19
+Zan Wang, Yingquan Zhao, Shuang Liu, Jun Sun, Xiang Chen, Huarui Lin	MAP-Coverage: A Novel Coverage Criterion for Testing Thread-Safe Classes. 722-734		ASE19
+Jiange Zhang, Qing Yi, Damian Dechev	Automating Non-Blocking Synchronization In Concurrent Data Abstractions. 735-747		ASE19
+Mingyuan Wu, Lingming Zhang, Cong Liu, Shin Hwei Tan, Yuqun Zhang	Automating CUDA Synchronization via Program Transformation. 748-759		ASE19
+Ernest Bota Pobee, Xiupei Mei, Wing Kwong Chan	Efficient Transaction-Based Deterministic Replay for Multi-threaded Programs. 760-771		ASE19
+Yan Zheng, Changjie Fan, Xiaofei Xie, Ting Su, Lei Ma, Jianye Hao, Zhaopeng Meng, Yang Liu, Ruimin Shen, Yingfeng Chen	Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning. 772-784		ASE19
+Mahdi Nejadgholi, Jinqiu Yang	A Study of Oracle Approximations in Testing Deep Learning Libraries. 785-796		ASE19
+Divya Gopinath, Hayes Converse, Corina S. Pasareanu, Ankur Taly	Property Inference for Deep Neural Networks. 797-809		ASE19
+Qianyu Guo, Sen Chen, Xiaofei Xie, Lei Ma, Qiang Hu, Hongtao Liu, Yang Liu, Jianjun Zhao, Xiaohong Li	An Empirical Study Towards Characterizing Deep Learning Development and Deployment Across Different Frameworks and Platforms. 810-822		ASE19

@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+Xiaodong Gu, Hongyu Zhang, Sunghun Kim	CodeKernel: A Graph Kernel Based Approach to the Selection of API Usage Examples. 590-601		ASE19
+Lin Jiang, Hui Liu, He Jiang	Machine Learning Based Recommendation of Method Names: How Far are We. 602-614		ASE19
+Daye Nam, Amber Horvath, Andrew Macvean, Brad A. Myers, Bogdan Vasilescu	MARBLE: Mining for Boilerplate Code to Identify API Usability Problems. 615-627		ASE19
+Jeremy Lacomis, Pengcheng Yin, Edward J. Schwartz, Miltiadis Allamanis, Claire Le Goues, Graham Neubig, Bogdan Vasilescu	DIRE: A Neural Approach to Decompiled Identifier Naming. 628-639		ASE19
+Stefan Mühlbauer, Sven Apel, Norbert Siegmund	Accurate Modeling of Performance Histories for Evolving Software Systems. 640-652		ASE19
+Boyuan Chen, Zhen Ming Jiang, Paul Matos, Michael Lacaria	An Industrial Experience Report on Performance-Aware Refactoring on a Database-Centric Web Application. 653-664		ASE19
+Yida Tao, Shan Tang, Yepang Liu, Zhiwu Xu, Shengchao Qin	How Do API Selections Affect the Runtime Performance of Data Analytics Tasks? 665-668		ASE19
+Jinfu Chen, Weiyi Shang, Ahmed E. Hassan, Yong Wang, Jiangbin Lin	An Experience Report of Generating Load Tests Using Log-Recovered Workloads at Varying Granularities of User Behaviour. 669-681		ASE19
+Yutian Tang, Xian Zhan, Hao Zhou, Xiapu Luo, Zhou Xu, Yajin Zhou, Qiben Yan	Demystifying Application Performance Management Libraries for Android. 682-685		ASE19
+Xiaoyu Liu, LiGuo Huang, Jidong Ge, Vincent Ng	Predicting Licenses for Changed Source Code. 686-697		ASE19
