@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+João Felipe Pimentel, Leonardo Murta, Vanessa Braganholo, Juliana Freire	A large-scale study about quality and reproducibility of jupyter notebooks. 507-517		MSR19
+Daniel Perez, Shigeru Chiba	Cross-language clone detection by learning over abstract syntax trees. 518-528		MSR19
+Marius Kamp, Patrick Kreutzer, Michael Philippsen	SeSaMe: a data set of semantically similar Java methods. 529-533		MSR19
+Aidan Z. H. Yang, Daniel Alencar da Costa, Ying Zou	Predicting co-changes between functionality specifications and source code in behavior driven development. 534-544		MSR19
+Daan Schipper, Maurício Finavaro Aniche, Arie van Deursen	Tracing back log data to its log statement: from research to practice. 545-549		MSR19
+Junnosuke Matsumoto, Yoshiki Higo, Shinji Kusumoto	Beyond GumTree: a hybrid approach to generate edit scripts. 550-554		MSR19
+Ryosuke Funaki, Shinpei Hayashi, Motoshi Saeki	The impact of systematic edits in history slicing. 555-559		MSR19
+Moein Owhadi-Kareshk, Sarah Nadi	Scalable software merging studies with MergAnser. 560-564		MSR19
+Zoe Kotti, Diomidis Spinellis	Standing on shoulders or feet?: the usage of the MSR data papers. 565-576		MSR19
+Sumon Biswas, Md Johirul Islam, Yijia Huang, Hridesh Rajan	Boa meets python: a boa dataset of data science software in python language. 577-581		MSR19

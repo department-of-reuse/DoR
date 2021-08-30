@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+Dimitris S. Kolovos, Patrick Neubauer, Konstantinos Barmpis, Nicholas Matragkas, Richard F. Paige	Crossflow: a framework for distributed mining of software repositories. 155-159		MSR19
+Wellington Oliveira, Renato Oliveira, Fernando Castor, Benito Fernandes, Gustavo Pinto	Recommending energy-efficient Java collections. 160-170		MSR19
+Hugo Matalonga, Bruno Cabral, Fernando Castor, Marco Couto, Rui Pereira, Simão Melo de Sousa, João Paulo Fernandes	GreenHub farmer: real-world data for Android energy mining. 171-175		MSR19
+Rui Rua, Marco Couto, João Saraiva	GreenSource: a large-scale collection of Android code, tests and energy metrics. 176-180		MSR19
+Asher Trockman, Rijnard van Tonder, Bogdan Vasilescu	Striking gold in software repositories?: an econometric study of cryptocurrencies on GitHub. 181-185		MSR19
+Rijnard van Tonder, Asher Trockman, Claire Le Goues	A panel data set of cryptocurrency development activity on GitHub. 186-190		MSR19
+Sven Amann, Hoan Anh Nguyen, Sarah Nadi, Tien N. Nguyen, Mira Mezini	Investigating next steps in static API-misuse detection. 265-275		MSR19
+João Eduardo Montandon, Luciana Lourdes Silva, Marco Tulio Valente	Identifying experts in software libraries and frameworks among GitHub users. 276-287		MSR19
+Simone Scalabrino, Gabriele Bavota, Mario Linares-Vásquez, Michele Lanza, Rocco Oliveto	Data-driven solutions to detect API compatibility issues in Android: an empirical study. 288-298		MSR19
+Qin Liu, Zihe Liu, Hongming Zhu, Hongfei Fan, Bowen Du, Yu Qian	Generating commit messages from diffs using pointer-generator network. 299-309		MSR19

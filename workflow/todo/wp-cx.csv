@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+Anwar Alqaimi, Patanamon Thongtanunam, Christoph Treude	Automatically generating documentation for lambda expressions in Java. 310-320		MSR19
+Shaohua Wang, NhatHai Phan, Yan Wang, Yong Zhao	Extracting API tips from developer question and answer websites. 321-332		MSR19
+César Soto-Valero, Amine Benelallam, Nicolas Harrand, Olivier Barais, Benoit Baudry	The emergence of software diversity in maven central. 333-343		MSR19
+Amine Benelallam, Nicolas Harrand, César Soto-Valero, Benoit Baudry, Olivier Barais	The maven dependency graph: a temporal graph-based representation of maven central. 344-348		MSR19
+Jens Dietrich, David J. Pearce, Jacob Stringer, Amjed Tahir, Kelly Blincoe	Dependency versioning in the wild. 349-359		MSR19
+Anderson S. Matos, João Bosco Ferreira Filho, Lincoln S. Rocha	Splitting APIs: an exploratory study of software unbundling. 360-370		MSR19
+Triet Huynh Minh Le, Bushra Sabir, Muhammad Ali Babar	Automated software vulnerability assessment with concept drift. 371-382		MSR19
+Serena Elisa Ponta, Henrik Plate, Antonino Sabetta, Michele Bezzi, Cédric Dangremont	A manually-curated dataset of fixes to vulnerabilities of open-source software. 383-387		MSR19
+Jun Gao, Pingfan Kong, Li Li, Tegawendé F. Bissyandé, Jacques Klein	Negative results on mining crypto-API usage rules in Android apps. 388-398		MSR19
+Aida Radu, Sarah Nadi	A dataset of non-functional bugs. 399-403		MSR19

@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+Haoyu Wang, Junjun Si, Hao Li, Yao Guo	RmvDroid: towards a reliable Android malware dataset with app metadata. 404-408		MSR19
+Jiaxin Zhu, Jun Wei	An empirical study of multiple names and email addresses in OSS version control repositories. 409-420		MSR19
+Reed Milewicz, Gustavo Pinto, Paige Rodeghero	Characterizing the roles of contributors in open-source scientific software projects. 421-432		MSR19
+Christoph Gote, Ingo Scholtes, Frank Schweitzer	git2net: mining time-stamped co-editing networks from large git repositories. 433-444		MSR19
+Sarra Habchi, Naouel Moha, Romain Rouvoy	The rise of Android code smells: who is to blame? 445-456		MSR19
+Jonas De Bleser, Dario Di Nucci, Coen De Roover	Assessing diffusion and perception of test smells in scala projects. 457-467		MSR19
+Vadim Markovtsev, Waren Long, Hugo Mougard, Konstantin Slavnov, Egor Bulychev	STYLE-ANALYZER: fixing code style inconsistencies with interpretable unsupervised algorithms. 468-478		MSR19
+Saikat Mondal, Mohammad Masudur Rahman, Chanchal K. Roy	Can issues reported at stack overflow questions be reproduced?: an exploratory study. 479-489		MSR19
+Preetha Chatterjee, Kostadin Damevski, Lori L. Pollock, Vinay Augustine, Nicholas A. Kraft	Exploratory study of slack Q&A chats as a mining source for software engineering tools. 490-501		MSR19
+Junichi Hayashi, Yoshiki Higo, Shinsuke Matsumoto, Shinji Kusumoto	Impacts of daylight saving time on software development. 502-506		MSR19
