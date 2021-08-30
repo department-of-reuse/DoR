@@ -6,6 +6,3 @@ AUTHORS,TITLE,DOI,Venue
 "Xuezheng Xu, Yulei Sui, Hua Yan, Jingling Xue",VFix: value-flow-guided precise program repair for null pointer dereferences,,ICSE 2019
 "Xuan-Bach D. Le, Lingfeng Bao, David Lo, Xin Xia, Shanping Li, Corina S. Pasareanu",On reliability of patch correctness assessment,,ICSE 2019
 "Mengsu Chen, Felix Fischer, Na Meng, Xiaoyin Wang, Jens Grossklags",How reliable is the crowdsourced knowledge of security implementation?,,ICSE 2019
-"Bin Lin, Fiorella Zampetti, Gabriele Bavota, Massimiliano Di Penta, Michele Lanza",Pattern-based mining of opinions in Q&A websites,,ICSE 2019
-"Negar Ghorbani, Joshua Garcia, Sam Malek",Detection and repair of architectural inconsistencies in Java,,ICSE 2019
-"Ying Wang, Ming Wen, Rongxin Wu, Zhenwei Liu, Shin Hwei Tan, Zhiliang Zhu, Hai Yu, Shing-Chi Cheung",Could I have a stack trace to examine the dependency conflict issue?,,ICSE 2019

@@ -1,0 +1,8 @@
+AUTHORS,TITLE,DOI,Venue
+"Erik Krogh Kristensen, Anders Møller",Reasonably-most-general clients for JavaScript library analysis,,ICSE 2019
+"Kihong Heo, Hakjoo Oh, Hongseok Yang",Resource-aware program analysis via online abstraction coarsening,,ICSE 2019
+"Carmine Vassallo, Sebastian Proksch, Harald C. Gall, Massimiliano Di Penta",Automated reporting of anti-patterns and decay in continuous integration,,ICSE 2019
+"Todd Sedano, Paul Ralph, Cécile Péraire",The product backlog,,ICSE 2019
+"Minxue Pan, Shouyu Chen, Yu Pei, Tian Zhang, Xuandong Li",Easy modelling and verification of unpredictable and preemptive interrupt-driven systems,,ICSE 2019
+"Sora Bae, Sungho Lee, Sukyoung Ryu",Towards understanding and reasoning about Android interoperations,,ICSE 2019
+"David A. Tomassi, Naji Dmeiri, Yichen Wang, Antara Bhowmick, Yen-Chuan Liu, Premkumar T. Devanbu, Bogdan Vasilescu, Cindy Rubio-González",BugSwarm: mining and continuously growing a dataset of reproducible failures and fixes,,ICSE 2019

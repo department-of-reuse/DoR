@@ -6,6 +6,3 @@ AUTHORS,TITLE,DOI,Venue
 "Vaibhav Saini, Farima Farmahinifarahani, Yadong Lu, Di Yang, Pedro Martins, Hitesh Sajnani, Pierre Baldi, Cristina V. Lopes",Towards automating precision studies of clone detectors,,ICSE 2019
 "Xiaoning Du, Bihuan Chen, Yuekang Li, Jianmin Guo, Yaqin Zhou, Yang Liu, Yu Jiang",Leopard: identifying vulnerable code for vulnerability assessment through program metrics,,ICSE 2019
 "Gang Fan, Rongxin Wu, Qingkai Shi, Xiao Xiao, Jinguo Zhou, Charles Zhang",Smoke: scalable path-sensitive memory leak detection for millions of lines of code,,ICSE 2019
-"Erik Krogh Kristensen, Anders Møller",Reasonably-most-general clients for JavaScript library analysis,,ICSE 2019
-"Kihong Heo, Hakjoo Oh, Hongseok Yang",Resource-aware program analysis via online abstraction coarsening,,ICSE 2019
-"Carmine Vassallo, Sebastian Proksch, Harald C. Gall, Massimiliano Di Penta",Automated reporting of anti-patterns and decay in continuous integration,,ICSE 2019
