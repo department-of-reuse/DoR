@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+Benno Stein, Lazaro Clapp, Manu Sridharan, Bor-Yuh Evan Chang	Safe stream-based programming with refinement types. 565-576		ASE18
+Kaiyuan Wang, Allison Sullivan, Sarfraz Khurshid	Automated model repair for Alloy. 577-588		ASE18
+Huarui Lin, Zan Wang, Shuang Liu, Jun Sun, Dongdi Zhang, Guangning Wei	PFix: fixing concurrency bugs based on memory access patterns. 589-600		ASE18
+Mohammad Bajammal, Davood Mazinanian, Ali Mesbah	Generating reusable web components from mockups. 601-611		ASE18
+Rijnard van Tonder, John Kotheimer, Claire Le Goues	Semantic crash bucketing. 612-622		ASE18
+Hung-En Wang, Shih-Yu Chen, Fang Yu, Jie-Hong R. Jiang	A symbolic model checking approach to the analysis of string and length constraints. 623-633		ASE18
+Dirk Beyer, Karlheinz Friedberger	Domain-independent multi-threaded software model checking. 634-644		ASE18
+Liangze Yin, Wei Dong, Wanwei Liu, Ji Wang	Scheduling constraint based abstraction refinement for weak memory models. 645-655		ASE18
+Chungha Sung, Shuvendu K. Lahiri, Constantin Enea, Chao Wang	Datalog-based scalable semantic diffing of concurrent programs. 656-666		ASE18
+Bingchang Liu, Wei Huo, Chao Zhang, Wenchao Li, Feng Li, Aihua Piao, Wei Zou	αDiff: cross-version binary code similarity detection with DNN. 667-678		ASE18

@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+Youcheng Sun, Min Wu, Wenjie Ruan, Xiaowei Huang, Marta Kwiatkowska, Daniel Kroening	Concolic testing for deep neural networks. 109-119		ASE18
+Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Chunyang Chen, Ting Su, Li Li, Yang Liu, Jianjun Zhao, Yadong Wang	DeepGauge: multi-granularity testing criteria for deep learning systems. 120-131		ASE18
+Mengshi Zhang, Yuqun Zhang, Lingming Zhang, Cong Liu, Sarfraz Khurshid	DeepRoad: GAN-based metamorphic testing and input validation framework for autonomous driving systems. 132-142		ASE18
+Raja Ben Abdessalem, Annibale Panichella, Shiva Nejati, Lionel C. Briand, Thomas Stifter	Testing autonomous cars for feature interaction failures using many-objective search. 143-154		ASE18
+Mukelabai Mukelabai, Damir Nesic, Salome Maro, Thorsten Berger, Jan-Philipp Steghöfer	Tackling combinatorial explosion: a study of industrial needs and practices for analyzing highly configurable systems. 155-166		ASE18
+Dongjie He, Lian Li, Lei Wang, Hengjie Zheng, Guangwei Li, Jingling Xue	Understanding and detecting evolution-induced compatibility issues in Android apps. 167-177		ASE18
+Pinjia He, Zhuangbin Chen, Shilin He, Michael R. Lyu	Characterizing the natural language descriptions in software logging statements. 178-189		ASE18
+John-Paul Ore, Sebastian G. Elbaum, Carrick Detweiler, Lambros Karkazis	Assessing the type annotation burden. 190-201		ASE18
+Vladimir Kovalenko, Fabio Palomba, Alberto Bacchelli	Mining file histories: should we consider branches? 202-213		ASE18
+Yi Huang, Chunyang Chen, Zhenchang Xing, Tian Lin, Yang Liu	Tell them apart: distilling technology differences from crowd-scale comparison discussions. 214-224		ASE18

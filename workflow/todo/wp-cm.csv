@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+Dominik Helm, Florian Kübler, Michael Eichberg, Michael Reif, Mira Mezini	A unified lattice model and framework for purity analyses. 340-350		ASE18
+Jianhui Chen, Fei He	Control flow-guided SMT solving for program verification. 351-361		ASE18
+Yutaka Nagashima, Yilun He	PaMpeR: proof method recommendation system for Isabelle/HOL. 362-372		ASE18
+Zhongxin Liu, Xin Xia, Ahmed E. Hassan, David Lo, Zhenchang Xing, Xinyu Wang	Neural-machine-translation-based commit message generation: how far are we? 373-384		ASE18
+Hui Liu, Zhifeng Xu, Yanzhen Zou	Deep learning based feature envy detection. 385-396		ASE18
+Yao Wan, Zhou Zhao, Min Yang, Guandong Xu, Haochao Ying, Jian Wu, Philip S. Yu	Improving automatic source code summarization via deep reinforcement learning. 397-407		ASE18
+Sooyoung Cha, Seonho Lee, Hakjoo Oh	Template-guided concolic testing via online learning. 408-418		ASE18
+Xiang Gao, Shin Hwei Tan, Zhen Dong, Abhik Roychoudhury	Android testing via synthetic symbolic execution. 419-429		ASE18
+Oscar Soria Dustmann, Klaus Wehrle, Cristian Cadar	PARTI: a multi-interval theory solver for symbolic execution. 430-440		ASE18
+Federico Mora, Yi Li, Julia Rubin, Marsha Chechik	Client-specific equivalence checking. 441-451		ASE18
