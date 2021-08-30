@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Duling Lai, Julia Rubin	Goal-Driven Exploration for Android Applications		ASE19
-Onur Sahin, Assel Aliyeva, Hariharan Mathavan, Ayse K. Coskun, Manuel Egele	RANDR: Record and Replay for Android Applications via Targeted Runtime Instrumentation. 128-138		ASE19
-Yueming Wu, Xiaodi Li, Deqing Zou, Wei Yang, Xin Zhang, Hai Jin	MalScan: Fast Market-Wide Mobile Malware Scanning by Social-Network Centrality Analysis. 139-150		ASE19
-Xiaoxue Ren, Zhenchang Xing, Xin Xia, Guoqiang Li, Jianling Sun	Discovering, Explaining and Summarizing Controversial Discussions in Community Q&A Sites. 151-162		ASE19
-Cuiyun Gao, Jichuan Zeng, Xin Xia, David Lo, Michael R. Lyu, Irwin King	Automating App Review Response Generation. 163-175		ASE19
-Zhongxin Liu, Xin Xia, Christoph Treude, David Lo, Shanping Li	Automatic Generation of Pull Request Descriptions. 176-188		ASE19
-Nikolas Havrikov, Andreas Zeller	Systematically Covering Input Structure. 189-199		ASE19
-Devika Sondhi, Rahul Purandare	SEGATE: Unveiling Semantic Inconsistencies between Code and Specification of String Inputs. 200-212		ASE19
-Zhouyang Jia, Shanshan Li, Tingting Yu, Xiangke Liao, Ji Wang, Xiaodong Liu, Yunhuai Liu	Detecting Error-Handling Bugs without Error Specification Input. 213-225		ASE19
-Jonathan Osei-Owusu, Angello Astorga, Liia Butler, Tao Xie, Geoffrey Challen	Grading-Based Test Suite Augmentation. 226-229		ASE19
+AUTHORS,TITLE,DOI,VENUE
+"'Duling Lai, Julia Rubin'",'Goal-Driven Exploration for Android Applications',,ASE19
+"'Onur Sahin, Assel Aliyeva, Hariharan Mathavan, Ayse K. Coskun, Manuel Egele'",'RANDR: Record and Replay for Android Applications via Targeted Runtime Instrumentation. 128-138',,ASE19
+"'Yueming Wu, Xiaodi Li, Deqing Zou, Wei Yang, Xin Zhang, Hai Jin'",'MalScan: Fast Market-Wide Mobile Malware Scanning by Social-Network Centrality Analysis. 139-150',,ASE19
+"'Xiaoxue Ren, Zhenchang Xing, Xin Xia, Guoqiang Li, Jianling Sun'","'Discovering, Explaining and Summarizing Controversial Discussions in Community Q&A Sites. 151-162'",,ASE19
+"'Cuiyun Gao, Jichuan Zeng, Xin Xia, David Lo, Michael R. Lyu, Irwin King'",'Automating App Review Response Generation. 163-175',,ASE19
+"'Zhongxin Liu, Xin Xia, Christoph Treude, David Lo, Shanping Li'",'Automatic Generation of Pull Request Descriptions. 176-188',,ASE19
+"'Nikolas Havrikov, Andreas Zeller'",'Systematically Covering Input Structure. 189-199',,ASE19
+"'Devika Sondhi, Rahul Purandare'",'SEGATE: Unveiling Semantic Inconsistencies between Code and Specification of String Inputs. 200-212',,ASE19
+"'Zhouyang Jia, Shanshan Li, Tingting Yu, Xiangke Liao, Ji Wang, Xiaodong Liu, Yunhuai Liu'",'Detecting Error-Handling Bugs without Error Specification Input. 213-225',,ASE19
+"'Jonathan Osei-Owusu, Angello Astorga, Liia Butler, Tao Xie, Geoffrey Challen'",'Grading-Based Test Suite Augmentation. 226-229',,ASE19

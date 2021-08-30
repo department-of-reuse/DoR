@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Jyothi Vedurada, V. Krishna Nandivada	Batch Alias Analysis. 936-948		ASE19
-Jeffrey Palmerino, Qi Yu, Travis Desell, Daniel E. Krutz	Improving the Decision-Making Process of Self-Adaptive Systems by Accounting for Tactic Volatility. 949-961		ASE19
-Yuqi Chen, Christopher M. Poskitt, Jun Sun, Sridhar Adepu, Fan Zhang	Learning-Guided Network Fuzzing for Testing Cyber-Physical System Defences. 962-973		ASE19
-Paulo Henrique M. Maia, Lucas Vieira, Matheus Chagas, Yijun Yu, Andrea Zisman, Bashar Nuseibeh	Cautious Adaptation of Defiant Components. 974-985		ASE19
-Qiong Feng, Yuanfang Cai, Rick Kazman, Di Cui, Ting Liu, Hongzhou Fang	Active Hotspot: An Issue-Oriented Model to Monitor Software Evolution and Degradation. 986-997		ASE19
-Ilias Gerostathopoulos, Stefan Kugele, Christoph Segler, Tomás Bures, Alois C. Knoll	Automated Trainability Evaluation for Smart Software Functions. 998-1001		ASE19
-Guilherme Cavalcanti, Paulo Borba, Georg Seibt, Sven Apel	The Impact of Structure on Software Merging: Semistructured Versus Structured Merge. 1002-1013		ASE19
-Alberto Trindade Tavares, Paulo Borba, Guilherme Cavalcanti, Sérgio Soares	Semistructured Merge in JavaScript Systems. 1014-1025		ASE19
-Kawser Wazed Nafi, Tonny Shekha Kar, Banani Roy, Chanchal K. Roy, Kevin A. Schneider	CLCDSA: Cross Language Code Clone Detection using Syntactical Features and API Documentation. 1026-1037		ASE19
-Muyue Feng, Zimu Yuan, Feng Li, Gu Ban, Shiyang Wang, Qian Tang, He Su, Chendong Yu, Jiahuan Xu, Aihua Piao, Jingling Xue, Wei Huo	B2SFinder: Detecting Open-Source Software Reuse in COTS Software. 1038-1049		ASE19
+AUTHORS,TITLE,DOI,VENUE
+"'Jyothi Vedurada, V. Krishna Nandivada'",'Batch Alias Analysis. 936-948',,ASE19
+"'Jeffrey Palmerino, Qi Yu, Travis Desell, Daniel E. Krutz'",'Improving the Decision-Making Process of Self-Adaptive Systems by Accounting for Tactic Volatility. 949-961',,ASE19
+"'Yuqi Chen, Christopher M. Poskitt, Jun Sun, Sridhar Adepu, Fan Zhang'",'Learning-Guided Network Fuzzing for Testing Cyber-Physical System Defences. 962-973',,ASE19
+"'Paulo Henrique M. Maia, Lucas Vieira, Matheus Chagas, Yijun Yu, Andrea Zisman, Bashar Nuseibeh'",'Cautious Adaptation of Defiant Components. 974-985',,ASE19
+"'Qiong Feng, Yuanfang Cai, Rick Kazman, Di Cui, Ting Liu, Hongzhou Fang'",'Active Hotspot: An Issue-Oriented Model to Monitor Software Evolution and Degradation. 986-997',,ASE19
+"'Ilias Gerostathopoulos, Stefan Kugele, Christoph Segler, Tomás Bures, Alois C. Knoll'",'Automated Trainability Evaluation for Smart Software Functions. 998-1001',,ASE19
+"'Guilherme Cavalcanti, Paulo Borba, Georg Seibt, Sven Apel'",'The Impact of Structure on Software Merging: Semistructured Versus Structured Merge. 1002-1013',,ASE19
+"'Alberto Trindade Tavares, Paulo Borba, Guilherme Cavalcanti, Sérgio Soares'",'Semistructured Merge in JavaScript Systems. 1014-1025',,ASE19
+"'Kawser Wazed Nafi, Tonny Shekha Kar, Banani Roy, Chanchal K. Roy, Kevin A. Schneider'",'CLCDSA: Cross Language Code Clone Detection using Syntactical Features and API Documentation. 1026-1037',,ASE19
+"'Muyue Feng, Zimu Yuan, Feng Li, Gu Ban, Shiyang Wang, Qian Tang, He Su, Chendong Yu, Jiahuan Xu, Aihua Piao, Jingling Xue, Wei Huo'",'B2SFinder: Detecting Open-Source Software Reuse in COTS Software. 1038-1049',,ASE19

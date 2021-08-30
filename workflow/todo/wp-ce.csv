@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Liang Bao, Xin Liu, Fangzheng Wang, Baoyin Fang	ACTGAN: Automatic Configuration Tuning for Software Systems with Generative Adversarial Networks. 465-476		ASE19
-Eric Horton, Chris Parnin	V2: Fast Detection of Configuration Drift in Python. 477-488		ASE19
-Son Nguyen, Hoan Nguyen, Ngoc M. Tran, Hieu Tran, Tien N. Nguyen	Feature-Interaction Aware Configuration Prioritization for Configurable Code. 489-501		ASE19
-Jiajun Jiang, Ran Wang, Yingfei Xiong, Xiangping Chen, Lu Zhang	Combining Spectrum-Based Fault Localization and Statistical Debugging: An Empirical Study. 502-514		ASE19
-Tarannum Shaila Zaman, Xue Han, Tingting Yu	SCMiner: Localizing System-Level Concurrency Faults from Large System Call Traces. 515-526		ASE19
-Zhilei Ren, Changlin Liu, Xusheng Xiao, He Jiang, Tao Xie	Root Cause Localization for Unreproducible Builds via Causality Analysis Over System Call Tracing. 527-538		ASE19
-Ahmet Çelik, Karl Palmskog, Marinela Parovic, Emilio Jesús Gallego Arias, Milos Gligoric	Mutation Analysis for Coq. 539-551		ASE19
-Jiaxiang Liu, Xiaomu Shi, Ming-Hsien Tsai, Bow-Yaw Wang, Bo-Yin Yang	Verifying Arithmetic in Cryptographic C Programs. 552-564		ASE19
-Dongwoo Kim, Yunja Choi	Model Checking Embedded Control Software using OS-in-the-Loop CEGAR. 565-576		ASE19
-Frédéric Recoules, Sébastien Bardin, Richard Bonichon, Laurent Mounier, Marie-Laure Potet	Get Rid of Inline Assembly through Verification-Oriented Lifting. 577-589		ASE19
+AUTHORS,TITLE,DOI,VENUE
+"'Liang Bao, Xin Liu, Fangzheng Wang, Baoyin Fang'",'ACTGAN: Automatic Configuration Tuning for Software Systems with Generative Adversarial Networks. 465-476',,ASE19
+"'Eric Horton, Chris Parnin'",'V2: Fast Detection of Configuration Drift in Python. 477-488',,ASE19
+"'Son Nguyen, Hoan Nguyen, Ngoc M. Tran, Hieu Tran, Tien N. Nguyen'",'Feature-Interaction Aware Configuration Prioritization for Configurable Code. 489-501',,ASE19
+"'Jiajun Jiang, Ran Wang, Yingfei Xiong, Xiangping Chen, Lu Zhang'",'Combining Spectrum-Based Fault Localization and Statistical Debugging: An Empirical Study. 502-514',,ASE19
+"'Tarannum Shaila Zaman, Xue Han, Tingting Yu'",'SCMiner: Localizing System-Level Concurrency Faults from Large System Call Traces. 515-526',,ASE19
+"'Zhilei Ren, Changlin Liu, Xusheng Xiao, He Jiang, Tao Xie'",'Root Cause Localization for Unreproducible Builds via Causality Analysis Over System Call Tracing. 527-538',,ASE19
+"'Ahmet Çelik, Karl Palmskog, Marinela Parovic, Emilio Jesús Gallego Arias, Milos Gligoric'",'Mutation Analysis for Coq. 539-551',,ASE19
+"'Jiaxiang Liu, Xiaomu Shi, Ming-Hsien Tsai, Bow-Yaw Wang, Bo-Yin Yang'",'Verifying Arithmetic in Cryptographic C Programs. 552-564',,ASE19
+"'Dongwoo Kim, Yunja Choi'",'Model Checking Embedded Control Software using OS-in-the-Loop CEGAR. 565-576',,ASE19
+"'Frédéric Recoules, Sébastien Bardin, Richard Bonichon, Laurent Mounier, Marie-Laure Potet'",'Get Rid of Inline Assembly through Verification-Oriented Lifting. 577-589',,ASE19

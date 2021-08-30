@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Kaifeng Huang, Bihuan Chen, Xin Peng, Daihong Zhou, Ying Wang, Yang Liu, Wenyun Zhao	ClDiff: generating concise linked code differences. 679-690		ASE18
-Jiwei Yan, Xi Deng, Ping Wang, Tianyong Wu, Jun Yan, Jian Zhang	Characterizing and identifying misexposed activities in Android applications. 691-701		ASE18
-Jiajun Hu, Lili Wei, Yepang Liu, Shing-Chi Cheung, Huaxun Huang	A tale of two cities: how WebView induces bugs to Android applications. 702-713		ASE18
-Zhenhao Tang, Juan Zhai, Minxue Pan, Yousra Aafer, Shiqing Ma, Xiangyu Zhang, Jianhua Zhao	Dual-force: understanding WebView malware via cross-language forced execution. 714-725		ASE18
-Mahmoud Hammad, Joshua Garcia, Sam Malek	Self-protection of Android systems from inter-component communication attacks. 726-737		ASE18
-Wenyu Wang, Dengfeng Li, Wei Yang, Yurui Cao, Zhenwen Zhang, Yuetang Deng, Tao Xie	An empirical study of Android test generation tools in industrial cases. 738-748		ASE18
-Davrondzhon Gafurov, Arne Erik Hurum, Martin Markman	Achieving test automation with testers without coding skills: an industrial report. 749-756		ASE18
-Mikaela Cashman, Myra B. Cohen, Priya Ranjan, Robert W. Cottingham	Navigating the maze: the impact of configurability in bioinformatics software. 757-767		ASE18
-Alexandra Bugariu, Valentin Wüstholz, Maria Christakis, Peter Müller	Automatically testing implementations of numerical abstract domains. 768-778		ASE18
-Ran Mo, Will Snipes, Yuanfang Cai, Srini Ramaswamy, Rick Kazman, Martin Naedele	Experiences applying automated architecture analysis tool suites. 779-789		ASE18
+AUTHORS,TITLE,DOI,VENUE
+"'Kaifeng Huang, Bihuan Chen, Xin Peng, Daihong Zhou, Ying Wang, Yang Liu, Wenyun Zhao'",'ClDiff: generating concise linked code differences. 679-690',,ASE18
+"'Jiwei Yan, Xi Deng, Ping Wang, Tianyong Wu, Jun Yan, Jian Zhang'",'Characterizing and identifying misexposed activities in Android applications. 691-701',,ASE18
+"'Jiajun Hu, Lili Wei, Yepang Liu, Shing-Chi Cheung, Huaxun Huang'",'A tale of two cities: how WebView induces bugs to Android applications. 702-713',,ASE18
+"'Zhenhao Tang, Juan Zhai, Minxue Pan, Yousra Aafer, Shiqing Ma, Xiangyu Zhang, Jianhua Zhao'",'Dual-force: understanding WebView malware via cross-language forced execution. 714-725',,ASE18
+"'Mahmoud Hammad, Joshua Garcia, Sam Malek'",'Self-protection of Android systems from inter-component communication attacks. 726-737',,ASE18
+"'Wenyu Wang, Dengfeng Li, Wei Yang, Yurui Cao, Zhenwen Zhang, Yuetang Deng, Tao Xie'",'An empirical study of Android test generation tools in industrial cases. 738-748',,ASE18
+"'Davrondzhon Gafurov, Arne Erik Hurum, Martin Markman'",'Achieving test automation with testers without coding skills: an industrial report. 749-756',,ASE18
+"'Mikaela Cashman, Myra B. Cohen, Priya Ranjan, Robert W. Cottingham'",'Navigating the maze: the impact of configurability in bioinformatics software. 757-767',,ASE18
+"'Alexandra Bugariu, Valentin Wüstholz, Maria Christakis, Peter Müller'",'Automatically testing implementations of numerical abstract domains. 768-778',,ASE18
+"'Ran Mo, Will Snipes, Yuanfang Cai, Srini Ramaswamy, Rick Kazman, Martin Naedele'",'Experiences applying automated architecture analysis tool suites. 779-789',,ASE18

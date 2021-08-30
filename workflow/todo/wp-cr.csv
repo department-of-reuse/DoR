@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Mehran Mahmoudi, Sarah Nadi	The Android update problem: an empirical study. 220-230		MSR18
-Haoyu Wang, Hao Li, Li Li, Yao Guo, Guoai Xu	Why are Android apps removed from Google Play?: a large-scale empirical study. 231-242		MSR18
-Maleknaz Nayebi, Konstantin Kuznetsov, Paul Chen, Andreas Zeller, Guenther Ruhe	Anatomy of functionality deletion: an exploratory study on mobile apps. 243-253		MSR18
-Li Li, Jun Gao, Tegawendé F. Bissyandé, Lei Ma, Xin Xia, Jacques Klein	Characterising deprecated Android APIs. 254-264		MSR18
-Haipeng Cai, John Jenkins	Leveraging historical versions of Android apps for efficient and precise taint analysis. 265-269		MSR18
-Rômulo Manciola Meloca, Gustavo Pinto, Leonardo Baiser, Marco Mattos, Ivanilton Polato, Igor Scaliante Wiese, Daniel M. Germán	Understanding the usage, impact, and adoption of non-OSI approved licenses. 270-280		MSR18
-Dan Gopstein, Hongwei Henry Zhou, Phyllis G. Frankl, Justin Cappos	Prevalence of confusing code in software projects: atoms of confusion in the wild. 281-291		MSR18
-Nathan Cassee, Gustavo Pinto, Fernando Castor, Alexander Serebrenik	How swift developers handle errors. 292-302		MSR18
-Stefanos Georgiou, Maria Kechagia, Panos Louridas, Diomidis Spinellis	What are your programming language's energy-delay implications? 303-313		MSR18
-Asher Trockman, Keenen Cates, Mark Mozina, Tuan Nguyen, Christian Kästner, Bogdan Vasilescu	Automatically assessing code understandability reanalyzed: combined metrics matter. 314-318		MSR18
+AUTHORS,TITLE,DOI,VENUE
+"'Mehran Mahmoudi, Sarah Nadi'",'The Android update problem: an empirical study. 220-230',,MSR18
+"'Haoyu Wang, Hao Li, Li Li, Yao Guo, Guoai Xu'",'Why are Android apps removed from Google Play?: a large-scale empirical study. 231-242',,MSR18
+"'Maleknaz Nayebi, Konstantin Kuznetsov, Paul Chen, Andreas Zeller, Guenther Ruhe'",'Anatomy of functionality deletion: an exploratory study on mobile apps. 243-253',,MSR18
+"'Li Li, Jun Gao, Tegawendé F. Bissyandé, Lei Ma, Xin Xia, Jacques Klein'",'Characterising deprecated Android APIs. 254-264',,MSR18
+"'Haipeng Cai, John Jenkins'",'Leveraging historical versions of Android apps for efficient and precise taint analysis. 265-269',,MSR18
+"'Rômulo Manciola Meloca, Gustavo Pinto, Leonardo Baiser, Marco Mattos, Ivanilton Polato, Igor Scaliante Wiese, Daniel M. Germán'","'Understanding the usage, impact, and adoption of non-OSI approved licenses. 270-280'",,MSR18
+"'Dan Gopstein, Hongwei Henry Zhou, Phyllis G. Frankl, Justin Cappos'",'Prevalence of confusing code in software projects: atoms of confusion in the wild. 281-291',,MSR18
+"'Nathan Cassee, Gustavo Pinto, Fernando Castor, Alexander Serebrenik'",'How swift developers handle errors. 292-302',,MSR18
+"'Stefanos Georgiou, Maria Kechagia, Panos Louridas, Diomidis Spinellis'",'What are your programming language's energy-delay implications? 303-313',,MSR18
+"'Asher Trockman, Keenen Cates, Mark Mozina, Tuan Nguyen, Christian Kästner, Bogdan Vasilescu'",'Automatically assessing code understandability reanalyzed: combined metrics matter. 314-318',,MSR18

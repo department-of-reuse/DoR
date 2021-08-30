@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Christoph Treude, Markus Wagner	Predicting good configurations for GitHub and stack overflow topic models. 84-95		MSR19
-Anna-Katharina Wickert, Michael Reif, Michael Eichberg, Anam Dodhy, Mira Mezini	A dataset of parametric cryptographic misuses. 96-100		MSR19
-Adithya Raghuraman, Truong Ho-Quang, Michel R. V. Chaudron, Alexander Serebrenik, Bogdan Vasilescu	Does UML modeling associate with lower defect proneness?: a preliminary empirical investigation. 101-104		MSR19
-Stanislav Chren, Radoslav Micko, Barbora Buhnova, Bruno Rossi	STRAIT: a tool for automated software reliability growth analysis. 105-110		MSR19
-Dirk Beyer	A data set of program invariants and error paths. 111-115		MSR19
-Hongyu Zhai, Casey Casalnuovo, Premkumar T. Devanbu	Test coverage in python programs. 116-120		MSR19
-Domenico Serra, Giovanni Grano, Fabio Palomba, Filomena Ferrucci, Harald C. Gall, Alberto Bacchelli	On the effectiveness of manual and automatic unit test generation: ten years later. 121-125		MSR19
-Dimitris Mitropoulos, Panos Louridas, Vitalis Salis, Diomidis Spinellis	Time present and time past: analyzing the evolution of JavaScript code in the wild. 126-137		MSR19
-Antoine Pietri, Diomidis Spinellis, Stefano Zacchiroli	The software heritage graph dataset: public software development under one roof. 138-142		MSR19
-Yuxing Ma, Chris Bogart, Sadika Amreen, Russell Zaretzki, Audris Mockus	World of code: an infrastructure for mining the universe of open source VCS data. 143-154		MSR19
+AUTHORS,TITLE,DOI,VENUE
+"'Christoph Treude, Markus Wagner'",'Predicting good configurations for GitHub and stack overflow topic models. 84-95',,MSR19
+"'Anna-Katharina Wickert, Michael Reif, Michael Eichberg, Anam Dodhy, Mira Mezini'",'A dataset of parametric cryptographic misuses. 96-100',,MSR19
+"'Adithya Raghuraman, Truong Ho-Quang, Michel R. V. Chaudron, Alexander Serebrenik, Bogdan Vasilescu'",'Does UML modeling associate with lower defect proneness?: a preliminary empirical investigation. 101-104',,MSR19
+"'Stanislav Chren, Radoslav Micko, Barbora Buhnova, Bruno Rossi'",'STRAIT: a tool for automated software reliability growth analysis. 105-110',,MSR19
+'Dirk Beyer','A data set of program invariants and error paths. 111-115',,MSR19
+"'Hongyu Zhai, Casey Casalnuovo, Premkumar T. Devanbu'",'Test coverage in python programs. 116-120',,MSR19
+"'Domenico Serra, Giovanni Grano, Fabio Palomba, Filomena Ferrucci, Harald C. Gall, Alberto Bacchelli'",'On the effectiveness of manual and automatic unit test generation: ten years later. 121-125',,MSR19
+"'Dimitris Mitropoulos, Panos Louridas, Vitalis Salis, Diomidis Spinellis'",'Time present and time past: analyzing the evolution of JavaScript code in the wild. 126-137',,MSR19
+"'Antoine Pietri, Diomidis Spinellis, Stefano Zacchiroli'",'The software heritage graph dataset: public software development under one roof. 138-142',,MSR19
+"'Yuxing Ma, Chris Bogart, Sadika Amreen, Russell Zaretzki, Audris Mockus'",'World of code: an infrastructure for mining the universe of open source VCS data. 143-154',,MSR19

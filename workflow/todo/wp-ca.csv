@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Hong Jin Kang, Tegawendé F. Bissyandé, David Lo	Assessing the Generalizability of Code2vec Token Embeddings		ASE19
-Yao Wan, Jingdong Shu, Yulei Sui, Guandong Xu, Zhou Zhao, Jian Wu, Philip S. Yu	Multi-modal Attention Network Learning for Semantic Source Code Retrieval		ASE19
-Christoph Gladisch, Thomas Heinz, Christian Heinzemann, Jens Oehlerking, Anne von Vietinghoff, Tim Pfitzer	Experience Paper: Search-Based Testing in Automated Driving Control Applications		ASE19
-Nghi D. Q. Bui, Yijun Yu, Lingxiao Jiang	AutoFocus: Interpreting Attention-Based Neural Networks by Code Perturbation		ASE19
-Jun-Wei Lin, Reyhaneh Jabbarvand, Sam Malek	Test Transfer Across Mobile Apps Through Semantic Mapping		ASE19
-Farnaz Behrang, Alessandro Orso	Test Migration Between Mobile Apps with Similar Functionality		ASE19
-Tianming Liu, Haoyu Wang, Li Li, Guangdong Bai, Yao Guo, Guoai Xu	DaPanda: Detecting Aggressive Push Notifications in Android Apps		ASE19
-Yibiao Yang, Yanyan Jiang, Zhiqiang Zuo, Yang Wang, Hao Sun, Hongmin Lu, Yuming Zhou, Baowen Xu	Automatic Self-Validation for Code Coverage Profilers		ASE19
-Ariel Godio, Valeria S. Bengolea, Pablo Ponzio, Nazareno Aguirre, Marcelo Fabian Frias	Efficient Test Generation Guided by Field Coverage Criteria		ASE19
-Linghui Luo, Eric Bodden, Johannes Späth	A Qualitative Analysis of Android Taint-Analysis Results		ASE19
+AUTHORS,TITLE,DOI,VENUE
+"'Hong Jin Kang, Tegawendé F. Bissyandé, David Lo'",'Assessing the Generalizability of Code2vec Token Embeddings',,ASE19
+"'Yao Wan, Jingdong Shu, Yulei Sui, Guandong Xu, Zhou Zhao, Jian Wu, Philip S. Yu'",'Multi-modal Attention Network Learning for Semantic Source Code Retrieval',,ASE19
+"'Christoph Gladisch, Thomas Heinz, Christian Heinzemann, Jens Oehlerking, Anne von Vietinghoff, Tim Pfitzer'",'Experience Paper: Search-Based Testing in Automated Driving Control Applications',,ASE19
+"'Nghi D. Q. Bui, Yijun Yu, Lingxiao Jiang'",'AutoFocus: Interpreting Attention-Based Neural Networks by Code Perturbation',,ASE19
+"'Jun-Wei Lin, Reyhaneh Jabbarvand, Sam Malek'",'Test Transfer Across Mobile Apps Through Semantic Mapping',,ASE19
+"'Farnaz Behrang, Alessandro Orso'",'Test Migration Between Mobile Apps with Similar Functionality',,ASE19
+"'Tianming Liu, Haoyu Wang, Li Li, Guangdong Bai, Yao Guo, Guoai Xu'",'DaPanda: Detecting Aggressive Push Notifications in Android Apps',,ASE19
+"'Yibiao Yang, Yanyan Jiang, Zhiqiang Zuo, Yang Wang, Hao Sun, Hongmin Lu, Yuming Zhou, Baowen Xu'",'Automatic Self-Validation for Code Coverage Profilers',,ASE19
+"'Ariel Godio, Valeria S. Bengolea, Pablo Ponzio, Nazareno Aguirre, Marcelo Fabian Frias'",'Efficient Test Generation Guided by Field Coverage Criteria',,ASE19
+"'Linghui Luo, Eric Bodden, Johannes Späth'",'A Qualitative Analysis of Android Taint-Analysis Results',,ASE19

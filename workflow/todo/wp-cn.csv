@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Nipun Arora, Jonathan Bell, Franjo Ivancic, Gail E. Kaiser, Baishakhi Ray	Replay without recording of production bugs for service oriented applications. 452-463		ASE18
-Vahid Alizadeh, Marouane Kessentini	Reducing interactive refactoring effort via clustering-based multi-objective search. 464-474		ASE18
-Caroline Lemieux, Koushik Sen	FairFuzz: a targeted mutation strategy for increasing greybox fuzz testing coverage. 475-485		ASE18
-Lingling Fan, Ting Su, Sen Chen, Guozhu Meng, Yang Liu, Lihua Xu, Geguang Pu	Efficiently manifesting asynchronous programming errors in Android apps. 486-497		ASE18
-Wensheng Dou, Shi Han, Liang Xu, Dongmei Zhang, Jun Wei	Expandable group identification in spreadsheets. 498-508		ASE18
-Yun Lin, Jun Sun, Lyly Tran, Guangdong Bai, Haijun Wang, Jin Song Dong	Break the dead end of dynamic slicing: localizing data and control omission bug. 509-519		ASE18
-Renzo Degiovanni, Facundo Molina, Germán Regis, Nazareno Aguirre	A genetic algorithm for goal-conflict identification. 520-531		ASE18
-Huaxun Huang, Lili Wei, Yepang Liu, Shing-Chi Cheung	Understanding and detecting callback compatibility issues for Android applications. 532-542		ASE18
-Kevin Moran, Cody Watson, John Hoskins, George Purnell, Denys Poshyvanyk	Detecting and summarizing GUI changes in evolving mobile apps. 543-553		ASE18
-Yixue Zhao, Paul Wat, Marcelo Schmitt Laser, Nenad Medvidovic	Empirically assessing opportunities for prefetching and caching in mobile apps. 554-564		ASE18
+AUTHORS,TITLE,DOI,VENUE
+"'Nipun Arora, Jonathan Bell, Franjo Ivancic, Gail E. Kaiser, Baishakhi Ray'",'Replay without recording of production bugs for service oriented applications. 452-463',,ASE18
+"'Vahid Alizadeh, Marouane Kessentini'",'Reducing interactive refactoring effort via clustering-based multi-objective search. 464-474',,ASE18
+"'Caroline Lemieux, Koushik Sen'",'FairFuzz: a targeted mutation strategy for increasing greybox fuzz testing coverage. 475-485',,ASE18
+"'Lingling Fan, Ting Su, Sen Chen, Guozhu Meng, Yang Liu, Lihua Xu, Geguang Pu'",'Efficiently manifesting asynchronous programming errors in Android apps. 486-497',,ASE18
+"'Wensheng Dou, Shi Han, Liang Xu, Dongmei Zhang, Jun Wei'",'Expandable group identification in spreadsheets. 498-508',,ASE18
+"'Yun Lin, Jun Sun, Lyly Tran, Guangdong Bai, Haijun Wang, Jin Song Dong'",'Break the dead end of dynamic slicing: localizing data and control omission bug. 509-519',,ASE18
+"'Renzo Degiovanni, Facundo Molina, Germán Regis, Nazareno Aguirre'",'A genetic algorithm for goal-conflict identification. 520-531',,ASE18
+"'Huaxun Huang, Lili Wei, Yepang Liu, Shing-Chi Cheung'",'Understanding and detecting callback compatibility issues for Android applications. 532-542',,ASE18
+"'Kevin Moran, Cody Watson, John Hoskins, George Purnell, Denys Poshyvanyk'",'Detecting and summarizing GUI changes in evolving mobile apps. 543-553',,ASE18
+"'Yixue Zhao, Paul Wat, Marcelo Schmitt Laser, Nenad Medvidovic'",'Empirically assessing opportunities for prefetching and caching in mobile apps. 554-564',,ASE18

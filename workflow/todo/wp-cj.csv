@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Min Wang, Zeqi Lin, Yanzhen Zou, Bing Xie	CoRA: Decomposing and Describing Tangled Code Changes for Reviewer. 1050-1061		ASE19
-Sarra Habchi, Xavier Blanc, Romain Rouvoy	On adopting linters to deal with performance concerns in Android apps. 6-16		ASE18
-Xue Han, Tingting Yu, David Lo	PerfLearner: learning from bug reports to understand and generate performance test frames. 17-28		ASE18
-Liang Bao, Xin Liu, Ziheng Xu, Baoyin Fang	AutoConfig: automatic configuration tuning for distributed message systems. 29-40		ASE18
-Andrew Habib, Michael Pradel	Is this class thread-safe? inferring documentation using graph-based learning. 41-52		ASE18
-Michael Hilton, Jonathan Bell, Darko Marinov	A large-scale study of test coverage evolution. 53-63		ASE18
-Valerio Terragni, Mauro Pezzè	Effectiveness and challenges in generating concurrent tests for thread-safe classes. 64-75		ASE18
-Gabriël Konat, Sebastian Erdweg, Eelco Visser	Scalable incremental building with dynamic task dependencies. 76-86		ASE18
-Keheliya Gallaba, Christian Macho, Martin Pinzger, Shane McIntosh	Noise and heterogeneity in historical build data: an empirical study of Travis CI. 87-97		ASE18
-Sakshi Udeshi, Pryanshu Arora, Sudipta Chattopadhyay	Automated directed fairness testing. 98-108		ASE18
+AUTHORS,TITLE,DOI,VENUE
+"'Min Wang, Zeqi Lin, Yanzhen Zou, Bing Xie'",'CoRA: Decomposing and Describing Tangled Code Changes for Reviewer. 1050-1061',,ASE19
+"'Sarra Habchi, Xavier Blanc, Romain Rouvoy'",'On adopting linters to deal with performance concerns in Android apps. 6-16',,ASE18
+"'Xue Han, Tingting Yu, David Lo'",'PerfLearner: learning from bug reports to understand and generate performance test frames. 17-28',,ASE18
+"'Liang Bao, Xin Liu, Ziheng Xu, Baoyin Fang'",'AutoConfig: automatic configuration tuning for distributed message systems. 29-40',,ASE18
+"'Andrew Habib, Michael Pradel'",'Is this class thread-safe? inferring documentation using graph-based learning. 41-52',,ASE18
+"'Michael Hilton, Jonathan Bell, Darko Marinov'",'A large-scale study of test coverage evolution. 53-63',,ASE18
+"'Valerio Terragni, Mauro Pezzè'",'Effectiveness and challenges in generating concurrent tests for thread-safe classes. 64-75',,ASE18
+"'Gabriël Konat, Sebastian Erdweg, Eelco Visser'",'Scalable incremental building with dynamic task dependencies. 76-86',,ASE18
+"'Keheliya Gallaba, Christian Macho, Martin Pinzger, Shane McIntosh'",'Noise and heterogeneity in historical build data: an empirical study of Travis CI. 87-97',,ASE18
+"'Sakshi Udeshi, Pryanshu Arora, Sudipta Chattopadhyay'",'Automated directed fairness testing. 98-108',,ASE18

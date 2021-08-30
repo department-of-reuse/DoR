@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Yuzhan Ma, Sarah Fakhoury, Michael Christensen, Venera Arnaoudova, Waleed Zogaan, Mehdi Mirakhorli	Automatic classification of software artifacts in open-source applications. 414-425		MSR18
-Eldan Cohen, Mariano P. Consens	Large-scale analysis of the co-commit patterns of the active developers in github's top repositories. 426-436		MSR18
-Maëlick Claes, Mika Mäntylä, Miikka Kuutila, Umar Farooq	Towards automatically identifying paid open source developers. 437-441		MSR18
-Michael Rath, David Lo, Patrick Mäder	Analyzing requirements and traceability information to improve bug localization. 442-453		MSR18
-Jinqiu Yang, Erik Wittern, Annie T. T. Ying, Julian Dolby, Lin Tan	Towards extracting web API specifications from documentation. 454-464		MSR18
-Md. Masudur Rahman, Jed Barson, Sydney Paul, Joshua Kayani, Federico Andres Lois, Sebastian Fernandez Quezada, Christopher Parnin, Kathryn T. Stolee, Baishakhi Ray	Evaluating how developers use general-purpose web-search for code retrieval. 465-475		MSR18
-Pengcheng Yin, Bowen Deng, Edgar Chen, Bogdan Vasilescu, Graham Neubig	Learning to mine aligned code and natural language pairs from stack overflow. 476-486		MSR18
-Ridhi Jain, Sai Prathik, Venkatesh Vinayakarao, Rahul Purandare	A search system for mathematical expressions on software binaries. 487-491		MSR18
-Guillermo De la Torre, Romain Robbes, Alexandre Bergel	Imprecisions diagnostic in source code deltas. 492-502		MSR18
-Maxime Lamothe, Weiyi Shang	Exploring the use of automated API migrating techniques in practice: an experience report on Android. 503-514		MSR18
+AUTHORS,TITLE,DOI,VENUE
+"'Yuzhan Ma, Sarah Fakhoury, Michael Christensen, Venera Arnaoudova, Waleed Zogaan, Mehdi Mirakhorli'",'Automatic classification of software artifacts in open-source applications. 414-425',,MSR18
+"'Eldan Cohen, Mariano P. Consens'",'Large-scale analysis of the co-commit patterns of the active developers in github's top repositories. 426-436',,MSR18
+"'Maëlick Claes, Mika Mäntylä, Miikka Kuutila, Umar Farooq'",'Towards automatically identifying paid open source developers. 437-441',,MSR18
+"'Michael Rath, David Lo, Patrick Mäder'",'Analyzing requirements and traceability information to improve bug localization. 442-453',,MSR18
+"'Jinqiu Yang, Erik Wittern, Annie T. T. Ying, Julian Dolby, Lin Tan'",'Towards extracting web API specifications from documentation. 454-464',,MSR18
+"'Md. Masudur Rahman, Jed Barson, Sydney Paul, Joshua Kayani, Federico Andres Lois, Sebastian Fernandez Quezada, Christopher Parnin, Kathryn T. Stolee, Baishakhi Ray'",'Evaluating how developers use general-purpose web-search for code retrieval. 465-475',,MSR18
+"'Pengcheng Yin, Bowen Deng, Edgar Chen, Bogdan Vasilescu, Graham Neubig'",'Learning to mine aligned code and natural language pairs from stack overflow. 476-486',,MSR18
+"'Ridhi Jain, Sai Prathik, Venkatesh Vinayakarao, Rahul Purandare'",'A search system for mathematical expressions on software binaries. 487-491',,MSR18
+"'Guillermo De la Torre, Romain Robbes, Alexandre Bergel'",'Imprecisions diagnostic in source code deltas. 492-502',,MSR18
+"'Maxime Lamothe, Weiyi Shang'",'Exploring the use of automated API migrating techniques in practice: an experience report on Android. 503-514',,MSR18

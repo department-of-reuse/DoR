@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Yuju Shen, Yanyan Jiang, Chang Xu, Ping Yu, Xiaoxing Ma, Jian Lu	ReScue: crafting regular expression DoS attacks. 225-235		ASE18
-Jie Liu, Diyu Wu, Jingling Xue	TDroid: exposing app switching attacks in Android with control flow specialization. 236-247		ASE18
-Ameni Ben Fadhel, Domenico Bianculli, Lionel C. Briand	Model-driven run-time enforcement of complex role-based access control policies. 248-258		ASE18
-Bo Jiang, Ye Liu, W. K. Chan	ContractFuzzer: fuzzing smart contracts for vulnerability detection. 259-269		ASE18
-Steven P. Reiss, Qi Xin, Jeff Huang	SEEDE: simultaneous execution and editing in a development environment. 270-281		ASE18
-Xiaoyu Liu, LiGuo Huang, Vincent Ng	Effective API recommendation without historical software repositories. 282-292		ASE18
-Qiao Huang, Xin Xia, Zhenchang Xing, David Lo, Xinyu Wang	API method recommendation without worrying about the task-API knowledge gap. 293-304		ASE18
-Boyuan Chen, Jian Song, Peng Xu, Xing Hu, Zhen Ming (Jack) Jiang	An automated approach to estimating code coverage measures via execution logs. 305-316		ASE18
-Andrew Habib, Michael Pradel	How many of all bugs do we find? a study of static bug detectors. 317-328		ASE18
-Hashim Sharif, Muhammad Abubakar, Ashish Gehani, Fareed Zaffar	TRIMMER: application specialization for code debloating. 329-339		ASE18
+AUTHORS,TITLE,DOI,VENUE
+"'Yuju Shen, Yanyan Jiang, Chang Xu, Ping Yu, Xiaoxing Ma, Jian Lu'",'ReScue: crafting regular expression DoS attacks. 225-235',,ASE18
+"'Jie Liu, Diyu Wu, Jingling Xue'",'TDroid: exposing app switching attacks in Android with control flow specialization. 236-247',,ASE18
+"'Ameni Ben Fadhel, Domenico Bianculli, Lionel C. Briand'",'Model-driven run-time enforcement of complex role-based access control policies. 248-258',,ASE18
+"'Bo Jiang, Ye Liu, W. K. Chan'",'ContractFuzzer: fuzzing smart contracts for vulnerability detection. 259-269',,ASE18
+"'Steven P. Reiss, Qi Xin, Jeff Huang'",'SEEDE: simultaneous execution and editing in a development environment. 270-281',,ASE18
+"'Xiaoyu Liu, LiGuo Huang, Vincent Ng'",'Effective API recommendation without historical software repositories. 282-292',,ASE18
+"'Qiao Huang, Xin Xia, Zhenchang Xing, David Lo, Xinyu Wang'",'API method recommendation without worrying about the task-API knowledge gap. 293-304',,ASE18
+"'Boyuan Chen, Jian Song, Peng Xu, Xing Hu, Zhen Ming (Jack) Jiang'",'An automated approach to estimating code coverage measures via execution logs. 305-316',,ASE18
+"'Andrew Habib, Michael Pradel'",'How many of all bugs do we find? a study of static bug detectors. 317-328',,ASE18
+"'Hashim Sharif, Muhammad Abubakar, Ashish Gehani, Fareed Zaffar'",'TRIMMER: application specialization for code debloating. 329-339',,ASE18

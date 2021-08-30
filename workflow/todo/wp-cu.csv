@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Maximilian Capraro, Michael Dorner, Dirk Riehle	The patch-flow method for measuring inner source collaboration. 515-525		MSR18
-Fiorella Zampetti, Alexander Serebrenik, Massimiliano Di Penta	Was self-admitted technical debt removal a real removal?: an in-depth perspective. 526-536		MSR18
-Beatriz A. Sánchez, Konstantinos Barmpis, Patrick Neubauer, Richard F. Paige, Dimitrios S. Kolovos	Restmule: enabling resilient clients for remote APIs. 537-541		MSR18
-Michele Tufano, Cody Watson, Gabriele Bavota, Massimiliano Di Penta, Martin White, Denys Poshyvanyk	Deep learning similarities from different representations of source code. 542-553		MSR18
-Suvodeep Majumder, Nikhila Balaji, Katie Brey, Wei Fu, Tim Menzies	500+ times faster than deep learning: a case study exploring faster methods for text mining stackoverflow. 554-563		MSR18
-Guilherme B. de Pádua, Weiyi Shang	Studying the relationship between exception handling practices and post-release defects. 564-575		MSR18
-Paola R. G. Accioly, Paulo Borba, Léuson M. P. da Silva, Guilherme Cavalcanti	Analyzing conflict predictors in open-source Java projects. 576-586		MSR18
-Neil A. Ernst	Bayesian hierarchical modelling for tailoring metric thresholds. 587-591		MSR18
-Eeshita Biswas, K. Vijay-Shanker, Lori L. Pollock	Exploring word embedding techniques to improve sentiment analysis of software engineering texts. 68-78		MSR19
-Musfiqur Rahman, Peter C. Rigby, Dharani Palani, Tien N. Nguyen	Cleaning StackOverflow for machine translation. 79-83		MSR19
+AUTHORS,TITLE,DOI,VENUE
+"'Maximilian Capraro, Michael Dorner, Dirk Riehle'",'The patch-flow method for measuring inner source collaboration. 515-525',,MSR18
+"'Fiorella Zampetti, Alexander Serebrenik, Massimiliano Di Penta'",'Was self-admitted technical debt removal a real removal?: an in-depth perspective. 526-536',,MSR18
+"'Beatriz A. Sánchez, Konstantinos Barmpis, Patrick Neubauer, Richard F. Paige, Dimitrios S. Kolovos'",'Restmule: enabling resilient clients for remote APIs. 537-541',,MSR18
+"'Michele Tufano, Cody Watson, Gabriele Bavota, Massimiliano Di Penta, Martin White, Denys Poshyvanyk'",'Deep learning similarities from different representations of source code. 542-553',,MSR18
+"'Suvodeep Majumder, Nikhila Balaji, Katie Brey, Wei Fu, Tim Menzies'",'500+ times faster than deep learning: a case study exploring faster methods for text mining stackoverflow. 554-563',,MSR18
+"'Guilherme B. de Pádua, Weiyi Shang'",'Studying the relationship between exception handling practices and post-release defects. 564-575',,MSR18
+"'Paola R. G. Accioly, Paulo Borba, Léuson M. P. da Silva, Guilherme Cavalcanti'",'Analyzing conflict predictors in open-source Java projects. 576-586',,MSR18
+'Neil A. Ernst','Bayesian hierarchical modelling for tailoring metric thresholds. 587-591',,MSR18
+"'Eeshita Biswas, K. Vijay-Shanker, Lori L. Pollock'",'Exploring word embedding techniques to improve sentiment analysis of software engineering texts. 68-78',,MSR19
+"'Musfiqur Rahman, Peter C. Rigby, Dharani Palani, Tien N. Nguyen'",'Cleaning StackOverflow for machine translation. 79-83',,MSR19

@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Vahid Alizadeh, Mohamed Amine Ouali, Marouane Kessentini, Meriem Chater	RefBot: Intelligent Software Refactoring Bot. 823-834		ASE19
-Mirko Köhler, Guido Salvaneschi	Automated Refactoring to Reactive Programming. 835-846		ASE19
-Benoît Verhaeghe, Christopher Fuhrman, Latifa Guerrouj, Nicolas Anquetil, Stéphane Ducasse	Empirical Study of Programming to an Interface. 847-850		ASE19
-Lingfeng Bao, Nimrod Busany, David Lo, Shahar Maoz	Statistical Log Differencing. 851-862		ASE19
-Jinyang Liu, Jieming Zhu, Shilin He, Pinjia He, Zibin Zheng, Michael R. Lyu	Logzip: Extracting Hidden Structures via Iterative Clustering for Log Compression. 863-873		ASE19
-Artur Boronat	Code-First Model-Driven Engineering: On the Agile Adoption of MDE Tooling. 874-886		ASE19
-Nimrod Busany, Shahar Maoz, Yehonatan Yulazari	Size and Accuracy in Model Inference. 887-898		ASE19
-Brandon Paulsen, Chungha Sung, Peter A. H. Peterson, Chao Wang	Debreach: Mitigating Compression Side Channels via Static Analysis and Transformation. 899-911		ASE19
-Martin Nowack	Fine-Grain Memory Object Representation in Symbolic Execution. 912-923		ASE19
-Dongliang Mu, Wenbo Guo, Alejandro Cuevas, Yueqi Chen, Jinxuan Gai, Xinyu Xing, Bing Mao, Chengyu Song	RENN: Efficient Reverse Execution with Neural-Network-Assisted Alias Analysis. 924-935		ASE19
+AUTHORS,TITLE,DOI,VENUE
+"'Vahid Alizadeh, Mohamed Amine Ouali, Marouane Kessentini, Meriem Chater'",'RefBot: Intelligent Software Refactoring Bot. 823-834',,ASE19
+"'Mirko Köhler, Guido Salvaneschi'",'Automated Refactoring to Reactive Programming. 835-846',,ASE19
+"'Benoît Verhaeghe, Christopher Fuhrman, Latifa Guerrouj, Nicolas Anquetil, Stéphane Ducasse'",'Empirical Study of Programming to an Interface. 847-850',,ASE19
+"'Lingfeng Bao, Nimrod Busany, David Lo, Shahar Maoz'",'Statistical Log Differencing. 851-862',,ASE19
+"'Jinyang Liu, Jieming Zhu, Shilin He, Pinjia He, Zibin Zheng, Michael R. Lyu'",'Logzip: Extracting Hidden Structures via Iterative Clustering for Log Compression. 863-873',,ASE19
+'Artur Boronat','Code-First Model-Driven Engineering: On the Agile Adoption of MDE Tooling. 874-886',,ASE19
+"'Nimrod Busany, Shahar Maoz, Yehonatan Yulazari'",'Size and Accuracy in Model Inference. 887-898',,ASE19
+"'Brandon Paulsen, Chungha Sung, Peter A. H. Peterson, Chao Wang'",'Debreach: Mitigating Compression Side Channels via Static Analysis and Transformation. 899-911',,ASE19
+'Martin Nowack','Fine-Grain Memory Object Representation in Symbolic Execution. 912-923',,ASE19
+"'Dongliang Mu, Wenbo Guo, Alejandro Cuevas, Yueqi Chen, Jinxuan Gai, Xinyu Xing, Bing Mao, Chengyu Song'",'RENN: Efficient Reverse Execution with Neural-Network-Assisted Alias Analysis. 924-935',,ASE19

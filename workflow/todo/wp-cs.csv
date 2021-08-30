@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Sebastian Baltes, Lorik Dumani, Christoph Treude, Stephan Diehl	SOTorrent: reconstructing and analyzing the evolution of stack overflow posts. 319-330		MSR18
-Robert Benkoczi, Daya Ram Gaur, Shahadat Hossain, Muhammad A. Khan	A design structure matrix approach for measuring co-change-modularity of software products. 331-335		MSR18
-Ryo Arima, Yoshiki Higo, Shinji Kusumoto	A study on inappropriately partitioned commits: how much and what kinds of IP commits in Java projects? 336-340		MSR18
-Vivek Nair, Amritanshu Agrawal, Jianfeng Chen, Wei Fu, George Mathew, Tim Menzies, Leandro L. Minku, Markus Wagner, Zhe Yu	Data-driven search-based software engineering. 341-352		MSR18
-Houssem Ben Braiek, Foutse Khomh, Bram Adams	The open-closed principle of modern machine learning frameworks. 353-363		MSR18
-Nicole Novielli, Daniela Girardi, Filippo Lanubile	A benchmark study on sentiment analysis for software engineering research. 364-375		MSR18
-Jordan Ott, Abigail Atchison, Paul Harnack, Adrienne Bergh, Erik Linstead	A deep learning approach to identifying source code in images and video. 376-386		MSR18
-Mika V. Mäntylä, Fabio Calefato, Maëlick Claes	Natural language or not (NLON): a package for software engineering text analysis pipeline. 387-391		MSR18
-Luca Pascarella, Fabio Palomba, Massimiliano Di Penta, Alberto Bacchelli	How is video game development different from software development in open source? 392-402		MSR18
-Justin Middleton, Emerson R. Murphy-Hill, Demetrius Green, Adam W. Meade, Roger Mayer, David White, Steve McDonald	Which contributions predict whether developers are accepted into github teams. 403-413		MSR18
+AUTHORS,TITLE,DOI,VENUE
+"'Sebastian Baltes, Lorik Dumani, Christoph Treude, Stephan Diehl'",'SOTorrent: reconstructing and analyzing the evolution of stack overflow posts. 319-330',,MSR18
+"'Robert Benkoczi, Daya Ram Gaur, Shahadat Hossain, Muhammad A. Khan'",'A design structure matrix approach for measuring co-change-modularity of software products. 331-335',,MSR18
+"'Ryo Arima, Yoshiki Higo, Shinji Kusumoto'",'A study on inappropriately partitioned commits: how much and what kinds of IP commits in Java projects? 336-340',,MSR18
+"'Vivek Nair, Amritanshu Agrawal, Jianfeng Chen, Wei Fu, George Mathew, Tim Menzies, Leandro L. Minku, Markus Wagner, Zhe Yu'",'Data-driven search-based software engineering. 341-352',,MSR18
+"'Houssem Ben Braiek, Foutse Khomh, Bram Adams'",'The open-closed principle of modern machine learning frameworks. 353-363',,MSR18
+"'Nicole Novielli, Daniela Girardi, Filippo Lanubile'",'A benchmark study on sentiment analysis for software engineering research. 364-375',,MSR18
+"'Jordan Ott, Abigail Atchison, Paul Harnack, Adrienne Bergh, Erik Linstead'",'A deep learning approach to identifying source code in images and video. 376-386',,MSR18
+"'Mika V. Mäntylä, Fabio Calefato, Maëlick Claes'",'Natural language or not (NLON): a package for software engineering text analysis pipeline. 387-391',,MSR18
+"'Luca Pascarella, Fabio Palomba, Massimiliano Di Penta, Alberto Bacchelli'",'How is video game development different from software development in open source? 392-402',,MSR18
+"'Justin Middleton, Emerson R. Murphy-Hill, Demetrius Green, Adam W. Meade, Roger Mayer, David White, Steve McDonald'",'Which contributions predict whether developers are accepted into github teams. 403-413',,MSR18

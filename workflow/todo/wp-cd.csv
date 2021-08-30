@@ -1,11 +1,11 @@
-AUTHORS	TITLE	DOI	VENUE
-Wujie Zheng, Haochuan Lu, Yangfan Zhou, Jianming Liang, Haibing Zheng, Yuetang Deng	iFeedback: Exploiting User Feedback for Real-Time Issue Detection in Large-Scale Online Service Systems. 352-363		ASE19
-Junjie Chen, Xiaoting He, Qingwei Lin, Hongyu Zhang, Dan Hao, Feng Gao, Zhangwei Xu, Yingnong Dang, Dongmei Zhang	Continuous Incident Triage for Large-Scale Online Service Systems. 364-375		ASE19
-Hao Zhang, W. K. Chan	Apricot: A Weight-Adaptation Approach to Fixing Deep Learning Models. 376-387		ASE19
-Yang Hu, Umair Z. Ahmed, Sergey Mechtaev, Ben Leong, Abhik Roychoudhury	Re-Factoring Based Program Repair Applied to Programming Assignments. 388-398		ASE19
-Madeline Endres, Georgios Sakkas, Benjamin Cosman, Ranjit Jhala, Westley Weimer	InFix: Automatically Repairing Novice Program Inputs. 399-410		ASE19
-Padraic Cashin, Carianne Martinez, Westley Weimer, Stephanie Forrest	Understanding Automatically-Generated Patches Through Symbolic Invariant Differences. 411-414		ASE19
-Louis G. Michael IV, James Donohue, James C. Davis, Dongyoon Lee, Francisco Servant	Regexes are Hard: Decision-Making, Difficulties, and Risks in Programming Regular Expressions. 415-426		ASE19
-James C. Davis, Daniel Moyer, Ayaan M. Kazerouni, Dongyoon Lee	Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study. 427-439		ASE19
-Elena Sherman, Andrew Harris	Accurate String Constraints Solution Counting with Weighted Automata. 440-452		ASE19
-William Eiers, Seemanta Saha, Tegan Brennan, Tevfik Bultan	Subformula Caching for Model Counting and Quantitative Program Analysis. 453-464		ASE19
+AUTHORS,TITLE,DOI,VENUE
+"'Wujie Zheng, Haochuan Lu, Yangfan Zhou, Jianming Liang, Haibing Zheng, Yuetang Deng'",'iFeedback: Exploiting User Feedback for Real-Time Issue Detection in Large-Scale Online Service Systems. 352-363',,ASE19
+"'Junjie Chen, Xiaoting He, Qingwei Lin, Hongyu Zhang, Dan Hao, Feng Gao, Zhangwei Xu, Yingnong Dang, Dongmei Zhang'",'Continuous Incident Triage for Large-Scale Online Service Systems. 364-375',,ASE19
+"'Hao Zhang, W. K. Chan'",'Apricot: A Weight-Adaptation Approach to Fixing Deep Learning Models. 376-387',,ASE19
+"'Yang Hu, Umair Z. Ahmed, Sergey Mechtaev, Ben Leong, Abhik Roychoudhury'",'Re-Factoring Based Program Repair Applied to Programming Assignments. 388-398',,ASE19
+"'Madeline Endres, Georgios Sakkas, Benjamin Cosman, Ranjit Jhala, Westley Weimer'",'InFix: Automatically Repairing Novice Program Inputs. 399-410',,ASE19
+"'Padraic Cashin, Carianne Martinez, Westley Weimer, Stephanie Forrest'",'Understanding Automatically-Generated Patches Through Symbolic Invariant Differences. 411-414',,ASE19
+"'Louis G. Michael IV, James Donohue, James C. Davis, Dongyoon Lee, Francisco Servant'","'Regexes are Hard: Decision-Making, Difficulties, and Risks in Programming Regular Expressions. 415-426'",,ASE19
+"'James C. Davis, Daniel Moyer, Ayaan M. Kazerouni, Dongyoon Lee'",'Testing Regex Generalizability And Its Implications: A Large-Scale Many-Language Measurement Study. 427-439',,ASE19
+"'Elena Sherman, Andrew Harris'",'Accurate String Constraints Solution Counting with Weighted Automata. 440-452',,ASE19
+"'William Eiers, Seemanta Saha, Tegan Brennan, Tevfik Bultan'",'Subformula Caching for Model Counting and Quantitative Program Analysis. 453-464',,ASE19
