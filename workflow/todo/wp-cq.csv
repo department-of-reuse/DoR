@@ -1,0 +1,11 @@
+AUTHORS	TITLE	DOI	VENUE
+Christoph Laaber, Philipp Leitner	An evaluation of open-source software microbenchmark suites for continuous performance assessment. 119-130		MSR18
+João Helis Bernardo, Daniel Alencar da Costa, Uirá Kulesza	Studying the impact of adopting continuous integration on the delivery time of pull requests. 131-141		MSR18
+Paolo Calciati, Konstantin Kuznetsov, Xue Bai, Alessandra Gorla	What did really change with the new release of the app? 142-152		MSR18
+Mathieu Nayrolles, Abdelwahab Hamou-Lhadj	CLEVER: combining code metrics with clone detection for just-in-time fault prevention and resolution in large industrial projects. 153-164		MSR18
+David Gray Widder, Michael Hilton, Christian Kästner, Bogdan Vasilescu	I'm leaving you, Travis: a continuous integration breakup story. 165-169		MSR18
+Lina Ochoa, Thomas Degueule, Jurgen J. Vinju	An empirical evaluation of OSGi dependencies best practices in the eclipse IDE. 170-180		MSR18
+Alexandre Decan, Tom Mens, Eleni Constantinou	On the impact of security vulnerabilities in the npm package dependency network. 181-191		MSR18
+Parisa Moslehi, Bram Adams, Juergen Rilling	Feature location using crowd-based screencasts. 192-202		MSR18
+Barbara Russo	Profiling call changes via motif mining. 203-214		MSR18
+Arman Shahbazian, Daye Nam, Nenad Medvidovic	Toward predicting architectural significance of implementation issues. 215-219		MSR18
