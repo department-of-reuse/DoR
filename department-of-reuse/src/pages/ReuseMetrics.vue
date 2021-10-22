@@ -15,7 +15,7 @@
             style="width: 1000px; height: 500px"
             class="ag-theme-alpine"
             :columnDefs="columns"
-            :rowData="researchers.reused"
+            :rowData="rowData"
           >
         </ag-grid-vue>
     </div>
@@ -28,6 +28,9 @@ import "ag-grid-community/dist/styles/ag-theme-alpine.css";
 import { defineComponent, onBeforeMount, ref } from "vue";
 import { AgGridVue } from "ag-grid-vue3";
 
+import { HistogramEntry } from '../tools/Histogram';
+import { Author } from '../clients/crossref';
+
 import reuseJson from '../assets/data/reuse.json';
 import { ReuseFromJson } from '../backend/models/Reuse';
 
@@ -35,15 +38,22 @@ import RIndex from '../backend/RIndex';
 
 type Row = {
   name: string,
-  rvalue: number
+  reusedvalue: number,
+  reusingvalue: number
 }
 
 interface HistogramContainer {
-  reused : Array<Row>,
-  reusing : Array<any>
+  reused : Array<HistogramEntry<Author>>,
+  reusing : Array<HistogramEntry<Author>>
 }
 
-
+function getFrequencyOrElseZero(entry: HistogramEntry<Author> | undefined): number {
+  if(entry === undefined){
+    return 0
+  } else {
+    return entry.frequency
+  }
+}
 
 
 export default defineComponent({
@@ -52,6 +62,7 @@ export default defineComponent({
   setup() {
     const isLoading = ref(false);
     const researchers = ref({} as HistogramContainer);
+    const rowData = ref({} as Array<Row>)
     const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
     const indexer = new RIndex(reuseData);
 
@@ -59,9 +70,21 @@ export default defineComponent({
         isLoading.value = true;
         
         researchers.value = { 
-          reused: (await indexer.computeAuthorsReused()).map(p => {return {name: p.entry.given! + " " + p.entry.family!, rvalue: p.frequency}}),
+          reused: (await indexer.computeAuthorsReused()),
           reusing: (await indexer.computeAuthorsReusing())
           };
+
+        let allAuthors: Array<Author> = Array.from(new Set(researchers.value.reused.map(p => p.entry).concat(researchers.value.reusing.map(p => p.entry))))
+
+        rowData.value = allAuthors
+          .map(author => {
+            let nameVal = author.given! + " " + author.family!
+
+            let reusedVal = getFrequencyOrElseZero(researchers.value.reused.find(e => { return e.entry.given == author.given && e.entry.family == author.family }))
+            let reusingVal = getFrequencyOrElseZero(researchers.value.reusing.find(e => { return e.entry.given == author.given && e.entry.family == author.family }))
+
+            return {name: nameVal, reusedvalue: reusedVal, reusingvalue: reusingVal}
+          })
 
         isLoading.value = false;
     })
@@ -72,12 +95,16 @@ export default defineComponent({
           headerName: "Autor",
         },
         {
-          field: "rvalue",
-          headerName: "Reused(R)",
+          field: "reusedvalue",
+          headerName: "Reused(R+)",
+        },
+        {
+          field: "reusingvalue",
+          headerName: "Reusing(R)",
         }
     ];
 
-    return { isLoading, columns, researchers };
+    return { isLoading, columns, rowData };
   },
 });
 </script>
