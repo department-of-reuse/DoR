@@ -10,8 +10,8 @@
     <div v-if="isLoading">
       <p>Loading data ...</p>
     </div>
-    <div v-else class="h-screen">
-        <div style="width: 40%; float:left; height: 85vh; margin-top:1vh; margin-left: 2%">
+    <div v-else class="h-full lg:h-screen">
+        <div class="lg:float-left float-none mt-1.5 w-11/12 lg:w-2/5" style="height: 85vh; margin-left: 3%">
           <h1 class="text-3xl">Reuse Statistics by Author</h1>
           <ag-grid-vue
               style="width: 100%; height: 97%; margin-top: 3%"
@@ -24,7 +24,7 @@
             >
           </ag-grid-vue>
         </div>
-        <div style="width: 54%; float:left; height: 85vh; margin-top:1vh; margin-left: 2%;">
+        <div class="lg:float-left float-none mt-20 lg:mt-1.5 w-11/12 lg:w-1/2" style="height: 85vh; margin-left: 3%;">
           <h1 class="text-3xl">Reuse Statistics by Publication</h1>
           <ag-grid-vue
               style="width: 100%; height: 97%; margin-top: 2.2%"
