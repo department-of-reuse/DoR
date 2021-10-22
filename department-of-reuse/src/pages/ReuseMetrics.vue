@@ -87,6 +87,10 @@ function getFrequencyOrElseZero<T>(entry: HistogramEntry<T> | undefined): number
   }
 }
 
+function uniqueFilter(value: Author, index: number, self: Array<Author>) {
+    return self.findIndex(function(curr: Author){return curr.given === value.given && curr.family == value.family}) === index;
+}
+
 
 export default defineComponent({
   name: "ReuseMetrics",
@@ -111,7 +115,7 @@ export default defineComponent({
           };
         
 
-        let allAuthors: Array<Author> = Array.from(new Set(researchers.reused.map(p => p.entry).concat(researchers.reusing.map(p => p.entry))))
+        let allAuthors: Array<Author> = researchers.reused.map(p => p.entry).concat(researchers.reusing.map(p => p.entry)).filter(uniqueFilter)
         let allWorks: Array<Work> = Array.from(new Set(papers.reused.map(p => p.entry).concat(papers.reusing.map(p => p.entry))))
 
 
@@ -120,8 +124,8 @@ export default defineComponent({
             let givennameVal = author.given == undefined ? "" : author.given
             let familynameVal = author.family == undefined ? "" : author.family
 
-            let reusedVal = getFrequencyOrElseZero(researchers.reused.find(e => { return e.entry == author }))
-            let reusingVal = getFrequencyOrElseZero(researchers.reusing.find(e => { return e.entry == author }))
+            let reusedVal = getFrequencyOrElseZero(researchers.reused.find(e => { return e.entry.given == author.given && e.entry.family == author.family}))
+            let reusingVal = getFrequencyOrElseZero(researchers.reusing.find(e => { return e.entry.given == author.given && e.entry.family == author.family }))
 
             return {givenname: givennameVal, familyname: familynameVal, reusedvalue: reusedVal, reusingvalue: reusingVal}
           })
