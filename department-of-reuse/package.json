@@ -17,6 +17,8 @@
     "@types/csv-parse": "^1.2.2",
     "@types/cytoscape": "^3.14.12",
     "@types/xml2js": "^0.4.8",
+    "ag-grid-community": "^26.1.0",
+    "ag-grid-vue3": "^26.1.2",
     "autoprefixer": "^9",
     "core-js": "^3.6.5",
     "csv-parse": "^4.15.4",
@@ -37,7 +39,7 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "ts-enum-util": "^4.0.2",
     "vue": "^3.0.0",
-    "vue-class-component": "^8.0.0-0",
+    "vue-class-component": "^8.0.0-rc.1",
     "vue-router": "4",
     "vuex": "4.0.0-rc.1",
     "xml2js": "^0.4.23"
@@ -55,6 +57,8 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
     "execa": "^5.0.0",
+    "sass": "^1.43.3",
+    "sass-loader": "^10",
     "typescript": "~4.1.5",
     "vue-cli-plugin-axios": "~0.0.4",
     "vue-cli-plugin-tailwind": "~2.0.6"
