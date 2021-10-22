@@ -185,19 +185,21 @@ export default defineComponent({
           headerName: "Publication",
           filter: "agTextColumnFilter",
           resizable: true,
-          flex:3
+          flex:5
           //cellClass: "cell-wrap-text",
           //autoHeight: true
         },
         {
           field: "reusedvalue",
-          headerName: "Reused(R+)",
+          headerName: "R+",
+          headerTooltip: "Times this publication has been reused.",
           filter: "agNumberColumnFilter",
           flex:1
         },
         {
           field: "reusingvalue",
-          headerName: "Reusing(R)",
+          headerName: "R",
+          headerTooltip: "Times this publication has reused other publications.",
           filter: "agNumberColumnFilter",
           flex:1
         }
