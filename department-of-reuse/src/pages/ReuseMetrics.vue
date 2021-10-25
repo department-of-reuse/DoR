@@ -116,6 +116,7 @@ export default defineComponent({
         
 
         let allAuthors: Array<Author> = researchers.reused.map(p => p.entry).concat(researchers.reusing.map(p => p.entry)).filter(uniqueFilter)
+
         let allWorks: Array<Work> = Array.from(new Set(papers.reused.map(p => p.entry).concat(papers.reusing.map(p => p.entry))))
 
 
@@ -149,7 +150,9 @@ export default defineComponent({
         filterParams: {
           buttons: ["reset"],
           debounceMs: 300
-        }
+        },
+        wrapText: true, 
+        autoHeight: true,
       }
     
     const columns = {
@@ -189,9 +192,8 @@ export default defineComponent({
           headerName: "Publication",
           filter: "agTextColumnFilter",
           resizable: true,
-          flex:5
-          //cellClass: "cell-wrap-text",
-          //autoHeight: true
+          flex:5,
+          cellStyle:  {"line-height": '2.0', "text-align": "left"}
         },
         {
           field: "reusedvalue",
