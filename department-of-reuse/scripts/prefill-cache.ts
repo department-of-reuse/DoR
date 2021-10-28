@@ -108,7 +108,7 @@ Promise.all(dois.map(throttledWorksApi)).then(entries => {
     entries.forEach(entry => {
         if (entry != null) {
             const currentMessage = (entry as WorkMessage).message;
-            if (!worksCache.find(x => { return x.doi == currentMessage.dOI })){
+            if (!worksCache.find(x => (x.doi == currentMessage.dOI) )){
                 worksCache.push({ doi: currentMessage.dOI, result: currentMessage })
                 currentMessage.author.forEach(author => { addOrUpdateAuthorsCache(author) })
             }
@@ -119,7 +119,7 @@ Promise.all(dois.map(throttledWorksApi)).then(entries => {
     // Update all author information in worksCache using the authorsCache
     worksCache
         .map( entry => entry.result)
-        .map( work => {
+        .forEach( work => {
             work.author = work.author.map( author => {return authorsCache.find(elem => {return elem.id == authorId(author)}).result})
         })
 
