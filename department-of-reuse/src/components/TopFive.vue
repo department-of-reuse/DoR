@@ -10,7 +10,10 @@
       <div v-else>
         <table class="m-1 table-auto text-xs w-full bg-opacity-40 bg-white">
           <tr v-for="(p, index) in researchers.reused" :key="index" :class="index % 2 ? 'bg-opacity-80 bg-white' : ''">
-            <td class="text-left hover:bg-blue-50">{{p.entry.given}} {{p.entry.family}}</td>
+            <td class="text-left hover:bg-blue-50">
+              <a :href="p.entry.oRCID" v-if="p.entry.oRCID != undefined" target="_new" >{{p.entry.given}} {{p.entry.family}}</a>
+              <span v-else>{{p.entry.given}} {{p.entry.family}}</span>
+            </td>
             <td>{{p.frequency}}</td>
           </tr>
         </table>
@@ -22,7 +25,10 @@
       <div v-else>    
         <table class="m-1 table-auto text-xs w-full bg-opacity-40 bg-white">
           <tr v-for="(p, index) in researchers.reusing" :key="index" :class="index % 2 ? 'bg-opacity-80 bg-white' : ''">
-            <td class="text-left hover:bg-blue-50">{{p.entry.given}} {{p.entry.family}}</td>
+            <td class="text-left hover:bg-blue-50">
+              <a :href="p.entry.oRCID" v-if="p.entry.oRCID != undefined" target="_new">{{p.entry.given}} {{p.entry.family}}</a>
+              <span v-else>{{p.entry.given}} {{p.entry.family}}</span>
+            </td>
             <td>{{p.frequency}}</td>
           </tr>
         </table>
