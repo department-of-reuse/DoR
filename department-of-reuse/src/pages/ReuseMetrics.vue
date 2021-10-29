@@ -123,7 +123,7 @@ export default defineComponent({
         rowData.value.authors = allAuthors
           .map(author => {
             let givennameVal = author.given == undefined ? "" : author.given
-            let familynameVal = author.family == undefined ? "" : author.family
+            var familynameVal = author.family == undefined ? "" : author.family
 
             let reusedVal = getFrequencyOrElseZero(researchers.reused.find(e => { return e.entry.given == author.given && e.entry.family == author.family}))
             let reusingVal = getFrequencyOrElseZero(researchers.reusing.find(e => { return e.entry.given == author.given && e.entry.family == author.family }))
@@ -169,7 +169,18 @@ export default defineComponent({
           headerName: "Family Name",
           filter: "agTextColumnFilter",
           resizable: true,
-          flex:2
+          flex:2/*,
+          cellRenderer: function(params: any) {
+            let author = params.data.familyname
+
+            var name = author.family == undefined ? "" : author.family!
+
+            if(author.oRCID){
+              name = '<a class="text-sm text-blue-700 underline" href="' + author.oRCID + '">' + name + "</a>"
+            }
+
+            return name;
+          }*/
         },
         {
           field: "reusedvalue",

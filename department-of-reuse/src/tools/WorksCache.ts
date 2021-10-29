@@ -1,11 +1,13 @@
 import { Work, WorkFromJSON} from '@/clients/crossref';
 import prefillData from '../assets/data/works-cache.json';
+import { AuthorsCache } from './AuthorsCache'
 
 type CacheResult = Work;
 
 export class WorksCache {
     private static instance: WorksCache;
     private cache: { doi: string, result: Work }[] = [];
+    private authorsCache = new AuthorsCache()
 
     constructor() {
         if (WorksCache.instance != null) {
@@ -21,6 +23,10 @@ export class WorksCache {
     private prefill() {
         const prefillWorks = ((prefillData as Array<any>).map(WorkFromJSON));
         prefillWorks.forEach( currentWork => this.set(currentWork.dOI, currentWork));
+        
+        // Prefill authors cache with data from works json
+        const prefillAuthors = prefillWorks.flatMap(work => {return work.author})
+        prefillAuthors.forEach( currentAuthor => this.authorsCache.set(currentAuthor))
     }
 
     public set = (doi: string, result: CacheResult): void => {
@@ -29,6 +35,9 @@ export class WorksCache {
                 doi,
                 result
             });
+            
+            // Update authors cache with new author information
+            result.author.forEach(author => this.authorsCache.set(author))
         }
     }
 
@@ -38,7 +47,12 @@ export class WorksCache {
         });
 
         if (cacheRecord) {
-            return cacheRecord.result;
+            const hit = cacheRecord.result
+            
+            // Update work with latest author information from cache
+            hit.author = hit.author.map(a => this.authorsCache.get(this.authorsCache.authorId(a))!)
+
+            return hit;
         }
 
         return null;
