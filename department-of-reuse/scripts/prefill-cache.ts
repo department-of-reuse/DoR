@@ -5,6 +5,7 @@ import previousArxivCacheJson from '../src/assets/data/arxiv-cache.json';
 import { ReuseFromJson } from '../src/backend/models/Reuse';
 import { Configuration, WorksApi, Work, WorkMessage, WorkToJSON, WorkFromJSON, Author } from '../src/clients/crossref';
 import { QueryApi, Configuration as ArxivConfiguration, Feed, FeedFromJSON, FeedToJSON } from '../src/clients/arxiv';
+import { GithubCitationApi } from '../src/clients/github/GithubCitationApi';
 import fetch from "node-fetch";
 import * as fs from 'fs';
 import pThrottle from 'p-throttle';
@@ -23,6 +24,8 @@ const crossRef = new WorksApi(new Configuration({
 const arxiv = new QueryApi(new ArxivConfiguration({
     fetchApi: fetch
 }));
+
+const github = new GithubCitationApi();
 
 var authorsCache: { id: string, result: Author }[] = [];
 
@@ -95,6 +98,33 @@ const throttledArxivApi = throttle(id => {
             console.error("Could not resolve: " + id + " - Maybe is not an arXiv id? " + reason); 
         });
 })
+
+const throttledGithubApi = throttle((owner, repo) => {
+    return github
+        .queryCitationFile(owner as string, repo as string)
+        .catch(reason => {
+            console.error("Could not find citation file for repo " + owner + "/" + repo + " for reason: " + reason)
+        });
+})
+
+const githubArtefacts = Array.from(new Set(reuseData
+    .map(entry => entry.alternativeID.trim())
+    .filter(url => url.toLowerCase().startsWith("https://github.com/"))
+    .filter(url => {
+        let relPath = url.replace("https://github.com/", "")
+        let parts = relPath.split("/")
+        // Only keep links to valid github repos. Must be of form 'https://github.com/<owner>/<repo>[/]' (meaning the trailing slash is optional)
+        return (parts.length == 2 && parts[0].length > 0 && parts[1].length > 0) || (parts.length == 3 && parts[0].length > 0 && parts[1].length > 0 && parts[2].length == 0)
+    })))
+
+console.log(`Resolving ${githubArtefacts.length} new github URL(s).`)    
+
+Promise.all(githubArtefacts.map(url => {
+    let parts = url.replace("https://github.com/", "").split("/")
+    return throttledGithubApi(parts[0], parts[1])
+})).then( file => {
+    console.log("GITHUB: " + file)
+}).then(_ => console.log(`GitHub cache prefill complete.`));
 
 const dois = Array.from(new Set(reuseData
                 .map(entry => entry.sourceDOI)
