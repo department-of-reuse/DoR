@@ -119,14 +119,13 @@ const githubArtefacts = Array.from(new Set(reuseData
         return (parts.length == 2 && parts[0].length > 0 && parts[1].length > 0) || (parts.length == 3 && parts[0].length > 0 && parts[1].length > 0 && parts[2].length == 0)
     })))
 
-console.log(`Resolving ${githubArtefacts.length} new github URL(s).`)    
-console.log(githubArtefacts)
+console.log(`Resolving ${githubArtefacts.length} new github URL(s).`)
 
 Promise.all(githubArtefacts.map(url => {
     let parts = url.replace("https://github.com/", "").split("/")
     return throttledGithubApi(parts[0].trim(), parts[1].trim())
 })).then( file => {
-    file.filter( value => {return (value != undefined && value != '')}).forEach(v => console.log("GITHUB: " + v))
+    file.filter( value => {return (value != undefined)}).forEach(v => console.log("GITHUB: " + JSON.stringify(v)))
 }).then(_ => console.log(`GitHub cache prefill complete.`));
 
 const dois = Array.from(new Set(reuseData
