@@ -102,8 +102,10 @@ const throttledArxivApi = throttle(id => {
 const throttledGithubApi = throttle((owner, repo) => {
     return github
         .queryCitationFile(owner as string, repo as string)
-        .catch(reason => {
-            console.error("Could not find citation file for repo " + owner + "/" + repo + " for reason: " + reason)
+        .catch(status => {
+            if(status != '404'){
+                console.error("Error retrieving citation file for repo " + owner + "/" + repo + ", got status code: " + status)
+            }
         });
 })
 
@@ -118,12 +120,13 @@ const githubArtefacts = Array.from(new Set(reuseData
     })))
 
 console.log(`Resolving ${githubArtefacts.length} new github URL(s).`)    
+console.log(githubArtefacts)
 
 Promise.all(githubArtefacts.map(url => {
     let parts = url.replace("https://github.com/", "").split("/")
-    return throttledGithubApi(parts[0], parts[1])
+    return throttledGithubApi(parts[0].trim(), parts[1].trim())
 })).then( file => {
-    console.log("GITHUB: " + file)
+    file.filter( value => {return (value != undefined && value != '')}).forEach(v => console.log("GITHUB: " + v))
 }).then(_ => console.log(`GitHub cache prefill complete.`));
 
 const dois = Array.from(new Set(reuseData
