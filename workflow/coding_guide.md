@@ -3,8 +3,8 @@
 _Important note: before doing this, please to the [Training](training.md)_
 
 ## Coding Instructions  
-- Thanks for agreeing to participate!
-- Process:
+Thanks for agreeing to participate!
+### Process:
   1. [ ] Ensure you are aware of basic Git(Hub) transactions.
   2. [ ] Browse the [issue list](https://github.com/bhermann/DoR/issues?q=is%3Aopen+is%3Aissue+label%3A%221.+data+collection%22+no%3Aassignee) and assign yourself to an open issue. You can do this by commenting with the phrase `I would like to work on this please!` on the issue. The issue will be automatically assigned to you in a matter of seconds.
   3. [ ] Download the corresponding CSV file from the [todo](https://github.com/bhermann/DoR/tree/main/workflow/todo) folder for the work package associated with that issue (in the title).
