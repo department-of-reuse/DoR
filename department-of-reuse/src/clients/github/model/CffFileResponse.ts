@@ -29,6 +29,36 @@ export interface CffFileResponse {
     cffFile: CffFile;
 }
 
+export function IsValidGithubRepoUrl(value: string): boolean {
+    if(value == null || !value.startsWith("https://github.com/")){
+        return false;
+    } else {
+        let parts = value.replace("https://github.com/", "").split("/")
+
+        return (parts.length == 2 && parts[0].trim().length > 0 && parts[1].trim().length > 0) ||
+            (parts.length == 3 && parts[0].trim().length > 0 && parts[1].trim().length > 0 && parts[2].trim().length == 0)
+    }
+}
+
+export function GetRepoOwnerAndNameFromUrl(url: string): [string, string] | undefined {
+    if(!IsValidGithubRepoUrl(url)){
+        return undefined
+    } else {
+        let parts = url.replace("https://github.com/", "").split("/")
+
+        return [parts[0].trim(), parts[1].trim()]
+    }
+}
+
+export function GetRepoIdFromUrl(url: string): string | undefined {
+    if(!IsValidGithubRepoUrl(url)){
+        return undefined
+    } else {
+        let ownerAndName = GetRepoOwnerAndNameFromUrl(url)!;
+        return ownerAndName[0] + "/" + ownerAndName[1]
+    }
+}
+ 
 export function CffFileResponseToJSON(value?: CffFileResponse | null):any {
     if (value === undefined) {
         return undefined;

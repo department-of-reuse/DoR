@@ -1,11 +1,22 @@
 import axios from "axios"
 import { load } from "js-yaml"
-import { CffFile, CffFileResponse } from "./model/CffFileResponse";
+import { CffFile, CffFileResponse, GetRepoOwnerAndNameFromUrl } from "./model/CffFileResponse";
 
 export class GithubCitationApi {
 
+    async queryCitationFileByUrl(url: string): Promise<CffFileResponse> {
+        let ownerAndName = GetRepoOwnerAndNameFromUrl(url)
 
-    async queryCitationFile(repoOwner: string, repoName: string): Promise<CffFileResponse> {
+        if(ownerAndName){
+            return this.queryCitationFileByRepo(ownerAndName[0], ownerAndName[1])
+        } else {
+            return Promise.reject("No repository URL: " + url)
+        }
+
+        
+    }
+
+    async queryCitationFileByRepo(repoOwner: string, repoName: string): Promise<CffFileResponse> {
         const citationUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/HEAD/CITATION.cff`
 
         return axios.get<Text>(citationUrl).then(async response => {

@@ -7,7 +7,7 @@ import { ReuseFromJson } from '../src/backend/models/Reuse';
 import { Configuration, WorksApi, Work, WorkMessage, WorkToJSON, WorkFromJSON, Author } from '../src/clients/crossref';
 import { QueryApi, Configuration as ArxivConfiguration, Feed, FeedFromJSON, FeedToJSON, TitleFromJSON } from '../src/clients/arxiv';
 import { GithubCitationApi } from '../src/clients/github/GithubCitationApi';
-import { CffFileResponse, CffFileResponseToJSON } from '../src/clients/github/model/CffFileResponse';
+import { CffFileResponse, CffFileResponseToJSON, GetRepoIdFromUrl, GetRepoOwnerAndNameFromUrl, IsValidGithubRepoUrl } from '../src/clients/github/model/CffFileResponse';
 import fetch from "node-fetch";
 import * as fs from 'fs';
 import pThrottle from 'p-throttle';
@@ -109,9 +109,8 @@ const throttledArxivApi = throttle(id => {
 })
 
 const throttledGithubApi = throttle(url => {
-    let parts = (url as string).replace("https://github.com/", "").split("/")
     return github
-        .queryCitationFile(parts[0].trim(), parts[1].trim())
+        .queryCitationFileByUrl(url as string)
         .catch(status => {
             if(status != '404'){
                 console.error("Error retrieving citation file for repo " + (url as string) + ", got status code: " + status)
@@ -121,21 +120,13 @@ const throttledGithubApi = throttle(url => {
 
 const githubArtefacts = Array.from(new Set(reuseData
     .map(entry => entry.alternativeID.trim())
-    .filter(url => url.toLowerCase().startsWith("https://github.com/"))
     .filter(url => {
-        let relPath = url.replace("https://github.com/", "")
-        let parts = relPath.split("/")
-
-        // Only keep links to valid github repos. Must be of form 'https://github.com/<owner>/<repo>[/]' (meaning the trailing slash is optional)
-        if((parts.length == 2 && parts[0].trim().length > 0 && parts[1].trim().length > 0) ||
-            (parts.length == 3 && parts[0].trim().length > 0 && parts[1].trim().length > 0 && parts[2].trim().length == 0)){
-            // Valid link format, only keep this url if it is not already in the cache
-            let id = parts[0].trim() + "/" + parts[1].trim()
+        if(IsValidGithubRepoUrl(url)){
+            let id = GetRepoIdFromUrl(url)
             return githubCache.findIndex(item => item.id == id) == -1
-        } else {
-            // Invalid link format, ignore such urls
-            return false
         }
+
+        return false;
     })))
 
 console.log(`Resolving ${githubArtefacts.length} new github URL(s).`)
