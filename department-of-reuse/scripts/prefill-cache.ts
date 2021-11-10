@@ -1,11 +1,13 @@
 import reuseJson from '../src/assets/data/reuse.json';
 import previousWorksCacheJson from '../src/assets/data/works-cache.json';
 import previousArxivCacheJson from '../src/assets/data/arxiv-cache.json';
+import previousGithubCacheJson from '../src/assets/data/github-cache.json'
 
 import { ReuseFromJson } from '../src/backend/models/Reuse';
 import { Configuration, WorksApi, Work, WorkMessage, WorkToJSON, WorkFromJSON, Author } from '../src/clients/crossref';
-import { QueryApi, Configuration as ArxivConfiguration, Feed, FeedFromJSON, FeedToJSON } from '../src/clients/arxiv';
+import { QueryApi, Configuration as ArxivConfiguration, Feed, FeedFromJSON, FeedToJSON, TitleFromJSON } from '../src/clients/arxiv';
 import { GithubCitationApi } from '../src/clients/github/GithubCitationApi';
+import { CffFileResponse, CffFileResponseToJSON } from '../src/clients/github/model/CffFileResponse';
 import fetch from "node-fetch";
 import * as fs from 'fs';
 import pThrottle from 'p-throttle';
@@ -14,6 +16,7 @@ console.log("Prefilling CrossRef resolution cache.")
 
 const previousWorksCache = ((previousWorksCacheJson as Array<any>).map(WorkFromJSON));
 const previousArxivCache = ((previousArxivCacheJson as Array<any>).map(FeedFromJSON));
+const previousGithubCache = ((previousGithubCacheJson as Array<any>).map(item => item as CffFileResponse))
 
 const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
 
@@ -61,6 +64,7 @@ function addOrUpdateAuthorsCache(author: Author): void {
 
 var worksCache: { doi: string, result: Work }[] = [];
 var arxivCache: { id: string, result: Feed }[] = [];
+var githubCache: { id: string, result: CffFileResponse}[] = [];
 
 previousWorksCache.forEach( currentWork => {
     worksCache.push({doi: currentWork.dOI, result: currentWork});
@@ -76,6 +80,11 @@ function cleanArxivId(id : string) : string {
 
 previousArxivCache.forEach( (currentFeed : Feed) => arxivCache.push( {id : cleanArxivId(currentFeed.entry.id), result: currentFeed} ));
 console.log(`Reusing ${previousArxivCache.length} previously cached arXiv items.`);
+
+previousGithubCache.forEach( entry => {
+    githubCache.push( { id: entry.repoId, result: entry} )
+})
+console.log(`Reusing ${previousGithubCache.length} previously cached GitHub items.`);
 
 const throttle = pThrottle({
     limit: 2,
@@ -99,12 +108,13 @@ const throttledArxivApi = throttle(id => {
         });
 })
 
-const throttledGithubApi = throttle((owner, repo) => {
+const throttledGithubApi = throttle(url => {
+    let parts = (url as string).replace("https://github.com/", "").split("/")
     return github
-        .queryCitationFile(owner as string, repo as string)
+        .queryCitationFile(parts[0].trim(), parts[1].trim())
         .catch(status => {
             if(status != '404'){
-                console.error("Error retrieving citation file for repo " + owner + "/" + repo + ", got status code: " + status)
+                console.error("Error retrieving citation file for repo " + (url as string) + ", got status code: " + status)
             }
         });
 })
@@ -115,18 +125,39 @@ const githubArtefacts = Array.from(new Set(reuseData
     .filter(url => {
         let relPath = url.replace("https://github.com/", "")
         let parts = relPath.split("/")
+
         // Only keep links to valid github repos. Must be of form 'https://github.com/<owner>/<repo>[/]' (meaning the trailing slash is optional)
-        return (parts.length == 2 && parts[0].length > 0 && parts[1].length > 0) || (parts.length == 3 && parts[0].length > 0 && parts[1].length > 0 && parts[2].length == 0)
+        if((parts.length == 2 && parts[0].trim().length > 0 && parts[1].trim().length > 0) ||
+            (parts.length == 3 && parts[0].trim().length > 0 && parts[1].trim().length > 0 && parts[2].trim().length == 0)){
+            // Valid link format, only keep this url if it is not already in the cache
+            let id = parts[0].trim() + "/" + parts[1].trim()
+            return githubCache.findIndex(item => item.id == id) == -1
+        } else {
+            // Invalid link format, ignore such urls
+            return false
+        }
     })))
 
 console.log(`Resolving ${githubArtefacts.length} new github URL(s).`)
 
-Promise.all(githubArtefacts.map(url => {
-    let parts = url.replace("https://github.com/", "").split("/")
-    return throttledGithubApi(parts[0].trim(), parts[1].trim())
-})).then( file => {
-    file.filter( value => {return (value != undefined)}).forEach(v => console.log("GITHUB: " + JSON.stringify(v)))
-}).then(_ => console.log(`GitHub cache prefill complete.`));
+Promise.all(githubArtefacts.map(throttledGithubApi)).then( citations => {
+    citations.forEach(response => {
+        if(response != null && response != undefined){
+            const  citation = response as CffFileResponse
+            if(!githubCache.find(entry => entry.id == citation.repoId)){
+                githubCache.push({id: citation.repoId, result: citation})
+            }
+        }
+    })
+
+    const outputObject = githubCache
+        .map(entry => entry.result)
+        .map(CffFileResponseToJSON)
+        .map(o => JSON.stringify(o))
+        .join(",");
+
+    fs.writeFileSync('./src/assets/data/github-cache.json', "[" + outputObject + "]");
+}).then(_ => console.log(`GitHub cache prefill complete. Wrote ${githubCache.length} item(s).`));
 
 const dois = Array.from(new Set(reuseData
                 .map(entry => entry.sourceDOI)
