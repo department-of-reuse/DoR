@@ -11,15 +11,12 @@ export class CachedGithubApi extends GithubCitationApi {
     }
 
     async queryCitationFileInternal(repoOwner: string, repoName: string, requestOnCacheMiss: boolean): Promise<CffFileResponse> {
-        let repoId = repoOwner + "/" + repoName
+        const repoId = repoOwner + "/" + repoName
 
         if(!this.apiCache.recordExists(repoId) && requestOnCacheMiss){
-            console.debug("Cache miss")
             await super.queryCitationFileByRepo(repoOwner, repoName).then(response => {
                 this.apiCache.set(response.repoId, response)
-            }, reason => {
-                console.warn("No GitHub citation file for repo " + repoId)
-            })
+            }, () => {})
         }
 
         if(this.apiCache.recordExists(repoId)){
