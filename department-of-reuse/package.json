@@ -36,7 +36,7 @@
     "normalize-url": "^4.5.1",
     "nth-check": "2.0.1",
     "p-throttle": "^4.1.1",
-    "postcss": "7",
+    "postcss": "8",
     "set-value": "4.0.1",
     "ssri": "^8.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
