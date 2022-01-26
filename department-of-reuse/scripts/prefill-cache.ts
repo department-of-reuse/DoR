@@ -1,10 +1,13 @@
 import reuseJson from '../src/assets/data/reuse.json';
 import previousWorksCacheJson from '../src/assets/data/works-cache.json';
 import previousArxivCacheJson from '../src/assets/data/arxiv-cache.json';
+import previousGithubCacheJson from '../src/assets/data/github-cache.json'
 
 import { ReuseFromJson } from '../src/backend/models/Reuse';
 import { Configuration, WorksApi, Work, WorkMessage, WorkToJSON, WorkFromJSON, Author } from '../src/clients/crossref';
-import { QueryApi, Configuration as ArxivConfiguration, Feed, FeedFromJSON, FeedToJSON } from '../src/clients/arxiv';
+import { QueryApi, Configuration as ArxivConfiguration, Feed, FeedFromJSON, FeedToJSON, TitleFromJSON } from '../src/clients/arxiv';
+import { GithubCitationApi } from '../src/clients/github/GithubCitationApi';
+import { CffFileResponse, CffFileResponseToJSON, GetRepoIdFromUrl, GetRepoOwnerAndNameFromUrl, IsValidGithubRepoUrl } from '../src/clients/github/model/CffFileResponse';
 import fetch from "node-fetch";
 import * as fs from 'fs';
 import pThrottle from 'p-throttle';
@@ -13,6 +16,7 @@ console.log("Prefilling CrossRef resolution cache.")
 
 const previousWorksCache = ((previousWorksCacheJson as Array<any>).map(WorkFromJSON));
 const previousArxivCache = ((previousArxivCacheJson as Array<any>).map(FeedFromJSON));
+const previousGithubCache = ((previousGithubCacheJson as Array<any>).map(item => item as CffFileResponse))
 
 const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
 
@@ -23,6 +27,8 @@ const crossRef = new WorksApi(new Configuration({
 const arxiv = new QueryApi(new ArxivConfiguration({
     fetchApi: fetch
 }));
+
+const github = new GithubCitationApi();
 
 var authorsCache: { id: string, result: Author }[] = [];
 
@@ -58,6 +64,7 @@ function addOrUpdateAuthorsCache(author: Author): void {
 
 var worksCache: { doi: string, result: Work }[] = [];
 var arxivCache: { id: string, result: Feed }[] = [];
+var githubCache: { id: string, result: CffFileResponse}[] = [];
 
 previousWorksCache.forEach( currentWork => {
     worksCache.push({doi: currentWork.dOI, result: currentWork});
@@ -73,6 +80,11 @@ function cleanArxivId(id : string) : string {
 
 previousArxivCache.forEach( (currentFeed : Feed) => arxivCache.push( {id : cleanArxivId(currentFeed.entry.id), result: currentFeed} ));
 console.log(`Reusing ${previousArxivCache.length} previously cached arXiv items.`);
+
+previousGithubCache.forEach( entry => {
+    githubCache.push( { id: entry.repoId, result: entry} )
+})
+console.log(`Reusing ${previousGithubCache.length} previously cached GitHub items.`);
 
 const throttle = pThrottle({
     limit: 2,
@@ -95,6 +107,48 @@ const throttledArxivApi = throttle(id => {
             console.error("Could not resolve: " + id + " - Maybe is not an arXiv id? " + reason); 
         });
 })
+
+const throttledGithubApi = throttle(url => {
+    return github
+        .queryCitationFileByUrl(url as string)
+        .catch(status => {
+            if(status != '404'){
+                console.error("Error retrieving citation file for repo " + (url as string) + ", got status code: " + status)
+            }
+        });
+})
+
+const githubArtefacts = Array.from(new Set(reuseData
+    .map(entry => entry.alternativeID.trim())
+    .filter(url => {
+        if(IsValidGithubRepoUrl(url)){
+            let id = GetRepoIdFromUrl(url)
+            return githubCache.findIndex(item => item.id == id) == -1
+        }
+
+        return false;
+    })))
+
+console.log(`Resolving ${githubArtefacts.length} new github URL(s).`)
+
+Promise.all(githubArtefacts.map(throttledGithubApi)).then( citations => {
+    citations.forEach(response => {
+        if(response != null && response != undefined){
+            const  citation = response as CffFileResponse
+            if(!githubCache.find(entry => entry.id == citation.repoId)){
+                githubCache.push({id: citation.repoId, result: citation})
+            }
+        }
+    })
+
+    const outputObject = githubCache
+        .map(entry => entry.result)
+        .map(CffFileResponseToJSON)
+        .map(o => JSON.stringify(o))
+        .join(",");
+
+    fs.writeFileSync('./src/assets/data/github-cache.json', "[" + outputObject + "]");
+}).then(_ => console.log(`GitHub cache prefill complete. Wrote ${githubCache.length} item(s).`));
 
 const dois = Array.from(new Set(reuseData
                 .map(entry => entry.sourceDOI)

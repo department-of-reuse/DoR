@@ -14,7 +14,9 @@ import { ref, PropType, onBeforeMount, watch } from "vue";
 import Reuse, {  ReuseType, ReuseTypeFilter } from "../backend/models/Reuse";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
 import { CachedArxivApi } from "../tools/CachedArxivApi";
+import { CachedGithubApi } from "../tools/CachedGithubApi";
 import { Author, Work, WorkMessage } from "../clients/crossref";
+import { CffFileResponse } from "../clients/github/model/CffFileResponse"
 import { Feed } from "../clients/arxiv";
 
 import CompoundSet from "../tools/CompoundSet";
@@ -31,6 +33,7 @@ export default {
     const cyInstance = ref<Core | null>(null);
     const worksApi = new CachedWorksApi();
     const arxivApi = new CachedArxivApi();
+    const githubApi = new CachedGithubApi();
 
     async function transformToGraph(data: Array<Reuse>) : Promise<ElementsDefinition> {
       const transformedNodes = await getNodes(data);
@@ -91,8 +94,20 @@ export default {
     }
 
     async function createGithubNode(url : string) : Promise<NodeDefinition> {
-      const nodeName = url.replace("https://github.com/", "");
-      return { data: {id: url, name: nodeName}, classes: "github" };
+      var citationFile: CffFileResponse | undefined = undefined;
+      await githubApi.queryCitationFileByUrl(url).then(file => {
+          citationFile = file;
+        }, () => {})
+
+      if(citationFile){
+        const nodeName = citationFile!.repoId + " (CFF v" + citationFile!.cffFile["cff-version"] +")" 
+        return { data: {id: url, name: nodeName}, classes: "github" };
+      } else {
+        const nodeName = url.replace("https://github.com/", "");
+        return { data: {id: url, name: nodeName}, classes: "github" };
+      }
+
+      
     }
 
     async function createNodeFromArxivId(id : string) : Promise<NodeDefinition> {
