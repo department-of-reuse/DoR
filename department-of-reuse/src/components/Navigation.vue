@@ -7,7 +7,7 @@
             <a class="hover:bg-blue-400 px-1" href="https://github.com/bhermann/DoR">Source code</a>
             <!-- <a class="hover:bg-blue-400 px-1" href="https://github.com/bhermann/DoR">Meet the team</a> -->
         </div>
-        <div class="flex-none">The Department of Reuse is a department within the ROSE initiative.</div>
+        <div class="flex-none">The Department of Reuse is a department within the <a href="https://global.rutgers.edu/rose>ROSE initiative</a>.</div>
     </div>
 </template>
 <script lang="ts">
