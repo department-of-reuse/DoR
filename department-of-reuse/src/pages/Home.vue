@@ -14,8 +14,8 @@
           <GraphView :reuseData="reuseData" :filter="selectedFilter" />
         </div>
       </div>
-      <EditButton />
-      <EditDialog />
+      <EditButton @click="editDialogVisible = true;" />
+      <EditDialog v-if="editDialogVisible" />
       <div class="w-full">
         <header class="bg-opacity-40 bg-gray-200 z-10">
           <h1 class="text-4xl">Department of Reuse</h1>
@@ -55,6 +55,7 @@ import { ReuseFromJson, ReuseType } from "../backend/models/Reuse";
 
 import { $enum } from "ts-enum-util";
 import { ref } from "@vue/reactivity";
+import { provide } from '@vue/runtime-core';
 
 export default {
   name: "Home",
@@ -64,6 +65,12 @@ export default {
 
     const reuseData = (reuseJson as Array<any>).map(ReuseFromJson);
 
+    const editDialogVisible = ref(false);
+
+    const hideDialog = () => editDialogVisible.value = false;
+
+    provide("hideDialog", hideDialog);
+
     const reuseTypes = $enum(ReuseType)
       .getEntries()
       .sort((a, b) => {
@@ -72,7 +79,7 @@ export default {
         else return 0;
       });
 
-    return { reuseData, reuseTypes, selectedFilter };
+    return { reuseData, reuseTypes, selectedFilter, editDialogVisible };
   },
 };
 </script>

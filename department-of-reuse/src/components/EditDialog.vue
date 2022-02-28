@@ -14,8 +14,8 @@
     >
       <h2 class="bg-opacity-80 bg-blue-200 mb-5 text-lg">Data Contribution</h2>
       <div v-if="tokenValid" class="px-5 text-left text-sm">
-        <div class="grid grid-cols-2">
-          <p class="object-center">👤 {{ githubUser.login }}</p>
+        <div class="grid grid-cols-4">
+          <p class="object-center col-span-3">👤 {{ githubUser.login }}</p>
           <button
             @click="forgetToken()"
             class="
@@ -43,7 +43,13 @@
         />
 
         <div v-if="sourceWork.dOI">
-          <p>{{ sourceWork.title.join("") }}</p>
+          <p>
+            <a
+              :href="`https://doi.org/${sourceWork.dOI}`"
+              class="text-blue-500"
+              >{{ sourceWork.title.join("") }}</a
+            >
+          </p>
           <p>
             by
             {{
@@ -62,20 +68,52 @@
           >
           </ag-grid-vue>
 
+          <div class="grid grid-cols-2 gap-4">
+            <button
+              @click="startRequest()"
+              class="
+                min-h-8
+                w-full
+                bg-blue-500
+                hover:bg-blue-400
+                rounded-lg
+                shadow-lg
+                text-white
+                p-1
+              "
+            >
+              Start contribution request
+            </button>
+
+            <button
+              class="
+                h-8
+                bg-blue-500
+                hover:bg-blue-400
+                rounded-lg
+                shadow-lg
+                text-white
+              "
+              @click="hideDialog()"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4" v-else>
+          <div></div>
           <button
-            @click="startRequest()"
             class="
-              min-h-8
-              w-full
+              h-8
               bg-blue-500
               hover:bg-blue-400
               rounded-lg
               shadow-lg
               text-white
-              p-1
             "
+            @click="hideDialog()"
           >
-            Start contribution request
+            Cancel
           </button>
         </div>
       </div>
@@ -100,6 +138,14 @@
           As tokens can have an expiry date you may see this dialog when your
           token is not valid anymore. In this case, please update it with a new
           token.
+        </p>
+
+        <p class="mt-2">
+          We will use your token to create issues in our own repository
+          <a class="text-blue-500" :href="`https://github.com/${owner}/${repo}`"
+            >{{ owner }}/{{ repo }}</a
+          >
+          directly from your browser.
         </p>
 
         <input
@@ -133,6 +179,7 @@
               shadow-lg
               text-white
             "
+            @click="hideDialog()"
           >
             Cancel
           </button>
@@ -142,7 +189,7 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, onBeforeMount, Ref, ref, watch } from "vue";
+import { defineComponent, inject, onBeforeMount, Ref, ref, watch } from "vue";
 import { Octokit } from "@octokit/rest";
 import { Work } from "@/clients/crossref";
 import { CachedWorksApi } from "@/tools/CachedWorksApi";
@@ -157,7 +204,7 @@ interface Reuse {
 }
 
 export default defineComponent({
-    components: { AgGridVue },
+  components: { AgGridVue },
   setup() {
     const owner = "bhermann";
     const repo = "playground";
@@ -171,6 +218,12 @@ export default defineComponent({
 
     const sourceWork = ref({} as Work);
 
+    const hideDialogCandidate = inject("hideDialog");
+
+    const hideDialog = () => {
+      if (hideDialogCandidate) (hideDialogCandidate as () => void)();
+    };
+
     const columnDefs = [
       { headerName: "Column A", field: "a" },
       { headerName: "Column B", field: "b", type: "rightAligned" },
@@ -178,22 +231,26 @@ export default defineComponent({
     ];
 
     const defaultColDef = {
-        sortable: true,
-        sortingOrder: ["asc", "desc"],
-        filterParams: {
-          buttons: ["reset"],
-          debounceMs: 300
-        },
-        wrapText: true, 
-        autoHeight: true,
-      }
+      sortable: true,
+      sortingOrder: ["asc", "desc"],
+      filterParams: {
+        buttons: ["reset"],
+        debounceMs: 300,
+      },
+      wrapText: true,
+      autoHeight: true,
+    };
 
-    const rowData = [{a: "test", b: "test2", c: "test3"}]  ;
+    const rowData = [
+      { a: "test", b: "test2", c: "test3" },
+      { a: "test", b: "test2", c: "test3" },
+      { a: "test", b: "test2", c: "test3" },
+    ];
 
     const storeToken = async () => {
       tokenValid.value = await checkToken();
+      localStorage.setItem("github_token", token.value);
       if (tokenValid.value) {
-        localStorage.setItem("github_token", token.value);
         await loadGitHubContent();
       }
     };
@@ -296,10 +353,11 @@ This issue has been created using the [Department of Reuse website](https://reus
           sourceDoiRequested = true;
           const req = new Promise(() =>
             setTimeout(async () => {
-              sourceWork.value = (
-                await worksApi.worksDoiGetInteral({ doi: newValue }, true)
-              ).message;
+              const response = await worksApi
+                .worksDoiGetInteral({ doi: newValue }, true)
+                .catch((e) => console.warn(e));
               sourceDoiRequested = false;
+              if (response) sourceWork.value = response.message;
             }, 1200)
           );
           req.then(() => console.log("request completed"));
@@ -317,10 +375,13 @@ This issue has been created using the [Department of Reuse website](https://reus
       columnDefs,
       defaultColDef,
       rowData,
+      owner,
+      repo,
       storeToken,
       checkToken,
       forgetToken,
       startRequest,
+      hideDialog,
     };
   },
 });
