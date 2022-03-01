@@ -46,6 +46,7 @@
           <p>
             <a
               :href="`https://doi.org/${sourceWork.dOI}`"
+              target="_blank"
               class="text-blue-500"
               >{{ sourceWork.title.join("") }}</a
             >
@@ -57,18 +58,36 @@
             }}
           </p>
 
+          <button
+            @click="addRow"
+            class="
+              h-8
+              min-w-8
+              p-2
+              bg-blue-500
+              hover:bg-blue-400
+              rounded-lg
+              shadow-lg
+              text-white
+            "
+          >
+            Add reuse
+          </button>
+
           <ag-grid-vue
-            style=""
-            class="ag-theme-alpine"
+            class="ag-theme-balham w-full h-64 mt-2 font-serif"
             :columnDefs="columnDefs"
-            :rowData="rowData"
+            :rowData="reuse.reuse"
             :animateRows="true"
             :defaultColDef="defaultColDef"
             :enableCellTextSelection="true"
+            @grid-ready="onGridReady"
+            @cell-value-changed="onCellValueChanged"
+            :tooltipShowDelay = "500"
           >
           </ag-grid-vue>
 
-          <div class="grid grid-cols-2 gap-4">
+          <div class="grid grid-cols-2 gap-4 mt-2">
             <button
               @click="startRequest()"
               class="
@@ -196,11 +215,29 @@ import { CachedWorksApi } from "@/tools/CachedWorksApi";
 
 import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-alpine.css";
+import "ag-grid-community/dist/styles/ag-theme-balham.css";
 
 import { AgGridVue } from "ag-grid-vue3";
 
+import { $enum } from "ts-enum-util";
+import { ReuseType } from "../backend/models/Reuse";
+import {
+  CellValueChangedEvent,
+  GridApi,
+  GridReadyEvent,
+  RowNode,
+} from "ag-grid-community";
+
 interface Reuse {
   sourceDoi?: string;
+  reuse: Array<SingleReuse>;
+}
+
+interface SingleReuse {
+  reused: string,
+  type: string,
+  sourceRef: string,
+  comment: string,
 }
 
 export default defineComponent({
@@ -214,7 +251,7 @@ export default defineComponent({
     const tokenValid = ref(false);
     const token = ref("");
     const githubUser = ref({}) as Ref<{ login?: string }>;
-    const reuse = ref({}) as Ref<Reuse>;
+    const reuse = ref({ reuse: [] }) as Ref<Reuse>;
 
     const sourceWork = ref({} as Work);
 
@@ -224,28 +261,59 @@ export default defineComponent({
       if (hideDialogCandidate) (hideDialogCandidate as () => void)();
     };
 
+    const reuseTypes = $enum(ReuseType)
+      .getEntries()
+      .sort((a, b) => {
+        if (a[1] < b[1]) return -1;
+        else if (a[1] > b[1]) return 1;
+        else return 0;
+      });
+
     const columnDefs = [
-      { headerName: "Column A", field: "a" },
-      { headerName: "Column B", field: "b", type: "rightAligned" },
-      { headerName: "Column C", field: "c", type: "numericColumn" },
+      {
+        headerName: "Reuse of",
+        field: "reused",
+        width: 120,
+        editable: true,
+        cellEditorPopup: false,
+        headerTooltip: `Provide the identifier of the reused object. 
+This can be a DOI (e.g. 10.1145/3368089.3409767), an arXiv id (e.g. arXiv:2108.06821), a GitHub repository (e.g. ${owner}/${repo}), or a URL.`
+      },
+      {
+        headerName: "Type",
+        field: "type",
+        width: 140,
+        editable: true,
+        cellEditor: "agPopupSelectCellEditor",
+        cellEditorPopup: false,
+        cellEditorParams: {
+          cellHeight: 50,
+          values: reuseTypes.map((r) => r[1]),
+        },
+        headerTooltip: "The type of reuse"
+      },
+      {
+        headerName: "Ref",
+        field: "sourceRef",
+        width: 50,
+        editable: true,
+        cellEditorPopup: false,
+        headerTooltip: "Reference in the paper reusing the object"
+      },
+      {
+        headerName: "Comment",
+        field: "comment",
+        flex: 1,
+        editable: true,
+        cellEditorPopup: false,
+        headerTooltip: "Additional information"
+      },
     ];
 
     const defaultColDef = {
-      sortable: true,
-      sortingOrder: ["asc", "desc"],
-      filterParams: {
-        buttons: ["reset"],
-        debounceMs: 300,
-      },
       wrapText: true,
       autoHeight: true,
     };
-
-    const rowData = [
-      { a: "test", b: "test2", c: "test3" },
-      { a: "test", b: "test2", c: "test3" },
-      { a: "test", b: "test2", c: "test3" },
-    ];
 
     const storeToken = async () => {
       tokenValid.value = await checkToken();
@@ -301,23 +369,69 @@ export default defineComponent({
       );
     };
 
+    /* eslint-disable no-unused-vars */
+    enum ReuseClass {
+      INVALID, 
+      WEBSITE, 
+      DOI,
+      GITHUB,
+      ARXIV 
+    }
+    /* eslint-enable no-unused-vars */
+    
+    const sanitizeReuse = (reuse : string) => {
+      return reuse.replace("https://doi.org/", "")
+              .replace("https://dl.acm.org/doi/abs/", "")
+              .replace("https://dl.acm.org/doi/pdf/", "")
+              .replace("https://dl.acm.org/doi/", "")
+              .replace("http://dx.doi.org/", "")
+              .replace("https://dx.doi.org/", "")
+              .trim();
+    }
+
+    const doiRegExp : RegExp = new RegExp('(?:^' + '(10[.][0-9]{4,}(?:[.][0-9]+)*/(?:(?![%"#? ])\\S)+)' + '$)');
+    const githubRegExp = new RegExp('([w.@:/-~]+)')
+    const classifyReuse = (reuse : string) => {
+      const reuseValue = sanitizeReuse(reuse);
+      if (reuseValue.match(doiRegExp)) return ReuseClass.DOI   
+      if (reuseValue.startsWith("arxiv:") || reuseValue.startsWith("arXiv:")) return ReuseClass.ARXIV
+      if (reuseValue.match(githubRegExp)) return ReuseClass.GITHUB
+      if (reuseValue.startsWith("http://") || reuseValue.startsWith("https://")) return ReuseClass.WEBSITE
+      return ReuseClass.INVALID
+    }
+
+    const transformReuse = (reuse : string) => {
+      const classification = classifyReuse(reuse)
+      if (classification == ReuseClass.DOI) return `[${reuse}](https://doi.org/${reuse})`
+      if (classification == ReuseClass.GITHUB) return `[${reuse}](https://github.com/${reuse})`
+      if (classification == ReuseClass.ARXIV) return `[${reuse}](https://arxiv.org/abs/${reuse.replace("arxiv:", "").replace("arXiv:", "")})`
+      if (classification == ReuseClass.WEBSITE)  return `[${reuse}](${reuse})`
+      return reuse 
+    }
+
     const startRequest = () => {
       const gh = new Octokit({
         auth: token.value,
       });
 
+      const tableRows = reuse.value.reuse.map(r => `| ${transformReuse(r.reused)} | ${r.type} | ${r.sourceRef} | ${r.comment} |`).join("\n")
+      const csvRows = reuse.value.reuse.map(r => {
+        const classification = classifyReuse(r.reused)
+        const sanized = sanitizeReuse(r.reused)
+        return `${sourceWork.value.dOI},${classification == ReuseClass.DOI ? sanized : ""},${r.type},${r.comment},${r.sourceRef},${classification != ReuseClass.DOI ? sanized : ""},,${githubUser.value.login}`
+      }).join("\n")
       const body = `Reporting reuse in the following paper: 
 ${sourceWork.value.title.join(" ")}
 by ${sourceWork.value.author.map((a) => `${a.given} ${a.family}`).join(", ")}
 DOI: [${sourceWork.value.dOI}](https://doi.org/${sourceWork.value.dOI})
         
-Reuse of     | Type  |   Source Reference | Comment  |
+| Reuse of     | Type  |   Source Reference | Comment  |
 | ---      | ---       | ---       | ---       |
-| One |   Methodology   |  3 | |
-| Two  | Dataset   | 14 | | 
+${tableRows}
 
 \`\`\`
 sourceDOI,reusedDOI,type,comment,sourceReference,alternativeID,sourceReferenceDetail,contributor
+${csvRows}
 \`\`\`
 This issue has been created using the [Department of Reuse website](https://reuse-dept.org).`;
 
@@ -329,8 +443,29 @@ This issue has been created using the [Department of Reuse website](https://reus
         labels: [label],
       });
 
-      reuse.value = {};
+      reuse.value = { reuse: [] };
       sourceWork.value = {} as Work;
+    };
+
+    var gridApi = {} as GridApi;
+
+    const onGridReady = (params: GridReadyEvent) => {
+      gridApi = params.api;
+    };
+
+    const addRow = () => {
+      gridApi.applyTransaction({
+        add: [{ reused: "", type: "", comment: "" }],
+      });
+    };
+
+    const onCellValueChanged = (event: CellValueChangedEvent) => {
+      if (!event) return;
+      const data = [] as Array<SingleReuse>;
+      gridApi.forEachNode((rowNode: RowNode, index: number) => {
+        if (index >= 0) data.push(rowNode.data);
+      });
+      reuse.value.reuse = data;
     };
 
     onBeforeMount(async () => {
@@ -374,7 +509,6 @@ This issue has been created using the [Department of Reuse website](https://reus
       sourceWork,
       columnDefs,
       defaultColDef,
-      rowData,
       owner,
       repo,
       storeToken,
@@ -382,6 +516,9 @@ This issue has been created using the [Department of Reuse website](https://reus
       forgetToken,
       startRequest,
       hideDialog,
+      addRow,
+      onGridReady,
+      onCellValueChanged,
     };
   },
 });
