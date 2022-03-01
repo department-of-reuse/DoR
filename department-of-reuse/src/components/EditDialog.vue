@@ -244,7 +244,7 @@ export default defineComponent({
   components: { AgGridVue },
   setup() {
     const owner = "bhermann";
-    const repo = "playground";
+    const repo = "DoR";
     const label = "data collection";
 
     const isLoading = ref(false);
