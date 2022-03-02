@@ -13,14 +13,17 @@
     "check-reuse": "tsc --outDir scripts/target -target es5 --resolveJsonModule --esModuleInterop scripts/check-reuse.ts && node scripts/target/scripts/check-reuse.js"
   },
   "dependencies": {
+    "@octokit/rest": "^18.12.0",
     "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "@types/csv-parse": "^1.2.2",
     "@types/cytoscape": "^3.14.12",
+    "@types/js-yaml": "^4.0.4",
     "@types/xml2js": "^0.4.8",
     "ag-grid-community": "^26.1.0",
     "ag-grid-vue3": "^26.1.2",
     "ansi-regex": "5.0.1",
     "autoprefixer": "^9",
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
     "csv-parse": "^4.15.4",
     "cytoscape": "^3.18.2",
@@ -32,6 +35,7 @@
     "fast-xml-parser": "^3.19.0",
     "glob-parent": "^5.1.2",
     "is-svg": "^4.2.2",
+    "js-base64": "^3.7.2",
     "node-fetch": "^2.6.1",
     "normalize-url": "^4.5.1",
     "nth-check": "2.0.1",
@@ -45,11 +49,10 @@
     "vue-class-component": "^8.0.0-rc.1",
     "vue-router": "4",
     "vuex": "4.0.0-rc.1",
-    "xml2js": "^0.4.23",
-    "axios": "^0.24.0",
-    "@types/js-yaml": "^4.0.4"
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -57,7 +60,7 @@
     "@vue/cli-plugin-typescript": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-typescript": "^7.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
