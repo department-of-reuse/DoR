@@ -433,7 +433,7 @@ ${tableRows}
 sourceDOI,reusedDOI,type,comment,sourceReference,alternativeID,sourceReferenceDetail,contributor
 ${csvRows}
 \`\`\`
-This issue has been created using the [Department of Reuse website](https://reuse-dept.org).`;
+This issue has been created using the [Department of Reuse website](https://www.reuse-dept.org).`;
 
       gh.rest.issues.create({
         owner: owner,
