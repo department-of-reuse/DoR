@@ -65,6 +65,7 @@ type AuthorRow = {
 
 type PublicationRow = {
   name: String,
+  doi: String,
   reusedvalue: number,
   reusingvalue: number
 }
@@ -138,7 +139,7 @@ export default defineComponent({
             let reusedVal = getFrequencyOrElseZero(papers.reused.find(e => { return e.entry.dOI == work.dOI }))
             let reusingVal = getFrequencyOrElseZero(papers.reusing.find(e => { return e.entry.dOI == work.dOI }))
 
-            return {name: title, reusedvalue: reusedVal, reusingvalue: reusingVal}
+            return {name: title, doi: work.dOI, reusedvalue: reusedVal, reusingvalue: reusingVal}
           })
 
         isLoading.value = false;
@@ -204,7 +205,9 @@ export default defineComponent({
           filter: "agTextColumnFilter",
           resizable: true,
           flex:5,
-          cellStyle:  {"line-height": '2.0', "text-align": "left"}
+          cellStyle:  {"line-height": '2.0', "text-align": "left"},
+          cellRenderer: ({data}: {data: PublicationRow}) => 
+            data.doi ? (`<a href="https://doi.org/${data.doi}" target="_blank">${data.name}</a>`) : data.name
         },
         {
           field: "reusedvalue",

@@ -3,7 +3,7 @@
     <h2 class="text-base bg-opacity-80 bg-blue-200">Researchers<button class="float-right" v-on:click="openResearchers = !openResearchers">{{ openResearchers ? "🔼" : "🔽"  }}</button></h2>
     
     <div v-if="openResearchers">
-    <h3 class="text-sm text-blue-700 underline bg-opacity-40 bg-blue-200"><router-link :to="{ name: 'reusemetrics' }">Most reused (R+)</router-link></h3>
+    <h3 class="text-sm text-blue-700 underline bg-opacity-40 bg-blue-200"><router-link :to="{ name: 'reusemetrics' }">Whose artifacts are reused (R+)</router-link></h3>
       <div v-if="isLoading">
         <p>Loading...</p>
       </div>
@@ -18,7 +18,7 @@
           </tr>
         </table>
       </div>
-    <h3 class="text-sm text-blue-700 underline bg-opacity-40 bg-blue-200"><router-link :to="{ name: 'reusemetrics' }">Most reusing (R)</router-link></h3>
+    <h3 class="text-sm text-blue-700 underline bg-opacity-40 bg-blue-200"><router-link :to="{ name: 'reusemetrics' }">Who reuse artifacts (R)</router-link></h3>
       <div v-if="isLoading">
         <p>Loading...</p>
       </div>

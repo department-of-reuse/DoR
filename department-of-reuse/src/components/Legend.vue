@@ -17,11 +17,11 @@
       </tr>      
       <tr>
         <td><div style="background-color: #238636" class="w-4 h-4 rounded-full mx-auto"></div></td>
-        <td>GitHub repository</td>
+        <td>GitHub Repository</td>
       </tr>      
       <tr>
         <td><div style="background-color: #999" class="w-4 h-4 rounded-full mx-auto"></div></td>
-        <td>Website</td>
+        <td>Grey Literature</td>
       </tr>      
     </table>
   </div>
