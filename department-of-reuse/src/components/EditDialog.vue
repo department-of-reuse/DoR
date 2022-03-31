@@ -329,6 +329,7 @@ export default defineComponent({
         headerName: "Reuse of",
         field: "reused",
         width: 120,
+        autoHeight: false,
         editable: true,
         cellEditorPopup: false,
         headerTooltip: `Provide the identifier of the reused object. 
@@ -345,6 +346,7 @@ This can be a DOI (e.g. 10.1145/3368089.3409767), an arXiv id (e.g. arXiv:2108.0
         field: "type",
         width: 140,
         editable: true,
+        autoHeight: false,
         cellEditor: "agPopupSelectCellEditor",
         cellEditorPopup: false,
         cellEditorParams: {
