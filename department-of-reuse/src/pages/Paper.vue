@@ -61,7 +61,11 @@
         <div>
           <h2 class="text-l bg-opacity-40 bg-blue-200">Reusing</h2>
 
-          <table class="text-left">
+          <div v-if="paperNotInIndex" class="text-center p-5">
+            <span class="border-2 border-black rounded-lg text-lg p-2 border-gray-400"> No Reuse Data in Index </span>
+          </div>
+          <div v-else>
+            <table class="text-left">
               <tr>
                 <th>Identifier</th>
                 <th>Title</th>
@@ -103,6 +107,10 @@
             </tr>
           </table>
 
+          </div>
+
+          
+
         </div>
       </div>
     </div>
@@ -137,6 +145,7 @@ export default defineComponent({
     const paper = ref({} as WorkMessage);
     const reusedStuff = ref(new Array<ReuseLine>());
     const reusingStuff = ref(new Array<ReuseLine>());
+    const paperNotInIndex = ref(true);
 
     const doi = ref("");
 
@@ -211,6 +220,8 @@ export default defineComponent({
 
         reusingStuff.value = await resolveDois(reusingStuff.value);
 
+      paperNotInIndex.value = (reusingStuff.value.length === 0);
+
       isLoading.value = false;
     }
 
@@ -230,7 +241,7 @@ export default defineComponent({
       return reuse;
     }
 
-    return { paper, reusedStuff, reusingStuff, isLoading, reuseData, doi };
+    return { paper, paperNotInIndex, reusedStuff, reusingStuff, isLoading, reuseData, doi };
   },
 });
 </script>
