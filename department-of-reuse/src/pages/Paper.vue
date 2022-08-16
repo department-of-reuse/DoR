@@ -5,26 +5,36 @@
       <p>Loading data for {{ doi }} ...</p>
     </div>
     <div v-else>
-      <div class="text-left p-5">
-        <h1 class="text-2xl">{{ paper.message.title.join(": ") }} {{ paper.message.subtitle.length > 0 ? ": " + paper.message.subtitle.join(" ") : "" }} </h1>
-        <h2 class="text-xl">
-          {{
-            paper.message.author.map((a) => `${a.given} ${a.family}`).join(", ")
-          }}
-        </h2>
-        <p>
-          DOI:
-          <a :href="'https://doi.org/' + paper.message.dOI">{{
-            paper.message.dOI
-          }}</a>
-        </p>
-        <p>
-          {{ paper.message.containerTitle.join(", ") }} 
-        </p>
-        <p>
-          Published: {{ paper.message.created.dateTime.toLocaleDateString() }}
-        </p>
+
+      <div class="grid grid-cols-2 gap-4 p-5">
+        <div id="cyroot" class=""></div>
+        <div class="text-left p-5">
+          <h1 class="text-2xl">{{ paper.message.title.join(": ") }} {{ paper.message.subtitle.length > 0 ? ": " + paper.message.subtitle.join(" ") : "" }} </h1>
+          <h2 class="text-xl">
+            {{
+              paper.message.author.map((a) => `${a.given} ${a.family}`).join(", ")
+            }}
+          </h2>
+          <p>
+            DOI:
+            <a :href="'https://doi.org/' + paper.message.dOI">{{
+              paper.message.dOI
+            }}</a>
+          </p>
+          <p>
+            {{ paper.message.containerTitle.join(", ") }} 
+          </p>
+          <p>
+            Published: {{ paper.message.created.dateTime.toLocaleDateString() }}
+          </p>
+        </div>
+        
+
       </div>
+
+      
+
+      
       <div class="grid grid-cols-2 gap-4 p-5">
         <div>
           <h2 class="text-l bg-opacity-40 bg-blue-200">Reused by</h2>
@@ -113,12 +123,18 @@
 
         </div>
       </div>
+
+      
+
     </div>
   </div>
 </template>
 <script lang="ts">
+import cytoscape, { Core, CytoscapeOptions, NodeDefinition, EdgeDefinition, ElementsDefinition} from "cytoscape";
+import fcose from "cytoscape-fcose";
+
 import { defineComponent, onBeforeMount, ref, watch } from "vue";
-import { WorkMessage } from "../clients/crossref";
+import { Author, Work, WorkMessage } from "../clients/crossref";
 import { CachedWorksApi } from "../tools/CachedWorksApi";
 
 import router from "../tools/router";
@@ -141,6 +157,10 @@ export default defineComponent({
   name: "Paper",
   components: {  },
   setup() {
+
+    const cyInstance = ref<Core | null>(null);
+    const graphData = ref<ElementsDefinition | null>(null);
+
     const isLoading = ref(false);
     const paper = ref({} as WorkMessage);
     const reusedStuff = ref(new Array<ReuseLine>());
@@ -155,11 +175,133 @@ export default defineComponent({
 
     const route = useRoute();
 
+
+    function getItemTitle(work: Work) {
+      if (work.issued) 
+        return getAuthors(work.author) + " (" + work.issued.dateParts[0][0] + ")"; 
+      else 
+        return getAuthors(work.author) + "(???)"; 
+    }
+
+    function getAuthors(authors: Array<Author>): string {
+      if (!authors) return "";
+      if (!authors[0]) return "";
+      if (authors.length == 1) return authors[0].family;
+      return authors[0].family + " et al.";
+    }
+
+
+    async function createNodeFromDOI(doi : string, extraClass : string) : Promise<NodeDefinition> {
+      const work = await worksApi.worksDoiGet({ doi: doi })
+        .catch((err) => {
+          console.warn(err);
+        });
+
+      if (work as WorkMessage) {
+        const message = (work as WorkMessage).message
+        const citationCount =  message.isReferencedByCount;
+        const title = getItemTitle(message);
+        return { data: {id: doi, name : title, citations: citationCount}, classes: "crossref " + extraClass  };
+      } else {
+        return { data: {id: doi, name : doi, citations: 0}, classes: "crossref " + extraClass   };
+      }
+    }
+
+    function createLink(fromDOI: string, toDOI: string): EdgeDefinition {
+      return { data: { source: fromDOI, target: toDOI }};
+    }
+
+    function toGraph(nodes: Array<NodeDefinition>, links: Array<EdgeDefinition>): ElementsDefinition {
+      return {
+        nodes: nodes,
+        edges: links
+      };
+    }
+
+    function createCyConfig(): CytoscapeOptions {
+      return  {
+        container: document.getElementById('cyroot'),
+        elements: graphData.value,
+        animate: true,
+        layout: { name: "fcose" },
+        style: [
+          {
+            selector: "node",
+            style: {
+              content: "data(name)",
+              "font-family": "Roboto Condensed, Helvetica, Arial, sans-serif",
+              width: 10,
+              height: 10,
+              "font-size": "8pt",
+              "text-opacity": 1,
+              "text-valign": "center",
+              "text-halign": "right",
+              color: "#2c3e50"
+            },
+          },
+          {
+            selector: ".reused",
+            style: {
+              "background-color": "#b31b1b"
+            }
+          },
+          {
+            selector: ".reusing",
+            style: {
+              "background-color": "#238636"
+            }
+          },
+          {
+            selector: "edge",
+            style: {
+              content: "data(type)",
+              "font-size": "4pt",
+              'text-wrap': 'wrap' ,
+               'edge-text-rotation': 'autorotate',
+               'min-zoomed-font-size': 10,
+              "curve-style": "straight",
+              "target-arrow-shape": "triangle",
+              "line-color": "#9dbaea",
+              "target-arrow-color": "#9dbaea",
+            },
+          },
+          {
+            selector: "$node > node",
+            style: {
+              "border-width": "2px",
+              "border-color": "#ff00ff",
+              "background-color": "#ff0000"
+            }
+          },
+        ],
+      } as CytoscapeOptions;
+    }
+
+    function updateCyInstance() {
+      if(graphData.value !== null){
+
+        var cy = cytoscape(createCyConfig());
+        cyInstance.value = cy;
+
+        cy.layout({ name: "fcose" }).run();
+      }
+    }
+
+
+
     onBeforeMount(async () => {
         const doiPrefix = router.currentRoute.value.params.doiPrefix as string;
         const doiSuffix = router.currentRoute.value.params.doiSuffix as string;
         doi.value = `${doiPrefix}/${doiSuffix}`;
         await loadPaper();
+        
+
+      cytoscape.use(fcose);
+      
+      var cy = cytoscape(createCyConfig());
+      cyInstance.value = cy;
+
+      cy.layout({ name: "fcose" }).run();
     });
 
     watch(
@@ -169,6 +311,7 @@ export default defineComponent({
         const doiSuffix = newParams.doiSuffix as string;
         doi.value = `${doiPrefix}/${doiSuffix}`;
         await loadPaper();
+        updateCyInstance();
     })
 
 
@@ -221,6 +364,20 @@ export default defineComponent({
         reusingStuff.value = await resolveDois(reusingStuff.value);
 
       paperNotInIndex.value = (reusingStuff.value.length === 0);
+
+      // Build graph data
+      var currentNode = await createNodeFromDOI(doi.value, "current");
+      var reusingNodes = await Promise.all(reusingStuff.value.filter((s) => s.doi != "").map( (s) => createNodeFromDOI(s.doi!, "reusing")));
+      reusingNodes.push(currentNode);
+      var reusedNodes = await Promise.all(reusedStuff.value.filter((s) => s.doi != "").map( (s) => createNodeFromDOI(s.doi!, "reused")));
+
+      var reusingLinks = reusingStuff.value.filter((s) => s.doi != "").map( (s) => createLink(doi.value, s.doi!) )
+      var reusedLinks = reusedStuff.value.filter((s) => s.doi != "").map( (s) => createLink(s.doi!, doi.value) )
+
+      var nodes = [...new Set([...reusingNodes, ...reusedNodes])];
+      var links = [...new Set([...reusingLinks, ...reusedLinks])];
+
+      graphData.value = toGraph(nodes, links);
 
       isLoading.value = false;
     }
