@@ -130,8 +130,8 @@
   </div>
 </template>
 <script lang="ts">
-import cytoscape, { Core, CytoscapeOptions, NodeDefinition, EdgeDefinition, ElementsDefinition} from "cytoscape";
-import fcose from "cytoscape-fcose";
+import cytoscape, { CytoscapeOptions, NodeDefinition, EdgeDefinition, ElementsDefinition} from "cytoscape";
+import dagre from "cytoscape-dagre";
 
 import { defineComponent, onBeforeMount, ref, watch } from "vue";
 import { Author, Work, WorkMessage } from "../clients/crossref";
@@ -158,7 +158,6 @@ export default defineComponent({
   components: {  },
   setup() {
 
-    const cyInstance = ref<Core | null>(null);
     const graphData = ref<ElementsDefinition | null>(null);
 
     const isLoading = ref(false);
@@ -222,8 +221,8 @@ export default defineComponent({
       return  {
         container: document.getElementById('cyroot'),
         elements: graphData.value,
-        animate: true,
-        layout: { name: "fcose" },
+        animate: false,
+        layout: { name: "dagre", rankDir: 'TB', padding: 0, nodeDimensionsIncludeLabels: true, nodeSep: 10},
         style: [
           {
             selector: "node",
@@ -234,21 +233,23 @@ export default defineComponent({
               height: 10,
               "font-size": "8pt",
               "text-opacity": 1,
-              "text-valign": "center",
-              "text-halign": "right",
-              color: "#2c3e50"
             },
           },
           {
             selector: ".reused",
             style: {
-              "background-color": "#b31b1b"
+              "background-color": "#b31b1b",
+              "text-valign": "top",
+              "text-halign": "center",
             }
           },
           {
             selector: ".reusing",
             style: {
-              "background-color": "#238636"
+              "background-color": "#238636",
+              "text-valign": "bottom",
+              "text-halign": "center",
+              
             }
           },
           {
@@ -266,24 +267,25 @@ export default defineComponent({
             },
           },
           {
-            selector: "$node > node",
+            selector: ".current",
             style: {
-              "border-width": "2px",
-              "border-color": "#ff00ff",
-              "background-color": "#ff0000"
+              "border-width": "1px",
+              "border-color": "#000000",
+              "background-color": "#6fa8dc",
+              "text-valign": "center",
+              "text-halign": "right",
+              
             }
-          },
+          }
+        
         ],
       } as CytoscapeOptions;
     }
 
     function updateCyInstance() {
       if(graphData.value !== null){
-
         var cy = cytoscape(createCyConfig());
-        cyInstance.value = cy;
-
-        cy.layout({ name: "fcose" }).run();
+        cy.panningEnabled(false);
       }
     }
 
@@ -296,12 +298,9 @@ export default defineComponent({
         await loadPaper();
         
 
-      cytoscape.use(fcose);
+      cytoscape.use(dagre);
       
-      var cy = cytoscape(createCyConfig());
-      cyInstance.value = cy;
-
-      cy.layout({ name: "fcose" }).run();
+      updateCyInstance();
     });
 
     watch(
