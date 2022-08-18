@@ -28,13 +28,8 @@
             Published: {{ paper.message.created.dateTime.toLocaleDateString() }}
           </p>
         </div>
-        
-
       </div>
 
-      
-
-      
       <div class="grid grid-cols-2 gap-4 p-5">
         <div>
           <h2 class="text-l bg-opacity-40 bg-blue-200">Reused by</h2>
@@ -118,14 +113,8 @@
           </table>
 
           </div>
-
-          
-
         </div>
       </div>
-
-      
-
     </div>
   </div>
 </template>
@@ -157,7 +146,6 @@ export default defineComponent({
   name: "Paper",
   components: {  },
   setup() {
-
     const graphData = ref<ElementsDefinition | null>(null);
 
     const isLoading = ref(false);
@@ -289,18 +277,15 @@ export default defineComponent({
       }
     }
 
-
-
     onBeforeMount(async () => {
         const doiPrefix = router.currentRoute.value.params.doiPrefix as string;
         const doiSuffix = router.currentRoute.value.params.doiSuffix as string;
         doi.value = `${doiPrefix}/${doiSuffix}`;
         await loadPaper();
         
-
-      cytoscape.use(dagre);
+        cytoscape.use(dagre);
       
-      updateCyInstance();
+        updateCyInstance();
     });
 
     watch(
