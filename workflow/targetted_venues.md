@@ -8,6 +8,7 @@ So, at least initially, we have to sample a few venues to see what we can find.
 
 For the 2022:
 
+- ASE
 - EMSE
 - FSE
 - ICSE  
