@@ -5,7 +5,7 @@ Before doing real work with the [coding_guide](coding_guide.md), please do the t
 ## Read background notes on artifacts
 
 - [Ben Hermann et al.'s FSE paper on artifacts](https://dl.acm.org/doi/10.1145/3368089.3409767)
-- [CMU's  paper on artifacts](https://arxiv.org/pdf/2008.01046.pdf])
+- [CMU's  paper on artifacts](https://arxiv.org/pdf/2008.01046.pdf] and [https://link.springer.com/article/10.1007/s10664-021-09973-5])
 
 ## Check that you can find Reuse
 
