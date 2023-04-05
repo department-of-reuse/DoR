@@ -88,11 +88,10 @@ Start by telling students that understanding the current state of the art will b
 - First,
 learn this reuse graph approach 
 by  performing  our standard  [how-to-read-for-reuse tutorial](https://github.com/bhermann/DoR/blob/main/workflow/training.md);
-- Then in week 2, read some papers to find their reuse (if any);
-  - Visit our  [control dashboard](https://github.com/bhermann/DoR/projects/2) 
+- Then visit our  [control dashboard](https://github.com/bhermann/DoR/projects/2) 
   - Find an issue with no one's face on it, 
   - Assign yourself a task.
-- Finally,  in week 3,   they should  check someone else's reuse findings from other papers (checking in their results to our repo, of course(
+- Finally,   they should  check someone else's reuse findings from other papers (checking in their results to our repo, of course_
  
 As a result, students will join an international team exploring reuse in SE that will keep them informed and updated about the state-of-the-art in SE for many years to come. Also, as a side-effect, they will also see first hand the benefit of open source tools that can be shared by teams working around the globe.
  
