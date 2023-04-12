@@ -25,4 +25,4 @@ To do that, you need to do a training exercise:
      - after that, you will speed up and it should about 15-20 minutes to skims paper2,3,4,
 - [ ] Check that you are getting the same results.
 
-Once you are calibrated, then proceed.
+Once you are calibrated, then proceed to the [coding_guide](coding_guide.md).
