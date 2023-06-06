@@ -32,7 +32,7 @@
     "cytoscape-fcose": "^2.0.0",
     "cytoscape-popper": "^2.0.0",
     "cytoscape-spread": "^3.0.0",
-    "fast-xml-parser": "^3.19.0",
+    "fast-xml-parser": "^4.2.4",
     "glob-parent": "^5.1.2",
     "is-svg": "^4.2.2",
     "js-base64": "^3.7.2",
